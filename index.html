@@ -49,7 +49,7 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 @media(max-width:760px){.ov{grid-template-columns:1fr}}
 .tags{display:flex;gap:4px}.tag.cfat{background:#efe9fb;color:#5b3fb0;font-weight:600}
 .card.has-cfat{box-shadow:inset 0 -3px 0 #8a6ad8}
-.cfatbox{margin-top:14px;border:1.5px solid #8a6ad8;background:#f7f4fe;border-radius:10px;padding:10px 14px}.cfatbox h3{margin-top:10px}
+.cfatbox{margin-top:14px;border:1.5px solid #8a6ad8;background:#f7f4fe;border-radius:10px;padding:10px 14px}.cfatbox h3{margin-top:10px}.cfatbox summary{cursor:pointer;font-size:14px}
 .sub{color:var(--muted);font-size:12px}
 .empty{color:var(--muted);font-style:italic}
 .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:6px}
@@ -113,9 +113,10 @@ function lloydPane(l){const rs=l.lloyd||[];
   return order.filter(k=>g[k]).map(k=>`<h3>${LKIND[k]}</h3><ul>${g[k].map(r=>`<li>${resLink(r)}${extra(r)}</li>`).join('')}</ul>`).join('')}
 function cfatBox(c){
   const g={};c.sources.forEach(r=>(g[r.kind]=g[r.kind]||[]).push(r));
-  return `<div class="cfatbox"><div class="meta"><span><b>${esc(c.id)}</b> · ${esc(c.format)}</span><span>Pearson ${esc(c.coversPearson)} · Cambridge ${esc(c.covers.join(', '))}</span></div>
-    <div class="ttl" style="margin:4px 0">${esc(c.title)}</div><div style="font-size:13px">${esc(c.plan)}</div>
-    ${['checkin','questions','test','checklist'].filter(k=>g[k]).map(k=>`<h3>${KIND[k]}</h3><ul>${g[k].map(r=>`<li>${resLink(r)}</li>`).join('')}</ul>`).join('')}</div>`}
+  return `<details class="cfatbox"><summary><b>${esc(c.id)}</b> · ${esc(c.title)} <span class="sub">· ${esc(c.format)}</span></summary>
+    <div class="meta" style="margin-top:8px"><span>Pearson ${esc(c.coversPearson)} · Cambridge ${esc(c.covers.join(', '))}</span></div>
+    <div style="font-size:13px;margin-top:4px">${esc(c.plan)}</div>
+    ${['checkin','questions','test','checklist'].filter(k=>g[k]).map(k=>`<h3>${KIND[k]}</h3><ul>${g[k].map(r=>`<li>${resLink(r)}</li>`).join('')}</ul>`).join('')}</details>`}
 function detail(l){
   const t=tasksOf(l),s=state(l.id);
   return `<div class="detail" data-for="${l.id}"><div>
