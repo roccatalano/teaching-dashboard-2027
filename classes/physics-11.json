@@ -1,0 +1,3533 @@
+{
+ "id": "physics-11",
+ "name": "Year 11 Physics",
+ "textbook": "Heinemann Physics 11 5E",
+ "weeksPerUnit": 16,
+ "lessonsPerWeek": 3,
+ "lessons": [
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "lesson",
+   "section": "2.1",
+   "title": "Longitudinal and transverse waves",
+   "keyKnowledge": [
+    "Electromagnetic radiation",
+    "identify all electromagnetic waves as transverse waves travelling at the same speed, c, in a vacuum as distinct from mechanical waves that require a medium to propagate",
+    "identify the amplitude, wavelength, period and frequency of waves",
+    "calculate the wavelength, frequency, period and speed of travel of waves using:",
+    "explain the wavelength of a wave as a result of the velocity (determined by the medium through which it travels) and the frequency (determined by the source)"
+   ],
+   "questions": [
+    "KQ 1–9",
+    "CR 1–3",
+    "CS 1–4, p 69"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [
+    "Video: Wave pulse and a mechanical wave",
+    "Video: Extreme wave science"
+   ],
+   "cambridge": "Cambridge Ch 1",
+   "id": "p11-u1-l01",
+   "lesson": 1,
+   "week": 1,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "lesson",
+   "section": "2.2",
+   "title": "Measuring waves",
+   "keyKnowledge": [
+    "Electromagnetic radiation",
+    "identify all electromagnetic waves as transverse waves travelling at the same speed, c, in a vacuum as distinct from mechanical waves that require a medium to propagate",
+    "identify the amplitude, wavelength, period and frequency of waves",
+    "calculate the wavelength, frequency, period and speed of travel of waves using:",
+    "explain the wavelength of a wave as a result of the velocity (determined by the medium through which it travels) and the frequency (determined by the source)"
+   ],
+   "questions": [
+    "KQ 1–7",
+    "CR 4, 5, 7–13"
+   ],
+   "worksheets": [
+    "WS 2 Interpreting graphs of waves"
+   ],
+   "experiments": [
+    "EXP 2.2.1"
+   ],
+   "videos": [],
+   "cambridge": "Cambridge Ch 1",
+   "id": "p11-u1-l02",
+   "lesson": 2,
+   "week": 1,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "lesson",
+   "section": "2.3",
+   "title": "The electromagnetic spectrum",
+   "keyKnowledge": [
+    "describe electromagnetic radiation emitted from the Sun as mainly ultraviolet, visible and infrared",
+    "compare the wavelength and frequencies of different regions of the electromagnetic spectrum, including radio, microwave, infrared, visible, ultraviolet, x-ray and gamma, and compare the different uses each has in society",
+    "investigate and analyse theoretically and practically the behaviour of waves including:",
+    "n1 sin (θc) = n2 sin (90°)",
+    "investigate and explain theoretically and practically colour dispersion in prisms and lenses with reference to refraction of the components of white light as they pass from one medium to another",
+    "explain the formation of optical phenomena: rainbows; mirages",
+    "investigate light transmission through optical fibres for communication"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 6, 14–18"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [
+    "Video: Why is the ocean blue?"
+   ],
+   "cambridge": "Cambridge Ch 1",
+   "id": "p11-u1-l03",
+   "lesson": 3,
+   "week": 1,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "lesson",
+   "section": "3.1",
+   "title": "Reflection and refraction",
+   "keyKnowledge": [
+    "describe electromagnetic radiation emitted from the Sun as mainly ultraviolet, visible and infrared",
+    "compare the wavelength and frequencies of different regions of the electromagnetic spectrum, including radio, microwave, infrared, visible, ultraviolet, x-ray and gamma, and compare the different uses each has in society",
+    "investigate and analyse theoretically and practically the behaviour of waves including:",
+    "n1 sin (θc) = n2 sin (90°)",
+    "investigate and explain theoretically and practically colour dispersion in prisms and lenses with reference to refraction of the components of white light as they pass from one medium to another",
+    "explain the formation of optical phenomena: rainbows; mirages",
+    "investigate light transmission through optical fibres for communication"
+   ],
+   "questions": [
+    "KQ 1–10",
+    "CR 1, 3, 5–14, 16–18"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 1",
+   "id": "p11-u1-l04",
+   "lesson": 4,
+   "week": 2,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "lesson",
+   "section": "3.2",
+   "title": "Dispersion and polarisation",
+   "keyKnowledge": [
+    "describe electromagnetic radiation emitted from the Sun as mainly ultraviolet, visible and infrared",
+    "compare the wavelength and frequencies of different regions of the electromagnetic spectrum, including radio, microwave, infrared, visible, ultraviolet, x-ray and gamma, and compare the different uses each has in society",
+    "investigate and analyse theoretically and practically the behaviour of waves including:",
+    "n1 sin (θc) = n2 sin (90°)",
+    "investigate and explain theoretically and practically colour dispersion in prisms and lenses with reference to refraction of the components of white light as they pass from one medium to another",
+    "explain the formation of optical phenomena: rainbows; mirages",
+    "investigate light transmission through optical fibres for communication"
+   ],
+   "questions": [
+    "KQ 1–5",
+    "CR 2, 4, 15"
+   ],
+   "worksheets": [
+    "WS 3 Waves and light"
+   ],
+   "experiments": [
+    "EXP 3.2.1"
+   ],
+   "videos": [],
+   "cambridge": "Cambridge Ch 1",
+   "id": "p11-u1-l05",
+   "lesson": 5,
+   "week": 2,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "lesson",
+   "section": "4.1",
+   "title": "Heat and temperature",
+   "keyKnowledge": [
+    "Thermal energy",
+    "convert between Celsius and kelvin scales",
+    "describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system:",
+    "investigate and analyse theoretically and practically the energy required to:",
+    "Q = mL"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 1–4"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 2",
+   "id": "p11-u1-l06",
+   "lesson": 6,
+   "week": 2,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "lesson",
+   "section": "4.2",
+   "title": "Specific heat capacity",
+   "keyKnowledge": [
+    "Thermal energy",
+    "convert between Celsius and kelvin scales",
+    "describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system:",
+    "investigate and analyse theoretically and practically the energy required to:",
+    "Q = mL"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 5, 6, 10, 13–15, 18",
+    "CS 1–5, p 116"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 2",
+   "id": "p11-u1-l07",
+   "lesson": 7,
+   "week": 3,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "lesson",
+   "section": "4.3",
+   "title": "Latent heat",
+   "keyKnowledge": [
+    "Thermal energy",
+    "convert between Celsius and kelvin scales",
+    "describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system:",
+    "investigate and analyse theoretically and practically the energy required to:",
+    "Q = mL"
+   ],
+   "questions": [
+    "KQ 1–6",
+    "CR 8, 9, 16, 17"
+   ],
+   "worksheets": [
+    "WS 4 Specific heat capacity",
+    "WS 5 Thermal equilibrium"
+   ],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 2",
+   "id": "p11-u1-l08",
+   "lesson": 8,
+   "week": 3,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "lesson",
+   "section": "4.4",
+   "title": "Conduction, convection and radiation",
+   "keyKnowledge": [
+    "describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system:",
+    "Interaction of thermal energy and electromagnetic radiation",
+    "calculate the peak wavelength of the radiated electromagnetic radiation using Wien’s Law: λmaxT = constant",
+    "compare the total energy across the electromagnetic spectrum emitted by objects at different temperatures",
+    "apply concepts of energy transfer, energy transformation, temperature change and change of state to climate change and global warming"
+   ],
+   "questions": [
+    "KQ 1–6",
+    "CR 7, 11, 12"
+   ],
+   "worksheets": [],
+   "experiments": [
+    "EXP 4.4.1",
+    "EXP 4.4.2"
+   ],
+   "videos": [
+    "Video: What is fire?",
+    "Video: The greenhouse effect and global warming"
+   ],
+   "cambridge": "Cambridge Ch 2",
+   "id": "p11-u1-l09",
+   "lesson": 9,
+   "week": 3,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "lesson",
+   "section": "5.1, 5.2",
+   "title": "Wien’s law and black-body radiation + 5.2 Radiation and the enhanced greenhouse effect",
+   "keyKnowledge": [
+    "describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system:",
+    "Interaction of thermal energy and electromagnetic radiation",
+    "calculate the peak wavelength of the radiated electromagnetic radiation using Wien’s Law: λmaxT = constant",
+    "compare the total energy across the electromagnetic spectrum emitted by objects at different temperatures",
+    "apply concepts of energy transfer, energy transformation, temperature change and change of state to climate change and global warming"
+   ],
+   "questions": [
+    "KQ 1–7",
+    "CR 9–15",
+    "KQ 1–6",
+    "CR 1–8"
+   ],
+   "worksheets": [
+    "WS 6 Electromagnetic radiation",
+    "WS 7 Climate in the balance—the role of oceans and air in climate control"
+   ],
+   "experiments": [
+    "EXP 5.2.1"
+   ],
+   "videos": [],
+   "cambridge": "Cambridge Ch 2",
+   "id": "p11-u1-l10",
+   "lesson": 10,
+   "week": 4,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "review",
+   "title": "U1 AoS1 review",
+   "questions": [
+    "AoS review questions"
+   ],
+   "worksheets": [
+    "WS 8 Literacy review—energy",
+    "WS 9 Reflection—How are light and heat explained?"
+   ],
+   "id": "p11-u1-l11",
+   "lesson": 11,
+   "week": 4,
+   "tasks": [
+    {
+     "text": "Review set",
+     "done": false
+    },
+    {
+     "text": "Answers posted",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS1",
+   "aosTitle": "How are light and heat explained?",
+   "type": "sac",
+   "title": "U1 AoS1 SAC",
+   "worksheets": [
+    "Unit 1 AoS 1 EQ"
+   ],
+   "id": "p11-u1-l12",
+   "lesson": 12,
+   "week": 4,
+   "tasks": [
+    {
+     "text": "Task written",
+     "done": false
+    },
+    {
+     "text": "Printed",
+     "done": false
+    },
+    {
+     "text": "Marked",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "lesson",
+   "section": "6.1",
+   "title": "Atoms, isotopes and radioisotopes",
+   "keyKnowledge": [
+    "Radiation from the nucleus",
+    "explain nuclear stability with reference to the forces in the nucleus including electrostatic forces, the strong nuclear force and the weak nuclear force",
+    "model radioactive decay as random decay with a particular half-life, including mathematical modelling with reference to whole half-lives",
+    "describe the properties of α, β–, β+ and γ",
+    "explain nuclear transformations using decay equations involving α, β−, β+ and γ radiation",
+    "analyse decay series diagrams with reference to type of decay and stability of isotopes"
+   ],
+   "questions": [
+    "KQ 1–5",
+    "CR 1, 2, 15"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [
+    "Video: Alpha, beta and gamma radiation"
+   ],
+   "cambridge": "Cambridge Ch 3",
+   "id": "p11-u1-l13",
+   "lesson": 13,
+   "week": 5,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "lesson",
+   "section": "6.2",
+   "title": "Radioactivity",
+   "keyKnowledge": [
+    "Radiation from the nucleus",
+    "explain nuclear stability with reference to the forces in the nucleus including electrostatic forces, the strong nuclear force and the weak nuclear force",
+    "model radioactive decay as random decay with a particular half-life, including mathematical modelling with reference to whole half-lives",
+    "describe the properties of α, β–, β+ and γ",
+    "explain nuclear transformations using decay equations involving α, β−, β+ and γ radiation",
+    "analyse decay series diagrams with reference to type of decay and stability of isotopes"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CS 1–6 p 171",
+    "CR 3, 4, 5"
+   ],
+   "worksheets": [
+    "WS 11 Half-life in radioactive decay",
+    "WS 12 Decaying away"
+   ],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 3",
+   "id": "p11-u1-l14",
+   "lesson": 14,
+   "week": 5,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "prac",
+   "title": "Detecting radiation with a G–M tube",
+   "section": "6.2",
+   "worksheets": [
+    "PA 7 Detecting radiation with a G–M tube"
+   ],
+   "cambridge": "Cambridge Ch 3",
+   "id": "p11-u1-l15",
+   "lesson": 15,
+   "week": 5,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "prac",
+   "title": "An analogue model of radioactive decay",
+   "section": "6.2",
+   "worksheets": [
+    "PA 8 An analogue model of radioactive decay"
+   ],
+   "cambridge": "Cambridge Ch 3",
+   "id": "p11-u1-l16",
+   "lesson": 16,
+   "week": 6,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "consolidation",
+   "title": "Consolidation and practice questions",
+   "id": "p11-u1-l17",
+   "lesson": 17,
+   "week": 6,
+   "tasks": [
+    {
+     "text": "Pick question set",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "lesson",
+   "section": "6.3",
+   "title": "Half-life and decay series",
+   "keyKnowledge": [
+    "analyse decay series diagrams with reference to type of decay and stability of isotopes",
+    "explain the effects of α, β and γ radiation on humans, including:",
+    "evaluate the use of medical radioisotopes in therapy including the effects on healthy and damaged tissues and cells"
+   ],
+   "questions": [
+    "KQ 1–5",
+    "CR 6, 13, 14, 19"
+   ],
+   "worksheets": [],
+   "experiments": [
+    "EXP 6.3.1",
+    "EXP 6.3.2"
+   ],
+   "videos": [],
+   "cambridge": "Cambridge Ch 3",
+   "id": "p11-u1-l18",
+   "lesson": 18,
+   "week": 6,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "lesson",
+   "section": "6.4",
+   "title": "Radiation and the human body",
+   "keyKnowledge": [
+    "analyse decay series diagrams with reference to type of decay and stability of isotopes",
+    "explain the effects of α, β and γ radiation on humans, including:",
+    "evaluate the use of medical radioisotopes in therapy including the effects on healthy and damaged tissues and cells"
+   ],
+   "questions": [
+    "KQ 1–9",
+    "CR 7–12, 16–18"
+   ],
+   "worksheets": [],
+   "experiments": [
+    "EXP 6.4.1"
+   ],
+   "videos": [],
+   "cambridge": "Cambridge Ch 3",
+   "id": "p11-u1-l19",
+   "lesson": 19,
+   "week": 7,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "lesson",
+   "section": "7.1",
+   "title": "Energy from mass",
+   "keyKnowledge": [
+    "Nuclear energy",
+    "explain, qualitatively, nuclear energy as energy resulting from the conversion of mass"
+   ],
+   "questions": [
+    "KQ 1–5",
+    "CR 9–14"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 4",
+   "id": "p11-u1-l20",
+   "lesson": 20,
+   "week": 7,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "lesson",
+   "section": "7.2",
+   "title": "Fission, fusion and the future of nuclear energy in Australia",
+   "keyKnowledge": [
+    "explain fission chain reactions including:",
+    "compare the processes of nuclear fusion and nuclear fission",
+    "explain, using a binding energy curve, why both fusion and fission are reactions that release energy",
+    "investigate the viability of nuclear energy as an energy source for Australia"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 1–8"
+   ],
+   "worksheets": [
+    "WS 13 Nuclear energy",
+    "WS 14 Fission versus fusion"
+   ],
+   "experiments": [
+    "EXP 7.2.1"
+   ],
+   "videos": [
+    "Video: Thermonuclear fusion"
+   ],
+   "cambridge": "Cambridge Ch 4",
+   "id": "p11-u1-l21",
+   "lesson": 21,
+   "week": 7,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "prac",
+   "title": "The OPAL research reactor, Lucas Heights—How can the energy of the atomic nucleus be harnessed?",
+   "section": "7.2",
+   "worksheets": [
+    "PA 9 The OPAL research reactor, Lucas Heights—How can the energy of the atomic nucleus be harnessed?"
+   ],
+   "cambridge": "Cambridge Ch 4",
+   "id": "p11-u1-l22",
+   "lesson": 22,
+   "week": 8,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "review",
+   "title": "U1 AoS2 review",
+   "questions": [
+    "AoS review questions"
+   ],
+   "worksheets": [
+    "WS 15 Literacy review—the terminology of ionising radiation",
+    "WS 16 Reflection—How is energy from the nucleus utilised?"
+   ],
+   "id": "p11-u1-l23",
+   "lesson": 23,
+   "week": 8,
+   "tasks": [
+    {
+     "text": "Review set",
+     "done": false
+    },
+    {
+     "text": "Answers posted",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS2",
+   "aosTitle": "How is energy from the nucleus utilised?",
+   "type": "sac",
+   "title": "U1 AoS2 SAC",
+   "worksheets": [
+    "Unit 1 AoS 2 EQ"
+   ],
+   "id": "p11-u1-l24",
+   "lesson": 24,
+   "week": 8,
+   "tasks": [
+    {
+     "text": "Task written",
+     "done": false
+    },
+    {
+     "text": "Printed",
+     "done": false
+    },
+    {
+     "text": "Marked",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "lesson",
+   "section": "8.1",
+   "title": "Behaviour of charged particles",
+   "keyKnowledge": [
+    "Concepts used to model electricity",
+    "apply concepts of charge (Q), electric current (I), potential difference (V), energy (E) and power (P), in electric circuits"
+   ],
+   "questions": [
+    "KQ 1–5",
+    "CR 1, 2, 9"
+   ],
+   "worksheets": [],
+   "experiments": [
+    "EXP 8.1.1"
+   ],
+   "videos": [
+    "Video: Flow of charge through a conductor"
+   ],
+   "cambridge": "Cambridge Ch 5",
+   "id": "p11-u1-l25",
+   "lesson": 25,
+   "week": 9,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "consolidation",
+   "title": "Consolidation and practice questions",
+   "id": "p11-u1-l26",
+   "lesson": 26,
+   "week": 9,
+   "tasks": [
+    {
+     "text": "Pick question set",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "lesson",
+   "section": "8.2",
+   "title": "Electric current and circuits",
+   "keyKnowledge": [
+    "apply concepts of charge (Q), electric current (I), potential difference (V), energy (E) and power (P), in electric circuits",
+    "analyse and evaluate different analogies used to describe electric current and potential difference",
+    "investigate and analyse theoretically and practically electric circuits using the relationships: , ,"
+   ],
+   "questions": [
+    "KQ 1–10",
+    "CR 3, 4, 6, 8, 10, 11, 28"
+   ],
+   "worksheets": [],
+   "experiments": [
+    "EXP 8.2.1",
+    "EXP 8.2.2"
+   ],
+   "videos": [],
+   "cambridge": "Cambridge Ch 5",
+   "id": "p11-u1-l27",
+   "lesson": 27,
+   "week": 9,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "consolidation",
+   "title": "Consolidation and practice questions",
+   "id": "p11-u1-l28",
+   "lesson": 28,
+   "week": 10,
+   "tasks": [
+    {
+     "text": "Pick question set",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "prac",
+   "title": "Electrostatics with a Van de Graaff generator",
+   "section": "8.2",
+   "worksheets": [
+    "PA 10 Electrostatics with a Van de Graaff generator"
+   ],
+   "cambridge": "Cambridge Ch 5",
+   "id": "p11-u1-l29",
+   "lesson": 29,
+   "week": 10,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "consolidation",
+   "title": "Consolidation and practice questions",
+   "id": "p11-u1-l30",
+   "lesson": 30,
+   "week": 10,
+   "tasks": [
+    {
+     "text": "Pick question set",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "lesson",
+   "section": "8.3",
+   "title": "Energy in electric circuits",
+   "keyKnowledge": [
+    "apply concepts of charge (Q), electric current (I), potential difference (V), energy (E) and power (P), in electric circuits",
+    "analyse and evaluate different analogies used to describe electric current and potential difference",
+    "investigate and analyse theoretically and practically electric circuits using the relationships: , ,",
+    "justify the use of selected meters (ammeter, voltmeter, multimeter) in circuits"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 5, 12–18, 25, 29"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 5",
+   "id": "p11-u1-l31",
+   "lesson": 31,
+   "week": 11,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "consolidation",
+   "title": "Consolidation and practice questions",
+   "id": "p11-u1-l32",
+   "lesson": 32,
+   "week": 11,
+   "tasks": [
+    {
+     "text": "Pick question set",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "lesson",
+   "section": "8.4",
+   "title": "Resistance",
+   "keyKnowledge": [
+    "Circuit electricity",
+    "model resistance in series and parallel circuits using:"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 7, 19–24, 26, 27"
+   ],
+   "worksheets": [
+    "WS 18 Resistance is variable—Ohm’s law"
+   ],
+   "experiments": [
+    "EXP 8.4.1",
+    "EXP 8.4.2"
+   ],
+   "videos": [],
+   "cambridge": "Cambridge Ch 5",
+   "id": "p11-u1-l33",
+   "lesson": 33,
+   "week": 11,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "consolidation",
+   "title": "Consolidation and practice questions",
+   "id": "p11-u1-l34",
+   "lesson": 34,
+   "week": 12,
+   "tasks": [
+    {
+     "text": "Pick question set",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "prac",
+   "title": "Ohmic and non-ohmic conductors",
+   "section": "8.4",
+   "worksheets": [
+    "PA 11 Ohmic and non-ohmic conductors"
+   ],
+   "cambridge": "Cambridge Ch 5",
+   "id": "p11-u1-l35",
+   "lesson": 35,
+   "week": 12,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "consolidation",
+   "title": "Consolidation and practice questions",
+   "id": "p11-u1-l36",
+   "lesson": 36,
+   "week": 12,
+   "tasks": [
+    {
+     "text": "Pick question set",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "lesson",
+   "section": "9.1",
+   "title": "Series and parallel circuits",
+   "keyKnowledge": [
+    "model resistance in series and parallel circuits using:",
+    "Requivalent = R1 + R2 + … + Rn",
+    "calculate and analyse the equivalent resistance of circuits comprising parallel and series resistance",
+    "analyse circuits comprising voltage dividers",
+    "compare power transfers in series and parallel circuits",
+    "explain why the circuits in homes are mostly parallel circuits",
+    "Using electricity",
+    "investigate and apply theoretically and practically concepts of current, resistance, potential difference (voltage drop) and power to the operation of electronic circuits comprising resistors, light bulbs, diodes, thermistors, light dependent resistors (LDRs), light-emitting diodes (LEDs) and potentiometers (quantitative analysis restricted to use of and P = VI)"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 1, 3, 6, 14–18"
+   ],
+   "worksheets": [
+    "WS 19 Series and parallel circuits"
+   ],
+   "experiments": [
+    "EXP 9.1.1"
+   ],
+   "videos": [
+    "Video: The properties of a series circuit",
+    "Video: Current in a parallel circuit"
+   ],
+   "cambridge": "Cambridge Ch 6",
+   "id": "p11-u1-l37",
+   "lesson": 37,
+   "week": 13,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "consolidation",
+   "title": "Consolidation and practice questions",
+   "id": "p11-u1-l38",
+   "lesson": 38,
+   "week": 13,
+   "tasks": [
+    {
+     "text": "Pick question set",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "prac",
+   "title": "Finding the resistance of an ohmic resistor",
+   "section": "9.1",
+   "worksheets": [
+    "PA 12 Finding the resistance of an ohmic resistor"
+   ],
+   "cambridge": "Cambridge Ch 6",
+   "id": "p11-u1-l39",
+   "lesson": 39,
+   "week": 13,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "prac",
+   "title": "Series and parallel circuits",
+   "section": "9.1",
+   "worksheets": [
+    "PA 13 Series and parallel circuits"
+   ],
+   "cambridge": "Cambridge Ch 6",
+   "id": "p11-u1-l40",
+   "lesson": 40,
+   "week": 14,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "lesson",
+   "section": "9.2",
+   "title": "Using electricity",
+   "keyKnowledge": [
+    "describe energy transfers and transformations with reference to resistors, light bulbs, diodes, thermistors, light dependent resistors (LDRs), light-emitting diodes (LEDs) and potentiometers in common devices"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 4, 9–11"
+   ],
+   "worksheets": [
+    "WS 20 Heating and power loss in electric circuits"
+   ],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 6",
+   "id": "p11-u1-l41",
+   "lesson": 41,
+   "week": 14,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "lesson",
+   "section": "9.3",
+   "title": "Electrical safety",
+   "keyKnowledge": [
+    "Concepts used to model electricity",
+    "apply the kilowatt-hour (kW h) as a unit of energy",
+    "Circuit electricity",
+    "model household (AC) electrical systems as simple direct current (DC) circuits",
+    "explain why the circuits in homes are mostly parallel circuits",
+    "Electrical safety in the home",
+    "model household electricity connections as a simple DC circuit comprising fuses, switches, circuit breakers, loads and earth",
+    "compare the operation of safety devices including fuses, circuit breakers and residual current devices (RCDs)"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 2, 5, 7, 8, 12, 13"
+   ],
+   "worksheets": [
+    "WS 21 Household circuits and electrical safety"
+   ],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 6",
+   "id": "p11-u1-l42",
+   "lesson": 42,
+   "week": 14,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "prac",
+   "title": "Electrical equivalent of heat",
+   "section": "9.3",
+   "worksheets": [
+    "PA 14 Electrical equivalent of heat"
+   ],
+   "cambridge": "Cambridge Ch 6",
+   "id": "p11-u1-l43",
+   "lesson": 43,
+   "week": 15,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "review",
+   "title": "U1 AoS3 review",
+   "questions": [
+    "AoS review questions"
+   ],
+   "worksheets": [
+    "WS 22 Literacy review—electricity",
+    "WS 23 Reflection—How can electricity be used to transfer energy?"
+   ],
+   "id": "p11-u1-l44",
+   "lesson": 44,
+   "week": 15,
+   "tasks": [
+    {
+     "text": "Review set",
+     "done": false
+    },
+    {
+     "text": "Answers posted",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 AoS3",
+   "aosTitle": "How can electricity be used to transfer energy?",
+   "type": "sac",
+   "title": "U1 AoS3 SAC",
+   "worksheets": [
+    "Unit 1 AoS 3 EQ"
+   ],
+   "id": "p11-u1-l45",
+   "lesson": 45,
+   "week": 15,
+   "tasks": [
+    {
+     "text": "Task written",
+     "done": false
+    },
+    {
+     "text": "Printed",
+     "done": false
+    },
+    {
+     "text": "Marked",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 buffer",
+   "aosTitle": "Buffer week",
+   "type": "buffer",
+   "title": "Buffer / SAC catch-up",
+   "id": "p11-u1-l46",
+   "lesson": 46,
+   "week": 16,
+   "tasks": [],
+   "keyKnowledge": [],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 buffer",
+   "aosTitle": "Buffer week",
+   "type": "buffer",
+   "title": "Buffer / SAC catch-up",
+   "id": "p11-u1-l47",
+   "lesson": 47,
+   "week": 16,
+   "tasks": [],
+   "keyKnowledge": [],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 1,
+   "aos": "U1 buffer",
+   "aosTitle": "Buffer week",
+   "type": "buffer",
+   "title": "Unit 1 wrap-up",
+   "id": "p11-u1-l48",
+   "lesson": 48,
+   "week": 16,
+   "tasks": [],
+   "keyKnowledge": [],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "10.1",
+   "title": "Scalars and vectors",
+   "keyKnowledge": [
+    "Concepts used to model motion",
+    "identify parameters of motion as vectors or scalars"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 1–5",
+    "CS 1–3, p 301"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [
+    "Video: Scalars and vectors"
+   ],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l01",
+   "lesson": 1,
+   "week": 1,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "10.2",
+   "title": "Adding and subtracting vectors in one and two dimensions",
+   "keyKnowledge": [
+    "Concepts used to model motion",
+    "identify parameters of motion as vectors or scalars"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 6–27"
+   ],
+   "worksheets": [
+    "WS 25 Vectors in the classroom"
+   ],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l02",
+   "lesson": 2,
+   "week": 1,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "10.3",
+   "title": "Vector components",
+   "keyKnowledge": [
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at,",
+    "v2 = u2 + 2as, s = (u + v)t,",
+    "s = ut + at2, s = vt – at2",
+    "analyse, graphically,",
+    "non-uniform motion in a straight line"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 28",
+    "CS 1–4, p 313",
+    "CS 1–3, p 317"
+   ],
+   "worksheets": [],
+   "experiments": [
+    "EXP 10.3.1"
+   ],
+   "videos": [
+    "Video: Reading from a graph"
+   ],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l03",
+   "lesson": 3,
+   "week": 1,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "11.1",
+   "title": "Displacement, speed and velocity",
+   "keyKnowledge": [
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at,",
+    "v2 = u2 + 2as, s = (u + v)t,",
+    "s = ut + at2, s = vt – at2",
+    "analyse, graphically,",
+    "non-uniform motion in a straight line"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 1–3, 6, 7",
+    "CS 1–3, p 323"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l04",
+   "lesson": 4,
+   "week": 2,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "11.2",
+   "title": "Acceleration",
+   "keyKnowledge": [
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at,",
+    "v2 = u2 + 2as, s = (u + v)t,",
+    "s = ut + at2, s = vt – at2",
+    "analyse, graphically,",
+    "non-uniform motion in a straight line"
+   ],
+   "questions": [
+    "KR 1–7",
+    "CR 4, 8, 10",
+    "CS 1–3, p 333"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l05",
+   "lesson": 5,
+   "week": 2,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "11.3",
+   "title": "Graphing position, velocity and acceleration over time",
+   "keyKnowledge": [
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at,",
+    "v2 = u2 + 2as, s = (u + v)t,",
+    "s = ut + at2, s = vt – at2",
+    "analyse, graphically,",
+    "non-uniform motion in a straight line"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 9, 11, 12, 18, 24"
+   ],
+   "worksheets": [
+    "WS 27 Position–time and velocity–time graphs",
+    "WS 28 Race analysis—a study of relative motion"
+   ],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l06",
+   "lesson": 6,
+   "week": 2,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "11.4",
+   "title": "Equations for uniform acceleration",
+   "keyKnowledge": [
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at,",
+    "v2 = u2 + 2as, s = (u + v)t,",
+    "s = ut + at2, s = vt – at2"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 16–18, 20, 21"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l07",
+   "lesson": 7,
+   "week": 3,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "prac",
+   "title": "Analysing motion with a motion sensor",
+   "section": "11.4",
+   "worksheets": [
+    "PA 15 Analysing motion with a motion sensor"
+   ],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l08",
+   "lesson": 8,
+   "week": 3,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "prac",
+   "title": "A reaction timer",
+   "section": "11.4",
+   "worksheets": [
+    "PA 16 A reaction timer"
+   ],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l09",
+   "lesson": 9,
+   "week": 3,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "prac",
+   "title": "Measuring height or distance using kinematics",
+   "section": "11.4",
+   "worksheets": [
+    "PA 17 Measuring height or distance using kinematics"
+   ],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l10",
+   "lesson": 10,
+   "week": 4,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "11.5",
+   "title": "Vertical motion",
+   "keyKnowledge": [
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: : v = u + at,",
+    "v2 = u2 + 2as, s = (u + v)t,",
+    "s = ut + at2, s = vt – at2",
+    "Forces and motion",
+    "model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8 N kg–1 near the surface of Earth)"
+   ],
+   "questions": [
+    "KQ  1–8",
+    "CR  5, 14, 15, 19, 22–31"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l11",
+   "lesson": 11,
+   "week": 4,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "prac",
+   "title": "Acceleration down an incline",
+   "section": "11.5",
+   "worksheets": [
+    "PA 18 Acceleration down an incline"
+   ],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l12",
+   "lesson": 12,
+   "week": 4,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "prac",
+   "title": "Verifying the value of acceleration due to gravity at the Earth’s surface",
+   "section": "11.5",
+   "worksheets": [
+    "PA 20 Verifying the value of acceleration due to gravity at the Earth’s surface"
+   ],
+   "cambridge": "Cambridge Ch 7",
+   "id": "p11-u2-l13",
+   "lesson": 13,
+   "week": 5,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "12.1",
+   "title": "Newton’s first law",
+   "keyKnowledge": [
+    "Forces and motion",
+    "apply Newton’s three laws of motion to a body on which forces act: a = ,",
+    "Fon A by B = –Fon B by A",
+    "apply the vector model of forces, including vector addition and components of forces, to readily observable forces including the force due to gravity, friction and normal forces"
+   ],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [
+    "Video: How do airplanes fly?"
+   ],
+   "cambridge": "Cambridge Ch 8",
+   "id": "p11-u2-l14",
+   "lesson": 14,
+   "week": 5,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "12.2",
+   "title": "Newton’s second law",
+   "keyKnowledge": [
+    "Forces and motion",
+    "apply Newton’s three laws of motion to a body on which forces act: a = ,",
+    "Fon A by B = –Fon B by A",
+    "apply the vector model of forces, including vector addition and components of forces, to readily observable forces including the force due to gravity, friction and normal forces"
+   ],
+   "questions": [],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 8",
+   "id": "p11-u2-l15",
+   "lesson": 15,
+   "week": 5,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "12.3",
+   "title": "Newton’s third law",
+   "keyKnowledge": [
+    "Forces and motion",
+    "apply Newton’s three laws of motion to a body on which forces act: a = ,",
+    "Fon A by B = –Fon B by A",
+    "apply the vector model of forces, including vector addition and components of forces, to readily observable forces including the force due to gravity, friction and normal forces"
+   ],
+   "questions": [],
+   "worksheets": [
+    "WS 32 Working against the force",
+    "WS 30 Which Newton is that?",
+    "WS 31 Understanding Newton’s third law"
+   ],
+   "experiments": [
+    "EXP 12.3.1"
+   ],
+   "videos": [],
+   "cambridge": "Cambridge Ch 8",
+   "id": "p11-u2-l16",
+   "lesson": 16,
+   "week": 6,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "prac",
+   "title": "Newton’s second law",
+   "section": "12.3",
+   "worksheets": [
+    "PA 19 Newton’s second law"
+   ],
+   "cambridge": "Cambridge Ch 8",
+   "id": "p11-u2-l17",
+   "lesson": 17,
+   "week": 6,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "12.4",
+   "title": "Momentum and conservation of momentum",
+   "keyKnowledge": [
+    "model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8 N kg–1 near the surface of Earth)",
+    "model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention ‘force on A by B’ or",
+    "Fon A by B = –Fon B by A",
+    "Forces and motion",
+    "explain changes in momentum as being caused by a net force: Δp = Fnet",
+    "Concepts used to model motion",
+    "apply concepts of momentum to linear motion: p = mv",
+    "Energy and motion"
+   ],
+   "questions": [
+    "KQ 1–6",
+    "CR 11–16"
+   ],
+   "worksheets": [],
+   "experiments": [
+    "EXP 12.4.1"
+   ],
+   "videos": [],
+   "cambridge": "Cambridge Ch 8",
+   "id": "p11-u2-l18",
+   "lesson": 18,
+   "week": 6,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "12.5",
+   "title": "Momentum transfer",
+   "keyKnowledge": [
+    "model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8 N kg–1 near the surface of Earth)",
+    "model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention ‘force on A by B’ or",
+    "Fon A by B = –Fon B by A",
+    "Forces and motion",
+    "explain changes in momentum as being caused by a net force: Δp = Fnet",
+    "Concepts used to model motion",
+    "apply concepts of momentum to linear motion: p = mv",
+    "Energy and motion"
+   ],
+   "questions": [
+    "KQ 1–6"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 8",
+   "id": "p11-u2-l19",
+   "lesson": 19,
+   "week": 7,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "12.6",
+   "title": "Momentum and net force",
+   "keyKnowledge": [
+    "model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8 N kg–1 near the surface of Earth)",
+    "model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention ‘force on A by B’ or",
+    "Fon A by B = –Fon B by A",
+    "Forces and motion",
+    "explain changes in momentum as being caused by a net force: Δp = Fnet",
+    "Concepts used to model motion",
+    "apply concepts of momentum to linear motion: p = mv",
+    "Energy and motion"
+   ],
+   "questions": [
+    "KQ 1–8",
+    "CR 20–21"
+   ],
+   "worksheets": [
+    "WS 35 Human earthquake"
+   ],
+   "experiments": [
+    "EXP 12.6.1"
+   ],
+   "videos": [],
+   "cambridge": "Cambridge Ch 8",
+   "id": "p11-u2-l20",
+   "lesson": 20,
+   "week": 7,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "13.1",
+   "title": "Work",
+   "keyKnowledge": [
+    "Energy and motion",
+    "apply the concept of work done by a force using:",
+    "force vs distance graph"
+   ],
+   "questions": [
+    "KQ 1–9",
+    "CR 5, 6"
+   ],
+   "worksheets": [
+    "WS 32 Working against the force"
+   ],
+   "experiments": [],
+   "videos": [
+    "Video: Work in physics"
+   ],
+   "cambridge": "Cambridge Ch 9",
+   "id": "p11-u2-l21",
+   "lesson": 21,
+   "week": 7,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "13.2",
+   "title": "Mechanical energy",
+   "keyKnowledge": [
+    "investigate and analyse theoretically and practically Hooke’s Law for an ideal spring: F = –kx, where x is extension",
+    "analyse and model mechanical energy transfers and transformations using energy conservation:"
+   ],
+   "questions": [
+    "KQ 1–10",
+    "CR 1–4, 7–16, 20, 21"
+   ],
+   "worksheets": [
+    "WS 33 Determining the spring constant—data analysis"
+   ],
+   "experiments": [
+    "EXP 13.2.1"
+   ],
+   "videos": [],
+   "cambridge": "Cambridge Ch 9",
+   "id": "p11-u2-l22",
+   "lesson": 22,
+   "week": 8,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "prac",
+   "title": "Conservation of energy",
+   "section": "13.2",
+   "worksheets": [
+    "PA 23 Conservation of energy"
+   ],
+   "cambridge": "Cambridge Ch 9",
+   "id": "p11-u2-l23",
+   "lesson": 23,
+   "week": 8,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "13.3",
+   "title": "Using energy: power and efficiency",
+   "keyKnowledge": [
+    "analyse rate of energy transfer using power: P =",
+    "calculate the efficiency of an energy transfer system:"
+   ],
+   "questions": [
+    "KQ 1–10",
+    "CR 17–19, 22"
+   ],
+   "worksheets": [
+    "WS 34 Engine power"
+   ],
+   "experiments": [],
+   "videos": [
+    "Video: The potential for fun"
+   ],
+   "cambridge": "Cambridge Ch 9",
+   "id": "p11-u2-l24",
+   "lesson": 24,
+   "week": 8,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "prac",
+   "title": "Work, energy and power",
+   "section": "13.3",
+   "worksheets": [
+    "PA 21 Work, energy and power"
+   ],
+   "cambridge": "Cambridge Ch 9",
+   "id": "p11-u2-l25",
+   "lesson": 25,
+   "week": 9,
+   "tasks": [
+    {
+     "text": "Book lab tech",
+     "done": false
+    },
+    {
+     "text": "Risk assessment",
+     "done": false
+    },
+    {
+     "text": "Print prac sheet",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "14.1",
+   "title": "Torque",
+   "keyKnowledge": [
+    "Equilibrium",
+    "calculate torque, τ = r⊥F"
+   ],
+   "questions": [
+    "KQ 1–9",
+    "CR 1–12, 16, 19–23"
+   ],
+   "worksheets": [
+    "WS 36 Calculating torque"
+   ],
+   "experiments": [],
+   "videos": [
+    "Video: Force arm"
+   ],
+   "cambridge": "Cambridge Ch 9",
+   "id": "p11-u2-l26",
+   "lesson": 26,
+   "week": 9,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "14.2",
+   "title": "Translational equilibrium",
+   "keyKnowledge": [
+    "analyse translational and rotational forces (torques) in simple structures in translational and rotational equilibrium",
+    "Application of motion",
+    "investigate the application of motion concepts through a case study, for example, through motion in sport, vehicle safety, a device or a structure"
+   ],
+   "questions": [
+    "KQ 1–7",
+    "CR 13–15, 18, 24",
+    "CS 1, 2, p 467"
+   ],
+   "worksheets": [],
+   "experiments": [],
+   "videos": [
+    "Video: Equilibrium"
+   ],
+   "cambridge": "Cambridge Ch 9",
+   "id": "p11-u2-l27",
+   "lesson": 27,
+   "week": 9,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "lesson",
+   "section": "14.3",
+   "title": "Static equilibrium",
+   "keyKnowledge": [
+    "analyse translational and rotational forces (torques) in simple structures in translational and rotational equilibrium",
+    "Application of motion",
+    "investigate the application of motion concepts through a case study, for example, through motion in sport, vehicle safety, a device or a structure"
+   ],
+   "questions": [
+    "KQ 1–11",
+    "CR 17, 25–28"
+   ],
+   "worksheets": [
+    "WS 29 Analysing motion in two dimensions"
+   ],
+   "experiments": [],
+   "videos": [],
+   "cambridge": "Cambridge Ch 9",
+   "id": "p11-u2-l28",
+   "lesson": 28,
+   "week": 10,
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Questions set",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ],
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "review",
+   "title": "U2 AoS1 review",
+   "questions": [
+    "AoS review questions"
+   ],
+   "worksheets": [
+    "WS 37 Literacy review—motion",
+    "WS 38 Reflection—How is motion understood?"
+   ],
+   "id": "p11-u2-l29",
+   "lesson": 29,
+   "week": 10,
+   "tasks": [
+    {
+     "text": "Review set",
+     "done": false
+    },
+    {
+     "text": "Answers posted",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS1",
+   "aosTitle": "How is motion understood?",
+   "type": "sac",
+   "title": "U2 AoS1 SAC",
+   "worksheets": [
+    "Unit 2 AoS 1 EQ"
+   ],
+   "id": "p11-u2-l30",
+   "lesson": 30,
+   "week": 10,
+   "tasks": [
+    {
+     "text": "Task written",
+     "done": false
+    },
+    {
+     "text": "Printed",
+     "done": false
+    },
+    {
+     "text": "Marked",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS2",
+   "aosTitle": "Options: how does physics inform contemporary issues?",
+   "type": "options",
+   "title": "Options launch: choose your question",
+   "keyKnowledge": [
+    "evaluate validity of sources of information",
+    "apply physics concepts specific to the investigation: definitions of key terms; and use of appropriate scientific terminology, conventions and representations",
+    "apply the use of data representations, models and theories in organising and explaining observed phenomena and physics concepts, and discuss the limitations of the explanations",
+    "discuss the influence of sociocultural, economic, legal and political factors relevant to the selected issue or application",
+    "apply physics understanding to justify a stance, opinion or solution to the selected issue or application."
+   ],
+   "worksheets": [
+    "Unit 2 AoS 2 Option 2.2",
+    "Unit 2 AoS 2 Option 2.5",
+    "Unit 2 AoS 2 Option 2.10",
+    "Unit 2 AoS 2 Option 2.11",
+    "Unit 2 AoS 2 Option 2.12",
+    "Unit 2 AoS 2 Option 2.15"
+   ],
+   "id": "p11-u2-l31",
+   "lesson": 31,
+   "week": 11,
+   "tasks": [
+    {
+     "text": "Prep",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS2",
+   "aosTitle": "Options: how does physics inform contemporary issues?",
+   "type": "options",
+   "title": "Research: evaluating sources",
+   "keyKnowledge": [
+    "evaluate validity of sources of information",
+    "apply physics concepts specific to the investigation: definitions of key terms; and use of appropriate scientific terminology, conventions and representations",
+    "apply the use of data representations, models and theories in organising and explaining observed phenomena and physics concepts, and discuss the limitations of the explanations",
+    "discuss the influence of sociocultural, economic, legal and political factors relevant to the selected issue or application",
+    "apply physics understanding to justify a stance, opinion or solution to the selected issue or application."
+   ],
+   "worksheets": [],
+   "id": "p11-u2-l32",
+   "lesson": 32,
+   "week": 11,
+   "tasks": [
+    {
+     "text": "Prep",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS2",
+   "aosTitle": "Options: how does physics inform contemporary issues?",
+   "type": "options",
+   "title": "Research and analysis",
+   "keyKnowledge": [
+    "evaluate validity of sources of information",
+    "apply physics concepts specific to the investigation: definitions of key terms; and use of appropriate scientific terminology, conventions and representations",
+    "apply the use of data representations, models and theories in organising and explaining observed phenomena and physics concepts, and discuss the limitations of the explanations",
+    "discuss the influence of sociocultural, economic, legal and political factors relevant to the selected issue or application",
+    "apply physics understanding to justify a stance, opinion or solution to the selected issue or application."
+   ],
+   "worksheets": [],
+   "id": "p11-u2-l33",
+   "lesson": 33,
+   "week": 11,
+   "tasks": [
+    {
+     "text": "Prep",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS2",
+   "aosTitle": "Options: how does physics inform contemporary issues?",
+   "type": "options",
+   "title": "Research and analysis",
+   "keyKnowledge": [
+    "evaluate validity of sources of information",
+    "apply physics concepts specific to the investigation: definitions of key terms; and use of appropriate scientific terminology, conventions and representations",
+    "apply the use of data representations, models and theories in organising and explaining observed phenomena and physics concepts, and discuss the limitations of the explanations",
+    "discuss the influence of sociocultural, economic, legal and political factors relevant to the selected issue or application",
+    "apply physics understanding to justify a stance, opinion or solution to the selected issue or application."
+   ],
+   "worksheets": [],
+   "id": "p11-u2-l34",
+   "lesson": 34,
+   "week": 12,
+   "tasks": [
+    {
+     "text": "Prep",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS2",
+   "aosTitle": "Options: how does physics inform contemporary issues?",
+   "type": "options",
+   "title": "Building your stance",
+   "keyKnowledge": [
+    "evaluate validity of sources of information",
+    "apply physics concepts specific to the investigation: definitions of key terms; and use of appropriate scientific terminology, conventions and representations",
+    "apply the use of data representations, models and theories in organising and explaining observed phenomena and physics concepts, and discuss the limitations of the explanations",
+    "discuss the influence of sociocultural, economic, legal and political factors relevant to the selected issue or application",
+    "apply physics understanding to justify a stance, opinion or solution to the selected issue or application."
+   ],
+   "worksheets": [],
+   "id": "p11-u2-l35",
+   "lesson": 35,
+   "week": 12,
+   "tasks": [
+    {
+     "text": "Prep",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS2",
+   "aosTitle": "Options: how does physics inform contemporary issues?",
+   "type": "options",
+   "title": "Presentations",
+   "keyKnowledge": [
+    "evaluate validity of sources of information",
+    "apply physics concepts specific to the investigation: definitions of key terms; and use of appropriate scientific terminology, conventions and representations",
+    "apply the use of data representations, models and theories in organising and explaining observed phenomena and physics concepts, and discuss the limitations of the explanations",
+    "discuss the influence of sociocultural, economic, legal and political factors relevant to the selected issue or application",
+    "apply physics understanding to justify a stance, opinion or solution to the selected issue or application."
+   ],
+   "worksheets": [],
+   "id": "p11-u2-l36",
+   "lesson": 36,
+   "week": 12,
+   "tasks": [
+    {
+     "text": "Prep",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS3",
+   "aosTitle": "How do physicists investigate questions?",
+   "type": "investigation",
+   "title": "Investigation intro: crumple zones and impulse",
+   "keyKnowledge": [
+    "Investigation design",
+    "apply the physics concepts specific to the selected investigation and explain their significance, including definitions of key terms, and physics representations",
+    "evaluate the characteristics of the scientific methodology relevant to the investigation, selected from: experiment; fieldwork, classification and identification, modelling, simulation, and the development of a product, process or system",
+    "apply techniques of primary qualitative and quantitative data generation relevant to the investigation",
+    "identify and apply concepts of accuracy, precision, repeatability, reproducibility, resolution, and validity of data in relation to the investigation",
+    "identify and apply health, safety and ethical guidelines relevant to the selected scientific investigation",
+    "Scientific evidence",
+    "distinguish between an aim, a hypothesis, a model, a theory and a law"
+   ],
+   "worksheets": [
+    "Unit 2 AoS 3 sample poster",
+    "Unit 2 AoS 3 poster template",
+    "Unit 2 AoS 3 sample logbook",
+    "Unit 2 AoS 3 logbook template"
+   ],
+   "id": "p11-u2-l37",
+   "lesson": 37,
+   "week": 13,
+   "tasks": [
+    {
+     "text": "Prep materials",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS3",
+   "aosTitle": "How do physicists investigate questions?",
+   "type": "investigation",
+   "title": "Designing the method + logbook",
+   "keyKnowledge": [],
+   "worksheets": [],
+   "id": "p11-u2-l38",
+   "lesson": 38,
+   "week": 13,
+   "tasks": [
+    {
+     "text": "Prep materials",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS3",
+   "aosTitle": "How do physicists investigate questions?",
+   "type": "investigation",
+   "title": "Risk assessment and pilot",
+   "keyKnowledge": [],
+   "worksheets": [],
+   "id": "p11-u2-l39",
+   "lesson": 39,
+   "week": 13,
+   "tasks": [
+    {
+     "text": "Prep materials",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS3",
+   "aosTitle": "How do physicists investigate questions?",
+   "type": "investigation",
+   "title": "Data collection",
+   "keyKnowledge": [],
+   "worksheets": [],
+   "id": "p11-u2-l40",
+   "lesson": 40,
+   "week": 14,
+   "tasks": [
+    {
+     "text": "Prep materials",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS3",
+   "aosTitle": "How do physicists investigate questions?",
+   "type": "investigation",
+   "title": "Data collection",
+   "keyKnowledge": [],
+   "worksheets": [],
+   "id": "p11-u2-l41",
+   "lesson": 41,
+   "week": 14,
+   "tasks": [
+    {
+     "text": "Prep materials",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS3",
+   "aosTitle": "How do physicists investigate questions?",
+   "type": "investigation",
+   "title": "Processing data and uncertainty",
+   "keyKnowledge": [],
+   "worksheets": [],
+   "id": "p11-u2-l42",
+   "lesson": 42,
+   "week": 14,
+   "tasks": [
+    {
+     "text": "Prep materials",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS3",
+   "aosTitle": "How do physicists investigate questions?",
+   "type": "investigation",
+   "title": "Analysis and evaluation",
+   "keyKnowledge": [],
+   "worksheets": [],
+   "id": "p11-u2-l43",
+   "lesson": 43,
+   "week": 15,
+   "tasks": [
+    {
+     "text": "Prep materials",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS3",
+   "aosTitle": "How do physicists investigate questions?",
+   "type": "investigation",
+   "title": "Poster preparation",
+   "keyKnowledge": [],
+   "worksheets": [],
+   "id": "p11-u2-l44",
+   "lesson": 44,
+   "week": 15,
+   "tasks": [
+    {
+     "text": "Prep materials",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 AoS3",
+   "aosTitle": "How do physicists investigate questions?",
+   "type": "sac",
+   "title": "Poster presentations (assessment)",
+   "keyKnowledge": [],
+   "worksheets": [],
+   "id": "p11-u2-l45",
+   "lesson": 45,
+   "week": 15,
+   "tasks": [
+    {
+     "text": "Task written",
+     "done": false
+    },
+    {
+     "text": "Printed",
+     "done": false
+    },
+    {
+     "text": "Marked",
+     "done": false
+    }
+   ],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 revision",
+   "aosTitle": "Revision",
+   "type": "review",
+   "title": "Revision: Unit 1",
+   "worksheets": [],
+   "id": "p11-u2-l46",
+   "lesson": 46,
+   "week": 16,
+   "tasks": [
+    {
+     "text": "Review set",
+     "done": false
+    },
+    {
+     "text": "Answers posted",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 revision",
+   "aosTitle": "Revision",
+   "type": "review",
+   "title": "Revision: Unit 2",
+   "worksheets": [],
+   "id": "p11-u2-l47",
+   "lesson": 47,
+   "week": 16,
+   "tasks": [
+    {
+     "text": "Review set",
+     "done": false
+    },
+    {
+     "text": "Answers posted",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  },
+  {
+   "unit": 2,
+   "aos": "U2 revision",
+   "aosTitle": "Revision",
+   "type": "sac",
+   "title": "Units 1 and 2 practice exam",
+   "worksheets": [
+    "Units 1 and 2 practice exam"
+   ],
+   "id": "p11-u2-l48",
+   "lesson": 48,
+   "week": 16,
+   "tasks": [
+    {
+     "text": "Task written",
+     "done": false
+    },
+    {
+     "text": "Printed",
+     "done": false
+    },
+    {
+     "text": "Marked",
+     "done": false
+    }
+   ],
+   "keyKnowledge": [],
+   "questions": [],
+   "experiments": [],
+   "videos": [],
+   "section": "",
+   "cambridge": "",
+   "links": [],
+   "notes": ""
+  }
+ ]
+}

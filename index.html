@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teaching dashboard 2027</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1f1e1c;--muted:#6b6a65;--line:#e2e0d8;--accent:#2f5fd0;
+--lesson:#eef3fd;--lesson-i:#1d4596;--prac:#e6f5ee;--prac-i:#0f6e56;--sac:#fcebeb;--sac-i:#a32d2d;
+--review:#faeeda;--review-i:#854f0b;--other:#f1efe8;--other-i:#5f5e5a}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);font-size:14px}
+header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);padding:10px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+header h1{font-size:17px;font-weight:600;margin:0 12px 0 0}
+.tabs button,.ctl button,.ctl select{font:inherit;border:1px solid var(--line);background:var(--card);border-radius:8px;padding:6px 12px;cursor:pointer}
+.tabs button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.ctl{margin-left:auto;display:flex;gap:8px;align-items:center}
+main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
+.unit{font-size:20px;font-weight:600;margin:28px 0 4px}
+.aos{margin:18px 0 8px;padding:6px 0;border-top:2px solid var(--ink);display:flex;justify-content:space-between;gap:12px}
+.aos b{font-size:15px}.aos span{color:var(--muted)}
+.week{display:grid;grid-template-columns:110px repeat(3,minmax(0,1fr));gap:10px;margin-bottom:10px}
+.week.now .wl b{color:var(--accent)}
+.wl{padding-top:6px;color:var(--muted);font-size:12px}.wl b{display:block;color:var(--ink);font-size:14px}
+.card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:10px;padding:9px 11px;cursor:pointer;min-height:78px;display:flex;flex-direction:column;gap:4px}
+.card:hover{border-color:var(--muted);border-left-color:var(--c)}
+.card.open{outline:2px solid var(--accent)}
+.meta{font-size:11px;color:var(--muted);display:flex;justify-content:space-between}
+.ttl{font-weight:500;line-height:1.3}
+.bar{height:4px;background:var(--line);border-radius:4px;margin-top:auto}.bar i{display:block;height:100%;background:var(--prac-i);border-radius:4px}
+.t-lesson{--c:var(--lesson-i)}.t-prac{--c:var(--prac-i)}.t-sac{--c:var(--sac-i)}.t-review{--c:var(--review-i)}
+.t-consolidation,.t-buffer,.t-options,.t-investigation{--c:var(--other-i)}
+.tag{font-size:11px;padding:1px 7px;border-radius:6px;background:var(--b);color:var(--c)}
+.t-lesson .tag{--b:var(--lesson)}.t-prac .tag{--b:var(--prac)}.t-sac .tag{--b:var(--sac)}.t-review .tag{--b:var(--review)}
+.t-consolidation .tag,.t-buffer .tag,.t-options .tag,.t-investigation .tag{--b:var(--other)}
+.detail{grid-column:2/-1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;grid-template-columns:1.4fr 1fr;gap:18px}
+.detail h2{font-size:17px;margin:0 0 2px}.detail h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:14px 0 4px}
+.detail ul{margin:0;padding-left:18px;line-height:1.55}
+.detail label{display:flex;gap:8px;align-items:center;padding:3px 0;cursor:pointer}
+.detail textarea{width:100%;min-height:70px;font:inherit;border:1px solid var(--line);border-radius:8px;padding:8px}
+.empty{color:var(--muted);font-style:italic}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:6px}
+.legend span{display:flex;gap:5px;align-items:center}.legend i{width:10px;height:10px;border-radius:3px;background:var(--c)}
+.placeholder{background:var(--card);border:1px dashed var(--muted);border-radius:12px;padding:40px;text-align:center;color:var(--muted);margin-top:30px}
+@media(max-width:760px){.week{grid-template-columns:1fr}.detail{grid-column:1;grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Teaching dashboard 2027</h1>
+  <nav class="tabs" id="tabs"></nav>
+  <div class="ctl" id="ctl">
+    <select id="aosFilter"><option value="">All areas of study</option></select>
+    <button id="expand">Expand all</button>
+  </div>
+</header>
+<main id="main"></main>
+<script>
+const CLASSES=[{id:'physics-11',name:'11 Physics',file:'classes/physics-11.json'}];
+const TYPE={lesson:'Lesson',prac:'Prac',sac:'Assessment',review:'Review',consolidation:'Practice',buffer:'Buffer',options:'Options',investigation:'Investigation'};
+const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let data={},tab=store.get('tab','physics-11'),openId=null,expandAll=false;
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function state(id){return store.get('st:'+id,{})}
+function setState(id,s){store.set('st:'+id,s)}
+function tasksOf(l){const s=state(l.id);return l.tasks.map((t,i)=>({...t,done:s.done?.[i]??t.done}))}
+function progress(l){const t=tasksOf(l);return t.length?t.filter(x=>x.done).length/t.length:0}
+
+function renderTabs(){
+  $('#tabs').innerHTML=[...CLASSES.map(c=>`<button data-t="${c.id}" class="${tab==c.id?'on':''}">${c.name}</button>`),`<button data-t="schedule" class="${tab=='schedule'?'on':''}">Schedule</button>`].join('');
+  $('#tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{tab=b.dataset.t;store.set('tab',tab);render()});
+}
+function list(arr,emptyMsg){return arr&&arr.length?`<ul>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:`<div class="empty">${emptyMsg||'None'}</div>`}
+function detail(l){
+  const t=tasksOf(l),s=state(l.id);
+  const links=(l.links||[]).map(k=>`<li><a href="${esc(k.url)}" target="_blank" rel="noopener">${esc(k.label)}</a></li>`).join('');
+  return `<div class="detail"><div>
+    <div class="meta"><span>${esc(l.aos)} · Week ${l.week} · Lesson ${l.lesson}</span></div>
+    <h2>${l.section?esc(l.section)+' · ':''}${esc(l.title)}</h2>
+    <h3>Key knowledge</h3>${list(l.keyKnowledge,'See area of study outline')}
+    <h3>Pearson questions</h3>${list(l.questions)}
+    <h3>Worksheets and pracs</h3>${list(l.worksheets)}
+    ${l.experiments.length?`<h3>Online experiments</h3>${list(l.experiments)}`:''}
+    ${l.videos.length?`<h3>Videos</h3>${list(l.videos)}`:''}
+  </div><div>
+    <h3>Prep tasks</h3>${t.length?t.map((x,i)=>`<label><input type="checkbox" data-i="${i}" ${x.done?'checked':''}> ${esc(x.text)}</label>`).join(''):'<div class="empty">No tasks</div>'}
+    <h3>Cambridge supplements</h3><div>${l.cambridge?esc(l.cambridge):'<span class="empty">None</span>'}</div>
+    <h3>Resources</h3>${links?`<ul>${links}</ul>`:'<div class="empty">Drive links coming</div>'}
+    <h3>Notes</h3><textarea data-notes placeholder="Reflections, changes for next time">${esc(s.notes??l.notes??'')}</textarea>
+  </div></div>`;
+}
+function renderClass(c){
+  const d=data[c.id];
+  const sel=$('#aosFilter'),f=sel.value;
+  const aosList=[...new Set(d.lessons.map(l=>l.aos))];
+  sel.innerHTML='<option value="">All areas of study</option>'+aosList.map(a=>`<option ${a==f?'selected':''}>${a}</option>`).join('');
+  let h='',lastU=0,lastA='';
+  const legend=`<div class="legend">${['lesson','prac','review','sac','consolidation'].map(k=>`<span class="t-${k}"><i></i>${TYPE[k]}</span>`).join('')}</div>`;
+  for(const u of [1,2]){
+    const L=d.lessons.filter(l=>l.unit==u&&(!f||l.aos==f));if(!L.length)continue;
+    h+=`<div class="unit">Unit ${u}</div>`+(u==1||f?legend:'');
+    const weeks=[...new Set(L.map(l=>l.week))];
+    for(const w of weeks){
+      const W=L.filter(l=>l.week==w);
+      if(W[0].aos!=lastA){lastA=W[0].aos;h+=`<div class="aos"><b>${esc(lastA)}</b><span>${esc(W[0].aosTitle)}</span></div>`}
+      h+=`<div class="week"><div class="wl"><b>Week ${w}</b>${u==1?'Semester 1':'Semester 2'}</div>`;
+      for(const l of W){
+        h+=`<div class="card t-${l.type} ${openId==l.id?'open':''}" data-id="${l.id}">
+          <div class="meta"><span>L${l.lesson}${l.section?' · '+esc(l.section):''}</span><span class="tag">${TYPE[l.type]}</span></div>
+          <div class="ttl">${esc(l.title)}</div><div class="bar"><i style="width:${Math.round(progress(l)*100)}%"></i></div></div>`;
+      }
+      W.filter(l=>expandAll||l.id==openId).forEach(l=>h+=detail(l));
+      h+='</div>';
+    }
+  }
+  $('#main').innerHTML=h;
+  $('#main').querySelectorAll('.card').forEach(el=>el.onclick=()=>{openId=openId==el.dataset.id?null:el.dataset.id;renderClass(c)});
+  $('#main').querySelectorAll('.week').forEach(wk=>{
+    wk.querySelectorAll('.detail').forEach((dv,i)=>{
+      const ids=[...wk.querySelectorAll('.card')].map(x=>x.dataset.id).filter(id=>expandAll||id==openId);
+      const id=ids[i];
+      dv.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.onchange=()=>{const s=state(id);s.done=s.done||{};s.done[cb.dataset.i]=cb.checked;setState(id,s);renderClass(c)});
+      const ta=dv.querySelector('[data-notes]');ta.oninput=()=>{const s=state(id);s.notes=ta.value;setState(id,s)};
+    });
+  });
+}
+function render(){
+  renderTabs();
+  $('#ctl').style.display=tab=='schedule'?'none':'flex';
+  if(tab=='schedule'){$('#main').innerHTML='<div class="placeholder"><h2>Schedule</h2>All classes merged into one weekly timetable will appear here once more classes and your timetable are added.</div>';return}
+  renderClass(CLASSES.find(c=>c.id==tab)||CLASSES[0]);
+}
+$('#aosFilter').onchange=()=>render();
+$('#expand').onclick=()=>{expandAll=!expandAll;$('#expand').textContent=expandAll?'Collapse all':'Expand all';render()};
+Promise.all(CLASSES.map(c=>fetch(c.file).then(r=>r.json()).then(j=>data[c.id]=j))).then(render)
+  .catch(e=>{$('#main').innerHTML='<div class="placeholder">Could not load class data. Open this page through GitHub Pages or a local server.</div>'});
+</script>
+</body>
+</html>
