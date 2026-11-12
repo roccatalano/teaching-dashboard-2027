@@ -146,17 +146,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Which of the following characteristics is particularly associated with wave motion? A. vibrations which are longitudinal to the direction of motion B. the transfer of matter from one place to another C. vibrations which transfer energy from one place to another D. vibrations which are transverse to the direction of motion",
-      "note": "Cambridge 1A Section questions, Q1"
+      "q": "Which of the following characteristics is particularly associated with wave motion?\nA.  vibrations which are longitudinal to the direction of motion\nB.  the transfer of matter from one place to another\nC.  vibrations which transfer energy from one place to another\nD.  vibrations which are transverse to the direction of motion",
+      "note": "Goal 1 · Cambridge 1A Section questions, Q1"
      },
      {
-      "q": "Which of the following statements best describes the frequency of a moving transverse wave? A. The frequency of the wave is related to the time it takes a wave to travel any fixed distance. B. The frequency of the wave is related to the time it takes a wave crest to travel one wavelength. C. The frequency of the wave is inversely related to the time it takes a wave crest to travel one wavelength. D. The frequency of the wave is equal to the time it takes a wave crest to travel one wavelength. Short answer questions Use the following information to answer Questions 3 and 4. The sketch below shows a side-on view of a wave in a rope. It is a transverse wave, and is moving from left to right. [Diagram Description automatically generated]",
-      "note": "Cambridge 1A Section questions, Q2"
+      "q": "Classify the following wave types as transverse or longitudinal waves.\nsound waves, light waves, ‘Mexican’ waves, ripples in a pond, waves on a guitar string",
+      "note": "Goal 2 · Cambridge Ch1 Review questions, Q18"
+     },
+     {
+      "q": "Which one of the following is true of all electromagnetic radiation in a vacuum?\nA.  It is a transverse wave motion.\nB.  It travels at 3.00 × 10⁸ m s^(–1).\nC.  It requires a medium to propagate.\nD.  Both A and B.",
+      "note": "Goal 3 · Cambridge Ch1 Review questions, Q4"
      }
     ]
    }
@@ -282,17 +286,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Calculate the speed of a wave of frequency 3.0 × 10⁹ Hz and wavelength 2.5 cm.",
-      "note": "Cambridge 1A Section questions, Q5"
+      "q": "Which one or more of the arrows labelled A to F best describes the size of the amplitude of the wave shown?",
+      "note": "Goal 1 · Cambridge 1A Section questions, Q3 [figure in Cambridge doc]"
      },
      {
-      "q": "Calculate the frequency of a wave of speed 56 mm s^(–1) and wavelength 1.4 × 10^(–5) m.",
-      "note": "Cambridge 1A Section questions, Q6"
+      "q": "Calculate the wavelength of a wave of speed 16 km s^(–1) and period 0.40 s.",
+      "note": "Goal 2 · Cambridge 1A Section questions, Q7"
+     },
+     {
+      "q": "Water waves pass from deep water, where they have a speed of 6.0 m s^(–1) and a wavelength of 12 m, into shallow water, where their speed is 3.0 m s^(–1). Calculate the frequency and wavelength in the shallow water.",
+      "note": "Goal 3 · Cambridge Ch1 Review questions, Q23"
      }
     ]
    }
@@ -556,17 +564,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Arrange the following components of visible light in order of increasing wavelength: yellow, green, violet, red.",
-      "note": "Cambridge 1B Section questions, Q4"
+      "q": "Rank the following colours in order of increasing frequency: green, ultraviolet, red, yellow.",
+      "note": "Goal 1 · Cambridge 1B Section questions, Q5"
      },
      {
-      "q": "Rank the following colours in order of increasing frequency: green, ultraviolet, red, yellow.",
-      "note": "Cambridge 1B Section questions, Q5"
+      "q": "The electromagnetic radiation from the Sun is comprises approximately\nA.  mainly visible wavelengths.\nB.  equal amounts of visible and IR wavelengths.\nC.  equal parts of UV, visible and IR wavelengths.\nD.  equal parts of UV and visible wavelengths.",
+      "note": "Goal 2 · Cambridge Ch1 Review questions, Q3"
+     },
+     {
+      "q": "List two or more societal uses of electromagnetic radiation with wavelengths in the range 10 nm to 400 nm.",
+      "note": "Goal 3 · Cambridge Ch1 Review questions, Q27"
      }
     ]
    }
@@ -701,17 +713,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "A light beam is travelling through an unknown liquid with a refractive index of 1.75. Which of the following is closest to the speed of light in the liquid? A. 1.7 × 10⁸ m s^(–1) B. 2.3 × 10⁸ m s^(–1) C. 3.0 × 10⁸ m s^(–1) D. 5.3 × 10⁸ m s^(–1)",
-      "note": "Cambridge 1C Section questions, Q3"
+      "q": "When light waves reflect at a surface (such as a plane mirror), then the wave crests\nA.  change direction and wavelength but not speed.\nB.  change direction but not speed.\nC.  change frequency and wavelength.\nD.  change direction and speed.",
+      "note": "Goal 1 · Cambridge 1C Section questions, Q2"
      },
      {
-      "q": "For a ray of light moving from one medium to another to bend away from the normal A. the speed must stay the same and the refractive index must increase. B. the speed must decrease and the refractive index must decrease. C. the speed must increase and the refractive index must decrease. D. the speed must stay the same and the refractive index must decrease.",
-      "note": "Cambridge 1C Section questions, Q5"
+      "q": "A narrow ray of light passes from air into a glass block. The angle θ₁ is equal to 43°.\nThe angle θ₂ will be closest to\nA.  27°.\nB.  34°.\nC.  43°.\nD.  65°",
+      "note": "Goal 2 · Cambridge 1C Section questions, Q4 [figure in Cambridge doc]"
+     },
+     {
+      "q": "For a ray of light moving from one medium to another to bend away from the normal\nA.  the speed must stay the same and the refractive index must increase.\nB.  the speed must decrease and the refractive index must decrease.\nC.  the speed must increase and the refractive index must decrease.\nD.  the speed must stay the same and the refractive index must decrease.",
+      "note": "Goal 3 · Cambridge 1C Section questions, Q5"
      }
     ]
    }
@@ -980,17 +996,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "White light is dispersed into the colours of the spectrum after passing through a triangular prism. a. Which colour, red or violet, is deviated the most in this process? b. Outline the reasons why this occurs.",
-      "note": "Cambridge 1C Section questions, Q9"
+      "q": "White light is dispersed into the colours of the spectrum after passing through a triangular prism.\na.  Which colour, red or violet, is deviated the most in this process?\nb.  Outline the reasons why this occurs.",
+      "note": "Goal 1 · Cambridge 1C Section questions, Q9"
      },
      {
-      "q": "The critical angle occurs when A. light travels from a high n medium into a low n medium. B. light travels from a low n medium into a high n medium. C. light travels from a high speed medium into a lower speed medium. D. light is blocked from transmission, so it all reflects at the surface.",
-      "note": "Cambridge 1C Section questions, Q6"
+      "q": "The primary rainbow is best viewed\nA.  facing the Sun so it forms a bow around the Sun.\nB.  with your back to the Sun so that raindrops reflect light from their outer surface towards you.\nC.  facing the Sun so that sunlight can disperse into the colours of the spectrum.\nD.  with your back to the Sun so that sunlight can be dispersed and reflected back towards you.",
+      "note": "Goal 2 · Cambridge Ch1 Review questions, Q11"
+     },
+     {
+      "q": "Unpolarised light passes through a polarising filter, then through a second filter that is slowly rotated through 90°. Describe what happens to the brightness of the light coming through, and explain why this is evidence that light is a transverse wave.",
+      "note": "Goal 3 · own question (no Cambridge match)"
      }
     ]
    }
@@ -1128,17 +1148,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Which of the following temperature pairs are the same, to within one degree kelvin? A. 0 K and 273°C B. –113°C and 160 K C. 20°C and 253 K D. 370 K and 90°C",
-      "note": "Cambridge 2A Section questions, Q1"
+      "q": "Which of the following statements about thermal energy is correct?\nA.  The thermal energy of an object can be increased by increasing its thermal conductivity.\nB.  Increasing the total potential energy of an object’s molecules increases its thermal energy.\nC.  Increasing the heat capacity of an object will increase its thermal energy.\nD.  Changing the temperature of an object is unlikely to change its thermal energy.",
+      "note": "Goal 1 · Cambridge Ch2 Review questions, Q2"
      },
      {
-      "q": "The temperature of a block of material is A. linked to the total thermal energy in the block. B. proportional to the kinetic energy of the most energetic molecules in the block. C. a measure of the amount of energy that can be extracted from the block. D. a measure of the average potential energy of the molecules in the block.",
-      "note": "Cambridge 2A Section questions, Q2"
+      "q": "Which of the following changes will increase the temperature of an object?\nA.  increasing its heat capacity\nB.  increasing the random kinetic energy of its molecules\nC.  decreasing its thermal conductivity\nD.  converting the potential energy of some of its molecules to random kinetic energy",
+      "note": "Goal 2 · Cambridge Ch2 Review questions, Q3"
+     },
+     {
+      "q": "Which of the following temperature pairs are the same, to within one degree kelvin?\nA.  0 K and 273°C\nB.  –113°C and 160 K\nC.  20°C and 253 K\nD.  370 K and 90°C",
+      "note": "Goal 3 · Cambridge 2A Section questions, Q1"
      }
     ]
    }
@@ -1395,17 +1419,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "A 1.5 kg block of a metal alloy is heated, raising its thermal energy by 4500 J. Its temperature rises by 5.0°C. Calculate the specific heat capacity of the alloy. []",
-      "note": "Cambridge 2A Section questions, Q11"
+      "q": "A 1.5 kg block of a metal alloy is heated, raising its thermal energy by 4500 J. Its temperature rises by 5.0°C. Calculate the specific heat capacity of the alloy.",
+      "note": "Goal 1 · Cambridge 2A Section questions, Q11"
      },
      {
-      "q": "When soups contain a large proportion of solids (e.g. vegetables, noodles, meat), compared to water, they tend to cool more quickly. Suggest physical reasons for this.",
-      "note": "Cambridge 2A Section questions, Q9"
+      "q": "An electric kettle contains 1.5 kg of water at 20°C and has a power rating of 2000 W.\na.  Assume it is insulated perfectly. How long will it take to raise the entire 1.5 kg of water to boiling point?\nb.  Assuming all the water in the kettle is at 100°C, how much longer will it take it to convert all the water to steam?",
+      "note": "Goal 2 · Cambridge 2A Section questions, Q7"
+     },
+     {
+      "q": "Locations beside the sea on the edge of a dry land mass can experience a sea breeze during a sunny day and a land breeze in the night. Use the high specific heat of water and the phenomenon of convection to explain the existence and direction of these two breezes.",
+      "note": "Goal 3 · Cambridge 2A Section questions, Q6"
      }
     ]
    }
@@ -1531,17 +1559,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Calculate the energy required to convert 1 kg of ice at –20°C to water at +20°C. Use the specific heat of ice, which is different from that of water, and is equal to 2108 J kg^(–1).",
-      "note": "Cambridge 2A Section questions, Q8"
+      "q": "Which of the following is the best definition of the specific latent heat of vaporisation?\nA.  the energy required to vaporise 1 kg of the material involved\nB.  the energy required to vaporise 1 kg of the material involved in 1 s\nC.  the energy required to raise the temperature enough to vaporise 1 kg of the\nmaterial involved\nD.  the energy required to raise the temperature enough to vaporise 1 kg of the material involved in 1 s",
+      "note": "Goal 1 · Cambridge Ch2 Review questions, Q7"
      },
      {
-      "q": "An electric kettle contains 1.5 kg of water at 20°C and has a power rating of 2000 W. a. Assume it is insulated perfectly. How long will it take to raise the entire 1.5 kg of water to boiling point? b. Assuming all the water in the kettle is at 100°C, how much longer will it take it to convert all the water to steam?",
-      "note": "Cambridge 2A Section questions, Q7"
+      "q": "Calculate the energy required to convert 1 kg of ice at –20°C to water at +20°C. Use the specific heat of ice, which is different from that of water, and is equal to 2108 J kg^(–1).",
+      "note": "Goal 2 · Cambridge 2A Section questions, Q8"
+     },
+     {
+      "q": "When some methylated spirit at room temperature is wiped on your hand, it feels cool because\nA.  the methylated spirit is a good thermal conductor.\nB.  of convection currents in the air around your hand.\nC.  the most energetic molecules of methylated spirit evaporate.\nD.  the methylated spirit was kept at a lower temperature.",
+      "note": "Goal 3 · Cambridge 2A Section questions, Q3"
      }
     ]
    }
@@ -1805,17 +1837,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "A block of wood at 20°C and a block of aluminium also at 20°C feel to be at different temperatures when you put your hand on them. The aluminium block feels colder. This is because A. aluminium is a better radiator than wood. B. aluminium is a better thermal conductor than wood. C. wood is a better thermal conductor than aluminium. D. your hand is not an accurate thermometer. Short answer questions",
-      "note": "Cambridge 2A Section questions, Q5"
+      "q": "Energy transfers using radiation\nA.  occur with all objects above 0 K.\nB.  only occur with glowing objects.\nC.  cannot pass through a vacuum.\nD.  do not depend on the surfaces involved.",
+      "note": "Goal 1 · Cambridge 2A Section questions, Q4"
      },
      {
-      "q": "Suggest why people sometimes prefer mittens (left) to gloves (right) in cold weather. [][]",
-      "note": "Cambridge 2A Section questions, Q10"
+      "q": "A block of wood at 20°C and a block of aluminium also at 20°C feel to be at different temperatures when you put your hand on them. The aluminium block feels colder. This is because\nA.  aluminium is a better radiator than wood.\nB.  aluminium is a better thermal conductor than wood.\nC.  wood is a better thermal conductor than aluminium.\nD.  your hand is not an accurate thermometer.",
+      "note": "Goal 2 · Cambridge 2A Section questions, Q5"
+     },
+     {
+      "q": "Suggest why people sometimes prefer mittens to gloves in cold weather.",
+      "note": "Goal 3 · Cambridge 2A Section questions, Q10"
      }
     ]
    }
@@ -1961,17 +1997,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Wien’s law states that A. the peak wavelength of a blackbody is inversely proportional to its Celsius temperature. B. the peak wavelength of a blackbody is directly proportional to its kelvin temperature. C. the peak wavelength of a blackbody is directly proportional to its Celsius temperature. D. the peak wavelength of a blackbody is inversely proportional to its kelvin temperature. Use the following blackbody radiation curves to answer Questions 3 and 4. []",
-      "note": "Cambridge 2B Section questions, Q2"
+      "q": "Which temperature curve has the highest peak frequency value?\nA.  T = 5500 K\nB.  T = 5000 K\nC.  T = 4000 K\nD.  T = 3500 K",
+      "note": "Goal 1 · Cambridge 2B Section questions, Q3"
      },
      {
-      "q": "Which temperature curve has the highest peak frequency value? A. T = 5500 K B. T = 5000 K C. T = 4000 K D. T = 3500 K",
-      "note": "Cambridge 2B Section questions, Q3"
+      "q": "Earth can be modelled as a blackbody with a temperature of 20°C.\na.  Use Wien’s law to estimate the peak wavelength emitted from Earth.\nb.  Identify the region of the electromagnetic spectrum of this peak wavelength.",
+      "note": "Goal 2 · Cambridge 2B Section questions, Q5"
+     },
+     {
+      "q": "Which of the five graphs has the greatest total energy emission?\nA.  T = 5500 K\nB.  T = 5000 K\nC.  T = 4000 K\nD.  T = 3500 K",
+      "note": "Goal 3 · Cambridge 2B Section questions, Q4"
      }
     ]
    }
@@ -2240,17 +2280,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Earth can be modelled as a blackbody with a temperature of 20°C. a. Use Wien’s law to estimate the peak wavelength emitted from Earth. b. Identify the region of the electromagnetic spectrum of this peak wavelength.",
-      "note": "Cambridge 2B Section questions, Q5"
+      "q": "Outline the role that ‘greenhouse’ gases (such as H₂O, CH₄ and CO₂) play in Earth’s infrared emissions.",
+      "note": "Goal 1 · Cambridge 2B Section questions, Q6"
      },
      {
-      "q": "Outline the role that ‘greenhouse’ gases (such as H₂O, CH₄ and CO₂) play in Earth’s infrared emissions.",
-      "note": "Cambridge 2B Section questions, Q6"
+      "q": "The surface of Earth radiates about 400 W m^(–2) of infrared radiation. Which of the following best describes what happens to this radiation?\nA.  About 10% of this radiation is absorbed by greenhouse gases; the rest escapes into space.\nB.  About 10% of this radiation escapes into space; the rest is converted into visible wavelengths.\nC.  About 10% of this radiation escapes into space; the rest is absorbed by the atmosphere.\nD.  Almost all of this radiation is reflected back to the surface.",
+      "note": "Goal 2 · Cambridge Ch2 Review questions, Q13"
+     },
+     {
+      "q": "Summarise briefly why the inside of a car warms up on a cool but sunny day if the windows are up.",
+      "note": "Goal 3 · Cambridge Ch2 Review questions, Q20"
      }
     ]
    }
@@ -2666,17 +2710,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Use the internationally accepted format _(Z)^(A)X to write down the elements containing the following nucleons: a. 2 neutrons and 1 proton b. 12 protons and 25 nucleons c. 94 protons and 143 neutrons",
-      "note": "Cambridge 3A Section questions, Q6"
+      "q": "Uranium-235 has 92 protons in the nucleus. The number of neutrons in the nucleus is\nA.  92\nB.  143\nC.  235\nD.  327",
+      "note": "Goal 1 · Cambridge 3A Section questions, Q1"
      },
      {
-      "q": "Explain why it is possible to have two different elements with the same number of nucleons.",
-      "note": "Cambridge 3A Section questions, Q7"
+      "q": "Use the internationally accepted format _(Z)^(A)X to write down the elements containing the following nucleons:\na.  2 neutrons and 1 proton\nb.  12 protons and 25 nucleons\nc.  94 protons and 143 neutrons",
+      "note": "Goal 2 · Cambridge 3A Section questions, Q6"
+     },
+     {
+      "q": "Explain why the electrostatic force has more influence as nuclei get bigger and contain more protons and neutrons.",
+      "note": "Goal 3 · Cambridge 3A Section questions, Q10"
      }
     ]
    }
@@ -2817,17 +2865,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "An α-particle has an energy of 1.0 × 10⁻¹² J. The energy of the α-particle in MeV is closest to: A. 1.0 MeV B. 6.2 MeV C. 9.4 MeV D. 18.7 MeV",
-      "note": "Cambridge 3B Section questions, Q3"
+      "q": "A radioactive source is placed 2 cm from a detector. The count rate decreases slightly if a sheet of paper is inserted between the source and the detector. It is reduced to background radiation level if the sheet of paper is replaced by a 1 cm thick sheet of aluminium.\nThe radiation emitted by the radioactive source is most likely to be\nA.  α only.\nB.  α and β.\nC.  β and γ.\nD.  γ only.",
+      "note": "Goal 1 · Cambridge 3B Section questions, Q4"
      },
      {
-      "q": "A radioactive source is placed 2 cm from a detector. The count rate decreases slightly if a sheet of paper is inserted between the source and the detector. It is reduced to background radiation level if the sheet of paper is replaced by a 1 cm thick sheet of aluminium. The radiation emitted by the radioactive source is most likely to be A. α only. B. α and β. C. β and γ. D. γ only.",
-      "note": "Cambridge 3B Section questions, Q4"
+      "q": "a Complete the nuclear transformation equation of thorium-230 to radium-226:\n₉₀²³⁰TH→₈₈²²⁶Ra +?\nb Which element is the parent nucleus and which element is the daughter nucleus?\nc What is the name of the particle emitted?",
+      "note": "Goal 2 · Cambridge 3B Section questions, Q6"
+     },
+     {
+      "q": "Which one of the following best explains the ionising properties of nuclear radiations and their penetration power?\nA.  α-particles are not very ionising so they are easily stopped by a thin sheet of paper.\nB.  α-particles are very ionising so they only travel a few centimetres in air.\nC.  γ-radiation can easily penetrate a sheet of card because it is very ionising.\nD.  γ-radiation is not very penetrating because it is very ionising.",
+      "note": "Goal 3 · Cambridge 3B Section questions, Q2"
      }
     ]
    }
@@ -2962,17 +3014,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Gold-198 has a half-life of 2.7 days. Using the formula $N = \\ N_{0}{(\\frac{1}{2})}^{n}$ calculate the: a. percentage of gold-198 remaining after 8.1 days have elapsed b. time it takes to have only $\\frac{1}{16}\\ $th of the original gold-198 remaining.",
-      "note": "Cambridge 3C Section questions, Q5"
+      "q": "All radioactive sources have a half-life. Which of the following statements best explains the concept of the half-life of a source?\nA.  It is half the time it takes for an atom to decay.\nB.  It is half the time it takes the activity of the source to decrease to zero.\nC.  It is the time it takes the activity of the source to decrease by half.\nD.  It is half the time for the radioactive source to become safe.",
+      "note": "Goal 1 · Cambridge 3C Section questions, Q2"
      },
      {
-      "q": "Why do medical diagnostic radioisotopes usually have short half-lives measured in hours or days (e.g. technetium-99m, 6 hours; iodine-131, 8 days)?",
-      "note": "Cambridge 3C Section questions, Q7"
+      "q": "The half-life of Zn-71 is 2.4 minutes. There is 200.0 g of Zn-71 initially. Which one of the following is closest to the number of grams that would be left after 9.6 minutes has elapsed?\nA.  12.5 g\nB.  25 g\nC.  50 g\nD.  100 g",
+      "note": "Goal 2 · Cambridge 3C Section questions, Q1"
+     },
+     {
+      "q": "In the uranium-238 decay chain, uranium-238 decays via thorium-234 and protactinium-234 to uranium-234. How many α- and β-decays occur in this process?\nA.  1 α and 2 β\nB.  1 α and 3 β\nC.  2 α and 2 β\nD.  2 α and 3 β\nShort-answer questions\nUse Figure 3D–2 to answer the following questions.",
+      "note": "Goal 3 · Cambridge 3D Section questions, Q2"
      }
     ]
    }
@@ -3103,17 +3159,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "How much energy, absorbed via γ-rays, would cause the death of a 60 kg person within 50 hours due to a radiation exposure dose of 40 Sv? A. 120 J B. B 1200 J C. C 2400 J D. D 3000 J",
-      "note": "Cambridge 3E Section questions, Q4"
+      "q": "A 20 kg child absorbs 40 mJ of energy due to ionising radiation.\na Calculate the absorbed dose in mGy.\nb i Calculate the dose equivalent, in mSv, if the radiation is γ-radiation.\nii Calculate the dose equivalent, in mSv, if the radiation is α-radiation.",
+      "note": "Goal 1 · Cambridge 3E Section questions, Q9"
      },
      {
-      "q": "Why is it more dangerous for pregnant women to be exposed to high radiation levels than for other people?",
-      "note": "Cambridge 3E Section questions, Q5"
+      "q": "Why can the formation of ions be damaging to living cells?",
+      "note": "Goal 2 · Cambridge 3E Section questions, Q11"
+     },
+     {
+      "q": "Ionising radiation can cause cancer, yet it also can cure cancer. Explain this apparent contradiction.",
+      "note": "Goal 3 · Cambridge 3E Section questions, Q12"
      }
     ]
    }
@@ -3521,17 +3581,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Why are nuclear fission weapons far more powerful than TNT, for the same mass of explosive material?",
-      "note": "Cambridge 4B Section questions, Q6"
+      "q": "a Explain the role of control rods and moderators in a nuclear power reactor.\nb.  Give an example of the type of material that can be used as a control rod and as a moderator.",
+      "note": "Goal 1 · Cambridge 4A Section questions, Q7"
      },
      {
-      "q": "Why are nuclear fusion weapons far more powerful than nuclear fission weapons, for the same mass of explosive material? 8. a One of the long-term effects from a nuclear explosion is radioactive fallout. If all 3.0 × 10²⁶ radioactive fission nuclei were spread evenly among the human population (8 billion), how many radioactive nuclei would each human breathe in? b Why is this not a realistic calculation?",
-      "note": "Cambridge 4B Section questions, Q7"
+      "q": "Why are nuclear fusion weapons far more powerful than nuclear fission weapons, for the same mass of explosive material?",
+      "note": "Goal 2 · Cambridge 4B Section questions, Q7"
+     },
+     {
+      "q": "Give the main reason why some people say that nuclear energy is considered better than coal for generating electricity in Australia.",
+      "note": "Goal 3 · Cambridge 4C Section questions, Q9"
      }
     ]
    }
@@ -4012,17 +4076,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Calculate the number of electrons in the following charges. a. 1 C b. 5 C c. 100 C",
-      "note": "Cambridge 5A Section questions, Q10"
+      "q": "Two small spheres are held 10 cm apart. Sphere A has a charge of +2 nC and sphere B has a charge of –3 nC.\na Do the spheres attract or repel? Explain.\nb Sphere B is replaced by a sphere with a charge of +3 nC. What changes, and why?",
+      "note": "Goal 1 · own question (no Cambridge match)"
      },
      {
-      "q": "Devise an analogy for electric current that compares electrons to canoeists or kayakers drifting down a river that is flowing gently. a. Explain three similarities between this situation and a real electric circuit. b. Explain three differences between this situation and a real electric circuit.",
-      "note": "Cambridge 5A Section questions, Q8"
+      "q": "Which of the descriptions below best matches an electrical conductor?\nA.  tightly bound molecules with + and – polarity\nB.  lattice of negative ions in a sea of positive charges\nC.  lattice of positive ions in a sea of electrons\nD.  tightly bound atoms or molecules, no free charges",
+      "note": "Goal 2 · Cambridge Ch5 Review questions, Q4"
+     },
+     {
+      "q": "Calculate the number of electrons in the following charges.\na.  1 C\nb.  5 C\nc.  100 C",
+      "note": "Goal 3 · Cambridge 5A Section questions, Q10"
      }
     ]
    }
@@ -4163,17 +4231,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "How much energy is given to each coulomb of charge by the 240 V mains supply? A. 240 J B. 1 J C. 100 J D. 240 V",
-      "note": "Cambridge 5B Section questions, Q1"
+      "q": "A charge of 100 C flows past a point in a circuit in 25 s. Calculate the current through the circuit.",
+      "note": "Goal 1 · Cambridge 5A Section questions, Q11"
      },
      {
-      "q": "A charge of 100 C flows past a point in a circuit in 25 s. Calculate the current through the circuit.",
-      "note": "Cambridge 5A Section questions, Q11"
+      "q": "What energy is gained by a charge of 15 C when it passes through a generator producing\n12 V?",
+      "note": "Goal 2 · Cambridge 5B Section questions, Q6"
+     },
+     {
+      "q": "Which meter is always connected in parallel?\nA ammeter\nB voltmeter\nC multimeter\nD galvanometer",
+      "note": "Goal 3 · Cambridge 5D Section questions, Q2"
      }
     ]
    }
@@ -4441,17 +4513,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "How much energy is delivered to a 240 V mains appliance by each 20 C of charge passing through it? A. 20 J B. 240 J C. 240 V D. 4800 J",
-      "note": "Cambridge 5B Section questions, Q3"
+      "q": "A microwave oven operates at 1200 W.\na How much current does it draw from the 240 V mains supply?\nb How much energy would it consume if it was used at full power for 2 min?",
+      "note": "Goal 1 · Cambridge 5E Section questions, Q8"
      },
      {
-      "q": "What is the power of a lamp that is designed to operate at 240 V, 0.5 A? A 0.5 Ws B 120 W C 240 W D 480 W",
-      "note": "Cambridge 5E Section questions, Q1"
+      "q": "A fan heater is rated at 2400 W. If it is left on for 5 hours, the energy used would be\nA 1200 kW h.\nB 120 kW h.\nC 12 kW h.\nD 1.2 kW h.",
+      "note": "Goal 2 · Cambridge 6B Section questions, Q1"
+     },
+     {
+      "q": "A 5 kW water heater takes 3 hours to heat the water it holds. How much will this cost, assuming 0.30 $/kW h?\nA $ 0.45\nB $ 4.50\nC $ 45.00\nD $ 450.00",
+      "note": "Goal 3 · Cambridge 6B Section questions, Q3"
      }
     ]
    }
@@ -4585,17 +4661,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "What is the resistance of a light bulb in which the current is 0.5 A when it is connected to a potential difference of 240 V? A. 240 Ω B. 120 Ω C. 480 Ω D. 2 mΩ",
-      "note": "Cambridge 5C Section questions, Q1"
+      "q": "What is the resistance of a light bulb in which the current is 0.5 A when it is connected to a potential difference of 240 V?\nA.  240 Ω\nB.  120 Ω\nC.  480 Ω\nD.  2 mΩ",
+      "note": "Goal 1 · Cambridge 5C Section questions, Q1"
      },
      {
-      "q": "What is the current in an appliance of resistance 1000 Ω when it is connected to the 240 V mains supply? A. 0.24 A B. 2.4 × 10⁵ A C. 4.2 A D. 24 A",
-      "note": "Cambridge 5C Section questions, Q3"
+      "q": "An ohmic conductor is one in which, as the potential difference across it is increased, the current through it would\nA.  increase proportionally.\nB.  decrease proportionally.\nC.  be inversely proportional.\nD.  remain constant.",
+      "note": "Goal 2 · Cambridge Ch5 Review questions, Q9"
+     },
+     {
+      "q": "Complete the following scenario by filling in the gaps to indicate changes (increase or decrease).\nA thermistor is used in a building to assist in detecting fires and triggering the alarm. As the fire starts, the temperature ___a___, so the resistance of the thermistor ___b___ This allows a ___c___ in potential difference to control a loudspeaker (fire alarm).",
+      "note": "Goal 3 · Cambridge 6A Section questions, Q7"
      }
     ]
    }
@@ -4894,17 +4974,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "Lamps of resistance 300 Ω, 400 Ω and 600 Ω are connected in parallel and connected to a 12 V battery. a Draw a circuit diagram of the arrangement. b What is the total resistance in the circuit? c What is the current in each resistance? d What is the total current leaving the battery",
-      "note": "Cambridge 5D Section questions, Q7"
+      "q": "Lamps of resistance 300 Ω, 400 Ω and 600 Ω are connected in parallel to a 12 V battery.\na What is the total resistance in the circuit?\nb What is the current in each lamp?",
+      "note": "Goal 1 · Cambridge 5D Section questions, Q7"
      },
      {
-      "q": "Which type of circuit is most useful for supplying the same potential difference to several components at once? A series B parallel with an extra series component C series with a parallel component D parallel",
-      "note": "Cambridge 5D Section questions, Q3"
+      "q": "How much charge leaves a car battery each second if it supplies current to four headlights in parallel, each of which draws a current of 5 A?",
+      "note": "Goal 2 · Cambridge 5D Section questions, Q8"
+     },
+     {
+      "q": "Which type of circuit is most useful for supplying the same potential difference to several components at once?\nA series\nB parallel with an extra series component\nC series with a parallel component\nD parallel",
+      "note": "Goal 3 · Cambridge 5D Section questions, Q3"
      }
     ]
    }
@@ -5024,17 +5108,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
-      "q": "What is the power of a lamp that is designed to operate 240 V, 0.25 A? A 0.25 W B 60 W C 120 W D 960 W",
-      "note": "Cambridge 5E Section questions, Q2"
+      "q": "A 960 W washing machine is connected to a 240 V mains supply in parallel with a 2000 W clothes dryer. The total current drawn when both are operating at the same time is\nA 1.23 A.\nB 4.00 A.\nC 8.33 A.\nD 12.3 A.",
+      "note": "Goal 1 · Cambridge 6B Section questions, Q4"
      },
      {
-      "q": "Calculate the current in a 20 W motor connected to a 12 V power supply.",
-      "note": "Cambridge 5E Section questions, Q6"
+      "q": "A 15 W desk lamp made with LEDs is connected to a 240 V mains supply.\na What current does it draw?\nb What is the resistance of the lamp?\nc How much energy, in kW h, does it draw in 45 minutes?\nd What is the cost to run this lamp for 45 minutes if the price of electricity is 0.30 $/kW h?",
+      "note": "Goal 2 · Cambridge 6B Section questions, Q6"
+     },
+     {
+      "q": "a Calculate the combined resistance of two filament car headlamps, each rated 20 W, running from a 12 V car battery in:\ni series\nii parallel.\nb What energy is drawn in an hour by the two headlamps in series?\nc What energy is drawn in an hour by the parallel combination?\nd Which arrangement, series or parallel, would use less energy from the car battery?\ne Which arrangement, series or parallel, would provide the most light?",
+      "note": "Goal 3 · Cambridge 6B Section questions, Q8"
      }
     ]
    }
@@ -5303,17 +5391,21 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal."
+      "detail": "One question per learning goal (below), done individually and handed in. Then red/amber/green on each goal."
      }
     ],
     "exitQs": [
      {
       "q": "Explain why it is extremely dangerous to replace thin fuse wire with thicker wire, or with a nail. (This is one of the reasons fuses have been replaced with circuit breakers.)",
-      "note": "Cambridge 6C Section questions, Q8"
+      "note": "Goal 1 · Cambridge 6C Section questions, Q9"
      },
      {
-      "q": "The reason for an earth wire connecting to the casing of an electrical appliance is to A supply extra electrons from the earth to neutralise the current. B provide a low-resistance path for high current to flow to earth, tripping the circuit breaker or fuse. C provide a high-resistance path to stop the current to flowing to earth. D bypass the fuse or circuit breaker.",
-      "note": "Cambridge 6C Section questions, Q3"
+      "q": "State three things you should do before touching someone you fear may have been electrocuted. Explain why it is important to do these first.",
+      "note": "Goal 2 · Cambridge 6C Section questions, Q11"
+     },
+     {
+      "q": "The smallest current that can kill a person if it passes through the heart is about\nA 0.5 mA\nB 5 mA\nC 10 mA\nD 16 mA",
+      "note": "Goal 3 · Cambridge 6C Section questions, Q2"
      }
     ]
    }
