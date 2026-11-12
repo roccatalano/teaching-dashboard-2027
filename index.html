@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Teaching dashboard 2027</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
 <style>
 :root{--bg:#f6f5f1;--card:#fff;--ink:#1f1e1c;--muted:#6b6a65;--line:#e2e0d8;--accent:#2f5fd0;
 --lesson:#eef3fd;--lesson-i:#1d4596;--prac:#e6f5ee;--prac-i:#0f6e56;--sac:#fcebeb;--sac-i:#a32d2d;
@@ -35,6 +38,7 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 .t-consolidation .tag,.t-buffer .tag,.t-options .tag,.t-investigation .tag{--b:var(--other)}
 .detail{grid-column:2/-1;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;grid-template-columns:1.4fr 1fr;gap:18px}
 .detail h2{font-size:17px;margin:0 0 2px}.detail h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:14px 0 4px}
+.katex{font-size:1.05em;white-space:nowrap}
 .detail ul{margin:0;padding-left:18px;line-height:1.55}
 .detail label{display:flex;gap:8px;align-items:center;padding:3px 0;cursor:pointer}
 .detail textarea{width:100%;min-height:70px;font:inherit;border:1px solid var(--line);border-radius:8px;padding:8px}
@@ -132,7 +136,9 @@ function renderClass(c){
     const ta=dv.querySelector('[data-notes]');ta.oninput=()=>{const s=state(id);s.notes=ta.value;setState(id,s)};
     dv.querySelectorAll('[data-src]').forEach(b=>b.onclick=()=>{source=b.dataset.src;store.set('source',source);renderClass(c)});
   });
+  typeset();
 }
+function typeset(){if(window.renderMathInElement)renderMathInElement($('#main'),{delimiters:[{left:'$',right:'$',display:false}],throwOnError:false})}
 function render(){
   renderTabs();
   $('#ctl').style.display=tab=='schedule'?'none':'flex';
@@ -141,6 +147,7 @@ function render(){
 }
 $('#aosFilter').onchange=()=>render();
 $('#expand').onclick=()=>{expandAll=!expandAll;$('#expand').textContent=expandAll?'Collapse all':'Expand all';render()};
+window.addEventListener('load',typeset);
 Promise.all(CLASSES.map(c=>fetch(c.file).then(r=>r.json()).then(j=>data[c.id]=j))).then(render)
   .catch(e=>{$('#main').innerHTML='<div class="placeholder">Could not load class data. Open this page through GitHub Pages or a local server.</div>'});
 </script>

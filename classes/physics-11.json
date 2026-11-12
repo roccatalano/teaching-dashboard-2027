@@ -16,9 +16,9 @@
    "title": "Longitudinal and transverse waves",
    "keyKnowledge": [
     "Electromagnetic radiation",
-    "identify all electromagnetic waves as transverse waves travelling at the same speed, c, in a vacuum as distinct from mechanical waves that require a medium to propagate",
+    "identify all electromagnetic waves as transverse waves travelling at the same speed, $c$, in a vacuum as distinct from mechanical waves that require a medium to propagate",
     "identify the amplitude, wavelength, period and frequency of waves",
-    "calculate the wavelength, frequency, period and speed of travel of waves using: v = fλ = λ/T",
+    "calculate the wavelength, frequency, period and speed of travel of waves using: $v = f\\lambda = \\frac{\\lambda}{T}$",
     "explain the wavelength of a wave as a result of the velocity (determined by the medium through which it travels) and the frequency (determined by the source)"
    ],
    "pearson": {
@@ -101,9 +101,9 @@
    "title": "Measuring waves",
    "keyKnowledge": [
     "Electromagnetic radiation",
-    "identify all electromagnetic waves as transverse waves travelling at the same speed, c, in a vacuum as distinct from mechanical waves that require a medium to propagate",
+    "identify all electromagnetic waves as transverse waves travelling at the same speed, $c$, in a vacuum as distinct from mechanical waves that require a medium to propagate",
     "identify the amplitude, wavelength, period and frequency of waves",
-    "calculate the wavelength, frequency, period and speed of travel of waves using: v = fλ = λ/T",
+    "calculate the wavelength, frequency, period and speed of travel of waves using: $v = f\\lambda = \\frac{\\lambda}{T}$",
     "explain the wavelength of a wave as a result of the velocity (determined by the medium through which it travels) and the frequency (determined by the source)"
    ],
    "pearson": {
@@ -186,8 +186,8 @@
     "describe electromagnetic radiation emitted from the Sun as mainly ultraviolet, visible and infrared",
     "compare the wavelength and frequencies of different regions of the electromagnetic spectrum, including radio, microwave, infrared, visible, ultraviolet, x-ray and gamma, and compare the different uses each has in society",
     "investigate and analyse theoretically and practically the behaviour of waves including:",
-    "    – refraction using Snell’s Law: n1 sin (θ1) = n2 sin(θ2) and n1v1 = n2v2",
-    "    – total internal reflection and critical angle including applications:n1 sin (θc) = n2 sin (90°)",
+    "    – refraction using Snell’s Law: $n_1\\sin\\theta_1 = n_2\\sin\\theta_2$ and $n_1v_1 = n_2v_2$",
+    "    – total internal reflection and critical angle including applications: $n_1\\sin\\theta_c = n_2\\sin 90^\\circ$",
     "investigate and explain theoretically and practically colour dispersion in prisms and lenses with reference to refraction of the components of white light as they pass from one medium to another",
     "explain the formation of optical phenomena: rainbows; mirages",
     "investigate light transmission through optical fibres for communication"
@@ -284,8 +284,8 @@
     "describe electromagnetic radiation emitted from the Sun as mainly ultraviolet, visible and infrared",
     "compare the wavelength and frequencies of different regions of the electromagnetic spectrum, including radio, microwave, infrared, visible, ultraviolet, x-ray and gamma, and compare the different uses each has in society",
     "investigate and analyse theoretically and practically the behaviour of waves including:",
-    "    – refraction using Snell’s Law: n1 sin (θ1) = n2 sin(θ2) and n1v1 = n2v2",
-    "    – total internal reflection and critical angle including applications:n1 sin (θc) = n2 sin (90°)",
+    "    – refraction using Snell’s Law: $n_1\\sin\\theta_1 = n_2\\sin\\theta_2$ and $n_1v_1 = n_2v_2$",
+    "    – total internal reflection and critical angle including applications: $n_1\\sin\\theta_c = n_2\\sin 90^\\circ$",
     "investigate and explain theoretically and practically colour dispersion in prisms and lenses with reference to refraction of the components of white light as they pass from one medium to another",
     "explain the formation of optical phenomena: rainbows; mirages",
     "investigate light transmission through optical fibres for communication"
@@ -398,8 +398,8 @@
     "describe electromagnetic radiation emitted from the Sun as mainly ultraviolet, visible and infrared",
     "compare the wavelength and frequencies of different regions of the electromagnetic spectrum, including radio, microwave, infrared, visible, ultraviolet, x-ray and gamma, and compare the different uses each has in society",
     "investigate and analyse theoretically and practically the behaviour of waves including:",
-    "    – refraction using Snell’s Law: n1 sin (θ1) = n2 sin(θ2) and n1v1 = n2v2",
-    "    – total internal reflection and critical angle including applications:n1 sin (θc) = n2 sin (90°)",
+    "    – refraction using Snell’s Law: $n_1\\sin\\theta_1 = n_2\\sin\\theta_2$ and $n_1v_1 = n_2v_2$",
+    "    – total internal reflection and critical angle including applications: $n_1\\sin\\theta_c = n_2\\sin 90^\\circ$",
     "investigate and explain theoretically and practically colour dispersion in prisms and lenses with reference to refraction of the components of white light as they pass from one medium to another",
     "explain the formation of optical phenomena: rainbows; mirages",
     "investigate light transmission through optical fibres for communication"
@@ -522,8 +522,8 @@
     "describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system:",
     "    – explain why cooling results from evaporation using a simple kinetic energy model",
     "investigate and analyse theoretically and practically the energy required to:",
-    "    – raise the temperature of a substance: Q = mcΔT",
-    "    – change the state of a substance: Q = mL"
+    "    – raise the temperature of a substance: $Q = mc\\Delta T$",
+    "    – change the state of a substance: $Q = mL$"
    ],
    "pearson": {
     "reading": [
@@ -617,8 +617,8 @@
     "describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system:",
     "    – explain why cooling results from evaporation using a simple kinetic energy model",
     "investigate and analyse theoretically and practically the energy required to:",
-    "    – raise the temperature of a substance: Q = mcΔT",
-    "    – change the state of a substance: Q = mL"
+    "    – raise the temperature of a substance: $Q = mc\\Delta T$",
+    "    – change the state of a substance: $Q = mL$"
    ],
    "pearson": {
     "reading": [
@@ -713,8 +713,8 @@
     "describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system:",
     "    – explain why cooling results from evaporation using a simple kinetic energy model",
     "investigate and analyse theoretically and practically the energy required to:",
-    "    – raise the temperature of a substance: Q = mcΔT",
-    "    – change the state of a substance: Q = mL"
+    "    – raise the temperature of a substance: $Q = mc\\Delta T$",
+    "    – change the state of a substance: $Q = mL$"
    ],
    "pearson": {
     "reading": [
@@ -806,7 +806,7 @@
     "describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system:",
     "    – distinguish between conduction, convection and radiation with reference to heat transfers within and between systems",
     "Interaction of thermal energy and electromagnetic radiation",
-    "calculate the peak wavelength of the radiated electromagnetic radiation using Wien’s Law: λmaxT = constant",
+    "calculate the peak wavelength of the radiated electromagnetic radiation using Wien’s Law: $\\lambda_{max}T = \\text{constant}$",
     "compare the total energy across the electromagnetic spectrum emitted by objects at different temperatures",
     "apply concepts of energy transfer, energy transformation, temperature change and change of state to climate change and global warming"
    ],
@@ -961,7 +961,7 @@
     "describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system:",
     "    – distinguish between conduction, convection and radiation with reference to heat transfers within and between systems",
     "Interaction of thermal energy and electromagnetic radiation",
-    "calculate the peak wavelength of the radiated electromagnetic radiation using Wien’s Law: λmaxT = constant",
+    "calculate the peak wavelength of the radiated electromagnetic radiation using Wien’s Law: $\\lambda_{max}T = \\text{constant}$",
     "compare the total energy across the electromagnetic spectrum emitted by objects at different temperatures",
     "apply concepts of energy transfer, energy transformation, temperature change and change of state to climate change and global warming"
    ],
@@ -2434,7 +2434,7 @@
    "keyKnowledge": [
     "apply concepts of charge (Q), electric current (I), potential difference (V), energy (E) and power (P), in electric circuits",
     "analyse and evaluate different analogies used to describe electric current and potential difference",
-    "investigate and analyse theoretically and practically electric circuits using the relationships: V = IR, P = VI, R(series) = R1 + R2 + …"
+    "investigate and analyse theoretically and practically electric circuits using the relationships: $V = IR$, $P = VI$, $R_{series} = R_1 + R_2 + \\dots$"
    ],
    "pearson": {
     "reading": [
@@ -2622,7 +2622,7 @@
    "keyKnowledge": [
     "apply concepts of charge (Q), electric current (I), potential difference (V), energy (E) and power (P), in electric circuits",
     "analyse and evaluate different analogies used to describe electric current and potential difference",
-    "investigate and analyse theoretically and practically electric circuits using the relationships: V = IR, P = VI, R(series) = R1 + R2 + …",
+    "investigate and analyse theoretically and practically electric circuits using the relationships: $V = IR$, $P = VI$, $R_{series} = R_1 + R_2 + \\dots$",
     "justify the use of selected meters (ammeter, voltmeter, multimeter) in circuits"
    ],
    "pearson": {
@@ -2882,7 +2882,7 @@
    "keyKnowledge": [
     "apply concepts of charge (Q), electric current (I), potential difference (V), energy (E) and power (P), in electric circuits",
     "analyse and evaluate different analogies used to describe electric current and potential difference",
-    "investigate and analyse theoretically and practically electric circuits using the relationships: V = IR, P = VI, R(series) = R1 + R2 + …",
+    "investigate and analyse theoretically and practically electric circuits using the relationships: $V = IR$, $P = VI$, $R_{series} = R_1 + R_2 + \\dots$",
     "justify the use of selected meters (ammeter, voltmeter, multimeter) in circuits"
    ],
    "pearson": {
@@ -2934,7 +2934,7 @@
     "Circuit electricity",
     "model resistance in series and parallel circuits using:",
     "    – current versus potential difference (I–V) graphs",
-    "    – resistance as the potential difference to current ratio, including R = constant for ohmic devices"
+    "    – resistance as the potential difference to current ratio, including $R$ = constant for ohmic devices"
    ],
    "pearson": {
     "reading": [
@@ -3129,7 +3129,7 @@
     "Circuit electricity",
     "model resistance in series and parallel circuits using:",
     "    – current versus potential difference (I–V) graphs",
-    "    – resistance as the potential difference to current ratio, including R = constant for ohmic devices"
+    "    – resistance as the potential difference to current ratio, including $R$ = constant for ohmic devices"
    ],
    "pearson": {
     "reading": [],
@@ -3183,7 +3183,7 @@
     "Circuit electricity",
     "model resistance in series and parallel circuits using:",
     "    – current versus potential difference (I–V) graphs",
-    "    – resistance as the potential difference to current ratio, including R = constant for ohmic devices"
+    "    – resistance as the potential difference to current ratio, including $R$ = constant for ohmic devices"
    ],
    "pearson": {
     "reading": [],
@@ -3237,7 +3237,7 @@
     "Circuit electricity",
     "model resistance in series and parallel circuits using:",
     "    – current versus potential difference (I–V) graphs",
-    "    – resistance as the potential difference to current ratio, including R = constant for ohmic devices"
+    "    – resistance as the potential difference to current ratio, including $R$ = constant for ohmic devices"
    ],
    "pearson": {
     "reading": [],
@@ -3289,14 +3289,14 @@
    "title": "Series and parallel circuits",
    "keyKnowledge": [
     "model resistance in series and parallel circuits using:",
-    "    – equivalent resistance in arrangements in series: Requivalent = R1 + R2 + … + Rn",
-    "    – equivalent resistance in arrangements in parallel: 1/R = 1/R1 + 1/R2 + …",
+    "    – equivalent resistance in arrangements in series: $R_{eq} = R_1 + R_2 + \\dots + R_n$",
+    "    – equivalent resistance in arrangements in parallel: $\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots$",
     "calculate and analyse the equivalent resistance of circuits comprising parallel and series resistance",
     "analyse circuits comprising voltage dividers",
     "compare power transfers in series and parallel circuits",
     "explain why the circuits in homes are mostly parallel circuits",
     "Using electricity",
-    "investigate and apply theoretically and practically concepts of current, resistance, potential difference (voltage drop) and power to the operation of electronic circuits comprising resistors, light bulbs, diodes, thermistors, light dependent resistors (LDRs), light-emitting diodes (LEDs) and potentiometers (quantitative analysis restricted to use of V = IR and P = VI)",
+    "investigate and apply theoretically and practically concepts of current, resistance, potential difference (voltage drop) and power to the operation of electronic circuits comprising resistors, light bulbs, diodes, thermistors, light dependent resistors (LDRs), light-emitting diodes (LEDs) and potentiometers (quantitative analysis restricted to use of $V = IR$ and $P = VI$)",
     "investigate practically the operation of simple circuits containing resistors, variable resistors, diodes and other non-ohmic devices"
    ],
    "pearson": {
@@ -3524,14 +3524,14 @@
    "title": "Using resistors in series",
    "keyKnowledge": [
     "model resistance in series and parallel circuits using:",
-    "    – equivalent resistance in arrangements in series: Requivalent = R1 + R2 + … + Rn",
-    "    – equivalent resistance in arrangements in parallel: 1/R = 1/R1 + 1/R2 + …",
+    "    – equivalent resistance in arrangements in series: $R_{eq} = R_1 + R_2 + \\dots + R_n$",
+    "    – equivalent resistance in arrangements in parallel: $\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots$",
     "calculate and analyse the equivalent resistance of circuits comprising parallel and series resistance",
     "analyse circuits comprising voltage dividers",
     "compare power transfers in series and parallel circuits",
     "explain why the circuits in homes are mostly parallel circuits",
     "Using electricity",
-    "investigate and apply theoretically and practically concepts of current, resistance, potential difference (voltage drop) and power to the operation of electronic circuits comprising resistors, light bulbs, diodes, thermistors, light dependent resistors (LDRs), light-emitting diodes (LEDs) and potentiometers (quantitative analysis restricted to use of V = IR and P = VI)",
+    "investigate and apply theoretically and practically concepts of current, resistance, potential difference (voltage drop) and power to the operation of electronic circuits comprising resistors, light bulbs, diodes, thermistors, light dependent resistors (LDRs), light-emitting diodes (LEDs) and potentiometers (quantitative analysis restricted to use of $V = IR$ and $P = VI$)",
     "investigate practically the operation of simple circuits containing resistors, variable resistors, diodes and other non-ohmic devices"
    ],
    "pearson": {
@@ -3583,14 +3583,14 @@
    "title": "Using resistors in parallel",
    "keyKnowledge": [
     "model resistance in series and parallel circuits using:",
-    "    – equivalent resistance in arrangements in series: Requivalent = R1 + R2 + … + Rn",
-    "    – equivalent resistance in arrangements in parallel: 1/R = 1/R1 + 1/R2 + …",
+    "    – equivalent resistance in arrangements in series: $R_{eq} = R_1 + R_2 + \\dots + R_n$",
+    "    – equivalent resistance in arrangements in parallel: $\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots$",
     "calculate and analyse the equivalent resistance of circuits comprising parallel and series resistance",
     "analyse circuits comprising voltage dividers",
     "compare power transfers in series and parallel circuits",
     "explain why the circuits in homes are mostly parallel circuits",
     "Using electricity",
-    "investigate and apply theoretically and practically concepts of current, resistance, potential difference (voltage drop) and power to the operation of electronic circuits comprising resistors, light bulbs, diodes, thermistors, light dependent resistors (LDRs), light-emitting diodes (LEDs) and potentiometers (quantitative analysis restricted to use of V = IR and P = VI)",
+    "investigate and apply theoretically and practically concepts of current, resistance, potential difference (voltage drop) and power to the operation of electronic circuits comprising resistors, light bulbs, diodes, thermistors, light dependent resistors (LDRs), light-emitting diodes (LEDs) and potentiometers (quantitative analysis restricted to use of $V = IR$ and $P = VI$)",
     "investigate practically the operation of simple circuits containing resistors, variable resistors, diodes and other non-ohmic devices"
    ],
    "pearson": {
@@ -4401,7 +4401,7 @@
    "section": "10.3",
    "title": "Vector components",
    "keyKnowledge": [
-    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at, v² = u² + 2as, s = ½(u + v)t, s = ut + ½at², s = vt – ½at²",
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: $v = u + at$, $v^2 = u^2 + 2as$, $s = \\tfrac{1}{2}(u + v)t$, $s = ut + \\tfrac{1}{2}at^2$, $s = vt - \\tfrac{1}{2}at^2$",
     "analyse, graphically, non-uniform motion in a straight line"
    ],
    "pearson": {
@@ -4497,7 +4497,7 @@
    "section": "11.1",
    "title": "Displacement, speed and velocity",
    "keyKnowledge": [
-    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at, v² = u² + 2as, s = ½(u + v)t, s = ut + ½at², s = vt – ½at²",
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: $v = u + at$, $v^2 = u^2 + 2as$, $s = \\tfrac{1}{2}(u + v)t$, $s = ut + \\tfrac{1}{2}at^2$, $s = vt - \\tfrac{1}{2}at^2$",
     "analyse, graphically, non-uniform motion in a straight line"
    ],
    "pearson": {
@@ -4588,7 +4588,7 @@
    "section": "11.2",
    "title": "Acceleration",
    "keyKnowledge": [
-    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at, v² = u² + 2as, s = ½(u + v)t, s = ut + ½at², s = vt – ½at²",
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: $v = u + at$, $v^2 = u^2 + 2as$, $s = \\tfrac{1}{2}(u + v)t$, $s = ut + \\tfrac{1}{2}at^2$, $s = vt - \\tfrac{1}{2}at^2$",
     "analyse, graphically, non-uniform motion in a straight line"
    ],
    "pearson": {
@@ -4679,7 +4679,7 @@
    "section": "7A",
    "title": "Drawing vectors",
    "keyKnowledge": [
-    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at, v² = u² + 2as, s = ½(u + v)t, s = ut + ½at², s = vt – ½at²",
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: $v = u + at$, $v^2 = u^2 + 2as$, $s = \\tfrac{1}{2}(u + v)t$, $s = ut + \\tfrac{1}{2}at^2$, $s = vt - \\tfrac{1}{2}at^2$",
     "analyse, graphically, non-uniform motion in a straight line"
    ],
    "pearson": {
@@ -4728,7 +4728,7 @@
    "section": "11.3",
    "title": "Graphing position, velocity and acceleration over time",
    "keyKnowledge": [
-    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at, v² = u² + 2as, s = ½(u + v)t, s = ut + ½at², s = vt – ½at²",
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: $v = u + at$, $v^2 = u^2 + 2as$, $s = \\tfrac{1}{2}(u + v)t$, $s = ut + \\tfrac{1}{2}at^2$, $s = vt - \\tfrac{1}{2}at^2$",
     "analyse, graphically, non-uniform motion in a straight line"
    ],
    "pearson": {
@@ -4848,7 +4848,7 @@
    "section": "7B",
    "title": "Motion graphs",
    "keyKnowledge": [
-    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at, v² = u² + 2as, s = ½(u + v)t, s = ut + ½at², s = vt – ½at²",
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: $v = u + at$, $v^2 = u^2 + 2as$, $s = \\tfrac{1}{2}(u + v)t$, $s = ut + \\tfrac{1}{2}at^2$, $s = vt - \\tfrac{1}{2}at^2$",
     "analyse, graphically, non-uniform motion in a straight line"
    ],
    "pearson": {
@@ -4897,7 +4897,7 @@
    "section": "11.4",
    "title": "Equations for uniform acceleration",
    "keyKnowledge": [
-    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at, v² = u² + 2as, s = ½(u + v)t, s = ut + ½at², s = vt – ½at²"
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: $v = u + at$, $v^2 = u^2 + 2as$, $s = \\tfrac{1}{2}(u + v)t$, $s = ut + \\tfrac{1}{2}at^2$, $s = vt - \\tfrac{1}{2}at^2$"
    ],
    "pearson": {
     "reading": [
@@ -4974,9 +4974,9 @@
    "section": "11.5",
    "title": "Vertical motion",
    "keyKnowledge": [
-    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: : v = u + at, v² = u² + 2as, s = ½(u + v)t, s = ut + ½at², s = vt – ½at²",
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: $v = u + at$, $v^2 = u^2 + 2as$, $s = \\tfrac{1}{2}(u + v)t$, $s = ut + \\tfrac{1}{2}at^2$, $s = vt - \\tfrac{1}{2}at^2$",
     "Forces and motion",
-    "model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8 N kg–1 near the surface of Earth)"
+    "model the force due to gravity, $F_g$, as the force of gravity acting at the centre of mass of a body, $F_{\\text{on body by Earth}} = mg$, where g is the gravitational field strength ($9.8\\ \\text{N kg}^{-1}$ near the surface of Earth)"
    ],
    "pearson": {
     "reading": [
@@ -5053,9 +5053,9 @@
    "section": "7C",
    "title": "Water rockets",
    "keyKnowledge": [
-    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: : v = u + at, v² = u² + 2as, s = ½(u + v)t, s = ut + ½at², s = vt – ½at²",
+    "analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: $v = u + at$, $v^2 = u^2 + 2as$, $s = \\tfrac{1}{2}(u + v)t$, $s = ut + \\tfrac{1}{2}at^2$, $s = vt - \\tfrac{1}{2}at^2$",
     "Forces and motion",
-    "model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8 N kg–1 near the surface of Earth)"
+    "model the force due to gravity, $F_g$, as the force of gravity acting at the centre of mass of a body, $F_{\\text{on body by Earth}} = mg$, where g is the gravitational field strength ($9.8\\ \\text{N kg}^{-1}$ near the surface of Earth)"
    ],
    "pearson": {
     "reading": [],
@@ -5104,7 +5104,7 @@
    "title": "Newton’s first law",
    "keyKnowledge": [
     "Forces and motion",
-    "apply Newton’s three laws of motion to a body on which forces act: a = Fnet/m, Fon A by B = –Fon B by A",
+    "apply Newton’s three laws of motion to a body on which forces act: $a = \\frac{F_{net}}{m}$, $F_{\\text{on A by B}} = -F_{\\text{on B by A}}$",
     "apply the vector model of forces, including vector addition and components of forces, to readily observable forces including the force due to gravity, friction and normal forces"
    ],
    "pearson": {
@@ -5200,7 +5200,7 @@
    "title": "Newton’s second law",
    "keyKnowledge": [
     "Forces and motion",
-    "apply Newton’s three laws of motion to a body on which forces act: a = Fnet/m, Fon A by B = –Fon B by A",
+    "apply Newton’s three laws of motion to a body on which forces act: $a = \\frac{F_{net}}{m}$, $F_{\\text{on A by B}} = -F_{\\text{on B by A}}$",
     "apply the vector model of forces, including vector addition and components of forces, to readily observable forces including the force due to gravity, friction and normal forces"
    ],
    "pearson": {
@@ -5294,7 +5294,7 @@
    "title": "Newton’s third law",
    "keyKnowledge": [
     "Forces and motion",
-    "apply Newton’s three laws of motion to a body on which forces act: a = Fnet/m, Fon A by B = –Fon B by A",
+    "apply Newton’s three laws of motion to a body on which forces act: $a = \\frac{F_{net}}{m}$, $F_{\\text{on A by B}} = -F_{\\text{on B by A}}$",
     "apply the vector model of forces, including vector addition and components of forces, to readily observable forces including the force due to gravity, friction and normal forces"
    ],
    "pearson": {
@@ -5390,7 +5390,7 @@
    "title": "Newton’s second law",
    "keyKnowledge": [
     "Forces and motion",
-    "apply Newton’s three laws of motion to a body on which forces act: a = Fnet/m, Fon A by B = –Fon B by A",
+    "apply Newton’s three laws of motion to a body on which forces act: $a = \\frac{F_{net}}{m}$, $F_{\\text{on A by B}} = -F_{\\text{on B by A}}$",
     "apply the vector model of forces, including vector addition and components of forces, to readily observable forces including the force due to gravity, friction and normal forces"
    ],
    "pearson": {
@@ -5441,14 +5441,14 @@
    "section": "12.4",
    "title": "Momentum and conservation of momentum",
    "keyKnowledge": [
-    "model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8 N kg–1 near the surface of Earth)",
-    "model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention ‘force on A by B’ or Fon A by B = –Fon B by A",
+    "model the force due to gravity, $F_g$, as the force of gravity acting at the centre of mass of a body, $F_{\\text{on body by Earth}} = mg$, where g is the gravitational field strength ($9.8\\ \\text{N kg}^{-1}$ near the surface of Earth)",
+    "model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention ‘force on A by B’ or $F_{\\text{on A by B}} = -F_{\\text{on B by A}}$",
     "Forces and motion",
-    "explain changes in momentum as being caused by a net force: Δp = Fnet",
+    "explain changes in momentum as being caused by a net force: $\\Delta p = F_{net}\\Delta t$",
     "Concepts used to model motion",
-    "apply concepts of momentum to linear motion: p = mv",
+    "apply concepts of momentum to linear motion: $p = mv$",
     "Energy and motion",
-    "analyse impulse in an isolated system (for collisions between objects moving in a straight line): FΔt = mΔv",
+    "analyse impulse in an isolated system (for collisions between objects moving in a straight line): $F\\Delta t = m\\Delta v$",
     "investigate and analyse theoretically and practically momentum conservation in one dimension"
    ],
    "pearson": {
@@ -5534,14 +5534,14 @@
    "section": "12.5",
    "title": "Momentum transfer",
    "keyKnowledge": [
-    "model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8 N kg–1 near the surface of Earth)",
-    "model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention ‘force on A by B’ or Fon A by B = –Fon B by A",
+    "model the force due to gravity, $F_g$, as the force of gravity acting at the centre of mass of a body, $F_{\\text{on body by Earth}} = mg$, where g is the gravitational field strength ($9.8\\ \\text{N kg}^{-1}$ near the surface of Earth)",
+    "model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention ‘force on A by B’ or $F_{\\text{on A by B}} = -F_{\\text{on B by A}}$",
     "Forces and motion",
-    "explain changes in momentum as being caused by a net force: Δp = Fnet",
+    "explain changes in momentum as being caused by a net force: $\\Delta p = F_{net}\\Delta t$",
     "Concepts used to model motion",
-    "apply concepts of momentum to linear motion: p = mv",
+    "apply concepts of momentum to linear motion: $p = mv$",
     "Energy and motion",
-    "analyse impulse in an isolated system (for collisions between objects moving in a straight line): FΔt = mΔv",
+    "analyse impulse in an isolated system (for collisions between objects moving in a straight line): $F\\Delta t = m\\Delta v$",
     "investigate and analyse theoretically and practically momentum conservation in one dimension"
    ],
    "pearson": {
@@ -5624,14 +5624,14 @@
    "section": "12.6",
    "title": "Momentum and net force",
    "keyKnowledge": [
-    "model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8 N kg–1 near the surface of Earth)",
-    "model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention ‘force on A by B’ or Fon A by B = –Fon B by A",
+    "model the force due to gravity, $F_g$, as the force of gravity acting at the centre of mass of a body, $F_{\\text{on body by Earth}} = mg$, where g is the gravitational field strength ($9.8\\ \\text{N kg}^{-1}$ near the surface of Earth)",
+    "model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention ‘force on A by B’ or $F_{\\text{on A by B}} = -F_{\\text{on B by A}}$",
     "Forces and motion",
-    "explain changes in momentum as being caused by a net force: Δp = Fnet",
+    "explain changes in momentum as being caused by a net force: $\\Delta p = F_{net}\\Delta t$",
     "Concepts used to model motion",
-    "apply concepts of momentum to linear motion: p = mv",
+    "apply concepts of momentum to linear motion: $p = mv$",
     "Energy and motion",
-    "analyse impulse in an isolated system (for collisions between objects moving in a straight line): FΔt = mΔv",
+    "analyse impulse in an isolated system (for collisions between objects moving in a straight line): $F\\Delta t = m\\Delta v$",
     "investigate and analyse theoretically and practically momentum conservation in one dimension"
    ],
    "pearson": {
@@ -5717,14 +5717,14 @@
    "section": "8A",
    "title": "Egg drop",
    "keyKnowledge": [
-    "model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8 N kg–1 near the surface of Earth)",
-    "model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention ‘force on A by B’ or Fon A by B = –Fon B by A",
+    "model the force due to gravity, $F_g$, as the force of gravity acting at the centre of mass of a body, $F_{\\text{on body by Earth}} = mg$, where g is the gravitational field strength ($9.8\\ \\text{N kg}^{-1}$ near the surface of Earth)",
+    "model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention ‘force on A by B’ or $F_{\\text{on A by B}} = -F_{\\text{on B by A}}$",
     "Forces and motion",
-    "explain changes in momentum as being caused by a net force: Δp = Fnet",
+    "explain changes in momentum as being caused by a net force: $\\Delta p = F_{net}\\Delta t$",
     "Concepts used to model motion",
-    "apply concepts of momentum to linear motion: p = mv",
+    "apply concepts of momentum to linear motion: $p = mv$",
     "Energy and motion",
-    "analyse impulse in an isolated system (for collisions between objects moving in a straight line): FΔt = mΔv",
+    "analyse impulse in an isolated system (for collisions between objects moving in a straight line): $F\\Delta t = m\\Delta v$",
     "investigate and analyse theoretically and practically momentum conservation in one dimension"
    ],
    "pearson": {
@@ -5777,7 +5777,7 @@
    "keyKnowledge": [
     "Energy and motion",
     "apply the concept of work done by a force using:",
-    "    – work done = force × displacement: W = F s cos θ, where force is constant",
+    "    – work done = force × displacement: $W = Fs\\cos\\theta$, where force is constant",
     "    – work done = area under force vs distance graph"
    ],
    "pearson": {
@@ -5853,7 +5853,7 @@
    "keyKnowledge": [
     "Energy and motion",
     "apply the concept of work done by a force using:",
-    "    – work done = force × displacement: W = F s cos θ, where force is constant",
+    "    – work done = force × displacement: $W = Fs\\cos\\theta$, where force is constant",
     "    – work done = area under force vs distance graph"
    ],
    "pearson": {
@@ -5902,11 +5902,11 @@
    "section": "13.2",
    "title": "Mechanical energy",
    "keyKnowledge": [
-    "investigate and analyse theoretically and practically Hooke’s Law for an ideal spring: F = –kx, where x is extension",
+    "investigate and analyse theoretically and practically Hooke’s Law for an ideal spring: $F = -kx$, where x is extension",
     "analyse and model mechanical energy transfers and transformations using energy conservation:",
-    "    – changes in gravitational potential energy near Earth’s surface: Eg = mgΔh",
-    "    – strain potential energy in ideal springs: Es = ½kx²",
-    "    – kinetic energy: Ek = ½mv²"
+    "    – changes in gravitational potential energy near Earth’s surface: $E_g = mg\\Delta h$",
+    "    – strain potential energy in ideal springs: $E_s = \\tfrac{1}{2}kx^2$",
+    "    – kinetic energy: $E_k = \\tfrac{1}{2}mv^2$"
    ],
    "pearson": {
     "reading": [
@@ -6034,8 +6034,8 @@
    "section": "13.3",
    "title": "Using energy: power and efficiency",
    "keyKnowledge": [
-    "analyse rate of energy transfer using power: P = E/t",
-    "calculate the efficiency of an energy transfer system: η = useful energy out / total energy in"
+    "analyse rate of energy transfer using power: $P = \\frac{E}{t}$",
+    "calculate the efficiency of an energy transfer system: $\\eta = \\frac{\\text{useful energy out}}{\\text{total energy in}}$"
    ],
    "pearson": {
     "reading": [
@@ -6120,8 +6120,8 @@
    "section": "9B",
    "title": "Energy",
    "keyKnowledge": [
-    "analyse rate of energy transfer using power: P = E/t",
-    "calculate the efficiency of an energy transfer system: η = useful energy out / total energy in"
+    "analyse rate of energy transfer using power: $P = \\frac{E}{t}$",
+    "calculate the efficiency of an energy transfer system: $\\eta = \\frac{\\text{useful energy out}}{\\text{total energy in}}$"
    ],
    "pearson": {
     "reading": [],
@@ -6170,7 +6170,7 @@
    "title": "Torque",
    "keyKnowledge": [
     "Equilibrium",
-    "calculate torque, τ = r⊥F"
+    "calculate torque, $\\tau = r_\\perp F$"
    ],
    "pearson": {
     "reading": [
