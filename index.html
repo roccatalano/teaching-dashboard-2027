@@ -141,6 +141,7 @@ function seqPane(l){const q=l.sequence;
       <div class="stime">${st}–${t}<br><span>${s.min} min</span></div>
       <div><div class="sphase">${esc(s.phase)}</div><div class="stitle">${esc(s.title)}</div><div class="sdetail">${esc(s.detail)}</div>
       ${s.phase=='Do-now'&&q.doNow?.length?`<ul class="donow">${q.doNow.map(x=>`<li><b>${esc(x.when)}</b>${x.note?` <span class="sub">(${esc(x.note)})</span>`:''}<br>${esc(x.q)}</li>`).join('')}</ul>`:''}
+      ${s.phase=='Guided practice'&&q.weRefs?.length?`<ul class="donow">${q.weRefs.map(x=>`<li><b>Worked example ${esc(x.n)}</b> + Try yourself · ${esc(x.label)} <span class="sub">(SB p. ${x.page})</span></li>`).join('')}</ul>`:''}
       ${s.phase=='Exit ticket'&&q.exitQs?.length?`<ol class="donow">${q.exitQs.map(x=>`<li><span class="sub">${esc(x.note)}</span><div style="white-space:pre-line">${esc(x.q)}</div></li>`).join('')}</ol>`:''}
       ${s.resource?`<div class="sres">${esc(s.resource)}</div>`:''}</div></li>`}).join('')}</ol>
     <h3>Vocabulary</h3><div class="vocab">${q.vocab.map(v=>`<span>${esc(v)}</span>`).join('')}</div>`}
