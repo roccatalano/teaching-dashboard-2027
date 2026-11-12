@@ -50,6 +50,14 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 .tags{display:flex;gap:4px}.tag.cfat{background:#efe9fb;color:#5b3fb0;font-weight:600}
 .card.has-cfat{box-shadow:inset 0 -3px 0 #8a6ad8}
 .cfatbox{margin-top:14px;border:1.5px solid #8a6ad8;background:#f7f4fe;border-radius:10px;padding:10px 14px}.cfatbox h3{margin-top:10px}.cfatbox summary{cursor:pointer;font-size:14px}
+.arules,.acard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:10px 0}
+.arules h3,.acard h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:12px 0 4px}
+.arules ul,.acard ul{margin:0;padding-left:18px;line-height:1.6}.acard p{margin:0;line-height:1.5}
+.ahead{display:flex;justify-content:space-between;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding-bottom:8px;font-size:15px}
+.agrid{display:grid;grid-template-columns:1fr 1.2fr;gap:24px}.goto{font:inherit;font-size:12px;border:1px solid var(--line);background:var(--bg);border-radius:6px;padding:3px 10px;cursor:pointer}
+.src{font-size:11px;padding:1px 6px;border-radius:5px;background:var(--other);color:var(--other-i)}.src-cambridge{background:var(--prac);color:var(--prac-i)}.src-mr{background:var(--lesson);color:var(--lesson-i)}.src-pearson{background:var(--review);color:var(--review-i)}
+.nosol{color:var(--sac-i)}.gaps li{color:var(--review-i)}details summary{cursor:pointer}
+@media(max-width:760px){.agrid{grid-template-columns:1fr}}
 .sub{color:var(--muted);font-size:12px}
 .empty{color:var(--muted);font-style:italic}
 .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:6px}
@@ -62,6 +70,7 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 <header>
   <h1>Teaching dashboard 2027</h1>
   <nav class="tabs" id="tabs"></nav>
+  <div class="toggle" id="viewtog" style="margin:0"></div>
   <div class="ctl" id="ctl">
     <select id="aosFilter"><option value="">All areas of study</option></select>
     <button id="expand">Expand all</button>
@@ -87,7 +96,7 @@ function renderTabs(){
 function list(arr,emptyMsg){return arr&&arr.length?`<ul>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:`<div class="empty">${emptyMsg||'None'}</div>`}
 const KIND={worksheet:'Worksheets',questions:'Section questions',checkin:'Check-in questions',prac:'Practicals',slides:'Figure slides',answers:'Answers',
   review:'Chapter review questions',summary:'Chapter summaries',checklist:'Checklists',links:'Curated internet resources',test:'Chapter tests',option:'Options booklets',exam:'Practice exams',extra:'Extras'};
-let source=store.get('source','pearson');let openAos=null;
+let source=store.get('source','pearson');let view=store.get('view','plan');let openAos=null;
 const OVK={pracs:'Pracs',worksheets:'Worksheets',sacs:'SACs',exams:'Exams',slides:'Slides and notes'};
 function aosOverview(o,a){
   const res=['pracs','worksheets','sacs','exams','slides'].filter(k=>o.resources[k]).map(k=>`<h3>${OVK[k]} (${o.resources[k].length})</h3><ul>${o.resources[k].map(r=>`<li>${resLink(r)}${r.teacher?' <span class="sub">(+ teacher version)</span>':r.solutions?' <span class="sub">(+ solutions)</span>':''}</li>`).join('')}</ul>`).join('');
@@ -169,11 +178,38 @@ function renderClass(c){
   typeset();
 }
 function typeset(){if(window.renderMathInElement)renderMathInElement($('#main'),{delimiters:[{left:'$',right:'$',display:false}],throwOnError:false})}
+function taskList(arr,empty){
+  if(!arr||!arr.length)return `<div class="empty">${empty}</div>`;
+  return '<ul>'+arr.map(t=>`<li>${resLink(t)} <span class="src src-${(t.source||'').split(' ')[0].toLowerCase()}">${esc(t.source||'')}</span>${t.solutions?` <span class="sub">· ${resLink(t.solutions)}</span>`:' <span class="sub nosol">· no solutions</span>'}</li>`).join('')+'</ul>'}
+function renderAssessment(c){
+  const a=data[c.id].assessment;if(!a){$('#main').innerHTML='<div class="placeholder">No assessment plan yet</div>';return}
+  let h=`<div class="unit">Assessment plan</div><div class="arules"><h3>The rules (VCE Physics Study Design, Units 1 and 2)</h3><ul>${a.rules.map(r=>`<li>${esc(r)}</li>`).join('')}</ul>
+    <details><summary>Suitable assessment task types (any of these, for Outcomes 1 and 2 in each unit)</summary><ul>${a.suitableTasks.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></details></div>`;
+  let lastU=0;
+  for(const x of a.aos){
+    const u=x.aos[1];if(u!=lastU){lastU=u;h+=`<div class="unit" style="font-size:17px">Unit ${u}</div>`}
+    h+=`<div class="acard"><div class="ahead"><div><b>${esc(x.aos)}</b> · ${esc(x.title)}</div>
+      ${x.when?`<button class="goto" data-id="${x.when.id}">Week ${x.when.week} · Lesson ${x.when.lesson}</button>`:''}</div>
+      <div class="agrid"><div><h3>Outcome</h3><p>${esc(x.outcome)}</p><h3>What students do</h3><p>${esc(x.task)}</p>
+      <div class="sub">Task type: ${esc(x.taskType)}</div>
+      ${x.gaps.length?`<h3>Gaps to fill</h3><ul class="gaps">${x.gaps.map(g=>`<li>${esc(g)}</li>`).join('')}</ul>`:''}</div>
+      <div><h3>Practice</h3>${taskList(x.practice,'None yet')}<h3>Actual task</h3>${taskList(x.actual,'None yet')}<h3>Redemption</h3>${taskList(x.redemption,'None yet')}</div></div></div>`}
+  h+=`<div class="unit" style="font-size:17px">Exams</div>`;
+  for(const e of a.exams){h+=`<div class="acard"><div class="ahead"><div><b>${esc(e.name)}</b> · ${esc(e.covers)}</div><span class="sub">${esc(e.when)}</span></div>
+    <div class="agrid"><div><h3>Practice</h3>${taskList(e.practice,'None yet')}</div><div><h3>Actual exam</h3>${taskList(e.actual,'None yet')}</div></div></div>`}
+  $('#main').innerHTML=h;
+  $('#main').querySelectorAll('.goto').forEach(b=>b.onclick=()=>{view='plan';store.set('view',view);openId=b.dataset.id;render();setTimeout(()=>document.querySelector(`[data-id="${b.dataset.id}"]`)?.scrollIntoView({block:'center'}),50)});
+}
 function render(){
   renderTabs();
   $('#ctl').style.display=tab=='schedule'?'none':'flex';
   if(tab=='schedule'){$('#main').innerHTML='<div class="placeholder"><h2>Schedule</h2>All classes merged into one weekly timetable will appear here once more classes and your timetable are added.</div>';return}
-  renderClass(CLASSES.find(c=>c.id==tab)||CLASSES[0]);
+  const c=CLASSES.find(c=>c.id==tab)||CLASSES[0];
+  $('#viewtog').innerHTML=`<button data-v="plan" class="${view=='plan'?'on':''}">Unit plan</button><button data-v="assess" class="${view=='assess'?'on':''}">Assessment plan</button>`;
+  $('#viewtog').querySelectorAll('button').forEach(b=>b.onclick=()=>{view=b.dataset.v;store.set('view',view);render()});
+  $('#aosFilter').style.display=$('#expand').style.display=view=='plan'?'':'none';
+  if(view=='assess'){renderAssessment(c);return}
+  renderClass(c);
 }
 $('#aosFilter').onchange=()=>render();
 $('#expand').onclick=()=>{expandAll=!expandAll;$('#expand').textContent=expandAll?'Collapse all':'Expand all';render()};

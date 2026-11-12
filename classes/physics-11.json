@@ -10344,5 +10344,489 @@
     ]
    }
   }
+ },
+ "assessment": {
+  "rules": [
+   "All Units 1 and 2 assessment is school-based. Nothing is sent to the VCAA, and grading is a school decision.",
+   "Satisfactory completion (S/N) requires demonstrating all 3 outcomes in each unit.",
+   "A logbook is required in both units and must be regularly sighted.",
+   "Practical hours: at least 15 h in Unit 1; at least 10 h across Unit 2 AoS 1–2, plus at least 7 h for the AoS 3 investigation.",
+   "Where students choose between tasks, the tasks must be of comparable scope and demand."
+  ],
+  "suitableTasks": [
+   "a report of a laboratory or fieldwork activity including the generation of primary data",
+   "reflective annotations related to one or more practical activities from a logbook",
+   "an analysis and evaluation of generated primary and/or collated secondary data",
+   "a critique of an experimental design, process or apparatus",
+   "a modelling or simulation activity",
+   "a report of the design, building, testing and evaluation of a device",
+   "an explanation of a selected physics device, design or innovation",
+   "a physics-referenced response to an issue",
+   "a report of a selected physics phenomenon",
+   "a media analysis/response",
+   "an infographic",
+   "problem-solving involving physics concepts and/or skills",
+   "a report of an application of physics concepts to a real-world context",
+   "an analysis, including calculations, of physics concepts applied to real-world contexts",
+   "comparison and evaluation of two solutions to a problem, two explanations of a physics phenomenon or concept, or two methods and/or findings from practical activities",
+   "a scientific poster"
+  ],
+  "aos": [
+   {
+    "aos": "U1 AoS1",
+    "title": "How are light and heat explained?",
+    "outcome": "Outcome 1: model, investigate and evaluate the wave-like nature of light, thermal energy and the emission and absorption of light by matter.",
+    "task": "Written SAC (problem-solving and analysis) on waves, light, thermal energy and thermal radiation.",
+    "taskType": "problem-solving involving physics concepts and/or skills",
+    "when": {
+     "unit": 1,
+     "week": 4,
+     "lesson": 12,
+     "id": "p11-u1-l12"
+    },
+    "practice": [
+     {
+      "label": "Chapter 1 Test (Cambridge)",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/01 Chapter 1 Test.docx",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Suggested responses",
+       "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/05 Suggested responses/01 Chapter 1 Suggested responses.docx"
+      }
+     },
+     {
+      "label": "Chapter 2 Test (Cambridge)",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/02 Chapter 2 Test.docx",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Suggested responses",
+       "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/05 Suggested responses/02 Chapter 2 Suggested responses.pdf"
+      }
+     }
+    ],
+    "actual": [
+     {
+      "label": "SAC (2026)",
+      "path": "Unit 1/SACs/Physics_U1_AoS1_2026_SAC.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 1/SACs/Physics_U1_AoS1_2026_SAC_solutions.pdf"
+      }
+     }
+    ],
+    "redemption": [
+     {
+      "label": "Redemption SAC",
+      "path": "Unit 1/SACs/Physics_U1_AoS1_2026_SAC_redemption.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 1/SACs/Physics_U1_AoS1_2026_SAC_redemption_solutions.pdf"
+      }
+     }
+    ],
+    "gaps": [
+     "No Mr Lloyd practice SAC: the Cambridge Chapter 1 and 2 tests stand in."
+    ]
+   },
+   {
+    "aos": "U1 AoS2",
+    "title": "How is energy from the nucleus utilised?",
+    "outcome": "Outcome 2: explain, apply and evaluate nuclear radiation, radioactive decay and nuclear energy.",
+    "task": "Written SAC (problem-solving and analysis) on nuclear stability, decay, half-life, dose and nuclear energy.",
+    "taskType": "problem-solving involving physics concepts and/or skills",
+    "when": {
+     "unit": 1,
+     "week": 8,
+     "lesson": 24,
+     "id": "p11-u1-l24"
+    },
+    "practice": [
+     {
+      "label": "Practice SAC",
+      "path": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC_practice.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC_practice_solutions.pdf"
+      }
+     },
+     {
+      "label": "Chapter 3 Test (Cambridge)",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/03 Chapter 3 Test.docx",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Suggested responses",
+       "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/05 Suggested responses/03 Chapter 3 Suggested responses.docx"
+      }
+     },
+     {
+      "label": "Chapter 4 Test (Cambridge)",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/04 Chapter 4 Test.docx",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Suggested responses",
+       "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/05 Suggested responses/04 Chapter 4 Suggested responses.docx"
+      }
+     }
+    ],
+    "actual": [
+     {
+      "label": "SAC (2026)",
+      "path": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC_solutions.pdf"
+      }
+     }
+    ],
+    "redemption": [
+     {
+      "label": "Redemption SAC",
+      "path": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC_redemption.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC_redemption_solutions.pdf"
+      }
+     }
+    ],
+    "gaps": []
+   },
+   {
+    "aos": "U1 AoS3",
+    "title": "How can electricity be used to transfer energy?",
+    "outcome": "Outcome 3: investigate and apply a basic DC circuit model to simple battery-operated devices and household electrical systems, apply mathematical models to analyse circuits, and describe the safe and effective use of electricity by individuals and the community.",
+    "task": "SAC in two parts: a practical component (circuit investigation) and a written problem-solving test.",
+    "taskType": "a report of a laboratory activity + problem-solving",
+    "when": {
+     "unit": 1,
+     "week": 15,
+     "lesson": 45,
+     "id": "p11-u1-l45"
+    },
+    "practice": [
+     {
+      "label": "Chapter 5 Test (Cambridge)",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/05 Chapter 5 Test.docx",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Suggested responses",
+       "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/05 Suggested responses/05 Chapter 5 Suggested responses.docx"
+      }
+     },
+     {
+      "label": "Chapter 6 Test (Cambridge)",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/06 Chapter 6 Test.docx",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Suggested responses",
+       "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/05 Suggested responses/06 Chapter 6 Suggested responses.docx"
+      }
+     }
+    ],
+    "actual": [
+     {
+      "label": "SAC (2026) written",
+      "path": "Unit 1/SACs/Physics_U1_AoS3_2026_SAC (1).pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 1/SACs/Physics_U1_AoS3_2026_SAC_solutions (1).pdf"
+      }
+     },
+     {
+      "label": "SAC prac component",
+      "path": "Unit 1/SACs/Physics_U1_AoS3_2026_SAC_prac.pdf",
+      "source": "Mr Lloyd",
+      "solutions": null
+     },
+     {
+      "label": "SAC editable Word version",
+      "path": "Unit 1/SACs/Physics_U1_AoS3_SAC_merged (1).docx",
+      "source": "Mr Lloyd",
+      "solutions": null
+     }
+    ],
+    "redemption": [],
+    "gaps": [
+     "No practice SAC from Mr Lloyd: the Cambridge Chapter 5 and 6 tests stand in.",
+     "No redemption task: one needs writing (or reuse a Cambridge chapter test).",
+     "No solutions for the prac component."
+    ]
+   },
+   {
+    "aos": "U2 AoS1",
+    "title": "How is motion understood?",
+    "outcome": "Outcome 1: investigate, analyse, mathematically model and apply force, energy and motion.",
+    "task": "Written SAC (problem-solving and analysis) on kinematics, forces, momentum, energy and equilibrium. The study design also requires a motion case study (e.g. vehicle safety).",
+    "taskType": "problem-solving involving physics concepts and/or skills",
+    "when": {
+     "unit": 2,
+     "week": 10,
+     "lesson": 30,
+     "id": "p11-u2-l30"
+    },
+    "practice": [
+     {
+      "label": "Practice SAC",
+      "path": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC_practice.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC_practice_solutions.pdf"
+      }
+     },
+     {
+      "label": "Chapter 7 Test (Cambridge)",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/07 Chapter 7 Test.docx",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Suggested responses",
+       "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/05 Suggested responses/08 Chapter 7 Suggested responses.docx"
+      }
+     },
+     {
+      "label": "Chapter 8 Test (Cambridge)",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/08 Chapter 8 Test.docx",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Suggested responses",
+       "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/05 Suggested responses/09 Chapter 8 Suggested responses.docx"
+      }
+     },
+     {
+      "label": "Chapter 9 Test (Cambridge)",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/09 Chapter 9 Test.docx",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Suggested responses",
+       "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/05 Suggested responses/10 Chapter 9 Suggested responses.docx"
+      }
+     }
+    ],
+    "actual": [
+     {
+      "label": "SAC (2026)",
+      "path": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC_solutions.pdf"
+      }
+     }
+    ],
+    "redemption": [
+     {
+      "label": "Redemption SAC",
+      "path": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC_redemption.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC_redemption_solutions.pdf"
+      }
+     }
+    ],
+    "gaps": []
+   },
+   {
+    "aos": "U2 AoS2",
+    "title": "Options: how does physics inform contemporary issues and applications in society?",
+    "outcome": "Outcome 2: investigate and apply physics knowledge to develop and communicate an informed response to a contemporary societal issue or application related to a selected option.",
+    "task": "Infographic: students research one option and present a physics-informed stance or solution.",
+    "taskType": "an infographic",
+    "when": {
+     "unit": 2,
+     "week": 12,
+     "lesson": 36,
+     "id": "p11-u2-l36"
+    },
+    "practice": [],
+    "actual": [
+     {
+      "label": "Infographic SAC (2026)",
+      "path": "Unit 2/SACs/Physics_U2_AoS2_2026_SAC.pdf",
+      "source": "Mr Lloyd",
+      "solutions": null
+     }
+    ],
+    "redemption": [],
+    "gaps": [
+     "No marking rubric or exemplar found in Mr Lloyd’s folder.",
+     "No redemption task (for an infographic, usually a resubmission).",
+     "Cambridge Options booklets are the research base for students."
+    ]
+   },
+   {
+    "aos": "U2 AoS3",
+    "title": "How do physicists investigate questions?",
+    "outcome": "Outcome 3: draw an evidence-based conclusion from primary data generated from a student-adapted or student-designed scientific investigation related to a selected physics question.",
+    "task": "Scientific poster reporting a student-designed or adapted investigation, supported by the logbook. Minimum 7 hours of class time.",
+    "taskType": "a report of a practical investigation (scientific poster)",
+    "when": {
+     "unit": 2,
+     "week": 15,
+     "lesson": 45,
+     "id": "p11-u2-l45"
+    },
+    "practice": [
+     {
+      "label": "Worksheet: scientific investigation and data",
+      "path": "Unit 2/Formative assessments/Physics_U2_AoS3_ws01_scientific_investigation_and_data.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 2/Formative assessments/Physics_U2_AoS3_ws01_scientific_investigation_and_data_solutions.pdf"
+      }
+     },
+     {
+      "label": "Prac: critiquing an experimental report",
+      "path": "Unit 2/Prac materials/9C_critiquing_an_experimental_report_student_version.docx",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Teacher version",
+       "path": "Unit 2/Prac materials/9C_critiquing_an_experimental_report_teacher_version.docx"
+      }
+     },
+     {
+      "label": "Prac: presenting results in a scientific poster",
+      "path": "Unit 2/Prac materials/9D2_presenting_results_in_a_scientific_poster_student_version.docx",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Teacher version",
+       "path": "Unit 2/Prac materials/9D2_presenting_results_in_a_scientific_poster_teacher_version.docx"
+      }
+     }
+    ],
+    "actual": [
+     {
+      "label": "Poster SAC (2025)",
+      "path": "Unit 2/SACs/Physics_U2_AoS3_2025_SAC_with_cover.pdf",
+      "source": "Mr Lloyd",
+      "solutions": null
+     },
+     {
+      "label": "Poster SAC guide",
+      "path": "Other/Physics_U2-4_poster_SAC.pdf",
+      "source": "Mr Lloyd",
+      "solutions": null
+     },
+     {
+      "label": "Logbook style guide",
+      "path": "Other/Logbook_style_guide.pdf",
+      "source": "Mr Lloyd",
+      "solutions": null
+     }
+    ],
+    "redemption": [],
+    "gaps": [
+     "Pearson has a ready-made crumple zones investigation with poster template, logbook template, rubric and student checklist (Pearson eBook teacher resources).",
+     "No redemption task: posters are usually resubmitted after feedback."
+    ]
+   }
+  ],
+  "exams": [
+   {
+    "name": "Semester 1 exam",
+    "covers": "Unit 1 (AoS 1–3)",
+    "when": "Semester 1 exam period (after Week 16)",
+    "practice": [
+     {
+      "label": "Unit 1 exam (older)",
+      "path": "Unit 1/Exams/Physics_unit1_exam.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 1/Exams/Physics_unit1_exam_answers.pdf"
+      }
+     },
+     {
+      "label": "Unit 1 revision exercise (textbook revision chapter)",
+      "path": "CambridgeGO Resources/Textbook/Physics12_Ch06B_Revision.pdf",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Suggested responses",
+       "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/05 Suggested responses/07 Unit 1 Revision exercise Suggested responses.docx"
+      }
+     }
+    ],
+    "actual": [
+     {
+      "label": "Unit 1 exam (2026)",
+      "path": "Unit 1/Exams/Physics_U1_Exam_2026.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 1/Exams/Physics_U1_Exam_solutions_2026.pdf"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Semester 2 exam",
+    "covers": "Unit 2 (Mr Lloyd’s exams are Unit 2 only; Pearson and Cambridge practice papers cover Units 1 and 2)",
+    "when": "Semester 2 exam period (after Week 16)",
+    "practice": [
+     {
+      "label": "Unit 2 practice exam (2026)",
+      "path": "Unit 2/Exams/Physics_U2_Exam_2026_practice.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 2/Exams/Physics_U2_Exam_2026_practice_solutions.pdf"
+      }
+     },
+     {
+      "label": "Unit 2 exam (older)",
+      "path": "Unit 2/Exams/Physics_U2_exam.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 2/Exams/Physics_U2_Exam_solutions.pdf"
+      }
+     },
+     {
+      "label": "Units 1 and 2 Exam Generator practice paper",
+      "path": "CambridgeGO Resources/Part C - Sections 14-16/VCE Physics Units 1&2 - Teacher resources/14 Practice exams and SACs/01 VCE Physics Units 1&2 Exam Generator Practice Paper (PDF version).pdf",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Answers",
+       "path": "CambridgeGO Resources/Part C - Sections 14-16/VCE Physics Units 1&2 - Teacher resources/14 Practice exams and SACs/03 VCE Physics Units 1&2 Exam Generator Practice Paper Answers (PDF version).pdf"
+      }
+     },
+     {
+      "label": "Unit 2 revision exercise (textbook revision chapter)",
+      "path": "CambridgeGO Resources/Textbook/Physics12_Ch10_Revision.pdf",
+      "source": "Cambridge",
+      "solutions": {
+       "label": "Suggested responses",
+       "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/05 Suggested responses/11 Unit 2 Revision exercise Suggested responses.docx"
+      }
+     },
+     {
+      "label": "Units 1 and 2 practice exam",
+      "path": "Pearson eBook teacher resources",
+      "source": "Pearson",
+      "solutions": {
+       "label": "Suggested answers",
+       "path": "Pearson eBook teacher resources"
+      }
+     }
+    ],
+    "actual": [
+     {
+      "label": "Unit 2 exam (2026)",
+      "path": "Unit 2/Exams/Physics_U2_Exam_2026.pdf",
+      "source": "Mr Lloyd",
+      "solutions": {
+       "label": "Solutions",
+       "path": "Unit 2/Exams/Physics_U2_Exam_2026_solutions.pdf"
+      }
+     }
+    ]
+   }
+  ]
  }
 }
