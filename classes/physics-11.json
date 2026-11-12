@@ -848,7 +848,92 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Explain dispersion of white light in a prism in terms of refractive index varying with wavelength",
+     "Explain how rainbows and mirages form",
+     "Describe polarisation as evidence that light is a transverse wave"
+    ],
+    "vocab": [
+     "dispersion",
+     "spectrum",
+     "total internal reflection",
+     "critical angle",
+     "mirage",
+     "polarisation"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Light enters glass ($n = 1.5$) from air at $40^\\circ$. Find the angle of refraction."
+     },
+     {
+      "when": "Last week",
+      "q": "Which EM radiation has the highest frequency?",
+      "note": "Lesson 4"
+     },
+     {
+      "when": "Last term",
+      "q": "What is the speed of sound in air, roughly? (OE 2.2.1)",
+      "note": "Week 2 prac"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Refraction recap",
+      "detail": "Prerequisite: Snell’s law and “toward/away from the normal”. Two quick mini-whiteboard sketches: ray entering glass, ray leaving glass."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Dispersion, rainbows, mirages and polarisation",
+      "detail": "Refractive index depends on wavelength, so colours refract by different amounts (violet most). Prism and rainbow ray diagrams. Total internal reflection and critical angle: $n_1\\sin\\theta_c = n_2\\sin 90^\\circ$; optical fibres. Mirages from refraction through air layers of different temperature. Polarisation only happens to transverse waves.",
+      "resource": "Pearson SB 3.2"
+     },
+     {
+      "min": 5,
+      "phase": "Video",
+      "title": "Why is the ocean blue?",
+      "detail": "Play the video; students note how scattering and absorption depend on wavelength.",
+      "resource": "Pearson video"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Critical angle for glass ($n = 1.5$) to air; then explain in words why the sky looks blue or the ocean blue (link to the video)."
+     },
+     {
+      "min": 19,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 3.2 Key questions 1–5; Chapter review 2, 4, 15. Finish for homework.",
+      "resource": "Pearson SB 3.2"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Why does a prism split white light? Which colour bends most?” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -922,7 +1007,71 @@
      "text": "CFAT 2 marked and data entered",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Distinguish between heat, temperature and internal energy",
+     "Describe temperature as the average translational kinetic energy of particles",
+     "Convert between Celsius and kelvin"
+    ],
+    "vocab": [
+     "temperature",
+     "heat",
+     "internal energy",
+     "kinetic theory",
+     "kelvin",
+     "absolute zero",
+     "thermal equilibrium"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 20,
+      "phase": "CFAT",
+      "title": "CFAT 2: Ch 3 Light",
+      "detail": "CFAT 2 replaces the do-now today. Students sit it as they arrive (closed book, about 20 min). Collect for marking."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 5,
+      "phase": "APK",
+      "title": "States of matter",
+      "detail": "Prerequisite: particle model from Year 9–10. Mini whiteboards: “Sketch particles in a solid, liquid and gas. What is different about their motion?”"
+     },
+     {
+      "min": 18,
+      "phase": "New knowledge",
+      "title": "Heat, temperature and internal energy",
+      "detail": "Kinetic particle model. Temperature as average translational kinetic energy; internal energy as total kinetic + potential energy of particles. Heat is energy transferred because of a temperature difference. Kelvin scale: $T(\\text{K}) = T(^\\circ\\text{C}) + 273$; absolute zero. Thermal equilibrium.",
+      "resource": "Pearson SB 4.1"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Convert 25 °C, −196 °C and 373 K. Then: two blocks at different temperatures touch; describe what happens to their particles until equilibrium."
+     },
+     {
+      "min": 16,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 4.1 Key questions 1–8; Chapter review 1–4. Finish for homework.",
+      "resource": "Pearson SB 4.1"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“What is the difference between heat and temperature? Convert 15 °C to kelvin.” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -980,7 +1129,79 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Observe and measure refraction of light through a glass block or prism",
+     "Observe dispersion of white light into a spectrum",
+     "Use measured angles to calculate refractive index"
+    ],
+    "vocab": [
+     "incident angle",
+     "refracted angle",
+     "refractive index",
+     "dispersion",
+     "protractor",
+     "uncertainty"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Convert 300 K to °C."
+     },
+     {
+      "when": "Last week",
+      "q": "Why does a prism split white light?",
+      "note": "Lesson 7"
+     },
+     {
+      "when": "Last term",
+      "q": "State the wave equation.",
+      "note": "Week 1"
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through PA2: ray box, glass block or prism, protractor; measuring angles from the normal. Risks: hot ray-box globes, glass edges, working in a dimmed room.",
+      "resource": "PA02 teacher notes and risk assessment"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "Dispersion and refraction",
+      "detail": "Groups trace rays through the block at several angles of incidence, record $\\theta_1$ and $\\theta_2$, then use a prism to produce a spectrum and note the order of colours.",
+      "resource": "PA02 SPARKlab (students open in the eBook)"
+     },
+     {
+      "min": 15,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Calculate $n$ for each trial with Snell’s law, then find the mean. Optional: graph $\\sin\\theta_1$ vs $\\sin\\theta_2$; the gradient is $n$. Discuss sources of error in reading angles."
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Conclusion: your value of $n$ and one improvement to the method. Teacher sights and initials each logbook."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back and benches cleared."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -1027,7 +1248,83 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Define specific heat capacity",
+     "Use $Q = mc\\Delta T$ to calculate energy, mass or temperature change",
+     "Explain why water moderates climate"
+    ],
+    "vocab": [
+     "specific heat capacity, $c$",
+     "energy, $Q$",
+     "temperature change, $\\Delta T$",
+     "joule"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "What is the difference between heat and temperature?"
+     },
+     {
+      "when": "Last week",
+      "q": "Calculate the refractive index if $\\theta_1 = 45^\\circ$ and $\\theta_2 = 28^\\circ$.",
+      "note": "Week 3 prac"
+     },
+     {
+      "when": "Last term",
+      "q": "Rearrange $v = f\\lambda$ for $f$.",
+      "note": "Week 1"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Rearranging three-variable formulas",
+      "detail": "Prerequisite: rearranging formulas like $Q = mc\\Delta T$ and working out $\\Delta T$ as final minus initial. Two quick examples."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Specific heat capacity",
+      "detail": "Define $c$ as energy to raise 1 kg by 1 K. $Q = mc\\Delta T$ with units. Water’s very high $c$ and its effect on coastal climates. Worked examples from the student book.",
+      "resource": "Pearson SB 4.2"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Heat 2.0 kg of water from 20 °C to 80 °C ($c = 4200$ J kg$^{-1}$ K$^{-1}$). Then find $\\Delta T$ when 50 kJ is added to 1.0 kg of aluminium."
+     },
+     {
+      "min": 24,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 4.2 Key questions 1–8; Chapter review 5, 6, 10, 13–15, 18; Case study questions 1–5, p 116. Finish for homework.",
+      "resource": "Pearson SB 4.2"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“How much energy heats 0.5 kg of water by 10 °C?” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -1073,7 +1370,85 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Define latent heat of fusion and vaporisation",
+     "Use $Q = mL$ to calculate energy for a change of state",
+     "Explain cooling by evaporation using the kinetic model"
+    ],
+    "vocab": [
+     "latent heat",
+     "fusion",
+     "vaporisation",
+     "change of state",
+     "evaporation",
+     "heating curve"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "State $Q = mc\\Delta T$ and the meaning of each symbol."
+     },
+     {
+      "when": "Last week",
+      "q": "Convert −40 °C to kelvin.",
+      "note": "Lesson 8"
+     },
+     {
+      "when": "Last term",
+      "q": "What is a compression in a longitudinal wave?",
+      "note": "Week 1"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Heating curves",
+      "detail": "Prerequisite: reading a graph. Show a heating curve for ice to steam; ask what is happening on the flat sections."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Latent heat",
+      "detail": "During a change of state, energy breaks bonds (potential energy) rather than raising temperature. $Q = mL$; latent heat of fusion vs vaporisation. Multi-step problems combining $Q = mc\\Delta T$ and $Q = mL$. Evaporation removes the fastest particles, so the liquid cools (sweating).",
+      "resource": "Pearson SB 4.3"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Energy to turn 0.2 kg of ice at 0 °C into water at 20 °C (two steps)."
+     },
+     {
+      "min": 24,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 4.3 Key questions 1–6; Chapter review 8, 9, 16, 17. Finish for homework.",
+      "resource": "Pearson SB 4.3"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Why does sweating cool you down?” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -1134,7 +1509,78 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Measure the specific heat capacity of a substance",
+     "Identify energy losses as a source of systematic error",
+     "Compare an experimental value with an accepted value"
+    ],
+    "vocab": [
+     "specific heat capacity",
+     "electrical energy",
+     "insulation",
+     "systematic error",
+     "percentage difference"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Energy to melt 0.1 kg of ice? ($L_f = 3.34 \\times 10^5$ J kg$^{-1}$)"
+     },
+     {
+      "when": "Last week",
+      "q": "What is a temperature of 0 K?",
+      "note": "Lesson 8"
+     },
+     {
+      "when": "Last term",
+      "q": "State Snell’s law.",
+      "note": "Week 2"
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through PA5: heating a known mass with a known energy input (heater or immersion coil), recording temperature over time. Risks: hot water and heaters, electrical safety near water.",
+      "resource": "PA05 teacher notes and risk assessment"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "Determining the specific heat capacity of a substance",
+      "detail": "Groups heat the substance, logging temperature against time and the energy supplied (from $E = VIt$ or the heater rating).",
+      "resource": "PA05 SPARKlab (students open in the eBook)"
+     },
+     {
+      "min": 15,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Calculate $c$ from $Q = mc\\Delta T$; compare with the accepted value and calculate percentage difference. Discuss heat loss to surroundings and how insulation would help."
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Conclusion: your value of $c$, and whether heat loss makes it too high or too low. Teacher sights and initials each logbook."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back and benches cleared."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -1184,7 +1630,85 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Distinguish conduction, convection and radiation",
+     "Explain heat transfer within and between systems",
+     "Apply heat transfer ideas to insulation and everyday examples"
+    ],
+    "vocab": [
+     "conduction",
+     "convection",
+     "radiation",
+     "insulator",
+     "conductor",
+     "convection current"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Energy to raise 0.3 kg of water by 15 °C?"
+     },
+     {
+      "when": "Last week",
+      "q": "State $Q = mL$ and explain why temperature is constant during melting.",
+      "note": "Lesson 11"
+     },
+     {
+      "when": "Last term",
+      "q": "What is the order of the EM spectrum from radio to gamma?",
+      "note": "Week 2"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Particle collisions",
+      "detail": "Prerequisite: kinetic model. Quick question: “Why does a metal spoon in hot soup get hot all the way up?”"
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Conduction, convection and radiation",
+      "detail": "Conduction by particle collisions (metals also by free electrons); convection by bulk movement of fluid driven by density differences; radiation as EM (mainly infrared), needing no medium. Insulation reduces each one. Everyday examples: double glazing, a thermos, ceiling insulation.",
+      "resource": "Pearson SB 4.4"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Classify ten everyday examples as conduction, convection or radiation, with a reason for each."
+     },
+     {
+      "min": 24,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 4.4 Key questions 1–6; Chapter review 7, 11, 12. Finish for homework.",
+      "resource": "Pearson SB 4.4"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Explain how a thermos flask reduces all three types of heat transfer.” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -1261,7 +1785,76 @@
      "text": "CFAT 3 marked and data entered",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Describe black-body radiation curves at different temperatures",
+     "Use Wien’s law, $\\lambda_{max}T = \\text{constant}$",
+     "Compare the total energy radiated by hot and cooler objects"
+    ],
+    "vocab": [
+     "black body",
+     "peak wavelength",
+     "Wien’s law",
+     "emission spectrum",
+     "infrared"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 20,
+      "phase": "CFAT",
+      "title": "CFAT 3: Ch 4 Thermal energy",
+      "detail": "CFAT 3 replaces the do-now today. Students sit it as they arrive (closed book, about 20 min). Collect for marking."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 5,
+      "phase": "APK",
+      "title": "Graph reading",
+      "detail": "Prerequisite: reading peaks off a curve and scientific notation. Show one black-body curve and ask students to read the peak wavelength."
+     },
+     {
+      "min": 18,
+      "phase": "New knowledge",
+      "title": "Black-body radiation and Wien’s law",
+      "detail": "All objects emit EM radiation; hotter objects emit more in total and peak at shorter wavelengths. Wien’s law $\\lambda_{max}T = 2.9 \\times 10^{-3}$ m K. Worked examples: the Sun (about 5800 K) and the human body (about 310 K). Link to why hot objects glow red then white.",
+      "resource": "Pearson SB 5.1"
+     },
+     {
+      "min": 5,
+      "phase": "Video",
+      "title": "What is fire?",
+      "detail": "Play the video; link the colour of a flame to temperature.",
+      "resource": "Pearson video"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Peak wavelength of a star at 10 000 K; temperature of an object peaking at 10 µm."
+     },
+     {
+      "min": 11,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 5.1 Key questions 1–7; Chapter review 9–15. Finish for homework.",
+      "resource": "Pearson SB 5.1"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“A star peaks at 500 nm. Estimate its surface temperature.” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -1322,7 +1915,77 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Measure the latent heat of fusion of ice",
+     "Account for energy transferred from the surroundings",
+     "Use $Q = mL$ with experimental data"
+    ],
+    "vocab": [
+     "latent heat of fusion",
+     "calorimeter",
+     "energy balance",
+     "uncertainty"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "State Wien’s law in words."
+     },
+     {
+      "when": "Last week",
+      "q": "Name the three types of heat transfer.",
+      "note": "Lesson 13"
+     },
+     {
+      "when": "Last term",
+      "q": "A wave has $T = 0.01$ s. Find $f$.",
+      "note": "Week 1"
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through PA6: melting a known mass of ice in water (or with a heater) and measuring the temperature change and energy supplied. Risks: electrical equipment near water, hot water.",
+      "resource": "PA06 teacher notes and risk assessment"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "Latent heat of fusion",
+      "detail": "Groups record masses and temperatures before and after the ice melts, logging data in the logbook as they go.",
+      "resource": "PA06 SPARKlab (students open in the eBook)"
+     },
+     {
+      "min": 15,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Calculate $L_f$ from the energy balance; compare with $3.34 \\times 10^5$ J kg$^{-1}$. Discuss sources of error (heat from the room, water on the ice)."
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Conclusion: your value of $L_f$ and the biggest source of error. Teacher sights and initials each logbook."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back and benches cleared."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -1372,7 +2035,91 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Explain the greenhouse effect",
+     "Distinguish the natural from the enhanced greenhouse effect",
+     "Apply energy transfer ideas to climate change and global warming"
+    ],
+    "vocab": [
+     "greenhouse effect",
+     "enhanced greenhouse effect",
+     "albedo",
+     "greenhouse gas",
+     "radiative balance"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "An object peaks at 10 µm. Estimate its temperature."
+     },
+     {
+      "when": "Last week",
+      "q": "Explain convection in a pot of water.",
+      "note": "Lesson 13"
+     },
+     {
+      "when": "Last term",
+      "q": "What is $Q = mc\\Delta T$ used for?",
+      "note": "Week 4"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Energy in, energy out",
+      "detail": "Prerequisite: Earth receives mainly visible/UV from the Sun and emits infrared (Wien’s law). Quick sketch of energy arrows in and out of Earth."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "The greenhouse effect",
+      "detail": "Incoming short-wavelength radiation, outgoing long-wavelength infrared. Greenhouse gases absorb and re-emit IR. Natural vs enhanced effect; feedback loops (ice albedo, water vapour); role of oceans’ high specific heat capacity.",
+      "resource": "Pearson SB 5.2"
+     },
+     {
+      "min": 5,
+      "phase": "Video",
+      "title": "The greenhouse effect and global warming",
+      "detail": "Play the video; students note one feedback loop.",
+      "resource": "Pearson video"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Annotate an energy-flow diagram of Earth’s atmosphere together."
+     },
+     {
+      "min": 19,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 5.2 Key questions 1–6; Chapter review 1–8. Finish for homework.",
+      "resource": "Pearson SB 5.2"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Explain in three sentences how extra CO₂ leads to warming.” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "review",
@@ -1426,7 +2173,51 @@
      "text": "CFAT 4 marked and data entered",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Recall and apply all AoS1 key knowledge",
+     "Identify my own gaps before SAC 1"
+    ],
+    "vocab": [
+     "(all AoS1 vocabulary)"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 20,
+      "phase": "CFAT",
+      "title": "CFAT 4: SAC 1 readiness check",
+      "detail": "CFAT 4 (Ch 5) replaces the do-now. Mark quickly in class or collect: it tells you what to re-teach today."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Review lesson: find and fix gaps before SAC 1."
+     },
+     {
+      "min": 12,
+      "phase": "Re-teach",
+      "title": "Common errors",
+      "detail": "Re-teach the two or three most-missed ideas so far (CFATs 1–4): typically the two kinds of wave graph, Snell’s law setup, and $Q = mc\\Delta T$ vs $Q = mL$."
+     },
+     {
+      "min": 37,
+      "phase": "Apply",
+      "title": "AoS1 review questions",
+      "detail": "Students work through the student book AoS1 review, self-marking against the fully worked solutions you release partway through.",
+      "resource": "Pearson SB AoS1 review; AoS1 Review fully worked solutions (teacher)"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "SAC plan",
+      "detail": "Each student writes the three topics they will revise before SAC 1."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -1482,7 +2273,79 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Investigate how insulating materials affect the rate of heat loss",
+     "Control variables in a comparative experiment",
+     "Graph cooling curves and compare rates"
+    ],
+    "vocab": [
+     "insulation",
+     "independent variable",
+     "dependent variable",
+     "controlled variable",
+     "cooling curve",
+     "rate"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Explain the enhanced greenhouse effect."
+     },
+     {
+      "when": "Last week",
+      "q": "Energy to melt 0.2 kg of ice?",
+      "note": "Lesson 11"
+     },
+     {
+      "when": "Last term",
+      "q": "What is dispersion?",
+      "note": "Week 3"
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through OE 4.4.2: identical containers of hot water wrapped in different insulators, temperature recorded over time. Identify the variables. Risks: hot water.",
+      "resource": "OE 4.4.2 teacher notes and risk assessment"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "Insulation investigation",
+      "detail": "Groups set up containers with different insulators and record temperature every minute.",
+      "resource": "OE 4.4.2 student sheet (also in the eBook)"
+     },
+     {
+      "min": 15,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Plot cooling curves on one set of axes; compare initial rates of cooling. Rank the insulators and link to conduction, convection and radiation."
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Conclusion: the best insulator, with evidence from your graph. Teacher sights and initials each logbook."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back and benches cleared."
+     }
+    ]
+   }
   },
   {
    "type": "sac",
@@ -1512,7 +2375,38 @@
      "text": "Marked",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Demonstrate Outcome 1 under SAC conditions"
+    ],
+    "vocab": [
+     "(all AoS1 vocabulary)"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 5,
+      "phase": "Setup",
+      "title": "SAC conditions",
+      "detail": "Seat students, hand out the SAC and formula sheet; read the instructions and permitted materials."
+     },
+     {
+      "min": 65,
+      "phase": "SAC",
+      "title": "SAC 1: Light and heat",
+      "detail": "Students complete SAC 1 under test conditions.",
+      "resource": "SAC 1 (to be written: see Assessment plan)"
+     },
+     {
+      "min": 9,
+      "phase": "Wrap-up",
+      "title": "Collect and reflect",
+      "detail": "Collect all materials. Students note in one sentence how they think it went."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -1557,7 +2451,87 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Describe the structure of the atom and nucleus",
+     "Use nuclear notation for isotopes",
+     "Explain nuclear stability in terms of the forces in the nucleus"
+    ],
+    "vocab": [
+     "nucleon",
+     "proton",
+     "neutron",
+     "isotope",
+     "radioisotope",
+     "atomic number",
+     "mass number",
+     "strong nuclear force"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "How did you go in SAC 1? Name one topic you’ll keep practising."
+     },
+     {
+      "when": "Last week",
+      "q": "What does Wien’s law describe?",
+      "note": "Week 5"
+     },
+     {
+      "when": "Last term",
+      "q": "What is a transverse wave?",
+      "note": "Week 1"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Atomic structure",
+      "detail": "Prerequisite: Year 9–10 atomic model. Mini whiteboards: “Draw a lithium atom. Where is most of its mass?”"
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Atoms, isotopes and nuclear stability",
+      "detail": "Nuclear notation $^A_ZX$; isotopes; the strong nuclear force vs electrostatic repulsion; the weak nuclear force; the band of stability (N vs Z graph).",
+      "resource": "Pearson SB 6.1"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Write nuclear notation for carbon-14 and uranium-238; use the N–Z graph to predict whether three isotopes are stable."
+     },
+     {
+      "min": 24,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 6.1 Key questions 1–5; Chapter review 1, 2, 15. Finish for homework.",
+      "resource": "Pearson SB 6.1"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Why don’t the protons in a nucleus fly apart?” (Start the lesson with 15 min of SAC 1 feedback if the SACs are marked: shorten Apply.) Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -1608,7 +2582,95 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Describe the properties of alpha, beta and gamma radiation",
+     "Write balanced decay equations",
+     "Compare penetrating and ionising ability"
+    ],
+    "vocab": [
+     "alpha",
+     "beta-minus",
+     "beta-plus",
+     "gamma",
+     "ionising",
+     "penetrating",
+     "decay equation",
+     "positron",
+     "neutrino"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Write the notation for an isotope with 6 protons and 8 neutrons."
+     },
+     {
+      "when": "Last week",
+      "q": "Explain the greenhouse effect.",
+      "note": "Lesson 16"
+     },
+     {
+      "when": "Last term",
+      "q": "What is specific heat capacity?",
+      "note": "Week 4"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Conservation",
+      "detail": "Prerequisite: balancing totals. Quick puzzle: balance top and bottom numbers in a simple nuclear equation."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Radioactivity and decay equations",
+      "detail": "Alpha, beta-minus, beta-plus and gamma: what each is, charge, mass, penetration, ionisation. Balancing A and Z in decay equations. Decay series.",
+      "resource": "Pearson SB 6.2"
+     },
+     {
+      "min": 5,
+      "phase": "Video",
+      "title": "Alpha, beta and gamma radiation",
+      "detail": "Play the video; students note penetration for each.",
+      "resource": "Pearson video"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Write decay equations for alpha decay of U-238 and beta-minus decay of C-14 together."
+     },
+     {
+      "min": 19,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 6.2 Key questions 1–8; Case study questions 1–6 p 171; Chapter review 3, 4, 5. Finish for homework.",
+      "resource": "Pearson SB 6.2"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Which radiation is stopped by paper? Write the alpha decay of Po-210.” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -1663,7 +2725,85 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Define half-life and model random decay",
+     "Calculate amounts remaining after whole half-lives",
+     "Interpret decay series diagrams"
+    ],
+    "vocab": [
+     "half-life",
+     "activity",
+     "becquerel",
+     "random decay",
+     "decay series",
+     "daughter nucleus"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Write the beta-minus decay of C-14."
+     },
+     {
+      "when": "Last week",
+      "q": "Write the notation for U-235.",
+      "note": "Lesson 20"
+     },
+     {
+      "when": "Last term",
+      "q": "Explain cooling by evaporation.",
+      "note": "Week 4"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Halving",
+      "detail": "Prerequisite: repeated halving and fractions. “Halve 80 four times. What fraction is left after 3 halvings?”"
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Half-life",
+      "detail": "Decay is random for an individual nucleus but predictable for large numbers. Half-life; activity in Bq; decay curves; whole half-life calculations only; decay series diagrams.",
+      "resource": "Pearson SB 6.3"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "A 64 g sample has a half-life of 8 days. How much remains after 24 days? Then read a half-life off a decay curve."
+     },
+     {
+      "min": 24,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 6.3 Key questions 1–5; Chapter review 6, 13, 14, 19. Finish for homework.",
+      "resource": "Pearson SB 6.3"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“A source has a half-life of 5 years. What fraction is left after 15 years?” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -1714,7 +2854,85 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Calculate absorbed, equivalent and effective dose",
+     "Explain short- and long-term effects of radiation",
+     "Evaluate the use of medical radioisotopes"
+    ],
+    "vocab": [
+     "absorbed dose (Gy)",
+     "equivalent dose (Sv)",
+     "effective dose (Sv)",
+     "radiation weighting factor",
+     "tissue weighting factor",
+     "radioisotope therapy"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "What fraction of a sample remains after 4 half-lives?"
+     },
+     {
+      "when": "Last week",
+      "q": "Which radiation is most ionising?",
+      "note": "Lesson 21"
+     },
+     {
+      "when": "Last term",
+      "q": "Convert 50 °C to kelvin.",
+      "note": "Week 3"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Energy per kilogram",
+      "detail": "Prerequisite: dividing energy by mass and multiplying by factors. Quick numeric warm-up."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Radiation and the human body",
+      "detail": "Absorbed dose (Gy) = energy/mass; equivalent dose (Sv) with radiation weighting factors; effective dose with tissue weighting factors. Deterministic vs stochastic effects. Medical uses: diagnosis and therapy.",
+      "resource": "Pearson SB 6.4"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Work out absorbed, then equivalent dose for 0.02 J of alpha radiation absorbed by 2 kg of tissue."
+     },
+     {
+      "min": 24,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 6.4 Key questions 1–9; Chapter review 7–12, 16–18. Finish for homework.",
+      "resource": "Pearson SB 6.4"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Why is alpha radiation more dangerous inside the body than outside it?” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -1771,7 +2989,78 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Model random radioactive decay using a physical analogue",
+     "Determine a half-life from a graph",
+     "Explain why decay is random but predictable"
+    ],
+    "vocab": [
+     "random",
+     "model",
+     "half-life",
+     "decay curve",
+     "sample size"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Calculate the equivalent dose for 2 mGy of alpha radiation ($w_R = 20$)."
+     },
+     {
+      "when": "Last week",
+      "q": "Write the alpha decay of Ra-226.",
+      "note": "Lesson 21"
+     },
+     {
+      "when": "Last term",
+      "q": "What is Wien’s law?",
+      "note": "Week 5"
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through PA8: “nuclei” (dice, coins or similar) are “decayed” by chance each round. Discuss what one roll represents. Minimal risk.",
+      "resource": "PA08 teacher notes and risk assessment"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "An analogue model of radioactive decay",
+      "detail": "Groups run repeated rounds, removing decayed nuclei each time and recording the number remaining.",
+      "resource": "PA08 SPARKlab (students open in the eBook)"
+     },
+     {
+      "min": 15,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Plot number remaining vs round; read the half-life from the graph. Compare groups and discuss why larger samples give smoother curves."
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Conclusion: the half-life from your graph, and one limitation of the model. Teacher sights and initials each logbook."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back and benches cleared."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -1839,7 +3128,69 @@
      "text": "CFAT 5 marked and data entered",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Explain mass–energy equivalence",
+     "Use $E = mc^2$ to calculate energy released",
+     "Explain binding energy using the binding energy curve"
+    ],
+    "vocab": [
+     "mass–energy equivalence",
+     "mass defect",
+     "binding energy",
+     "binding energy curve",
+     "MeV"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 20,
+      "phase": "CFAT",
+      "title": "CFAT 5: Ch 6 Radiation from the nucleus",
+      "detail": "CFAT 5 replaces the do-now today. Students sit it as they arrive (closed book, about 20 min). Collect for marking."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 5,
+      "phase": "APK",
+      "title": "Very large and very small numbers",
+      "detail": "Prerequisite: scientific notation with $c^2 = 9 \\times 10^{16}$. Quick calculator check."
+     },
+     {
+      "min": 18,
+      "phase": "New knowledge",
+      "title": "Energy from mass",
+      "detail": "$E = mc^2$ qualitatively and quantitatively. Mass defect and binding energy. The binding energy per nucleon curve: why fusion of light nuclei and fission of heavy nuclei both release energy.",
+      "resource": "Pearson SB 7.1"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Energy released when 1 g of mass is converted. Then use the binding energy curve to explain why iron is the most stable."
+     },
+     {
+      "min": 16,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 7.1 Key questions 1–5; Chapter review 9–14. Finish for homework.",
+      "resource": "Pearson SB 7.1"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Why do both fission and fusion release energy?” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -1899,7 +3250,93 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Explain fission chain reactions, criticality and moderation",
+     "Compare fission and fusion",
+     "Evaluate the viability of nuclear energy for Australia"
+    ],
+    "vocab": [
+     "fission",
+     "fusion",
+     "chain reaction",
+     "critical mass",
+     "moderator",
+     "control rods",
+     "enrichment"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "What is a mass defect?"
+     },
+     {
+      "when": "Last week",
+      "q": "What is a half-life?",
+      "note": "Lesson 22"
+     },
+     {
+      "when": "Last term",
+      "q": "Name the three types of heat transfer.",
+      "note": "Week 5"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Chain reactions",
+      "detail": "Prerequisite: exponential growth. “One person tells two people, who each tell two more… How many after 10 rounds?”"
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Fission, fusion and nuclear energy in Australia",
+      "detail": "Neutron-induced fission of U-235; chain reactions; effect of mass and shape on criticality; moderation and absorption. Fusion in stars and reactors. Arguments for and against nuclear power in Australia.",
+      "resource": "Pearson SB 7.2"
+     },
+     {
+      "min": 5,
+      "phase": "Video",
+      "title": "Thermonuclear fusion (eBook interactive)",
+      "detail": "Run the eBook interactive; students note the conditions needed for fusion.",
+      "resource": "Pearson video"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Annotate a fission reactor diagram together, labelling the fuel, moderator, control rods and coolant."
+     },
+     {
+      "min": 19,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 7.2 Key questions 1–8; Chapter review 1–8. Finish for homework.",
+      "resource": "Pearson SB 7.2"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Give one argument for and one against nuclear power in Australia, using physics.” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -1959,7 +3396,78 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Detect background and source radiation with a G-M tube",
+     "Investigate how absorbers affect count rate",
+     "Account for background radiation in data"
+    ],
+    "vocab": [
+     "Geiger–Müller tube",
+     "count rate",
+     "background radiation",
+     "absorber",
+     "inverse square"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Explain how control rods work."
+     },
+     {
+      "when": "Last week",
+      "q": "What is half-life?",
+      "note": "Lesson 21"
+     },
+     {
+      "when": "Last term",
+      "q": "What is an absorbed dose?",
+      "note": "Lesson 23"
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through PA7: measuring background count, then count rate with different absorbers and distances. Risks: sealed sources handled only with tongs by the teacher; follow the school’s radiation safety rules strictly.",
+      "resource": "PA07 teacher notes and risk assessment"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "Detecting radiation with a G-M tube",
+      "detail": "Groups record background count, then count rates for paper, aluminium and lead, and at different distances.",
+      "resource": "PA07 SPARKlab (students open in the eBook)"
+     },
+     {
+      "min": 15,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Subtract background; identify each source type from absorption; plot count rate vs distance. Link to ionising and penetrating ability."
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Conclusion: which radiation the source emits, with evidence. (Check with your lab tech that the school has sources and G-M tubes; if not, use OE 6.3.2 data analysis instead.) Teacher sights and initials each logbook."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back and benches cleared."
+     }
+    ]
+   }
   },
   {
    "type": "review",
@@ -2013,7 +3521,51 @@
      "text": "CFAT 6 marked and data entered",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Recall and apply all AoS2 key knowledge",
+     "Identify my own gaps before SAC 2"
+    ],
+    "vocab": [
+     "(all AoS2 vocabulary)"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 20,
+      "phase": "CFAT",
+      "title": "CFAT 6: SAC 2 readiness check",
+      "detail": "CFAT 6 (Ch 7) replaces the do-now. Mark quickly in class: it tells you what to re-teach today."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Review lesson: find and fix gaps before SAC 2."
+     },
+     {
+      "min": 12,
+      "phase": "Re-teach",
+      "title": "Common errors",
+      "detail": "Re-teach the most-missed ideas from CFATs 5–6: typically balancing decay equations, dose calculations and the binding energy curve."
+     },
+     {
+      "min": 37,
+      "phase": "Apply",
+      "title": "AoS2 review questions",
+      "detail": "Students work through the student book AoS2 review, self-marking against the fully worked solutions.",
+      "resource": "Pearson SB AoS2 review; AoS2 Review fully worked solutions (teacher)"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "SAC plan",
+      "detail": "Each student writes the three topics they will revise before SAC 2."
+     }
+    ]
+   }
   },
   {
    "type": "sac",
@@ -2043,7 +3595,38 @@
      "text": "Marked",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Demonstrate Outcome 2 under SAC conditions"
+    ],
+    "vocab": [
+     "(all AoS2 vocabulary)"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 5,
+      "phase": "Setup",
+      "title": "SAC conditions",
+      "detail": "Seat students, hand out the SAC and formula sheet; read the instructions."
+     },
+     {
+      "min": 65,
+      "phase": "SAC",
+      "title": "SAC 2: Nuclear",
+      "detail": "Students complete SAC 2 under test conditions.",
+      "resource": "SAC 2 (to be written: see Assessment plan)"
+     },
+     {
+      "min": 9,
+      "phase": "Wrap-up",
+      "title": "Collect and reflect",
+      "detail": "Collect all materials. Students note one thing they found hard."
+     }
+    ]
+   }
   },
   {
    "type": "review",
@@ -2068,7 +3651,45 @@
      "text": "Answers ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Understand my SAC 2 results and the model responses",
+     "Improve my weakest areas"
+    ],
+    "vocab": [
+     "(AoS2 vocabulary)"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 10,
+      "phase": "Return",
+      "title": "SAC 2 returned",
+      "detail": "Return marked SACs with the marking scheme."
+     },
+     {
+      "min": 25,
+      "phase": "Feedback",
+      "title": "Model responses",
+      "detail": "Go through the model answers and the most common errors as a class."
+     },
+     {
+      "min": 36,
+      "phase": "Apply",
+      "title": "Corrections and redemption",
+      "detail": "Students correct errors in their logbook or book; eligible students sit the redemption task.",
+      "resource": "SAC 2 redemption (to be written)"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Next steps",
+      "detail": "Students write two skills to improve before SAC 3."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -2114,7 +3735,85 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Describe charge and the forces between charges",
+     "Explain conductors and insulators in terms of free electrons",
+     "Use the unit of charge, the coulomb"
+    ],
+    "vocab": [
+     "charge",
+     "coulomb",
+     "electron",
+     "conductor",
+     "insulator",
+     "electrostatic force"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "What was your weakest area in SAC 2?"
+     },
+     {
+      "when": "Last week",
+      "q": "Write the beta-minus decay of Sr-90.",
+      "note": "Week 8"
+     },
+     {
+      "when": "Last term",
+      "q": "Convert 1.5 kJ to J.",
+      "note": "Week 1"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Atoms and electrons",
+      "detail": "Prerequisite: atomic structure (from AoS2). Ask: “Which particle moves when an object becomes charged?”"
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Behaviour of charged particles",
+      "detail": "Like charges repel, unlike attract. Charge is measured in coulombs; the electron charge is $1.6 \\times 10^{-19}$ C. Conductors have free electrons; insulators don’t. Charging by friction and contact.",
+      "resource": "Pearson SB 8.1"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "How many electrons make up −1 C of charge? Explain why a balloon sticks to a wall."
+     },
+     {
+      "min": 24,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 8.1 Key questions 1–5; Chapter review 1, 2, 9. Finish for homework.",
+      "resource": "Pearson SB 8.1"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Why do metals conduct electricity but plastic doesn’t?” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -2166,7 +3865,94 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Define current as rate of flow of charge, $I = \\frac{Q}{t}$",
+     "Define potential difference as energy per charge, $V = \\frac{E}{Q}$",
+     "Draw circuit diagrams and place ammeters and voltmeters correctly"
+    ],
+    "vocab": [
+     "current",
+     "ampere",
+     "potential difference",
+     "volt",
+     "ammeter",
+     "voltmeter",
+     "circuit diagram",
+     "conventional current"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "How many electrons in −2 C of charge?"
+     },
+     {
+      "when": "Last week",
+      "q": "What is a conductor?",
+      "note": "Lesson 31"
+     },
+     {
+      "when": "Last term",
+      "q": "State $Q = mc\\Delta T$.",
+      "note": "Week 4"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Rates",
+      "detail": "Prerequisite: “per second” and “per unit”. Quick examples: litres per second; dollars per item."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Current and potential difference",
+      "detail": "$I = \\frac{Q}{t}$; $V = \\frac{E}{Q}$. Conventional current vs electron flow. Circuit symbols. Ammeters in series (low resistance), voltmeters in parallel (high resistance). Analogies for circuits and their limits.",
+      "resource": "Pearson SB 8.2"
+     },
+     {
+      "min": 5,
+      "phase": "Video",
+      "title": "Flow of charge through a conductor",
+      "detail": "Play the video; students note the difference between drift speed and signal speed.",
+      "resource": "Pearson video"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "3.0 C passes in 1.5 s: find the current. 12 J delivered to 2.0 C: find the voltage. Draw where the meters go in a simple circuit."
+     },
+     {
+      "min": 19,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 8.2 Key questions 1–10; Chapter review 3, 4, 6, 8, 10, 11, 28. Finish for homework.",
+      "resource": "Pearson SB 8.2"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Where do you connect an ammeter, and why?” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -2238,7 +4024,79 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Connect ammeters and voltmeters correctly",
+     "Measure current and voltage in simple circuits",
+     "Practise safe circuit-building"
+    ],
+    "vocab": [
+     "ammeter",
+     "voltmeter",
+     "series",
+     "parallel",
+     "power supply",
+     "circuit diagram"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Find the current when 6 C passes in 3 s."
+     },
+     {
+      "when": "Last week",
+      "q": "Explain the difference between conductors and insulators.",
+      "note": "Lesson 31"
+     },
+     {
+      "when": "Last term",
+      "q": "What is the strong nuclear force?",
+      "note": "Week 7"
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through OE 8.2.1 and 8.2.2: building a simple circuit, placing the ammeter in series and the voltmeter in parallel, reading scales. Risks: low-voltage supplies only; check the circuit before switching on; hot resistors.",
+      "resource": "OE 8.2.1 teacher notes and risk assessment"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "Using an ammeter and a voltmeter",
+      "detail": "Groups build circuits from the diagrams and record current and voltage readings for each setup.",
+      "resource": "OE 8.2.1 student sheet (also in the eBook)"
+     },
+     {
+      "min": 15,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Check the readings for consistency (e.g. the same current everywhere in a series loop). Discuss what happens if a meter is connected the wrong way."
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Conclusion: one rule for each meter, with evidence from today. Teacher sights and initials each logbook."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back and benches cleared."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -2281,7 +4139,84 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Calculate energy and power in circuits, $P = VI$ and $E = VIt$",
+     "Use the kilowatt-hour as a unit of energy",
+     "Calculate the cost of running appliances"
+    ],
+    "vocab": [
+     "power",
+     "watt",
+     "energy",
+     "kilowatt-hour",
+     "efficiency"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Why must a voltmeter be connected in parallel?"
+     },
+     {
+      "when": "Last week",
+      "q": "Find $V$ if 24 J is given to 3 C.",
+      "note": "Lesson 32"
+     },
+     {
+      "when": "Last term",
+      "q": "What is an effective dose?",
+      "note": "Week 8"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Units of time and energy",
+      "detail": "Prerequisite: converting hours to seconds and J to kJ. Quick drill."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Energy in electric circuits",
+      "detail": "$P = VI$; $P = \\frac{E}{t}$; $E = VIt$. The kWh as a unit of energy; cost calculations from power bills.",
+      "resource": "Pearson SB 8.3"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "A 2000 W heater runs for 3 h: energy in kWh, then in J, then the cost at 30c per kWh."
+     },
+     {
+      "min": 24,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 8.3 Key questions 1–8; Chapter review 5, 12–18, 25, 29. Finish for homework.",
+      "resource": "Pearson SB 8.3"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Find the power of a 240 V appliance drawing 5 A.” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -2333,7 +4268,87 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Define resistance, $R = \\frac{V}{I}$",
+     "Distinguish ohmic and non-ohmic devices from I–V graphs",
+     "Describe the behaviour of diodes, LEDs, thermistors and LDRs"
+    ],
+    "vocab": [
+     "resistance",
+     "ohm",
+     "ohmic",
+     "non-ohmic",
+     "I–V graph",
+     "diode",
+     "thermistor",
+     "LDR"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Cost of running a 1.5 kW heater for 4 h at 30c per kWh?"
+     },
+     {
+      "when": "Last week",
+      "q": "Draw a circuit with an ammeter and voltmeter on a resistor.",
+      "note": "Lesson 33"
+     },
+     {
+      "when": "Last term",
+      "q": "What is a chain reaction?",
+      "note": "Week 9"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Gradients",
+      "detail": "Prerequisite: finding the gradient of a straight line. Quick example on a V–I graph."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Resistance",
+      "detail": "$R = \\frac{V}{I}$; ohmic devices have a straight-line I–V graph through the origin. Non-ohmic: filament lamp, diode, LED. Thermistors and LDRs as sensors.",
+      "resource": "Pearson SB 8.4"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Find $R$ from three V–I data points; sketch I–V graphs for a resistor, a lamp and a diode."
+     },
+     {
+      "min": 24,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 8.4 Key questions 1–8; Chapter review 7, 19–24, 26, 27. Finish for homework.",
+      "resource": "Pearson SB 8.4"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Sketch the I–V graph of a filament lamp and explain its shape.” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -2395,7 +4410,78 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Collect V–I data for a resistor and a filament lamp",
+     "Plot I–V graphs and classify devices as ohmic or non-ohmic",
+     "Explain non-ohmic behaviour"
+    ],
+    "vocab": [
+     "ohmic",
+     "non-ohmic",
+     "I–V graph",
+     "variable resistor",
+     "line of best fit"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Find $R$ if $V = 6$ V and $I = 0.2$ A."
+     },
+     {
+      "when": "Last week",
+      "q": "Find the power of a 12 V, 2 A device.",
+      "note": "Lesson 34"
+     },
+     {
+      "when": "Last term",
+      "q": "Define half-life.",
+      "note": "Week 8"
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through PA11: varying the voltage across a resistor, then a lamp, recording current. Risks: hot lamp filaments; keep below rated voltages.",
+      "resource": "PA11 teacher notes and risk assessment"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "Ohmic and non-ohmic conductors",
+      "detail": "Groups collect at least six V–I readings for each device.",
+      "resource": "PA11 SPARKlab (students open in the eBook)"
+     },
+     {
+      "min": 15,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Plot I–V graphs for both devices; find $R$ from the resistor’s gradient; explain the lamp’s curve in terms of temperature."
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Conclusion: which device is ohmic, with evidence from your graphs. Teacher sights and initials each logbook."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back and benches cleared."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -2490,7 +4576,76 @@
      "text": "CFAT 7 marked and data entered",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Calculate equivalent resistance in series and parallel",
+     "Apply current and voltage rules in series and parallel circuits",
+     "Explain why household circuits are wired in parallel"
+    ],
+    "vocab": [
+     "series",
+     "parallel",
+     "equivalent resistance",
+     "voltage divider",
+     "combination circuit"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 20,
+      "phase": "CFAT",
+      "title": "CFAT 7: Ch 8 Electrical physics",
+      "detail": "CFAT 7 replaces the do-now today. Students sit it as they arrive (closed book, about 20 min). Collect for marking."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 5,
+      "phase": "APK",
+      "title": "Fractions",
+      "detail": "Prerequisite: adding reciprocals. Quick drill: $\\frac{1}{2} + \\frac{1}{3}$; then the reciprocal of the answer."
+     },
+     {
+      "min": 18,
+      "phase": "New knowledge",
+      "title": "Series and parallel circuits",
+      "detail": "Series: same current, voltages add, $R_{eq} = R_1 + R_2 + \\dots$. Parallel: same voltage, currents add, $\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots$. Combination circuits step by step. Voltage dividers.",
+      "resource": "Pearson SB 9.1"
+     },
+     {
+      "min": 5,
+      "phase": "Video",
+      "title": "Series and parallel circuits",
+      "detail": "Play both short videos; students note one difference.",
+      "resource": "Pearson video"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Find the total resistance and current for 2 Ω and 4 Ω in series, then in parallel, on a 12 V supply."
+     },
+     {
+      "min": 11,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 9.1 Key questions 1–8; Chapter review 1, 3, 6, 14–18. Finish for homework.",
+      "resource": "Pearson SB 9.1"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Why are homes wired in parallel?” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -2530,7 +4685,85 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Model household electricity as a simple DC circuit",
+     "Calculate power and energy use in household circuits",
+     "Compare power transfers in series and parallel circuits"
+    ],
+    "vocab": [
+     "active",
+     "neutral",
+     "earth",
+     "load",
+     "household circuit",
+     "power rating"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Find $R_{eq}$ for 3 Ω and 6 Ω in parallel."
+     },
+     {
+      "when": "Last week",
+      "q": "Sketch the I–V graph for a diode.",
+      "note": "Lesson 35"
+     },
+     {
+      "when": "Last term",
+      "q": "Explain the enhanced greenhouse effect.",
+      "note": "Week 6"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Power formulas",
+      "detail": "Prerequisite: $P = VI$ and $V = IR$. Quick substitution practice."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Using electricity",
+      "detail": "Household circuits modelled as DC: active, neutral, earth wires; appliances in parallel; total current drawn as more appliances switch on. Power loss in wiring.",
+      "resource": "Pearson SB 9.2"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "A 240 V circuit runs a 2400 W heater and a 1200 W kettle: total current. Is a 15 A circuit enough?"
+     },
+     {
+      "min": 24,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 9.2 Key questions 1–8; Chapter review 4, 9–11. Finish for homework.",
+      "resource": "Pearson SB 9.2"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Why does switching on more appliances increase the current from the supply?” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -2598,7 +4831,78 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Build series and parallel circuits",
+     "Measure current and voltage at different points",
+     "Verify the series and parallel rules experimentally"
+    ],
+    "vocab": [
+     "series",
+     "parallel",
+     "equivalent resistance",
+     "current rule",
+     "voltage rule"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Total current drawn by a 2000 W heater on 240 V?"
+     },
+     {
+      "when": "Last week",
+      "q": "Find $R$ for a device with $V = 9$ V and $I = 0.3$ A.",
+      "note": "Lesson 36"
+     },
+     {
+      "when": "Last term",
+      "q": "State $E = mc^2$ in words.",
+      "note": "Week 9"
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through PA13: building series and parallel circuits with two or three resistors and measuring currents and voltages. Risks: low-voltage supplies; check before switching on.",
+      "resource": "PA13 teacher notes and risk assessment"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "Series and parallel circuits",
+      "detail": "Groups build each circuit and record readings at every point.",
+      "resource": "PA13 SPARKlab (students open in the eBook)"
+     },
+     {
+      "min": 15,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Check the readings against the series and parallel rules; calculate $R_{eq}$ from $V$ and $I$ and compare with the formula."
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Conclusion: one rule for series and one for parallel, with evidence. Teacher sights and initials each logbook."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back and benches cleared."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -2646,7 +4950,85 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Compare fuses, circuit breakers and RCDs",
+     "Describe the causes and effects of electric shock and first aid",
+     "Identify danger thresholds for current and duration"
+    ],
+    "vocab": [
+     "fuse",
+     "circuit breaker",
+     "residual current device (RCD)",
+     "earthing",
+     "electric shock",
+     "double insulation"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Is a 15 A circuit enough for a 3000 W load on 240 V?"
+     },
+     {
+      "when": "Last week",
+      "q": "Find $R_{eq}$ for 10 Ω and 10 Ω in parallel.",
+      "note": "Lesson 37"
+     },
+     {
+      "when": "Last term",
+      "q": "What does a moderator do in a reactor?",
+      "note": "Week 9"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Current and the body",
+      "detail": "Prerequisite: $I = \\frac{V}{R}$. “Dry skin is about 100 kΩ; wet skin about 1 kΩ. Find the current at 240 V for each.”"
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Electrical safety",
+      "detail": "How fuses, circuit breakers and RCDs work and what each protects against. Earthing and double insulation. Effects of current on the body, danger thresholds and first aid (DRSABCD).",
+      "resource": "Pearson SB 9.3"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Scenario cards: for each fault, which safety device acts first and why?"
+     },
+     {
+      "min": 24,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 9.3 Key questions 1–8; Chapter review 2, 5, 7, 8, 12, 13. Finish for homework.",
+      "resource": "Pearson SB 9.3"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“An RCD trips but the fuse doesn’t. What kind of fault happened?” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "review",
@@ -2702,7 +5084,51 @@
      "text": "CFAT 8 marked and data entered",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Recall and apply all AoS3 key knowledge",
+     "Identify my own gaps before SAC 3"
+    ],
+    "vocab": [
+     "(all AoS3 vocabulary)"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 20,
+      "phase": "CFAT",
+      "title": "CFAT 8: SAC 3 readiness check",
+      "detail": "CFAT 8 (Ch 9) replaces the do-now. Mark quickly in class: it tells you what to re-teach today."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Review lesson: find and fix gaps before SAC 3."
+     },
+     {
+      "min": 12,
+      "phase": "Re-teach",
+      "title": "Common errors",
+      "detail": "Re-teach the most-missed ideas from CFATs 7–8: typically meter placement, parallel resistance and power calculations."
+     },
+     {
+      "min": 37,
+      "phase": "Apply",
+      "title": "AoS3 review questions",
+      "detail": "Students work through the student book AoS3 review, self-marking against the fully worked solutions.",
+      "resource": "Pearson SB AoS3 review; AoS3 Review fully worked solutions (teacher)"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "SAC plan",
+      "detail": "Each student writes the three topics they will revise before SAC 3."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -2761,7 +5187,77 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Measure the electrical energy supplied to water",
+     "Compare electrical energy in with thermal energy gained",
+     "Calculate the efficiency of the energy transfer"
+    ],
+    "vocab": [
+     "electrical energy",
+     "thermal energy",
+     "efficiency",
+     "energy transfer"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "What does an RCD detect?"
+     },
+     {
+      "when": "Last week",
+      "q": "Find total resistance of 5 Ω and 5 Ω in series.",
+      "note": "Lesson 38"
+     },
+     {
+      "when": "Last term",
+      "q": "Use $Q = mc\\Delta T$: 0.5 kg water, 20 °C rise.",
+      "note": "Week 4"
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through PA14: an immersion heater in water, measuring $V$, $I$, $t$ and the temperature rise. Risks: electricity near water (low-voltage heater only), hot water.",
+      "resource": "PA14 teacher notes and risk assessment"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "Electrical equivalent of heat",
+      "detail": "Groups record $V$, $I$, time and temperatures for a known mass of water.",
+      "resource": "PA14 SPARKlab (students open in the eBook)"
+     },
+     {
+      "min": 15,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Calculate $E = VIt$ and $Q = mc\\Delta T$; compare and find the efficiency. Discuss where the “lost” energy went."
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Conclusion: the efficiency you measured, and the main energy loss. Teacher sights and initials each logbook."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back and benches cleared."
+     }
+    ]
+   }
   },
   {
    "type": "sac",
@@ -2791,7 +5287,38 @@
      "text": "Marked",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Demonstrate Outcome 3 under SAC conditions"
+    ],
+    "vocab": [
+     "(all AoS3 vocabulary)"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 5,
+      "phase": "Setup",
+      "title": "SAC conditions",
+      "detail": "Seat students, hand out the SAC and formula sheet; read the instructions."
+     },
+     {
+      "min": 65,
+      "phase": "SAC",
+      "title": "SAC 3: Electricity",
+      "detail": "Students complete SAC 3 under test conditions.",
+      "resource": "SAC 3 (to be written: see Assessment plan)"
+     },
+     {
+      "min": 9,
+      "phase": "Wrap-up",
+      "title": "Collect and reflect",
+      "detail": "Collect all materials. Students note one thing they found hard."
+     }
+    ]
+   }
   },
   {
    "type": "review",
@@ -2816,7 +5343,45 @@
      "text": "Answers ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Understand my SAC 3 results and the model responses",
+     "Improve my weakest areas"
+    ],
+    "vocab": [
+     "(AoS3 vocabulary)"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 10,
+      "phase": "Return",
+      "title": "SAC 3 returned",
+      "detail": "Return marked SACs with the marking scheme."
+     },
+     {
+      "min": 25,
+      "phase": "Feedback",
+      "title": "Model responses",
+      "detail": "Go through the model answers and the most common errors."
+     },
+     {
+      "min": 36,
+      "phase": "Apply",
+      "title": "Corrections and redemption",
+      "detail": "Students correct their errors; eligible students sit the redemption task.",
+      "resource": "SAC 3 redemption (to be written)"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Next steps",
+      "detail": "Students write the two topics they’ll focus on for the exam."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -2852,7 +5417,45 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Complete any missed prac and its logbook entry",
+     "Have my logbook signed off for Unit 1"
+    ],
+    "vocab": [
+     "logbook",
+     "authentication"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 5,
+      "phase": "Setup",
+      "title": "Who needs what",
+      "detail": "Check the prac tracker: who missed which prac."
+     },
+     {
+      "min": 55,
+      "phase": "Prac",
+      "title": "Catch-up pracs",
+      "detail": "Students who missed a prac complete it now (set up 2–3 stations). Others complete outstanding logbook analysis and reflections."
+     },
+     {
+      "min": 14,
+      "phase": "Logbook",
+      "title": "Sign-off",
+      "detail": "Teacher checks every logbook for all 12 pracs, then signs and dates it (needed for satisfactory completion)."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back."
+     }
+    ]
+   }
   },
   {
    "type": "review",
@@ -2881,7 +5484,48 @@
      "text": "Answers ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Revise AoS1 Light and heat and AoS2 Nuclear",
+     "Practise exam technique: command words and timing"
+    ],
+    "vocab": [
+     "explain",
+     "calculate",
+     "compare",
+     "evaluate"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Mixed retrieval",
+      "detail": "Five quick questions, one from each chapter."
+     },
+     {
+      "min": 12,
+      "phase": "Exam technique",
+      "title": "Command words and timing",
+      "detail": "Model how to answer “explain”, “calculate”, “compare”, “evaluate”; about 1 mark per minute."
+     },
+     {
+      "min": 51,
+      "phase": "Apply",
+      "title": "Revision questions",
+      "detail": "Targeted revision on AoS1 Light and heat and AoS2 Nuclear: chapter review questions for the weakest areas from CFATs and SACs.",
+      "resource": "Pearson SB chapter reviews; Unit 1 fully worked solutions (teacher)"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Revision plan",
+      "detail": "Students list the three topics they’ll revise before the exam."
+     }
+    ]
+   }
   },
   {
    "type": "review",
@@ -2910,7 +5554,48 @@
      "text": "Answers ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Revise AoS3 Electricity and mixed exam practice",
+     "Practise exam technique: command words and timing"
+    ],
+    "vocab": [
+     "explain",
+     "calculate",
+     "compare",
+     "evaluate"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Mixed retrieval",
+      "detail": "Five quick questions, one from each chapter."
+     },
+     {
+      "min": 12,
+      "phase": "Exam technique",
+      "title": "Command words and timing",
+      "detail": "Model how to answer “explain”, “calculate”, “compare”, “evaluate”; about 1 mark per minute."
+     },
+     {
+      "min": 51,
+      "phase": "Apply",
+      "title": "Revision questions",
+      "detail": "Targeted revision on AoS3 Electricity and mixed exam practice: chapter review questions for the weakest areas from CFATs and SACs.",
+      "resource": "Pearson SB chapter reviews; Unit 1 fully worked solutions (teacher)"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Revision plan",
+      "detail": "Students list the three topics they’ll revise before the exam."
+     }
+    ]
+   }
   },
   {
    "type": "sac",
@@ -2943,7 +5628,38 @@
      "text": "Marked",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Attempt a full practice exam under exam conditions"
+    ],
+    "vocab": [
+     "(all Unit 1 vocabulary)"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 5,
+      "phase": "Setup",
+      "title": "Exam conditions",
+      "detail": "Hand out the Unit 1 questions from the Pearson practice exam and the formula sheet."
+     },
+     {
+      "min": 65,
+      "phase": "Practice exam",
+      "title": "Pearson practice exam (Unit 1 questions)",
+      "detail": "Students complete it under timed conditions. Use the mapping document to choose the Unit 1 questions.",
+      "resource": "Pearson Units 1 and 2 practice exam; mapping document"
+     },
+     {
+      "min": 9,
+      "phase": "Wrap-up",
+      "title": "Self-mark plan",
+      "detail": "Collect papers; answers released next lesson or at the start of the exam period."
+     }
+    ]
+   }
   }
  ],
  "assessment": {
