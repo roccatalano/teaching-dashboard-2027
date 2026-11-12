@@ -36,6 +36,17 @@
    "week": 1,
    "lesson": 1,
    "id": "p11-u1-l01",
+   "videos": [
+    {
+     "label": "Extreme wave science",
+     "path": "Unit 1/AoS1 Light and heat/Ch02 Waves and electromagnetic radiation/Videos/Extreme wave science.mp4"
+    },
+    {
+     "label": "Wave pulse and a mechanical wave (interactive, eBook only)",
+     "path": null
+    }
+   ],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -69,12 +80,7 @@
     "Key questions 1–7",
     "Chapter review 4, 5, 7–13"
    ],
-   "experiments": [
-    {
-     "label": "OE 2.2.1 The speed of sound by clap and echo",
-     "path": "Unit 1/AoS1 Light and heat/Ch02 Waves and electromagnetic radiation/Online experiments/OE 2.2.1 The speed of sound by clap and echo.pdf"
-    }
-   ],
+   "experiments": [],
    "solutions": {
     "label": "Ch02 fully worked solutions",
     "path": "Unit 1/AoS1 Light and heat/Ch02 Waves and electromagnetic radiation/Ch02 fully worked solutions.pdf"
@@ -83,6 +89,8 @@
    "week": 1,
    "lesson": 2,
    "id": "p11-u1-l02",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -183,6 +191,13 @@
    "week": 2,
    "lesson": 4,
    "id": "p11-u1-l04",
+   "videos": [],
+   "otherPracs": [
+    {
+     "label": "SAB PA03 Measuring the speed of light (SPARKlab)",
+     "path": "Unit 1/AoS1 Light and heat/Pracs (SAB SPARKlabs)/Teacher/PA03 risk assessment.pdf"
+    }
+   ],
    "tasks": [
     {
      "text": "Slides ready",
@@ -228,6 +243,8 @@
    "week": 2,
    "lesson": 5,
    "id": "p11-u1-l05",
+   "videos": [],
+   "otherPracs": [],
    "cfat": {
     "id": "CFAT 1",
     "title": "Ch 2 Waves and electromagnetic radiation",
@@ -354,6 +371,13 @@
    "week": 3,
    "lesson": 7,
    "id": "p11-u1-l07",
+   "videos": [
+    {
+     "label": "Why is the ocean blue-",
+     "path": "Unit 1/AoS1 Light and heat/Ch03 Light/Videos/Why is the ocean blue-.mp4"
+    }
+   ],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -398,6 +422,13 @@
    "week": 3,
    "lesson": 8,
    "id": "p11-u1-l08",
+   "videos": [],
+   "otherPracs": [
+    {
+     "label": "SAB PA04 The relationship between temperature and heat (SPARKlab)",
+     "path": "Unit 1/AoS1 Light and heat/Pracs (SAB SPARKlabs)/PA04 The relationship between temperature and heat.spklab"
+    }
+   ],
    "cfat": {
     "id": "CFAT 2",
     "title": "Ch 3 Light",
@@ -524,6 +555,8 @@
    "week": 4,
    "lesson": 10,
    "id": "p11-u1-l10",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -568,6 +601,8 @@
    "week": 4,
    "lesson": 11,
    "id": "p11-u1-l11",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -667,10 +702,6 @@
     {
      "label": "OE 4.4.1 Transfer of energy",
      "path": "Unit 1/AoS1 Light and heat/Ch04 Thermal energy/Online experiments/OE 4.4.1 Transfer of energy.pdf"
-    },
-    {
-     "label": "OE 4.4.2 Insulation investigation",
-     "path": "Unit 1/AoS1 Light and heat/Ch04 Thermal energy/Online experiments/OE 4.4.2 Insulation investigation.pdf"
     }
    ],
    "solutions": {
@@ -681,6 +712,8 @@
    "week": 5,
    "lesson": 13,
    "id": "p11-u1-l13",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -724,6 +757,13 @@
    "week": 5,
    "lesson": 14,
    "id": "p11-u1-l14",
+   "videos": [
+    {
+     "label": "What is fire-",
+     "path": "Unit 1/AoS1 Light and heat/Ch05 Thermal energy, EM radiation and climate/Videos/What is fire-.mp4"
+    }
+   ],
+   "otherPracs": [],
    "cfat": {
     "id": "CFAT 3",
     "title": "Ch 4 Thermal energy",
@@ -855,6 +895,13 @@
    "week": 6,
    "lesson": 16,
    "id": "p11-u1-l16",
+   "videos": [
+    {
+     "label": "The greenhouse effect and global warming",
+     "path": "Unit 1/AoS1 Light and heat/Ch05 Thermal energy, EM radiation and climate/Videos/The greenhouse effect and global warming.mp4"
+    }
+   ],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -1038,6 +1085,8 @@
    "week": 7,
    "lesson": 20,
    "id": "p11-u1-l20",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -1082,6 +1131,13 @@
    "week": 7,
    "lesson": 21,
    "id": "p11-u1-l21",
+   "videos": [
+    {
+     "label": "Alpha, beta and gamma radiation",
+     "path": "Unit 1/AoS2 Nuclear/Ch06 Radiation from the nucleus/Videos/Alpha, beta and gamma radiation.mp4"
+    }
+   ],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -1135,6 +1191,8 @@
    "week": 8,
    "lesson": 22,
    "id": "p11-u1-l22",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -1184,6 +1242,8 @@
    "week": 8,
    "lesson": 23,
    "id": "p11-u1-l23",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -1280,6 +1340,8 @@
    "week": 9,
    "lesson": 25,
    "id": "p11-u1-l25",
+   "videos": [],
+   "otherPracs": [],
    "cfat": {
     "id": "CFAT 5",
     "title": "Ch 6 Radiation from the nucleus",
@@ -1355,6 +1417,18 @@
    "week": 9,
    "lesson": 26,
    "id": "p11-u1-l26",
+   "videos": [
+    {
+     "label": "Thermonuclear fusion (interactive, eBook only)",
+     "path": null
+    }
+   ],
+   "otherPracs": [
+    {
+     "label": "SAB PA09 The OPAL research reactor (research task) (SPARKlab)",
+     "path": "Unit 1/AoS2 Nuclear/Pracs (SAB SPARKlabs)/PA09 The OPAL research reactor, Lucas Heights—how can the energy of the atomic n.spklab"
+    }
+   ],
    "tasks": [
     {
      "text": "Slides ready",
@@ -1568,6 +1642,8 @@
    "week": 11,
    "lesson": 31,
    "id": "p11-u1-l31",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -1599,16 +1675,7 @@
     "Key questions 1–10",
     "Chapter review 3, 4, 6, 8, 10, 11, 28"
    ],
-   "experiments": [
-    {
-     "label": "OE 8.2.1 Using an ammeter",
-     "path": "Unit 1/AoS3 Electricity/Ch08 Electrical physics/Online experiments/OE 8.2.1 Using an ammeter.pdf"
-    },
-    {
-     "label": "OE 8.2.2 Using a voltmeter",
-     "path": "Unit 1/AoS3 Electricity/Ch08 Electrical physics/Online experiments/OE 8.2.2 Using a voltmeter.pdf"
-    }
-   ],
+   "experiments": [],
    "solutions": {
     "label": "Ch08 fully worked solutions",
     "path": "Unit 1/AoS3 Electricity/Ch08 Electrical physics/Ch08 fully worked solutions.pdf"
@@ -1617,6 +1684,18 @@
    "week": 11,
    "lesson": 32,
    "id": "p11-u1-l32",
+   "videos": [
+    {
+     "label": "Flow of charge through a conductor",
+     "path": "Unit 1/AoS3 Electricity/Ch08 Electrical physics/Videos/Flow of charge through a conductor.mp4"
+    }
+   ],
+   "otherPracs": [
+    {
+     "label": "SAB PA10 Electrostatics with a Van de Graaff generator (SPARKlab)",
+     "path": "Unit 1/AoS3 Electricity/Pracs (SAB SPARKlabs)/Teacher/PA10 risk assessment.pdf"
+    }
+   ],
    "tasks": [
     {
      "text": "Slides ready",
@@ -1730,6 +1809,8 @@
    "week": 12,
    "lesson": 34,
    "id": "p11-u1-l34",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -1780,6 +1861,8 @@
    "week": 12,
    "lesson": 35,
    "id": "p11-u1-l35",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -1894,6 +1977,22 @@
    "week": 13,
    "lesson": 37,
    "id": "p11-u1-l37",
+   "videos": [
+    {
+     "label": "The properties of a series circuit",
+     "path": "Unit 1/AoS3 Electricity/Ch09 Electric circuits/Videos/The properties of a series circuit.mp4"
+    },
+    {
+     "label": "Current in a parallel circuit",
+     "path": "Unit 1/AoS3 Electricity/Ch09 Electric circuits/Videos/Current in a parallel circuit.mp4"
+    }
+   ],
+   "otherPracs": [
+    {
+     "label": "SAB PA12 Finding the resistance of an ohmic resistor (SPARKlab)",
+     "path": "Unit 1/AoS3 Electricity/Pracs (SAB SPARKlabs)/PA12 Finding the resistance of an ohmic resistor.spklab"
+    }
+   ],
    "cfat": {
     "id": "CFAT 7",
     "title": "Ch 8 Electrical physics",
@@ -1959,6 +2058,8 @@
    "week": 13,
    "lesson": 38,
    "id": "p11-u1-l38",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",
@@ -2073,6 +2174,8 @@
    "week": 14,
    "lesson": 40,
    "id": "p11-u1-l40",
+   "videos": [],
+   "otherPracs": [],
    "tasks": [
     {
      "text": "Slides ready",

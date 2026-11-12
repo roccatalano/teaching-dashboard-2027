@@ -93,6 +93,26 @@ for w,(items,prac) in enumerate(WEEKS,1):
     L.setdefault('section','');L.setdefault('read','')
     lessons.append(L)
 assert len(lessons)==48,len(lessons)
+
+# ---------- extras: videos + unscheduled Pearson pracs/OEs per section ----------
+VID={'2.1':['Ch02 Waves','Extreme wave science'],'3.2':['Ch03 Light','Why is the ocean blue'],'5.1':['Ch05','What is fire'],'5.2':['Ch05','The greenhouse effect'],
+ '6.2':['Ch06','Alpha, beta and gamma'],'8.2':['Ch08','Flow of charge'],'9.1':['Ch09','series circuit']}
+VID2={'9.1':['Ch09','parallel circuit']}
+EMBED={'2.1':'Wave pulse and a mechanical wave (interactive, eBook only)','7.2':'Thermonuclear fusion (interactive, eBook only)'}
+scheduled={l['prac']['code'] for l in lessons if l.get('prac')}|{'OE 8.2.2'}
+EXTRA_PA={'2.3':(3,'Measuring the speed of light',A1),'4.1':(4,'The relationship between temperature and heat',A1),'7.2':(9,'The OPAL research reactor (research task)',A2),
+ '8.2':(10,'Electrostatics with a Van de Graaff generator',A3),'9.1':(12,'Finding the resistance of an ohmic resistor',A3)}
+for l in lessons:
+  if l['type']!='lesson': continue
+  n=l['section'];v=[]
+  for spec in [VID.get(n),VID2.get(n)]:
+    if spec: v.append(next(dict(label=p.split('/')[-1].rsplit('.',1)[0],path=p) for p in P if f'/{spec[0]}' in p and '/Videos/' in p and spec[1].lower() in p.lower()))
+  if n in EMBED: v.append(dict(label=EMBED[n],path=None))
+  l['videos']=v
+  l['experiments']=[e for e in l['experiments'] if 'OE '+e['label'].split(' ')[1] not in scheduled]
+  l['otherPracs']=[]
+  if n in EXTRA_PA:
+    k,t,ad=EXTRA_PA[n];pa=PA(k,t,ad);l['otherPracs'].append(dict(label=f"SAB PA{k:02d} {t} (SPARKlab)",path=pa['student']['path']))
 # ---------- CFATs ----------
 CF=[(5,'CFAT 1','Ch 2 Waves and electromagnetic radiation',['2.1','2.2','2.3'],'Ch02'),
     (8,'CFAT 2','Ch 3 Light',['3.1','3.2'],'Ch03'),

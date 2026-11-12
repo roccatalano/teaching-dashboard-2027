@@ -126,7 +126,9 @@ function pracBox(p){
 function pearsonPane(l){
   return `${l.read?`<h3>Read</h3><div>${esc(l.read)}</div>`:''}
     ${l.questions?.length?`<h3>Student book questions</h3>${list(l.questions)}`:''}
-    ${l.experiments?.length&&l.type=='lesson'?`<h3>Online experiments (eBook)</h3>${res(l.experiments)}`:''}
+    ${l.videos?.length?`<h3>Videos</h3>${res(l.videos)}`:''}
+    ${l.experiments?.length&&l.type=='lesson'?`<h3>Optional online experiments (not in a prac slot)</h3>${res(l.experiments)}`:''}
+    ${l.otherPracs?.length?`<h3>Other Pearson pracs for this topic (not scheduled)</h3>${res(l.otherPracs)}`:''}
     ${l.solutions?`<div class="teach"><h3>Teacher: answers</h3>${res([l.solutions])}</div>`:''}
     ${l.note?`<h3>Note</h3><div>${esc(l.note)}</div>`:''}`}
 function seqPane(l){const q=l.sequence;if(!q)return `<div class="seqempty">Guided lesson sequence not written yet</div>`;return ''}
