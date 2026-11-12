@@ -8796,5 +8796,486 @@
    ]
   }
  ],
- "lloydRoot": "VCE Physics (shared drive)"
+ "lloydRoot": "VCE Physics (shared drive)",
+ "lloydOverview": {
+  "U1 AoS1": {
+   "plan": "U1 Plan (Google Doc, VCE Physics folder)",
+   "sequence": [
+    "Introduction to the course",
+    "1A–C Waves, wave fundamentals, everyday electromagnetism",
+    "Prac 1C.1 Seeing the colours of the Sun’s rays",
+    "1D–E Refraction/reflection, white light and optical phenomena",
+    "Chapter 1 review (WS01)",
+    "2A Temperature fundamentals",
+    "2B How thermal energy moves",
+    "2C How heat affects temperature",
+    "Chapter 2 review (WS02)",
+    "Prac 2A How thermometers work",
+    "3A Thermal radiation",
+    "3B Global warming and climate change",
+    "Chapter 3 review (WS03)",
+    "SAC revision",
+    "SAC",
+    "SAC review + redemption",
+    "Prac 3B Presenting renewable energy sources"
+   ],
+   "lessonCount": 17,
+   "resources": {
+    "slides": [
+     {
+      "label": "U1 AoS1 slide deck (PowerPoint)",
+      "path": "Unit 1/Teaching materials/Physics_U1_AoS1.pptx"
+     },
+     {
+      "label": "U1 AoS1 notes (Obsidian zip)",
+      "path": "Unit 1/Teaching materials/Physics_U1_AoS1.zip"
+     }
+    ],
+    "pracs": [
+     {
+      "label": "Modelling mechanical waves",
+      "path": "Unit 1/Prac materials/1A_modelling_mechanical_waves_student_version.docx",
+      "teacher": "Unit 1/Prac materials/1A_modelling_mechanical_waves_teacher_version.docx"
+     },
+     {
+      "label": "Properties of a mexican wave",
+      "path": "Unit 1/Prac materials/1B.2_properties_of_a_mexican_wave_student_version.docx",
+      "teacher": "Unit 1/Prac materials/1B.2_properties_of_a_mexican_wave_teacher_version.docx"
+     },
+     {
+      "label": "Modelling and analysing tsunami waves",
+      "path": "Unit 1/Prac materials/1B.1_modelling_and_analysing_tsunami_waves_student_version.docx",
+      "teacher": "Unit 1/Prac materials/1B.1_modelling_and_analysing_tsunami_waves_teacher_version.docx"
+     },
+     {
+      "label": "Seeing the colours of the suns rays",
+      "path": "Unit 1/Prac materials/1C.1_seeing_the_colours_of_the_suns_rays_student_version.docx",
+      "teacher": "Unit 1/Prac materials/1C.1_seeing_the_colours_of_the_suns_rays_teacher_version.docx"
+     },
+     {
+      "label": "Using the electromagnetic spectrum",
+      "path": "Unit 1/Prac materials/1C.2_using_the_electromagnetic_spectrum_student_version.docx",
+      "teacher": "Unit 1/Prac materials/1C.2_using_the_electromagnetic_spectrum_teacher_version.docx"
+     },
+     {
+      "label": "Lenses correcting vision impairments",
+      "path": "Unit 1/Prac materials/1D_lenses_correcting_vision_impairments_student_version.docx",
+      "teacher": "Unit 1/Prac materials/1D_lenses_correcting_vision_impairments_teacher_version.docx"
+     },
+     {
+      "label": "Recombining light dispersed by a prism",
+      "path": "Unit 1/Prac materials/1E_recombining_light_dispersed_by_a_prism_student_version.docx",
+      "teacher": "Unit 1/Prac materials/1E_recombining_light_dispersed_by_a_prism_teacher_version.docx"
+     },
+     {
+      "label": "How thermometers work",
+      "path": "Unit 1/Prac materials/2A_how_thermometers_work_student_version.docx",
+      "teacher": "Unit 1/Prac materials/2A_how_thermometers_work_teacher_version.docx"
+     },
+     {
+      "label": "Thermal properties of materials",
+      "path": "Unit 1/Prac materials/2B_thermal_properties_of_materials_student_version.docx",
+      "teacher": "Unit 1/Prac materials/2B_thermal_properties_of_materials_teacher_version.docx"
+     },
+     {
+      "label": "How sweating cools us down",
+      "path": "Unit 1/Prac materials/2C_how_sweating_cools_us_down_student_version.docx",
+      "teacher": "Unit 1/Prac materials/2C_how_sweating_cools_us_down_teacher_version.docx"
+     },
+     {
+      "label": "How an incandescent light bulb works",
+      "path": "Unit 1/Prac materials/3A_how_an_incandescent_light_bulb_works_student_version.docx",
+      "teacher": "Unit 1/Prac materials/3A_how_an_incandescent_light_bulb_works_teacher_version.docx"
+     },
+     {
+      "label": "Presenting renewable energy sources",
+      "path": "Unit 1/Prac materials/3B_presenting_renewable_energy_sources_student_version.docx",
+      "teacher": "Unit 1/Prac materials/3B_presenting_renewable_energy_sources_teacher_version.docx"
+     }
+    ],
+    "worksheets": [
+     {
+      "label": "Worksheet: waves light and refraction",
+      "path": "Unit 1/Formative assessments/Physics_U1_AoS1_ws01_waves_light_and_refraction.pdf",
+      "solutions": "Unit 1/Formative assessments/Physics_U1_AoS1_ws01_waves_light_and_refraction_solutions.pdf"
+     },
+     {
+      "label": "Worksheet: temperature and heat transfer",
+      "path": "Unit 1/Formative assessments/Physics_U1_AoS1_ws02_temperature_and_heat_transfer.pdf",
+      "solutions": "Unit 1/Formative assessments/Physics_U1_AoS1_ws02_temperature_and_heat_transfer_solutions.pdf"
+     },
+     {
+      "label": "Worksheet: thermal radiation and Earth's climate",
+      "path": "Unit 1/Formative assessments/Physics_U1_AoS1_ws03_thermal_radiation_and_earths_climate.pdf",
+      "solutions": "Unit 1/Formative assessments/Physics_U1_AoS1_ws03_thermal_radiation_and_earths_climate_solutions.pdf"
+     }
+    ],
+    "sacs": [
+     {
+      "label": "SAC",
+      "path": "Unit 1/SACs/Physics_U1_AoS1_2026_SAC.pdf",
+      "solutions": "Unit 1/SACs/Physics_U1_AoS1_2026_SAC_solutions.pdf"
+     },
+     {
+      "label": "Redemption SAC",
+      "path": "Unit 1/SACs/Physics_U1_AoS1_2026_SAC_redemption.pdf",
+      "solutions": "Unit 1/SACs/Physics_U1_AoS1_2026_SAC_redemption_solutions.pdf"
+     }
+    ]
+   }
+  },
+  "U1 AoS2": {
+   "plan": "U1 Plan (Google Doc, VCE Physics folder)",
+   "sequence": [
+    "4A Nuclear stability and the fundamental forces",
+    "4B Nuclear half-life",
+    "4C Types of nuclear radiation",
+    "4D Radiation and the human body",
+    "Prac 4B Modelling radioactive decay",
+    "5A Nuclear energy",
+    "5B Fission",
+    "Chapters 4–5 review (WS01, WS02)",
+    "SAC revision (practice SAC)",
+    "SAC",
+    "SAC review + redemption"
+   ],
+   "lessonCount": 11,
+   "resources": {
+    "slides": [
+     {
+      "label": "U1 AoS2 slide deck (PowerPoint)",
+      "path": "Unit 1/Teaching materials/Physics_U1_AoS2.pptx"
+     },
+     {
+      "label": "U1 AoS2 notes (Obsidian zip)",
+      "path": "Unit 1/Teaching materials/Physics_U1_AoS2.zip"
+     }
+    ],
+    "pracs": [
+     {
+      "label": "Stability of small nuclei",
+      "path": "Unit 1/Prac materials/4A_stability_of_small_nuclei_student_version.docx",
+      "teacher": "Unit 1/Prac materials/4A_stability_of_small_nuclei_teacher_version.docx"
+     },
+     {
+      "label": "Comparing types of radioactive decay",
+      "path": "Unit 1/Prac materials/4C_comparing_types_of_radioactive_decay_student_version.docx",
+      "teacher": "Unit 1/Prac materials/4C_comparing_types_of_radioactive_decay_teacher_version.docx"
+     },
+     {
+      "label": "Modelling radioactive decay",
+      "path": "Unit 1/Prac materials/4B_modelling_radioactive_decay_student_version.docx",
+      "teacher": "Unit 1/Prac materials/4B_modelling_radioactive_decay_teacher_version.docx"
+     },
+     {
+      "label": "Medical radioisotope innovations",
+      "path": "Unit 1/Prac materials/4D_medical_radioisotope_innovations_student_version.docx",
+      "teacher": "Unit 1/Prac materials/4D_medical_radioisotope_innovations_teacher_version.docx"
+     },
+     {
+      "label": "Fission and fusion infographic",
+      "path": "Unit 1/Prac materials/5A_fission_and_fusion_infographic_student_version.docx",
+      "teacher": "Unit 1/Prac materials/5A_fission_and_fusion_infographic_teacher_version.docx"
+     },
+     {
+      "label": "Media arguments on nuclear energy in australia",
+      "path": "Unit 1/Prac materials/5B_media_arguments_on_nuclear_energy_in_australia_student_version.docx",
+      "teacher": "Unit 1/Prac materials/5B_media_arguments_on_nuclear_energy_in_australia_teacher_version.docx"
+     }
+    ],
+    "worksheets": [
+     {
+      "label": "Worksheet: nuclear stability and half life",
+      "path": "Unit 1/Formative assessments/Physics_U1_AoS2_ws01_nuclear_stability_and_half_life.pdf",
+      "solutions": "Unit 1/Formative assessments/Physics_U1_AoS2_ws01_nuclear_stability_and_half_life_solutions.pdf"
+     },
+     {
+      "label": "Worksheet: radiation dose nuclear energy and fission",
+      "path": "Unit 1/Formative assessments/Physics_U1_AoS2_ws02_radiation_dose_nuclear_energy_and_fission.pdf",
+      "solutions": "Unit 1/Formative assessments/Physics_U1_AoS2_ws02_radiation_dose_nuclear_energy_and_fission_solutions.pdf"
+     }
+    ],
+    "sacs": [
+     {
+      "label": "Practice SAC",
+      "path": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC_practice.pdf",
+      "solutions": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC_practice_solutions.pdf"
+     },
+     {
+      "label": "SAC",
+      "path": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC.pdf",
+      "solutions": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC_solutions.pdf"
+     },
+     {
+      "label": "Redemption SAC",
+      "path": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC_redemption.pdf",
+      "solutions": "Unit 1/SACs/Physics_U1_AoS2_2026_SAC_redemption_solutions.pdf"
+     }
+    ]
+   }
+  },
+  "U1 AoS3": {
+   "plan": "U1 Plan (Google Doc, VCE Physics folder)",
+   "sequence": [
+    "6A Fundamentals of electricity",
+    "Prac 6A Measuring electrical quantities",
+    "6B Resistance and Ohm’s law",
+    "6C Series circuits",
+    "6D Parallel circuits",
+    "6E Combination circuits",
+    "Chapter 6 review (WS01, WS02)",
+    "Prac 6E Equivalent resistance in combination circuits",
+    "7A Applications of electric circuits",
+    "7B–C Household electricity and electrical safety",
+    "Prac 7B Modelling household electrical circuits",
+    "Chapter 7 review (WS03)",
+    "SAC revision",
+    "SAC (+ prac version)",
+    "SAC review",
+    "Exam revision (Unit 1 exam)"
+   ],
+   "lessonCount": 16,
+   "resources": {
+    "slides": [
+     {
+      "label": "U1 AoS3 slide deck (PowerPoint)",
+      "path": "Unit 1/Teaching materials/Physics_U1_AoS3.pptx"
+     },
+     {
+      "label": "U1 AoS3 notes (Obsidian zip)",
+      "path": "Unit 1/Teaching materials/Physics_U1_AoS3.zip"
+     }
+    ],
+    "pracs": [
+     {
+      "label": "Measuring electrical quantities",
+      "path": "Unit 1/Prac materials/6A_measuring_electrical_quantities_student_version.docx",
+      "teacher": "Unit 1/Prac materials/6A_measuring_electrical_quantities_teacher_version.docx"
+     },
+     {
+      "label": "Determining ohmic electrical components",
+      "path": "Unit 1/Prac materials/6B_determining_ohmic_electrical_components_student_version.docx",
+      "teacher": "Unit 1/Prac materials/6B_determining_ohmic_electrical_components_teacher_version.docx"
+     },
+     {
+      "label": "Behaviour of diodes",
+      "path": "Unit 1/Prac materials/7A_behaviour_of_diodes_student_version.docx",
+      "teacher": "Unit 1/Prac materials/7A_behaviour_of_diodes_teacher_version.docx"
+     },
+     {
+      "label": "Voltage and current in a series circuit",
+      "path": "Unit 1/Prac materials/6C_voltage_and_current_in_a_series_circuit_student_version.docx",
+      "teacher": "Unit 1/Prac materials/6C_voltage_and_current_in_a_series_circuit_teacher_version.docx"
+     },
+     {
+      "label": "Voltage and current in a parallel circuit",
+      "path": "Unit 1/Prac materials/6D_voltage_and_current_in_a_parallel_circuit_student_version.docx",
+      "teacher": "Unit 1/Prac materials/6D_voltage_and_current_in_a_parallel_circuit_teacher_version.docx"
+     },
+     {
+      "label": "Equivalent resistance in combination circuits",
+      "path": "Unit 1/Prac materials/6E_equivalent_resistance_in_combination_circuits_student_version.docx",
+      "teacher": "Unit 1/Prac materials/6E_equivalent_resistance_in_combination_circuits_teacher_version.docx"
+     },
+     {
+      "label": "Modelling household electrical circuits",
+      "path": "Unit 1/Prac materials/7B_modelling_household_electrical_circuits_student_version.docx",
+      "teacher": "Unit 1/Prac materials/7B_modelling_household_electrical_circuits_teacher_version.docx"
+     }
+    ],
+    "worksheets": [
+     {
+      "label": "Worksheet: charge current voltage and Ohm's law",
+      "path": "Unit 1/Formative assessments/Physics_U1_AoS3_ws01_charge_current_voltage_and_ohms_law.pdf",
+      "solutions": "Unit 1/Formative assessments/Physics_U1_AoS3_ws01_charge_current_voltage_and_ohms_law_solutions.pdf"
+     },
+     {
+      "label": "Worksheet: series and parallel circuits",
+      "path": "Unit 1/Formative assessments/Physics_U1_AoS3_ws02_series_and_parallel_circuits.pdf",
+      "solutions": "Unit 1/Formative assessments/Physics_U1_AoS3_ws02_series_and_parallel_circuits_solutions.pdf"
+     },
+     {
+      "label": "Worksheet: combination circuits household electricity and safety",
+      "path": "Unit 1/Formative assessments/Physics_U1_AoS3_ws03_combination_circuits_household_electricity_and_safety.pdf",
+      "solutions": "Unit 1/Formative assessments/Physics_U1_AoS3_ws03_combination_circuits_household_electricity_and_safety_solutions.pdf"
+     }
+    ],
+    "sacs": [
+     {
+      "label": "SAC",
+      "path": "Unit 1/SACs/Physics_U1_AoS3_2026_SAC (1).pdf",
+      "solutions": "Unit 1/SACs/Physics_U1_AoS3_2026_SAC_solutions (1).pdf"
+     },
+     {
+      "label": "SAC prac component",
+      "path": "Unit 1/SACs/Physics_U1_AoS3_2026_SAC_prac.pdf"
+     },
+     {
+      "label": "SAC (editable Word)",
+      "path": "Unit 1/SACs/Physics_U1_AoS3_SAC_merged (1).docx"
+     }
+    ],
+    "exams": [
+     {
+      "label": "Unit 1 exam (2026)",
+      "path": "Unit 1/Exams/Physics_U1_Exam_2026.pdf",
+      "solutions": "Unit 1/Exams/Physics_U1_Exam_solutions_2026.pdf"
+     },
+     {
+      "label": "Unit 1 exam (older)",
+      "path": "Unit 1/Exams/Physics_unit1_exam.pdf",
+      "solutions": "Unit 1/Exams/Physics_unit1_exam_answers.pdf"
+     }
+    ]
+   }
+  },
+  "U2 AoS1": {
+   "plan": "U2 Plan (Google Doc, VCE Physics folder)",
+   "sequence": [
+    "8A Describing motion",
+    "8B Graphing motion",
+    "8C Constant acceleration equations (SUVAT)",
+    "Chapter 8 review (WS01, WS02)",
+    "9A–B Forces, momentum and impulse",
+    "Prac 9A Newton’s laws and a balloon rocket",
+    "9C Force vectors in two dimensions",
+    "9D Inclined planes and connected bodies",
+    "9E Torque",
+    "9F Equilibrium",
+    "Chapter 9 review (WS03, WS04)",
+    "10A Conservation of energy and kinetic energy",
+    "10B Work and gravitational potential energy",
+    "10B Power and energy efficiency",
+    "10C Springs",
+    "10D Vehicle safety case study",
+    "Chapter 10 review (WS05, WS06)",
+    "Prac 10C Energy transformations of a spring-mass system",
+    "SAC revision (practice SAC)",
+    "SAC"
+   ],
+   "lessonCount": 20,
+   "resources": {
+    "slides": [
+     {
+      "label": "U2 AoS1 slide deck (PowerPoint)",
+      "path": "Unit 2/Teaching materials/Physics_U2_AoS1.pptx"
+     },
+     {
+      "label": "U2 AoS1 notes (Obsidian zip)",
+      "path": "Unit 2/Teaching materials/Physics_U2_AoS1.zip"
+     },
+     {
+      "label": "Notes: How is motion understood (PDF)",
+      "path": "Unit 2/Teaching materials/Area of Study 1 - How is motion understood.pdf"
+     }
+    ],
+    "pracs": [
+     {
+      "label": "Distance travelled vs displacement",
+      "path": "Unit 2/Prac materials/8A_distance_travelled_vs_displacement_student_version.docx",
+      "teacher": "Unit 2/Prac materials/8A_distance_travelled_vs_displacement_teacher_version.docx"
+     },
+     {
+      "label": "Applying motion graphs to real life situations",
+      "path": "Unit 2/Prac materials/8B_applying_motion_graphs_to_real_life_situations_student_version.docx",
+      "teacher": "Unit 2/Prac materials/8B_applying_motion_graphs_to_real_life_situations_teacher_version.docx"
+     },
+     {
+      "label": "Choosing the right constant acceleration equation",
+      "path": "Unit 2/Prac materials/8C_choosing_the_right_constant_acceleration_equation_student_version.docx",
+      "teacher": "Unit 2/Prac materials/8C_choosing_the_right_constant_acceleration_equation_teacher_version.docx"
+     },
+     {
+      "label": "Motion on an inclined plane",
+      "path": "Unit 2/Prac materials/9D.1_motion_on_an_inclined_plane_student_version.docx",
+      "teacher": "Unit 2/Prac materials/9D.1_motion_on_an_inclined_plane_teacher_version.docx"
+     },
+     {
+      "label": "Newtons laws and a balloon rocket",
+      "path": "Unit 2/Prac materials/9A_newtons_laws_and_a_balloon_rocket_student_version.docx",
+      "teacher": "Unit 2/Prac materials/9A_newtons_laws_and_a_balloon_rocket_teacher_version.docx"
+     },
+     {
+      "label": "Momentum and net force",
+      "path": "Unit 2/Prac materials/9B_momentum_and_net_force_student_version.docx",
+      "teacher": "Unit 2/Prac materials/9B_momentum_and_net_force_teacher_version.docx"
+     },
+     {
+      "label": "Energy transformations in an oscillating spring",
+      "path": "Unit 2/Prac materials/10A_energy_transformations_in_an_oscillating_spring_student_version.docx",
+      "teacher": "Unit 2/Prac materials/10A_energy_transformations_in_an_oscillating_spring_teacher_version.docx"
+     },
+     {
+      "label": "Gravitational potential energy in rollercoaster design",
+      "path": "Unit 2/Prac materials/10B_gravitational_potential_energy_in_rollercoaster_design_student_version.docx",
+      "teacher": "Unit 2/Prac materials/10B_gravitational_potential_energy_in_rollercoaster_design_teacher_version.docx"
+     },
+     {
+      "label": "Energy transformations of a spring mass system",
+      "path": "Unit 2/Prac materials/10C_energy_transformations_of_a_spring_mass_system_student_version.docx",
+      "teacher": "Unit 2/Prac materials/10C_energy_transformations_of_a_spring_mass_system_teacher_version.docx"
+     },
+     {
+      "label": "How dc motors work",
+      "path": "Unit 2/Prac materials/9E_how_dc_motors_work_student_version.docx",
+      "teacher": "Unit 2/Prac materials/9E_how_dc_motors_work_teacher_version.docx"
+     },
+     {
+      "label": "Analysing a crane in rotational equilibrium",
+      "path": "Unit 2/Prac materials/9F_analysing_a_crane_in_rotational_equilibrium_student_version.docx",
+      "teacher": "Unit 2/Prac materials/9F_analysing_a_crane_in_rotational_equilibrium_teacher_version.docx"
+     }
+    ],
+    "worksheets": [
+     {
+      "label": "Worksheet: describing and graphing motion",
+      "path": "Unit 2/Formative assessments/Physics_U2_AoS1_ws01_describing_and_graphing_motion.pdf",
+      "solutions": "Unit 2/Formative assessments/Physics_U2_AoS1_ws01_describing_and_graphing_motion_solutions.pdf"
+     },
+     {
+      "label": "Worksheet: SUVAT equations",
+      "path": "Unit 2/Formative assessments/Physics_U2_AoS1_ws02_SUVAT_equations.pdf",
+      "solutions": "Unit 2/Formative assessments/Physics_U2_AoS1_ws02_SUVAT_equations_solutions.pdf"
+     },
+     {
+      "label": "Worksheet: Newton's laws force vectors and inclined planes",
+      "path": "Unit 2/Formative assessments/Physics_U2_AoS1_ws04_newtons_laws_force_vectors_and_inclined_planes.pdf",
+      "solutions": "Unit 2/Formative assessments/Physics_U2_AoS1_ws04_newtons_laws_force_vectors_and_inclined_planes_solutions.pdf"
+     },
+     {
+      "label": "Worksheet: springs and vehicle safety",
+      "path": "Unit 2/Formative assessments/Physics_U2_AoS1_ws06_springs_and_vehicle_safety.pdf",
+      "solutions": "Unit 2/Formative assessments/Physics_U2_AoS1_ws06_springs_and_vehicle_safety_solutions.pdf"
+     },
+     {
+      "label": "Worksheet: energy work power and efficiency",
+      "path": "Unit 2/Formative assessments/Physics_U2_AoS1_ws05_energy_work_power_and_efficiency.pdf",
+      "solutions": "Unit 2/Formative assessments/Physics_U2_AoS1_ws05_energy_work_power_and_efficiency_solutions.pdf"
+     },
+     {
+      "label": "Worksheet: momentum impulse torque equilibrium",
+      "path": "Unit 2/Formative assessments/Physics_U2_AoS1_ws03_momentum_impulse_torque_equilibrium.pdf",
+      "solutions": "Unit 2/Formative assessments/Physics_U2_AoS1_ws03_momentum_impulse_torque_equilibrium_solutions.pdf"
+     }
+    ],
+    "sacs": [
+     {
+      "label": "Practice SAC",
+      "path": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC_practice.pdf",
+      "solutions": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC_practice_solutions.pdf"
+     },
+     {
+      "label": "SAC",
+      "path": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC.pdf",
+      "solutions": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC_solutions.pdf"
+     },
+     {
+      "label": "Redemption SAC",
+      "path": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC_redemption.pdf",
+      "solutions": "Unit 2/SACs/Physics_U2_AoS1_2026_SAC_redemption_solutions.pdf"
+     }
+    ]
+   }
+  }
+ }
 }
