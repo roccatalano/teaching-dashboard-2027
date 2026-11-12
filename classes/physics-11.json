@@ -214,7 +214,8 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Is a sound wave transverse or longitudinal? Is it mechanical or electromagnetic?"
+      "q": "What is the difference between a transverse and a longitudinal wave?",
+      "note": "Cambridge 1A Check-in Set 1, Q1"
      },
      {
       "when": "Last week",
@@ -232,7 +233,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three do-now questions done independently, then self-marked.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -347,12 +349,13 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "A wave has $f = 4$ Hz and $\\lambda = 0.5$ m. Calculate its speed."
+      "q": "Define the amplitude of a transverse wave in a slinky spring.",
+      "note": "Cambridge 1A Check-in Set 2, Q1"
      },
      {
       "when": "Last week",
-      "note": "Lesson 1",
-      "q": "Sketch a longitudinal wave and label a compression and a rarefaction."
+      "q": "What is the difference between a mechanical and a non-mechanical wave?",
+      "note": "Cambridge 1A Check-in Set 1, Q2"
      },
      {
       "when": "Last term",
@@ -365,7 +368,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three do-now questions done independently, then self-marked.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -474,12 +478,13 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "In the slinky prac, what happened to the wavelength when you increased the frequency? Why?"
+      "q": "State the wave equation with the subject as the period, T.",
+      "note": "Cambridge 1A Check-in Set 2, Q2"
      },
      {
       "when": "Last week",
-      "note": "Lesson 2",
-      "q": "A wave has a period of 0.02 s. What is its frequency?"
+      "q": "How does a mechanical wave motion transfer energy from one place to another?",
+      "note": "Cambridge 1A Check-in Set 1, Q3"
      },
      {
       "when": "Last term",
@@ -492,7 +497,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three do-now questions done independently, then self-marked.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -738,12 +744,13 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "State the law of reflection."
+      "q": "Define the refractive index, n, of a transparent material.",
+      "note": "Cambridge 1C Check-in Set 1, Q1"
      },
      {
       "when": "Last week",
-      "note": "Lesson 2",
-      "q": "Write the wave equation and state the unit of each quantity."
+      "q": "What determines the speed of a wave?",
+      "note": "Cambridge 1A Check-in Set 2, Q3"
      },
      {
       "when": "Last term",
@@ -756,7 +763,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three do-now questions done independently, then self-marked.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -867,12 +875,13 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Light enters glass ($n = 1.5$) from air at $40^\\circ$. Find the angle of refraction."
+      "q": "What is the minimum value of the refractive index of a material?",
+      "note": "Cambridge 1C Check-in Set 1, Q2"
      },
      {
       "when": "Last week",
-      "q": "Which EM radiation has the highest frequency?",
-      "note": "Lesson 4"
+      "q": "What are the relative orientations of the electric vibrations, the magnetic vibrations, and the velocity of a light wave?",
+      "note": "Cambridge 1B Check-in Set 1, Q1"
      },
      {
       "when": "Last term",
@@ -885,7 +894,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three do-now questions done independently, then self-marked.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -1148,17 +1158,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Convert 300 K to °C."
+      "q": "Convert the boiling point of water from Celsius into kelvin.",
+      "note": "Cambridge 2A Check-in Set 1, Q1"
      },
      {
       "when": "Last week",
-      "q": "Why does a prism split white light?",
-      "note": "Lesson 7"
+      "q": "Calculate the refractive index of a material in which the speed of light is 1.5 × 10⁸ m s^(–1).",
+      "note": "Cambridge 1C Check-in Set 1, Q3"
      },
      {
       "when": "Last term",
-      "q": "State the wave equation.",
-      "note": "Week 1"
+      "q": "When a ray of light enters a medium of greater refractive index, which way will the ray refract?",
+      "note": "Cambridge 1C Check-in Set 1, Q4"
      }
     ],
     "steps": [
@@ -1166,7 +1177,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -1265,17 +1277,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "What is the difference between heat and temperature?"
+      "q": "Which is a lower temperature: –200°C or 63 K?",
+      "note": "Cambridge 2A Check-in Set 1, Q2"
      },
      {
       "when": "Last week",
-      "q": "Calculate the refractive index if $\\theta_1 = 45^\\circ$ and $\\theta_2 = 28^\\circ$.",
-      "note": "Week 3 prac"
+      "q": "When does internal reflection occur?",
+      "note": "Cambridge 1C Check-in Set 2, Q1"
      },
      {
       "when": "Last term",
-      "q": "Rearrange $v = f\\lambda$ for $f$.",
-      "note": "Week 1"
+      "q": "When a ray of light moves from a medium of lower speed into a medium of greater speed, which way will it refract relative to the normal line?",
+      "note": "Cambridge 1C Check-in Set 1, Q5"
      }
     ],
     "steps": [
@@ -1283,7 +1296,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -1389,17 +1403,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "State $Q = mc\\Delta T$ and the meaning of each symbol."
+      "q": "What does the reading on a thermometer measure?",
+      "note": "Cambridge 2A Check-in Set 1, Q3"
      },
      {
       "when": "Last week",
-      "q": "Convert −40 °C to kelvin.",
-      "note": "Lesson 8"
+      "q": "When does internal reflection become total?",
+      "note": "Cambridge 1C Check-in Set 2, Q2"
      },
      {
       "when": "Last term",
-      "q": "What is a compression in a longitudinal wave?",
-      "note": "Week 1"
+      "q": "Convert 800 nm into metres.",
+      "note": "Cambridge 1B Check-in Set 1, Q2"
      }
     ],
     "steps": [
@@ -1407,7 +1422,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -1527,17 +1543,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Energy to melt 0.1 kg of ice? ($L_f = 3.34 \\times 10^5$ J kg$^{-1}$)"
+      "q": "Which is greater: water’s latent heat of melting or its latent heat of condensation?",
+      "note": "Cambridge 2A Check-in Set 3, Q1"
      },
      {
       "when": "Last week",
-      "q": "What is a temperature of 0 K?",
-      "note": "Lesson 8"
+      "q": "Define the critical angle.",
+      "note": "Cambridge 1C Check-in Set 2, Q3"
      },
      {
       "when": "Last term",
-      "q": "State Snell’s law.",
-      "note": "Week 2"
+      "q": "What kinds of electromagnetic waves have a wavelength of 0.10 nm?",
+      "note": "Cambridge 1B Check-in Set 1, Q3"
      }
     ],
     "steps": [
@@ -1545,7 +1562,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -1649,17 +1667,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Energy to raise 0.3 kg of water by 15 °C?"
+      "q": "How much energy is needed to melt 10 kg of ice?",
+      "note": "Cambridge 2A Check-in Set 3, Q2"
      },
      {
       "when": "Last week",
-      "q": "State $Q = mL$ and explain why temperature is constant during melting.",
-      "note": "Lesson 11"
+      "q": "When does chromatic dispersion occur?",
+      "note": "Cambridge 1C Check-in Set 3, Q1"
      },
      {
       "when": "Last term",
-      "q": "What is the order of the EM spectrum from radio to gamma?",
-      "note": "Week 2"
+      "q": "State the regions of greatest and smallest frequency of the electromagnetic spectrum.",
+      "note": "Cambridge 1B Check-in Set 1, Q4"
      }
     ],
     "steps": [
@@ -1667,7 +1686,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -1932,17 +1952,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "State Wien’s law in words."
+      "q": "What is the relationship between the peak wavelength of a blackbody radiator and its temperature in kelvin?",
+      "note": "Cambridge 2B Check-in Set 1, Q1"
      },
      {
       "when": "Last week",
-      "q": "Name the three types of heat transfer.",
-      "note": "Lesson 13"
+      "q": "How much energy is needed to raise the temperature of 1 kg of water by 10 K?",
+      "note": "Cambridge 2A Check-in Set 3, Q3"
      },
      {
       "when": "Last term",
-      "q": "A wave has $T = 0.01$ s. Find $f$.",
-      "note": "Week 1"
+      "q": "What named region of the spectrum would be used in these situations? a. a mobile phone b. a baggage scanner at an airport c. a TV remote control d. vitamin D generation in the skin e. optical astronomy",
+      "note": "Cambridge 1B Check-in Set 2, Q1"
      }
     ],
     "steps": [
@@ -1950,7 +1971,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -2053,17 +2075,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "An object peaks at 10 µm. Estimate its temperature."
+      "q": "What two changes happen to the spectrum of a blackbody as its temperature increases?",
+      "note": "Cambridge 2B Check-in Set 1, Q2"
      },
      {
       "when": "Last week",
-      "q": "Explain convection in a pot of water.",
-      "note": "Lesson 13"
+      "q": "What is the dominant type of thermal energy transfer in solids?",
+      "note": "Cambridge 2A Check-in Set 2, Q1"
      },
      {
       "when": "Last term",
-      "q": "What is $Q = mc\\Delta T$ used for?",
-      "note": "Week 4"
+      "q": "Rank the three main types of electromagnetic radiation received by Earth by radiation amount.",
+      "note": "Cambridge 1B Check-in Set 2, Q3"
      }
     ],
     "steps": [
@@ -2071,7 +2094,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -2292,17 +2316,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Explain the enhanced greenhouse effect."
+      "q": "How many W m^(–2) of Earth’s surface infrared radiation finds its way into space without being absorbed by the atmosphere?",
+      "note": "Cambridge 2B Check-in Set 2, Q1"
      },
      {
       "when": "Last week",
-      "q": "Energy to melt 0.2 kg of ice?",
-      "note": "Lesson 11"
+      "q": "What is the is the dominant type of thermal energy transfer in liquids and gases?",
+      "note": "Cambridge 2A Check-in Set 2, Q2"
      },
      {
       "when": "Last term",
-      "q": "What is dispersion?",
-      "note": "Week 3"
+      "q": "What is the cause of many mirages?",
+      "note": "Cambridge 1C Check-in Set 3, Q2"
      }
     ],
     "steps": [
@@ -2310,7 +2335,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -2472,17 +2498,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "How did you go in SAC 1? Name one topic you’ll keep practising."
+      "q": "According to the IPCC, what is the approximate residual amount of energy currently contributing to global warming?",
+      "note": "Cambridge 2B Check-in Set 2, Q2"
      },
      {
       "when": "Last week",
-      "q": "What does Wien’s law describe?",
-      "note": "Week 5"
+      "q": "What role do the gases CO₂, CH₄ and H₂O play in Earth’s infrared radiation?",
+      "note": "Cambridge 2B Check-in Set 2, Q3"
      },
      {
       "when": "Last term",
-      "q": "What is a transverse wave?",
-      "note": "Week 1"
+      "q": "What is the name of the optical principle that ensures light signals remain inside the core of an optical fibre?",
+      "note": "Cambridge 1C Check-in Set 4, Q1"
      }
     ],
     "steps": [
@@ -2490,7 +2517,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -2604,17 +2632,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Write the notation for an isotope with 6 protons and 8 neutrons."
+      "q": "What is an isotope of an element?",
+      "note": "Cambridge 3A Check-in Set 2, Q1"
      },
      {
       "when": "Last week",
-      "q": "Explain the greenhouse effect.",
-      "note": "Lesson 16"
+      "q": "Is there a minimum temperature for an object to transfer energy by radiation?",
+      "note": "Cambridge 2A Check-in Set 2, Q3"
      },
      {
       "when": "Last term",
-      "q": "What is specific heat capacity?",
-      "note": "Week 4"
+      "q": "How many internal reflections from single raindrops occur in the formation of primary rainbows?",
+      "note": "Cambridge 1C Check-in Set 4, Q2"
      }
     ],
     "steps": [
@@ -2622,7 +2651,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -2744,17 +2774,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Write the beta-minus decay of C-14."
+      "q": "a What were the names given by Ernest Rutherford for the three different radiations he discovered? b. Give the order of the three different radiations from least penetrating to most penetrating.",
+      "note": "Cambridge 3B Check-in Set 1, Q1"
      },
      {
       "when": "Last week",
-      "q": "Write the notation for U-235.",
-      "note": "Lesson 20"
+      "q": "What is the cooling mechanism of a Coolgardie safe?",
+      "note": "Cambridge 2A Check-in Set 2, Q4"
      },
      {
       "when": "Last term",
-      "q": "Explain cooling by evaporation.",
-      "note": "Week 4"
+      "q": "How many internal reflections from single raindrops occur in the formation of secondary rainbows?",
+      "note": "Cambridge 1C Check-in Set 4, Q3"
      }
     ],
     "steps": [
@@ -2762,7 +2793,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -2873,17 +2905,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "What fraction of a sample remains after 4 half-lives?"
+      "q": "a What is the unit of activity of radioactive sources? b. What is the unit defined as?",
+      "note": "Cambridge 3C Check-in Set 2, Q1"
      },
      {
       "when": "Last week",
-      "q": "Which radiation is most ionising?",
-      "note": "Lesson 21"
+      "q": "What is a radioactive isotope of an element?",
+      "note": "Cambridge 3A Check-in Set 2, Q2"
      },
      {
       "when": "Last term",
-      "q": "Convert 50 °C to kelvin.",
-      "note": "Week 3"
+      "q": "How many refractions from single raindrops occur in the formation of primary or secondary rainbows?",
+      "note": "Cambridge 1C Check-in Set 4, Q4"
      }
     ],
     "steps": [
@@ -2891,7 +2924,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -3007,17 +3041,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Calculate the equivalent dose for 2 mGy of alpha radiation ($w_R = 20$)."
+      "q": "What are the three possible outcomes once a cell is damaged by nuclear radiation?",
+      "note": "Cambridge 3E Check-in Set 1, Q1"
      },
      {
       "when": "Last week",
-      "q": "Write the alpha decay of Ra-226.",
-      "note": "Lesson 21"
+      "q": "How can nuclear radiation ionise a neutral atom to create a positive ion?",
+      "note": "Cambridge 3B Check-in Set 1, Q2"
      },
      {
       "when": "Last term",
-      "q": "What is Wien’s law?",
-      "note": "Week 5"
+      "q": "An α-particle emitted from a particular radioactive element is travelling at 20 000 km s^(–1). The mass of an α-particle is 6.64 × 10^(–27) kg. How much energy does this represent in both a joules (J) (1 mark) b electronvolts (eV) for the α-particle? (1 mark)",
+      "note": "Cambridge 3B Check-in Set 2, Q3"
      }
     ],
     "steps": [
@@ -3025,7 +3060,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -3270,17 +3306,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "What is a mass defect?"
+      "q": "What is binding energy in relation to the nucleus?",
+      "note": "Cambridge 3A Check-in Set 4, Q1"
      },
      {
       "when": "Last week",
-      "q": "What is a half-life?",
-      "note": "Lesson 22"
+      "q": "Why do medical personnel working with radiation wear lead aprons and lead thyroid shields?",
+      "note": "Cambridge 3E Check-in Set 1, Q2"
      },
      {
       "when": "Last term",
-      "q": "Name the three types of heat transfer.",
-      "note": "Week 5"
+      "q": "a Which one of the four fundamental forces is the least important in understanding the forces acting in the nucleus? b. Explain your answer.",
+      "note": "Cambridge 3A Check-in Set 3, Q1"
      }
     ],
     "steps": [
@@ -3288,7 +3325,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -3414,17 +3452,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Explain how control rods work."
+      "q": "What is a fissile material?",
+      "note": "Cambridge 4A Check-in Set 2, Q1"
      },
      {
       "when": "Last week",
-      "q": "What is half-life?",
-      "note": "Lesson 21"
+      "q": "Specify the relative ionising power and penetration for each of α-, β- and γ-radiation using the terms least, medium and most.",
+      "note": "Cambridge 3E Check-in Set 1, Q3"
      },
      {
       "when": "Last term",
-      "q": "What is an absorbed dose?",
-      "note": "Lesson 23"
+      "q": "Explain how nucleons are held together in the nucleus.",
+      "note": "Cambridge 3A Check-in Set 3, Q2"
      }
     ],
     "steps": [
@@ -3432,7 +3471,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -3754,17 +3794,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "What was your weakest area in SAC 2?"
+      "q": "What is a chain reaction?",
+      "note": "Cambridge 4A Check-in Set 2, Q2"
      },
      {
       "when": "Last week",
-      "q": "Write the beta-minus decay of Sr-90.",
-      "note": "Week 8"
+      "q": "What is the role of a moderator in nuclear reactors? Give an example of a moderator.",
+      "note": "Cambridge 4A Check-in Set 2, Q3"
      },
      {
       "when": "Last term",
-      "q": "Convert 1.5 kJ to J.",
-      "note": "Week 1"
+      "q": "a What particle was proposed by Wolfgang Pauli in 1930 to ensure that the law of conservation of energy held in radioactive beta decay? (2 marks) b What were the properties of this hypothetical particle? (3 marks)",
+      "note": "Cambridge 3B Check-in Set 2, Q4"
      }
     ],
     "steps": [
@@ -3772,7 +3813,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -3886,17 +3928,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "How many electrons in −2 C of charge?"
+      "q": "Name the two heaviest particles of an atomic nucleus and state the charge of each.",
+      "note": "Cambridge 5A Check-in Set 1, Q1"
      },
      {
       "when": "Last week",
-      "q": "What is a conductor?",
-      "note": "Lesson 31"
+      "q": "What is a controlled chain reaction?",
+      "note": "Cambridge 4A Check-in Set 2, Q4"
      },
      {
       "when": "Last term",
-      "q": "State $Q = mc\\Delta T$.",
-      "note": "Week 4"
+      "q": "a What are other names for beta (β) particles? b. What charges do β-particles carry?",
+      "note": "Cambridge 3B Check-in Set 3, Q1"
      }
     ],
     "steps": [
@@ -3904,7 +3947,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -4043,17 +4087,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Find the current when 6 C passes in 3 s."
+      "q": "What is it that moves when a current flows in a metal wire and how fast do they move?",
+      "note": "Cambridge 5A Check-in Set 2, Q1"
      },
      {
       "when": "Last week",
-      "q": "Explain the difference between conductors and insulators.",
-      "note": "Lesson 31"
+      "q": "What is meant by a critical mass of a fissile material?",
+      "note": "Cambridge 4A Check-in Set 3, Q1"
      },
      {
       "when": "Last term",
-      "q": "What is the strong nuclear force?",
-      "note": "Week 7"
+      "q": "a Write the equation for when a neutron in the nucleus changes into a proton. b. Write the equation for when a proton in the nucleus changes into a neutron.",
+      "note": "Cambridge 3B Check-in Set 3, Q2"
      }
     ],
     "steps": [
@@ -4061,7 +4106,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -4157,17 +4203,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Why must a voltmeter be connected in parallel?"
+      "q": "List three conductors (materials that can conduct electric current) and three insulators (materials that do not conduct electric current). What is the most likely difference between the conductors and insulators at an atomic level?",
+      "note": "Cambridge 5A Check-in Set 2, Q2"
      },
      {
       "when": "Last week",
-      "q": "Find $V$ if 24 J is given to 3 C.",
-      "note": "Lesson 32"
+      "q": "Name the small, negatively charged component of an atom.",
+      "note": "Cambridge 5A Check-in Set 1, Q2"
      },
      {
       "when": "Last term",
-      "q": "What is an effective dose?",
-      "note": "Week 8"
+      "q": "What charge does a gamma (γ) ray carry?",
+      "note": "Cambridge 3B Check-in Set 4, Q1"
      }
     ],
     "steps": [
@@ -4175,7 +4222,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -4289,17 +4337,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Cost of running a 1.5 kW heater for 4 h at 30c per kWh?"
+      "q": "Explain the application of the formula E = VIt to a real-world situation such as, a torch.",
+      "note": "Cambridge 5B Check-in Set 4, Q1"
      },
      {
       "when": "Last week",
-      "q": "Draw a circuit with an ammeter and voltmeter on a resistor.",
-      "note": "Lesson 33"
+      "q": "Why is an ammeter always placed in series in a circuit? Hint: what does it measure?",
+      "note": "Cambridge 5A Check-in Set 4, Q1"
      },
      {
       "when": "Last term",
-      "q": "What is a chain reaction?",
-      "note": "Week 9"
+      "q": "At what speed does γ-radiation travel?",
+      "note": "Cambridge 3B Check-in Set 4, Q2"
      }
     ],
     "steps": [
@@ -4307,7 +4356,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -4428,17 +4478,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Find $R$ if $V = 6$ V and $I = 0.2$ A."
+      "q": "Calculate the resistance of a component when the potential difference across it is 6.0 V and the current through it is 0.2 A.",
+      "note": "Cambridge 5C Check-in Set 1, Q2"
      },
      {
       "when": "Last week",
-      "q": "Find the power of a 12 V, 2 A device.",
-      "note": "Lesson 34"
+      "q": "Why do ammeters often have more than one red terminal?",
+      "note": "Cambridge 5A Check-in Set 4, Q2"
      },
      {
       "when": "Last term",
-      "q": "Define half-life.",
-      "note": "Week 8"
+      "q": "Why do γ-rays have lower ionising power?",
+      "note": "Cambridge 3B Check-in Set 4, Q3"
      }
     ],
     "steps": [
@@ -4446,7 +4497,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -4704,17 +4756,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Find $R_{eq}$ for 3 Ω and 6 Ω in parallel."
+      "q": "Can the output potential difference, V_(out), of a potential divider ever be larger than the input potential difference, V_(in)? Explain your answer.",
+      "note": "Cambridge 5C Check-in Set 3, Q2"
      },
      {
       "when": "Last week",
-      "q": "Sketch the I–V graph for a diode.",
-      "note": "Lesson 35"
+      "q": "On the same axes, sketch an I–V graph for: a. a resistance of 0 Ω b. an infinite resistance.",
+      "note": "Cambridge 5C Check-in Set 1, Q3"
      },
      {
       "when": "Last term",
-      "q": "Explain the enhanced greenhouse effect.",
-      "note": "Week 6"
+      "q": "a Is the half-life of any given radioactive isotope constant? b. Can the half-life be affected by temperature, magnetic fields or the chemical environment?",
+      "note": "Cambridge 3C Check-in Set 2, Q2"
      }
     ],
     "steps": [
@@ -4722,7 +4775,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -4849,17 +4903,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Total current drawn by a 2000 W heater on 240 V?"
+      "q": "Explain why the power used in a parallel circuit is more than the power used in a series circuit of the same components, supplied by the same potential difference.",
+      "note": "Cambridge 5E Check-in Set 4, Q1"
      },
      {
       "when": "Last week",
-      "q": "Find $R$ for a device with $V = 9$ V and $I = 0.3$ A.",
-      "note": "Lesson 36"
+      "q": "A diode can be used in a circuit to control the direction of applied voltage. What property of diodes is used in this application?",
+      "note": "Cambridge 6A Check-in Set 1, Q1"
      },
      {
       "when": "Last term",
-      "q": "State $E = mc^2$ in words.",
-      "note": "Week 9"
+      "q": "In 12 hours, the activity of a sample of a radioactive element falls from 240 Bq to 30 Bq. What is the half-life of this element?",
+      "note": "Cambridge 3C Check-in Set 2, Q3"
      }
     ],
     "steps": [
@@ -4867,7 +4922,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -4969,17 +5025,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "Is a 15 A circuit enough for a 3000 W load on 240 V?"
+      "q": "Explain the advantages of parallel circuits over series circuits, especially for household use of electricity.",
+      "note": "Cambridge 5E Check-in Set 4, Q2"
      },
      {
       "when": "Last week",
-      "q": "Find $R_{eq}$ for 10 Ω and 10 Ω in parallel.",
-      "note": "Lesson 37"
+      "q": "Explain why you read off potential differences at a fixed current in the graphical approach for resistances in series.",
+      "note": "Cambridge 5D Check-in Set 2, Q1"
      },
      {
       "when": "Last term",
-      "q": "What does a moderator do in a reactor?",
-      "note": "Week 9"
+      "q": "Potassium-40 has a half-life of 1.25 billion years. The activity of a rock sample of potassium-40 is measured at 30 MBq. What would the activity of the potassium-40 have been 3.75 billion years ago?",
+      "note": "Cambridge 3C Check-in Set 2, Q4"
      }
     ],
     "steps": [
@@ -4987,7 +5044,8 @@
       "min": 8,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 2,
@@ -5204,17 +5262,18 @@
     "doNow": [
      {
       "when": "Last lesson",
-      "q": "What does an RCD detect?"
+      "q": "When administering first aid for an electric shock, why is it important to ‘look first, don’t touch’?",
+      "note": "Cambridge 6C Check-in Set 1, Q2"
      },
      {
       "when": "Last week",
-      "q": "Find total resistance of 5 Ω and 5 Ω in series.",
-      "note": "Lesson 38"
+      "q": "Recall two advantages of parallel circuits over series circuits and explain how these make it more convenient to wire household lights and power points in parallel.",
+      "note": "Cambridge 6B Check-in Set 1, Q1"
      },
      {
       "when": "Last term",
-      "q": "Use $Q = mc\\Delta T$: 0.5 kg water, 20 °C rise.",
-      "note": "Week 4"
+      "q": "Which form of radiation (α, β or γ) requires the most shielding? Why?",
+      "note": "Cambridge 3E Check-in Set 1, Q4"
      }
     ],
     "steps": [
@@ -5222,7 +5281,8 @@
       "min": 6,
       "phase": "Do-now",
       "title": "Retrieval practice",
-      "detail": "Three do-now questions done independently, then self-marked."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 10,
@@ -5497,13 +5557,30 @@
      "compare",
      "evaluate"
     ],
-    "doNow": [],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Which of the three wires in a domestic power socket carries the AC potential difference?",
+      "note": "Cambridge 6C Check-in Set 2, Q1"
+     },
+     {
+      "when": "Last week",
+      "q": "What are the other two wires and what is their function?",
+      "note": "Cambridge 6C Check-in Set 2, Q2"
+     },
+     {
+      "when": "Last term",
+      "q": "Which of our five senses tells us that we are experiencing a lethal dose of γ-radiation?",
+      "note": "Cambridge 3E Check-in Set 2, Q1"
+     }
+    ],
     "steps": [
      {
       "min": 8,
       "phase": "Do-now",
       "title": "Mixed retrieval",
-      "detail": "Five quick questions, one from each chapter."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 12,
@@ -5567,13 +5644,30 @@
      "compare",
      "evaluate"
     ],
-    "doNow": [],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "What is the colour code for each of the three wires in an Australian three-pin plug?",
+      "note": "Cambridge 6C Check-in Set 2, Q3"
+     },
+     {
+      "when": "Last week",
+      "q": "If an appliance doesn’t have an earth pin on its plug, what does this tell you about the structure of the appliance?",
+      "note": "Cambridge 6C Check-in Set 2, Q4"
+     },
+     {
+      "when": "Last term",
+      "q": "a What are the units for absorbed dose, dose equivalent and effective dose? b. What are the definitions for absorbed dose, dose equivalent and effective dose?",
+      "note": "Cambridge 3E Check-in Set 2, Q2"
+     }
+    ],
     "steps": [
      {
       "min": 8,
       "phase": "Do-now",
       "title": "Mixed retrieval",
-      "detail": "Five quick questions, one from each chapter."
+      "detail": "Three Cambridge check-in questions, done independently, then self-marked against your answers.",
+      "resource": "Cambridge check-in questions (Cambridge Resources > section folders)"
      },
      {
       "min": 12,

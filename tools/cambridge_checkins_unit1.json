@@ -1,0 +1,299 @@
+{
+ "1A-1": [
+  "What is the difference between a transverse and a longitudinal wave?",
+  "What is the difference between a mechanical and a non-mechanical wave?",
+  "How does a mechanical wave motion transfer energy from one place to another?"
+ ],
+ "1A-2": [
+  "Define the amplitude of a transverse wave in a slinky spring.",
+  "State the wave equation with the subject as the period, T.",
+  "What determines the speed of a wave?"
+ ],
+ "1B-1": [
+  "What are the relative orientations of the electric vibrations, the magnetic vibrations, and the velocity of a light wave?",
+  "Convert 800 nm into metres.",
+  "What kinds of electromagnetic waves have a wavelength of 0.10 nm?",
+  "State the regions of greatest and smallest frequency of the electromagnetic spectrum."
+ ],
+ "1B-2": [
+  "What named region of the spectrum would be used in these situations? a. a mobile phone b. a baggage scanner at an airport c. a TV remote control d. vitamin D generation in the skin e. optical astronomy",
+  "Identify the type of electromagnetic rays with the following properties. a. have the greatest energy density b. are used to broadcast TV signals c. have the highest frequency d. have the longest wavelength",
+  "Rank the three main types of electromagnetic radiation received by Earth by radiation amount."
+ ],
+ "1C-1": [
+  "Define the refractive index, n, of a transparent material.",
+  "What is the minimum value of the refractive index of a material?",
+  "Calculate the refractive index of a material in which the speed of light is 1.5 × 10⁸ m s^(–1).",
+  "When a ray of light enters a medium of greater refractive index, which way will the ray refract?",
+  "When a ray of light moves from a medium of lower speed into a medium of greater speed, which way will it refract relative to the normal line?"
+ ],
+ "1C-2": [
+  "When does internal reflection occur?",
+  "When does internal reflection become total?",
+  "Define the critical angle."
+ ],
+ "1C-3": [
+  "When does chromatic dispersion occur?",
+  "What is the cause of many mirages?"
+ ],
+ "1C-4": [
+  "What is the name of the optical principle that ensures light signals remain inside the core of an optical fibre?",
+  "How many internal reflections from single raindrops occur in the formation of primary rainbows?",
+  "How many internal reflections from single raindrops occur in the formation of secondary rainbows?",
+  "How many refractions from single raindrops occur in the formation of primary or secondary rainbows?"
+ ],
+ "2A-1": [
+  "Convert the boiling point of water from Celsius into kelvin.",
+  "Which is a lower temperature: –200°C or 63 K?",
+  "What does the reading on a thermometer measure?"
+ ],
+ "2A-2": [
+  "What is the dominant type of thermal energy transfer in solids?",
+  "What is the is the dominant type of thermal energy transfer in liquids and gases?",
+  "Is there a minimum temperature for an object to transfer energy by radiation?",
+  "What is the cooling mechanism of a Coolgardie safe?"
+ ],
+ "2A-3": [
+  "Which is greater: water’s latent heat of melting or its latent heat of condensation?",
+  "How much energy is needed to melt 10 kg of ice?",
+  "How much energy is needed to raise the temperature of 1 kg of water by 10 K?"
+ ],
+ "2B-1": [
+  "What is the relationship between the peak wavelength of a blackbody radiator and its temperature in kelvin?",
+  "What two changes happen to the spectrum of a blackbody as its temperature increases?"
+ ],
+ "2B-2": [
+  "How many W m^(–2) of Earth’s surface infrared radiation finds its way into space without being absorbed by the atmosphere?",
+  "According to the IPCC, what is the approximate residual amount of energy currently contributing to global warming?",
+  "What role do the gases CO₂, CH₄ and H₂O play in Earth’s infrared radiation?"
+ ],
+ "3A-1": [
+  "How many protons are there in the nucleus of the atom shown in Figure 3A–2? What element does this correspond to?",
+  "Complete the following using the periodic table (Figure 3A–4 or see page 551 of Appendix 2). ---------------------------------- -------------------------------------- Number of protons in the nucleus Name of the element 3 Iron 29 Gold 86 ---------------------------------- --------------------------------------"
+ ],
+ "3A-2": [
+  "What is an isotope of an element?",
+  "What is a radioactive isotope of an element?"
+ ],
+ "3A-3": [
+  "a Which one of the four fundamental forces is the least important in understanding the forces acting in the nucleus? b. Explain your answer.",
+  "Explain how nucleons are held together in the nucleus."
+ ],
+ "3A-4": [
+  "What is binding energy in relation to the nucleus?",
+  "Explain what the average binding energy per nucleon is.",
+  "The element iron-56 has the highest binding energy per nucleon. What is the implication of this for the stability of iron-56?"
+ ],
+ "3B-1": [
+  "a What were the names given by Ernest Rutherford for the three different radiations he discovered? b. Give the order of the three different radiations from least penetrating to most penetrating.",
+  "How can nuclear radiation ionise a neutral atom to create a positive ion?"
+ ],
+ "3B-2": [
+  "Naturally occurring radioactive elements emit various forms of radiation. These include alpha particles (α), beta particles (β) and gamma rays (γ). For the following questions, determine whether the radiation described is alpha, beta or gamma. (8 marks) --------------------------------------------------------------------------------------------------- Description Radiation ----- --------------------------------------------------------------------------------- ----------- a The radiation is negatively charged. b The radiation is positively charged. c The radiation carries no charge. d The radiation is part of the electromagnetic spectrum. e The radiation has poor penetration and is absorbed in a few centimetres of air. f The radiation has very good penetration. g The radiation has the same mass as the mass of an electron. h The radiation has a mass approximately the same as the mass of four neutrons. ---------------------------------------------------------------------------------------------------",
+  "The thorium-234 (Th) nucleus decays by β^(–) emission to protactinium-234 (Pa). Complete the equation for this radioactive decay. (3 marks) ₉₀²³⁴Th→ Pa +",
+  "An α-particle emitted from a particular radioactive element is travelling at 20 000 km s^(–1). The mass of an α-particle is 6.64 × 10^(–27) kg. How much energy does this represent in both a joules (J) (1 mark) b electronvolts (eV) for the α-particle? (1 mark)",
+  "a What particle was proposed by Wolfgang Pauli in 1930 to ensure that the law of conservation of energy held in radioactive beta decay? (2 marks) b What were the properties of this hypothetical particle? (3 marks)"
+ ],
+ "3B-3": [
+  "a What are other names for beta (β) particles? b. What charges do β-particles carry?",
+  "a Write the equation for when a neutron in the nucleus changes into a proton. b. Write the equation for when a proton in the nucleus changes into a neutron."
+ ],
+ "3B-4": [
+  "What charge does a gamma (γ) ray carry?",
+  "At what speed does γ-radiation travel?",
+  "Why do γ-rays have lower ionising power?"
+ ],
+ "3B-5": [
+  "a Complete the following radioactive decay equation: [] ? b. What type of radioactive decay does this represent?",
+  "a Complete the following radioactive decay equation: [] ? b. What type of radioactive decay does this represent?",
+  "a Complete the following radioactive decay equation: [] ? b. What type of radioactive decay does this represent?"
+ ],
+ "3C-1": [
+  "The graph shows the decay curve for 1000 thorium-234 nuclei as a function of time in days. [] Using the decay curve determine the: a. half-life of thorium-234 b. number of thorium-234 nuclei remaining after 48 days c. time (in days) when 100 thorium-234 nuclei remain.",
+  "Molybdenum-99 has a half-life of 67 hours. Using the formula [] calculate the: a. percentage of molybdenum-99 remaining after 201 hours have elapsed b. time it takes to have only $\\frac{1}{16}\\ $th of the original molybdenum-99 remaining."
+ ],
+ "3C-2": [
+  "a What is the unit of activity of radioactive sources? b. What is the unit defined as?",
+  "a Is the half-life of any given radioactive isotope constant? b. Can the half-life be affected by temperature, magnetic fields or the chemical environment?",
+  "In 12 hours, the activity of a sample of a radioactive element falls from 240 Bq to 30 Bq. What is the half-life of this element?",
+  "Potassium-40 has a half-life of 1.25 billion years. The activity of a rock sample of potassium-40 is measured at 30 MBq. What would the activity of the potassium-40 have been 3.75 billion years ago?"
+ ],
+ "3D-1": [
+  "a Using Figure 3D–2 write down the decay equation for []. b. What is the half-life of bismuth-214? c. Write down the decay equation for []. d. What is the half-life of bismuth-210?"
+ ],
+ "3E-1": [
+  "What are the three possible outcomes once a cell is damaged by nuclear radiation?",
+  "Why do medical personnel working with radiation wear lead aprons and lead thyroid shields?",
+  "Specify the relative ionising power and penetration for each of α-, β- and γ-radiation using the terms least, medium and most.",
+  "Which form of radiation (α, β or γ) requires the most shielding? Why?"
+ ],
+ "3E-2": [
+  "Which of our five senses tells us that we are experiencing a lethal dose of γ-radiation?",
+  "a What are the units for absorbed dose, dose equivalent and effective dose? b. What are the definitions for absorbed dose, dose equivalent and effective dose?",
+  "Alpha radiation has a radiation weighting factor of 20. What is the dose equivalent for an absorbed dose of 20 mGy?"
+ ],
+ "3E-3": [
+  "What is meant by the term latent period when referring to the effect of nuclear radiation on humans?",
+  "What are some common short-term effects of radiation doses > 1 Sv?",
+  "What are some common long-term effects of radiation doses > 4 Sv?"
+ ],
+ "3E-4": [
+  "What is the difference between external and internal exposure to nuclear radiation?",
+  "Which of α-, β- and γ-radiation are ionising forms of radiation?",
+  "Why can ionising radiation be harmful to humans?"
+ ],
+ "3E-5": [
+  "What is the strategy in using radiation doses for medical diagnosis?",
+  "What is the strategy in using radiation doses for medical therapy?",
+  "Why are cancerous cells more sensitive to radiation than normal cells?"
+ ],
+ "4A-1": [
+  "What is nuclear fission? Give an example of how nuclear fission is used.",
+  "What is nuclear fusion? Give an example of where nuclear fusion occurs.",
+  "Use Table 4A–1 to answer the following questions. a. How much mass from an original 1.0 kg mass of uranium-235 has been converted into other forms of energy via nuclear fission in a bomb? b. Approximately how many kilograms of coal would need to be burned to release the same amount of energy as the fissioning of a 1.0 kg mass of uranium-235 in a bomb? c. What is the ratio of mass-to-energy conversion for nuclear fusion compared to nuclear fission?"
+ ],
+ "4A-2": [
+  "What is a fissile material?",
+  "What is a chain reaction?",
+  "What is the role of a moderator in nuclear reactors? Give an example of a moderator.",
+  "What is a controlled chain reaction?"
+ ],
+ "4A-3": [
+  "What is meant by a critical mass of a fissile material?",
+  "How does the geometric shape affect the criticality of fissile material; for example, a sphere versus a flat thin square with the same amount of fissile material?",
+  "How do you design just two sub critical uranium-235 enriched fissile masses to become a supercritical fissile mass in a nuclear weapon?"
+ ],
+ "4B-1": [
+  "What is the mass difference percentage energy conversion for nuclear fission and nuclear fusion?",
+  "a What were the code names used for the nuclear bombs dropped on Hiroshima and Nagasaki? b. Why were two different two fissile isotopes used for constructing the nuclear bombs dropped on Hiroshima and Nagasaki?",
+  "What is the major long-term environmental issue with producing electricity using nuclear fission reactors?"
+ ],
+ "4B-2": [
+  "What is the nuclear process that powers the Sun called?",
+  "a What is a thermonuclear bomb? b. What is the main fuel for a thermonuclear bomb?",
+  "What is a tokamak and why is it used for experimental nuclear fusion reactors?"
+ ],
+ "4C-1": [
+  "a What did the British Government test at Maralinga in South Australia in the 1950s and 1960s? b. What was the impact on the Maralinga Tjarutja, the traditional Aboriginal owners of the land?",
+  "What is Australia’s OPAL reactor used for?",
+  "a What is the efficiency of a nuclear reactor boiler that produces 1000 MW electrical energy from a 2800 MW thermal energy. b. Where does the extra thermal energy of 1800 MW go?"
+ ],
+ "5A-1": [
+  "Name the two heaviest particles of an atomic nucleus and state the charge of each.",
+  "Name the small, negatively charged component of an atom.",
+  "Complete the following sentence. Positive charge repels ___________________ charge and attracts ___________________ charge. It is said that ‘like charges ___________________ and opposite (or unlike) charges ___________________’"
+ ],
+ "5A-2": [
+  "What is it that moves when a current flows in a metal wire and how fast do they move?",
+  "List three conductors (materials that can conduct electric current) and three insulators (materials that do not conduct electric current). What is the most likely difference between the conductors and insulators at an atomic level?"
+ ],
+ "5A-3": [
+  "Draw the circuit symbols for the following components. a. incandescent filament globe b. electric motor",
+  "Neatly draw a circuit diagram for a circuit in which a toy motor has an LED indicator light that switches on when the motor does. Include a battery and a switch."
+ ],
+ "5A-4": [
+  "Why is an ammeter always placed in series in a circuit? Hint: what does it measure?",
+  "Why do ammeters often have more than one red terminal?",
+  "Place the ammeter in this circuit so it measures the current. Redraw the circuit diagram to show your solution. Compare your diagram with those of other students. What do you notice? What can you predict about the magnitude of the current in the ammeter, regardless of where placed in the circuit? []"
+ ],
+ "5A-5": [
+  "What is a flow of electric charge called? What unit is it measured in?",
+  "How many coulombs flow through a given point in 1 second if the current is 3 A?",
+  "Calculate the current that flows through a circuit if 24 C of charge pass the positive terminal of the battery in 10 s. How many electrons per second is this?"
+ ],
+ "5B-1": [
+  "Make a table that shows the symbol and SI units for electrical potential difference, electrical energy and electric charge.",
+  "How much electrical energy (in joules) does a 9 V battery supply to each coulomb of charge that passes through it?"
+ ],
+ "5B-2": [
+  "In the bowling ball analogy in Figure 5B–11, several variations are possible. Match the variation in the analogy below with the effect in the electric circuit. ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- Analogy Electric circuit ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------- 1 An extra person joins her friend in lifting the bowling balls up to the top plank. A An extra battery is added (in series) in the circuit, increasing the potential difference provided. 2 The top plank is raised higher off the ground, so more energy is needed to lift the ball up to the plank. B A battery of larger capacity (e.g. from AA to D size) is used but with the same potential difference. 3 More bowling balls are added to the circuit. C More energy is required to pass through the component so the battery will ‘run flat’ sooner. (The ‘resistance’ is increased.) 4 The tube of liquid is made thinner, with oil instead of water. D An extra battery is added beside the original one (in parallel), increasing the amount of charge that can flow without increasing the potential difference ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+  "When the sun is shining, a solar panel provides energy to a pump that makes a small fountain in a bowl of water. Use this as an analogy for potential difference and current in an electric circuit. [Diagram Description automatically generated] What would the pump and solar panel together represent, and what represents the electric current in this model? How is the potential difference increased, and what effect does this have in the circuit?"
+ ],
+ "5B-3": [
+  "Redraw the circuit diagram and show where you would connect the voltmeter to check the potential difference across each of the motor, the indicator light and the battery in this circuit.",
+  "Show how you would connect an ammeter to check the current through the motor in this circuit.",
+  "When the switch is closed both the motor and the indicator light turn on. Describe the energy transfers in each of these components when the switch is closed."
+ ],
+ "5B-4": [
+  "Explain the application of the formula E = VIt to a real-world situation such as, a torch.",
+  "Calculate the electrical energy used in a torch circuit during 1 minute, if an ammeter measures the current through the bulb as 0.5 A and a voltmeter measures a potential difference of 5.9 V across the bulb."
+ ],
+ "5C-1": [
+  "Copy and complete the following table. ---------------------- ------------------------- ------------------------- Quantity Symbol Units Potential difference Current Resistance ---------------------- ------------------------- -------------------------",
+  "Calculate the resistance of a component when the potential difference across it is 6.0 V and the current through it is 0.2 A.",
+  "On the same axes, sketch an I–V graph for: a. a resistance of 0 Ω b. an infinite resistance.",
+  "For each of the following current–potential difference (I–V) graphs, identify whether it is more likely to be produced by a light bulb or a resistor. Justify your choice. a [] b [Chart, line chart Description automatically generated]"
+ ],
+ "5C-2": [
+  "Describe the relative sizes of the potential differences measured by the voltmeters V₂ and V₃ in terms of the battery potential difference, V₁. Justify your answer.",
+  "Describe the relative sizes of the currents measured by the ammeters A₁, A₂ and A₃ in terms of which are smaller, which are larger, and if any are the same. Justify your answer."
+ ],
+ "5C-3": [
+  "If V_(in) is 12 V, calculate V_(out) in each of these potential dividers (1 k = 1000 Ω) Hint: you should be able to see a short cut to using the complete formula each time. [Diagram Description automatically generated]",
+  "Can the output potential difference, V_(out), of a potential divider ever be larger than the input potential difference, V_(in)? Explain your answer."
+ ],
+ "5D-1": [
+  "Which of the following diagrams represent parallel, series or simple circuits? The remaining circuit is incomplete or ‘open’. a [Chart, box and whisker chart Description automatically generated] b [Chart, box and whisker chart Description automatically generated] c [Chart, box and whisker chart Description automatically generated] d [Chart, box and whisker chart Description automatically generated] e [Chart, box and whisker chart Description automatically generated]",
+  "Calculate the equivalent resistance in the following parallel circuits. a [Diagram Description automatically generated] b [Diagram, box and whisker chart Description automatically generated]",
+  "The two resistors shown are identical. State the values of current and potential difference readings for each of the meters shown. [Diagram Description automatically generated]"
+ ],
+ "5D-2": [
+  "Explain why you read off potential differences at a fixed current in the graphical approach for resistances in series.",
+  "Explain why you read off currents at a fixed potential difference in the graphical approach for resistances in parallel."
+ ],
+ "5E-1": [
+  "Rearrange the power formula (Formula 5E–1) to give an expression for energy in terms of power and time.",
+  "Calculate the power supplied when 3000 J of electrical energy is supplied to an electric drill in 10 seconds."
+ ],
+ "5E-2": [
+  "Calculate the power drawn by a refrigerator connected to mains power supply (230 V) if the current is 1.5 A.",
+  "Calculate the energy used by a light bulb in 10 minutes when connected to a 12 V power supply that carries 0.6 A of current."
+ ],
+ "5E-3": [
+  "A long extension lead carrying a current of 2 A has a potential difference of 0.5 V across it, from one end to the other. Calculate the power loss in the cable.",
+  "A 1 kΩ resistor in a circuit has a current of 0.05A flowing through it. Calculate the power loss in the resistor."
+ ],
+ "5E-4": [
+  "Explain why the power used in a parallel circuit is more than the power used in a series circuit of the same components, supplied by the same potential difference.",
+  "Explain the advantages of parallel circuits over series circuits, especially for household use of electricity."
+ ],
+ "6A-1": [
+  "A diode can be used in a circuit to control the direction of applied voltage. What property of diodes is used in this application?",
+  "Explain why diodes and LEDs are often connected in a circuit in series with a small resistor.",
+  "If the protective resistor is always in the circuit, why is the voltmeter in Figure 6A–7 across only the LED and not the resistor?"
+ ],
+ "6A-2": [
+  "How would the brightness of the globe vary as the slider is moved up towards A?",
+  "How would the brightness of the globe vary as the slider is moved down towards C?"
+ ],
+ "6A-3": [
+  "What property of LDRs make them useful in circuits?",
+  "List some possible real-world applications of LDRs."
+ ],
+ "6A-4": [
+  "What property of thermistors make them useful in circuits, specifically those used to control temperature?",
+  "List some possible real-world applications of thermistors."
+ ],
+ "6B-1": [
+  "Recall two advantages of parallel circuits over series circuits and explain how these make it more convenient to wire household lights and power points in parallel.",
+  "Why are switches and circuit breakers wired in series with their appliances, not parallel?"
+ ],
+ "6B-2": [
+  "Why are kilowatt-hours the domestic unit of energy instead of joules?",
+  "Calculate the total energy used when an induction cooktop using 2 kW of power for 10 minutes and a 1500 W heater is on for 2 hours."
+ ],
+ "6B-3": [
+  "Calculate the cost of running an electric jug kettle for 10 minutes, if it has a power rating of 3000 W. Assume the cost of electricity is $0.30/kW h.",
+  "Most electric jug kettles will only need to be on for perhaps 2–5 minutes to boil water. How much energy will a 3 kW kettle use if it is on for 5 minutes? What will this cost?"
+ ],
+ "6C-1": [
+  "Consider the information in Table 6C–1. What is the significance of a 10–20 mA current on the human body, compared with 1–10 mA?",
+  "When administering first aid for an electric shock, why is it important to ‘look first, don’t touch’?"
+ ],
+ "6C-2": [
+  "Which of the three wires in a domestic power socket carries the AC potential difference?",
+  "What are the other two wires and what is their function?",
+  "What is the colour code for each of the three wires in an Australian three-pin plug?",
+  "If an appliance doesn’t have an earth pin on its plug, what does this tell you about the structure of the appliance?"
+ ]
+}
