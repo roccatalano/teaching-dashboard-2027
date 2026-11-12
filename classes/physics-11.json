@@ -688,6 +688,14 @@
     {
      "text": "Exit ticket",
      "done": false
+    },
+    {
+     "text": "CFAT 1 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 1 marked and data entered",
+     "done": false
     }
    ],
    "notes": "",
@@ -703,7 +711,99 @@
      "label": "U1 AoS1 slide deck",
      "path": "Unit 1/Teaching materials/Physics_U1_AoS1.pptx"
     }
-   ]
+   ],
+   "cfat": {
+    "id": "CFAT 1",
+    "title": "Waves, light and refraction",
+    "coversPearson": "Ch 2, Ch 3",
+    "covers": [
+     "1A",
+     "1B",
+     "1C"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Pick 5–8 questions from the Cambridge check-in sets (recall plus at least one multi-step calculation) and 1 extended question from the chapter test. Use the chapter checklist as the success criteria.",
+    "sources": [
+     {
+      "kind": "questions",
+      "label": "Section 1A questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/01 Section 1A questions.docx",
+      "section": "1A"
+     },
+     {
+      "kind": "checkin",
+      "label": "1A Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/01 1A Check-in questions – Set 1.docx",
+      "section": "1A"
+     },
+     {
+      "kind": "checkin",
+      "label": "1A Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/02 1A Check-in questions – Set 2.docx",
+      "section": "1A"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 1B questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/02 Section 1B questions.docx",
+      "section": "1B"
+     },
+     {
+      "kind": "checkin",
+      "label": "1B Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/03 1B Check-in questions – Set 1.docx",
+      "section": "1B"
+     },
+     {
+      "kind": "checkin",
+      "label": "1B Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/04 1B Check-in questions – Set 2.docx",
+      "section": "1B"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 1C questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/03 Section 1C questions.docx",
+      "section": "1C"
+     },
+     {
+      "kind": "checkin",
+      "label": "1C Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/05 1C Check-in questions – Set 1.docx",
+      "section": "1C"
+     },
+     {
+      "kind": "checkin",
+      "label": "1C Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/06 1C Check-in questions – Set 2.docx",
+      "section": "1C"
+     },
+     {
+      "kind": "checkin",
+      "label": "1C Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/07 1C Check-in questions – Set 3.docx",
+      "section": "1C"
+     },
+     {
+      "kind": "checkin",
+      "label": "1C Check-in questions · Set 4",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/08 1C Check-in questions – Set 4.docx",
+      "section": "1C"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 1 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/01 Chapter 1 Test.docx",
+      "section": "Ch 1"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 1 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/01 Chapter 1 Checklist.docx",
+      "section": "Ch 1"
+     }
+    ]
+   }
   },
   {
    "unit": 1,
@@ -1185,6 +1285,14 @@
     {
      "text": "Exit ticket",
      "done": false
+    },
+    {
+     "text": "CFAT 2 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 2 marked and data entered",
+     "done": false
     }
    ],
    "notes": "",
@@ -1212,7 +1320,74 @@
      "label": "U1 AoS1 slide deck",
      "path": "Unit 1/Teaching materials/Physics_U1_AoS1.pptx"
     }
-   ]
+   ],
+   "cfat": {
+    "id": "CFAT 2",
+    "title": "Thermal energy and radiation",
+    "coversPearson": "Ch 4, Ch 5",
+    "covers": [
+     "2A",
+     "2B"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Pick 5–8 questions from the Cambridge check-in sets (recall plus at least one multi-step calculation) and 1 extended question from the chapter test. Use the chapter checklist as the success criteria.",
+    "sources": [
+     {
+      "kind": "questions",
+      "label": "Section 2A questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/05 Section 2A questions.docx",
+      "section": "2A"
+     },
+     {
+      "kind": "checkin",
+      "label": "2A Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/09 2A Check-in questions – Set 1.docx",
+      "section": "2A"
+     },
+     {
+      "kind": "checkin",
+      "label": "2A Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/10 2A Check-in questions – Set 2.docx",
+      "section": "2A"
+     },
+     {
+      "kind": "checkin",
+      "label": "2A Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/11 2A Check-in questions – Set 3.docx",
+      "section": "2A"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 2B questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/06 Section 2B questions.docx",
+      "section": "2B"
+     },
+     {
+      "kind": "checkin",
+      "label": "2B Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/12 2B Check-in questions – Set 1.docx",
+      "section": "2B"
+     },
+     {
+      "kind": "checkin",
+      "label": "2B Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/13 2B Check-in questions – Set 2.docx",
+      "section": "2B"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 2 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/02 Chapter 2 Test.docx",
+      "section": "Ch 2"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 2 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/02 Chapter 2 Checklist.docx",
+      "section": "Ch 2"
+     }
+    ]
+   }
   },
   {
    "unit": 1,
@@ -2153,6 +2328,14 @@
     {
      "text": "Print prac sheet",
      "done": false
+    },
+    {
+     "text": "CFAT 3 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 3 marked and data entered",
+     "done": false
     }
    ],
    "notes": "",
@@ -2162,7 +2345,167 @@
      "label": "U1 AoS2 slide deck",
      "path": "Unit 1/Teaching materials/Physics_U1_AoS2.pptx"
     }
-   ]
+   ],
+   "cfat": {
+    "id": "CFAT 3",
+    "title": "Radiation from the nucleus",
+    "coversPearson": "Ch 6",
+    "covers": [
+     "3A",
+     "3B",
+     "3C",
+     "3D",
+     "3E"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Pick 5–8 questions from the Cambridge check-in sets (recall plus at least one multi-step calculation) and 1 extended question from the chapter test. Use the chapter checklist as the success criteria.",
+    "sources": [
+     {
+      "kind": "questions",
+      "label": "Section 3A questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/08 Section 3A questions.docx",
+      "section": "3A"
+     },
+     {
+      "kind": "checkin",
+      "label": "3A Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/14 3A Check-in questions – Set 1.docx",
+      "section": "3A"
+     },
+     {
+      "kind": "checkin",
+      "label": "3A Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/15 3A Check-in questions – Set 2.docx",
+      "section": "3A"
+     },
+     {
+      "kind": "checkin",
+      "label": "3A Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/16 3A Check-in questions – Set 3.docx",
+      "section": "3A"
+     },
+     {
+      "kind": "checkin",
+      "label": "3A Check-in questions · Set 4",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/17 3A Check-in questions – Set 4.docx",
+      "section": "3A"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 3B questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/09 Section 3B questions.docx",
+      "section": "3B"
+     },
+     {
+      "kind": "checkin",
+      "label": "3B Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/18 3B Check-in questions – Set 1.docx",
+      "section": "3B"
+     },
+     {
+      "kind": "checkin",
+      "label": "3B Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/19 3B Check-in questions – Set 2.docx",
+      "section": "3B"
+     },
+     {
+      "kind": "checkin",
+      "label": "3B Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/20 3B Check-in questions – Set 3.docx",
+      "section": "3B"
+     },
+     {
+      "kind": "checkin",
+      "label": "3B Check-in questions · Set 4",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/21 3B Check-in questions – Set 4.docx",
+      "section": "3B"
+     },
+     {
+      "kind": "checkin",
+      "label": "3B Check-in questions · Set 5",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/22 3B Check-in questions – Set 5.docx",
+      "section": "3B"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 3C questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/10 Section 3C questions.docx",
+      "section": "3C"
+     },
+     {
+      "kind": "checkin",
+      "label": "3C Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/23 3C Check-in questions – Set 1.docx",
+      "section": "3C"
+     },
+     {
+      "kind": "checkin",
+      "label": "3C Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/24 3C Check-in questions – Set 2.docx",
+      "section": "3C"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 3D questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/11 Section 3D questions.docx",
+      "section": "3D"
+     },
+     {
+      "kind": "checkin",
+      "label": "3D Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/25 3D Check-in questions – Set 1.docx",
+      "section": "3D"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 3E questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/12 Section 3E questions.docx",
+      "section": "3E"
+     },
+     {
+      "kind": "checkin",
+      "label": "3E Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/26 3E Check-in questions – Set 1.docx",
+      "section": "3E"
+     },
+     {
+      "kind": "checkin",
+      "label": "3E Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/27 3E Check-in questions – Set 2.docx",
+      "section": "3E"
+     },
+     {
+      "kind": "checkin",
+      "label": "3E Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/28 3E Check-in questions – Set 3.docx",
+      "section": "3E"
+     },
+     {
+      "kind": "checkin",
+      "label": "3E Check-in questions · Set 4",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/29 3E Check-in questions – Set 4.docx",
+      "section": "3E"
+     },
+     {
+      "kind": "checkin",
+      "label": "3E Check-in questions · Set 5",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/30 3E Check-in questions – Set 5.docx",
+      "section": "3E"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 3 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/03 Chapter 3 Test.docx",
+      "section": "Ch 3"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 3 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/03 Chapter 3 Checklist.docx",
+      "section": "Ch 3"
+     }
+    ]
+   }
   },
   {
    "unit": 1,
@@ -2386,6 +2729,14 @@
     {
      "text": "Exit ticket",
      "done": false
+    },
+    {
+     "text": "CFAT 4 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 4 marked and data entered",
+     "done": false
     }
    ],
    "notes": "",
@@ -2413,7 +2764,87 @@
      "label": "U1 AoS2 slide deck",
      "path": "Unit 1/Teaching materials/Physics_U1_AoS2.pptx"
     }
-   ]
+   ],
+   "cfat": {
+    "id": "CFAT 4",
+    "title": "Nuclear energy",
+    "coversPearson": "Ch 7",
+    "covers": [
+     "4A",
+     "4B",
+     "4C"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Pick 5–8 questions from the Cambridge check-in sets (recall plus at least one multi-step calculation) and 1 extended question from the chapter test. Use the chapter checklist as the success criteria.",
+    "sources": [
+     {
+      "kind": "questions",
+      "label": "Section 4A questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/14 Section 4A questions.docx",
+      "section": "4A"
+     },
+     {
+      "kind": "checkin",
+      "label": "4A Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/31 4A Check-in questions – Set 1.docx",
+      "section": "4A"
+     },
+     {
+      "kind": "checkin",
+      "label": "4A Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/32 4A Check-in questions – Set 2.docx",
+      "section": "4A"
+     },
+     {
+      "kind": "checkin",
+      "label": "4A Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/33 4A Check-in questions – Set 3.docx",
+      "section": "4A"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 4B questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/15 Section 4B questions.docx",
+      "section": "4B"
+     },
+     {
+      "kind": "checkin",
+      "label": "4B Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/34 4B Check-in questions – Set 1.docx",
+      "section": "4B"
+     },
+     {
+      "kind": "checkin",
+      "label": "4B Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/35 4B Check-in questions – Set 2.docx",
+      "section": "4B"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 4C questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/16 Section 4C questions.docx",
+      "section": "4C"
+     },
+     {
+      "kind": "checkin",
+      "label": "4C Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/36 4C Check-in questions – Set 1.docx",
+      "section": "4C"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 4 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/04 Chapter 4 Test.docx",
+      "section": "Ch 4"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 4 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/04 Chapter 4 Checklist.docx",
+      "section": "Ch 4"
+     }
+    ]
+   }
   },
   {
    "unit": 1,
@@ -3626,6 +4057,14 @@
     {
      "text": "Print prac sheet",
      "done": false
+    },
+    {
+     "text": "CFAT 5 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 5 marked and data entered",
+     "done": false
     }
    ],
    "notes": "",
@@ -3635,7 +4074,172 @@
      "label": "U1 AoS3 slide deck",
      "path": "Unit 1/Teaching materials/Physics_U1_AoS3.pptx"
     }
-   ]
+   ],
+   "cfat": {
+    "id": "CFAT 5",
+    "title": "Charge, current, energy and resistance",
+    "coversPearson": "Ch 8",
+    "covers": [
+     "5A",
+     "5B",
+     "5E",
+     "6A"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Pick 5–8 questions from the Cambridge check-in sets (recall plus at least one multi-step calculation) and 1 extended question from the chapter test. Use the chapter checklist as the success criteria.",
+    "sources": [
+     {
+      "kind": "questions",
+      "label": "Section 5A questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/18 Section 5A questions.docx",
+      "section": "5A"
+     },
+     {
+      "kind": "checkin",
+      "label": "5A Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/37 5A Check-in questions – Set 1.docx",
+      "section": "5A"
+     },
+     {
+      "kind": "checkin",
+      "label": "5A Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/38 5A Check-in questions – Set 2.docx",
+      "section": "5A"
+     },
+     {
+      "kind": "checkin",
+      "label": "5A Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/39 5A Check-in questions – Set 3.docx",
+      "section": "5A"
+     },
+     {
+      "kind": "checkin",
+      "label": "5A Check-in questions · Set 4",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/40 5A Check-in questions – Set 4.docx",
+      "section": "5A"
+     },
+     {
+      "kind": "checkin",
+      "label": "5A Check-in questions · Set 5",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/41 5A Check-in questions – Set 5.docx",
+      "section": "5A"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 5B questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/19 Section 5B questions.docx",
+      "section": "5B"
+     },
+     {
+      "kind": "checkin",
+      "label": "5B Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/42 5B Check-in questions – Set 1.docx",
+      "section": "5B"
+     },
+     {
+      "kind": "checkin",
+      "label": "5B Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/43 5B Check-in questions – Set 2.docx",
+      "section": "5B"
+     },
+     {
+      "kind": "checkin",
+      "label": "5B Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/44 5B Check-in questions – Set 3.docx",
+      "section": "5B"
+     },
+     {
+      "kind": "checkin",
+      "label": "5B Check-in questions · Set 4",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/45 5B Check-in questions – Set 4.docx",
+      "section": "5B"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 5E questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/22 Section 5E questions.docx",
+      "section": "5E"
+     },
+     {
+      "kind": "checkin",
+      "label": "5E Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/51 5E Check-in questions – Set 1.docx",
+      "section": "5E"
+     },
+     {
+      "kind": "checkin",
+      "label": "5E Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/52 5E Check-in questions – Set 2.docx",
+      "section": "5E"
+     },
+     {
+      "kind": "checkin",
+      "label": "5E Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/53 5E Check-in questions – Set 3.docx",
+      "section": "5E"
+     },
+     {
+      "kind": "checkin",
+      "label": "5E Check-in questions · Set 4",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/54 5E Check-in questions – Set 4.docx",
+      "section": "5E"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 6A questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/24 Section 6A questions.docx",
+      "section": "6A"
+     },
+     {
+      "kind": "checkin",
+      "label": "6A Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/55 6A Check-in questions – Set 1.docx",
+      "section": "6A"
+     },
+     {
+      "kind": "checkin",
+      "label": "6A Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/56 6A Check-in questions – Set 2.docx",
+      "section": "6A"
+     },
+     {
+      "kind": "checkin",
+      "label": "6A Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/57 6A Check-in questions – Set 3.docx",
+      "section": "6A"
+     },
+     {
+      "kind": "checkin",
+      "label": "6A Check-in questions · Set 4",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/58 6A Check-in questions – Set 4.docx",
+      "section": "6A"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 5 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/05 Chapter 5 Test.docx",
+      "section": "Ch 5"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 5 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/05 Chapter 5 Checklist.docx",
+      "section": "Ch 5"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 6 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/06 Chapter 6 Test.docx",
+      "section": "Ch 6"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 6 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/06 Chapter 6 Checklist.docx",
+      "section": "Ch 6"
+     }
+    ]
+   }
   },
   {
    "unit": 1,
@@ -4516,6 +5120,14 @@
     {
      "text": "Exit ticket",
      "done": false
+    },
+    {
+     "text": "CFAT 6 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 6 marked and data entered",
+     "done": false
     }
    ],
    "notes": "",
@@ -4531,7 +5143,161 @@
      "label": "U1 AoS3 slide deck",
      "path": "Unit 1/Teaching materials/Physics_U1_AoS3.pptx"
     }
-   ]
+   ],
+   "cfat": {
+    "id": "CFAT 6",
+    "title": "Circuits, household electricity and safety",
+    "coversPearson": "Ch 9",
+    "covers": [
+     "5C",
+     "5D",
+     "5E",
+     "6B",
+     "6C"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Pick 5–8 questions from the Cambridge check-in sets (recall plus at least one multi-step calculation) and 1 extended question from the chapter test. Use the chapter checklist as the success criteria.",
+    "sources": [
+     {
+      "kind": "questions",
+      "label": "Section 5C questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/20 Section 5C questions.docx",
+      "section": "5C"
+     },
+     {
+      "kind": "checkin",
+      "label": "5C Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/46 5C Check-in questions – Set 1.docx",
+      "section": "5C"
+     },
+     {
+      "kind": "checkin",
+      "label": "5C Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/47 5C Check-in questions – Set 2.docx",
+      "section": "5C"
+     },
+     {
+      "kind": "checkin",
+      "label": "5C Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/48 5C Check-in questions – Set 3.docx",
+      "section": "5C"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 5D questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/21 Section 5D questions.docx",
+      "section": "5D"
+     },
+     {
+      "kind": "checkin",
+      "label": "5D Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/49 5D Check-in questions – Set 1.docx",
+      "section": "5D"
+     },
+     {
+      "kind": "checkin",
+      "label": "5D Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/50 5D Check-in questions – Set 2.docx",
+      "section": "5D"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 5E questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/22 Section 5E questions.docx",
+      "section": "5E"
+     },
+     {
+      "kind": "checkin",
+      "label": "5E Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/51 5E Check-in questions – Set 1.docx",
+      "section": "5E"
+     },
+     {
+      "kind": "checkin",
+      "label": "5E Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/52 5E Check-in questions – Set 2.docx",
+      "section": "5E"
+     },
+     {
+      "kind": "checkin",
+      "label": "5E Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/53 5E Check-in questions – Set 3.docx",
+      "section": "5E"
+     },
+     {
+      "kind": "checkin",
+      "label": "5E Check-in questions · Set 4",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/54 5E Check-in questions – Set 4.docx",
+      "section": "5E"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 6B questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/25 Section 6B questions.docx",
+      "section": "6B"
+     },
+     {
+      "kind": "checkin",
+      "label": "6B Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/59 6B Check-in questions – Set 1.docx",
+      "section": "6B"
+     },
+     {
+      "kind": "checkin",
+      "label": "6B Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/60 6B Check-in questions – Set 2.docx",
+      "section": "6B"
+     },
+     {
+      "kind": "checkin",
+      "label": "6B Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/61 6B Check-in questions – Set 3.docx",
+      "section": "6B"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 6C questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/26 Section 6C questions.docx",
+      "section": "6C"
+     },
+     {
+      "kind": "checkin",
+      "label": "6C Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/62 6C Check-in questions – Set 1.docx",
+      "section": "6C"
+     },
+     {
+      "kind": "checkin",
+      "label": "6C Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/63 6C Check-in questions – Set 2.docx",
+      "section": "6C"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 5 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/05 Chapter 5 Test.docx",
+      "section": "Ch 5"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 5 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/05 Chapter 5 Checklist.docx",
+      "section": "Ch 5"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 6 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/06 Chapter 6 Test.docx",
+      "section": "Ch 6"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 6 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/06 Chapter 6 Checklist.docx",
+      "section": "Ch 6"
+     }
+    ]
+   }
   },
   {
    "unit": 1,
@@ -5876,6 +6642,14 @@
     {
      "text": "Print prac sheet",
      "done": false
+    },
+    {
+     "text": "CFAT 7 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 7 marked and data entered",
+     "done": false
     }
    ],
    "notes": "",
@@ -5890,7 +6664,99 @@
      "label": "Notes: How is motion understood (PDF)",
      "path": "Unit 2/Teaching materials/Area of Study 1 - How is motion understood.pdf"
     }
-   ]
+   ],
+   "cfat": {
+    "id": "CFAT 7",
+    "title": "Vectors and kinematics",
+    "coversPearson": "Ch 10, Ch 11",
+    "covers": [
+     "7A",
+     "7B",
+     "7C"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Pick 5–8 questions from the Cambridge check-in sets (recall plus at least one multi-step calculation) and 1 extended question from the chapter test. Use the chapter checklist as the success criteria.",
+    "sources": [
+     {
+      "kind": "questions",
+      "label": "Section 7A questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/29 Section 7A questions.docx",
+      "section": "7A"
+     },
+     {
+      "kind": "checkin",
+      "label": "7A Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/64 7A Check-in questions – Set 1.docx",
+      "section": "7A"
+     },
+     {
+      "kind": "checkin",
+      "label": "7A Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/65 7A Check-in questions – Set 2.docx",
+      "section": "7A"
+     },
+     {
+      "kind": "checkin",
+      "label": "7A Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/66 7A Check-in questions – Set 3.docx",
+      "section": "7A"
+     },
+     {
+      "kind": "checkin",
+      "label": "7A Check-in questions · Set 4",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/67 7A Check-in questions – Set 4.docx",
+      "section": "7A"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 7B questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/30 Section 7B questions.docx",
+      "section": "7B"
+     },
+     {
+      "kind": "checkin",
+      "label": "7B Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/68 7B Check-in questions – Set 1.docx",
+      "section": "7B"
+     },
+     {
+      "kind": "checkin",
+      "label": "7B Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/69 7B Check-in questions – Set 2.docx",
+      "section": "7B"
+     },
+     {
+      "kind": "checkin",
+      "label": "7B Check-in questions · Set 3",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/70 7B Check-in questions – Set 3.docx",
+      "section": "7B"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 7C questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/31 Section 7C questions.docx",
+      "section": "7C"
+     },
+     {
+      "kind": "checkin",
+      "label": "7C Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/71 7C Check-in questions – Set 1.docx",
+      "section": "7C"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 7 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/07 Chapter 7 Test.docx",
+      "section": "Ch 7"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 7 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/07 Chapter 7 Checklist.docx",
+      "section": "Ch 7"
+     }
+    ]
+   }
   },
   {
    "unit": 2,
@@ -6668,6 +7534,14 @@
     {
      "text": "Print prac sheet",
      "done": false
+    },
+    {
+     "text": "CFAT 8 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 8 marked and data entered",
+     "done": false
     }
    ],
    "notes": "",
@@ -6682,7 +7556,68 @@
      "label": "Notes: How is motion understood (PDF)",
      "path": "Unit 2/Teaching materials/Area of Study 1 - How is motion understood.pdf"
     }
-   ]
+   ],
+   "cfat": {
+    "id": "CFAT 8",
+    "title": "Newton’s laws and momentum",
+    "coversPearson": "Ch 12",
+    "covers": [
+     "8A",
+     "8B"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Pick 5–8 questions from the Cambridge check-in sets (recall plus at least one multi-step calculation) and 1 extended question from the chapter test. Use the chapter checklist as the success criteria.",
+    "sources": [
+     {
+      "kind": "questions",
+      "label": "Section 8A questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/33 Section 8A questions.docx",
+      "section": "8A"
+     },
+     {
+      "kind": "checkin",
+      "label": "8A Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/72 8A Check-in questions – Set 1.docx",
+      "section": "8A"
+     },
+     {
+      "kind": "checkin",
+      "label": "8A Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/73 8A Check-in questions – Set 2.docx",
+      "section": "8A"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 8B questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/34 Section 8B questions.docx",
+      "section": "8B"
+     },
+     {
+      "kind": "checkin",
+      "label": "8B Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/74 8B Check-in questions – Set 1.docx",
+      "section": "8B"
+     },
+     {
+      "kind": "checkin",
+      "label": "8B Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/75 8B Check-in questions – Set 2.docx",
+      "section": "8B"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 8 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/08 Chapter 8 Test.docx",
+      "section": "Ch 8"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 8 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/08 Chapter 8 Checklist.docx",
+      "section": "Ch 8"
+     }
+    ]
+   }
   },
   {
    "unit": 2,
@@ -7152,6 +8087,14 @@
     {
      "text": "Print prac sheet",
      "done": false
+    },
+    {
+     "text": "CFAT 9 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 9 marked and data entered",
+     "done": false
     }
    ],
    "notes": "",
@@ -7166,7 +8109,81 @@
      "label": "Notes: How is motion understood (PDF)",
      "path": "Unit 2/Teaching materials/Area of Study 1 - How is motion understood.pdf"
     }
-   ]
+   ],
+   "cfat": {
+    "id": "CFAT 9",
+    "title": "Work, energy and power",
+    "coversPearson": "Ch 13",
+    "covers": [
+     "9A",
+     "9B",
+     "9C"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Pick 5–8 questions from the Cambridge check-in sets (recall plus at least one multi-step calculation) and 1 extended question from the chapter test. Use the chapter checklist as the success criteria.",
+    "sources": [
+     {
+      "kind": "questions",
+      "label": "Section 9A questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/37 Section 9A questions.docx",
+      "section": "9A"
+     },
+     {
+      "kind": "checkin",
+      "label": "9A Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/78 9A Check-in questions – Set 1.docx",
+      "section": "9A"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 9B questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/38 Section 9B questions.docx",
+      "section": "9B"
+     },
+     {
+      "kind": "checkin",
+      "label": "9B Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/79 9B Check-in questions – Set 1.docx",
+      "section": "9B"
+     },
+     {
+      "kind": "checkin",
+      "label": "9B Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/80 9B Check-in questions – Set 2.docx",
+      "section": "9B"
+     },
+     {
+      "kind": "questions",
+      "label": "Section 9C questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/39 Section 9C questions.docx",
+      "section": "9C"
+     },
+     {
+      "kind": "checkin",
+      "label": "9C Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/81 9C Check-in questions – Set 1.docx",
+      "section": "9C"
+     },
+     {
+      "kind": "checkin",
+      "label": "9C Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/82 9C Check-in questions – Set 2.docx",
+      "section": "9C"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 9 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/09 Chapter 9 Test.docx",
+      "section": "Ch 9"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 9 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/09 Chapter 9 Checklist.docx",
+      "section": "Ch 9"
+     }
+    ]
+   }
   },
   {
    "unit": 2,
@@ -7527,6 +8544,14 @@
     {
      "text": "Print prac sheet",
      "done": false
+    },
+    {
+     "text": "CFAT 10 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 10 marked and data entered",
+     "done": false
     }
    ],
    "notes": "",
@@ -7541,7 +8566,49 @@
      "label": "Notes: How is motion understood (PDF)",
      "path": "Unit 2/Teaching materials/Area of Study 1 - How is motion understood.pdf"
     }
-   ]
+   ],
+   "cfat": {
+    "id": "CFAT 10",
+    "title": "Torque and equilibrium",
+    "coversPearson": "Ch 14",
+    "covers": [
+     "8C"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Pick 5–8 questions from the Cambridge check-in sets (recall plus at least one multi-step calculation) and 1 extended question from the chapter test. Use the chapter checklist as the success criteria.",
+    "sources": [
+     {
+      "kind": "questions",
+      "label": "Section 8C questions",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/01 Section and review questions/35 Section 8C questions.docx",
+      "section": "8C"
+     },
+     {
+      "kind": "checkin",
+      "label": "8C Check-in questions · Set 1",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/76 8C Check-in questions – Set 1.docx",
+      "section": "8C"
+     },
+     {
+      "kind": "checkin",
+      "label": "8C Check-in questions · Set 2",
+      "path": "CambridgeGO Resources/Part B - Sections 11-13/VCE Physics Units 1&2 - Teacher resources/12 Check-in questions/77 8C Check-in questions – Set 2.docx",
+      "section": "8C"
+     },
+     {
+      "kind": "test",
+      "label": "Chapter 8 Test",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/02 Chapter tests/08 Chapter 8 Test.docx",
+      "section": "Ch 8"
+     },
+     {
+      "kind": "checklist",
+      "label": "Chapter 8 Checklist",
+      "path": "CambridgeGO Resources/VCE Physics Units 1&2 - Teacher resources/06 Checklists/08 Chapter 8 Checklist.docx",
+      "section": "Ch 8"
+     }
+    ]
+   }
   },
   {
    "unit": 2,
