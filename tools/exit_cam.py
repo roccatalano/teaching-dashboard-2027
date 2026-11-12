@@ -42,7 +42,7 @@ for l in L:
   for s in l['sequence']['steps']:
     if s['phase']=='Exit ticket':
       s['detail']='Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.'
-      s['resource']=f"Cambridge {'/'.join(sorted({p['c'] for p in qs}))} Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+      s.pop('resource',None)
   n+=1
 json.dump(d,open(sys.argv[1],'w'),indent=1,ensure_ascii=False)
 print('lessons',n,'questions used',len(used))
