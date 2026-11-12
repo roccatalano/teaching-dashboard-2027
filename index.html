@@ -80,6 +80,7 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 .placeholder{background:var(--card);border:1px dashed var(--muted);border-radius:12px;padding:40px;text-align:center;color:var(--muted);margin-top:30px}
 @media(max-width:760px){.week{grid-template-columns:1fr}.detail{grid-column:1;grid-template-columns:1fr}}
 
+.ph-cfat{--c:#5b3fb0}.ph-prac,.ph-analysis{--c:var(--prac-i)}.ph-pre-lab,.ph-logbook{--c:var(--review-i)}
 .res{margin:0;padding-left:18px;line-height:1.55}.res .path{display:block;font-size:11px;color:var(--muted);word-break:break-all}
 .teach{margin-top:8px;padding:8px 10px;background:var(--bg);border-radius:8px}.teach h3{margin-top:0}
 .scope{font-size:12px;color:var(--muted)}
@@ -131,7 +132,17 @@ function pearsonPane(l){
     ${l.otherPracs?.length?`<h3>Other Pearson pracs for this topic (not scheduled)</h3>${res(l.otherPracs)}`:''}
     ${l.solutions?`<div class="teach"><h3>Teacher: answers</h3>${res([l.solutions])}</div>`:''}
     ${l.note?`<h3>Note</h3><div>${esc(l.note)}</div>`:''}`}
-function seqPane(l){const q=l.sequence;if(!q)return `<div class="seqempty">Guided lesson sequence not written yet</div>`;return ''}
+function seqPane(l){const q=l.sequence;
+  if(!q)return `<div class="seqempty">Guided lesson sequence not written yet</div>`;
+  let t=0;
+  return `<div class="seqhead"><h3 style="margin-top:0">Guided lesson sequence</h3><span class="sub">${q.length} min</span></div>
+    <div class="goals"><b>Learning goals: I can…</b><ul>${q.goals.map(g=>`<li>${esc(g)}</li>`).join('')}</ul></div>
+    <ol class="steps">${q.steps.map(s=>{const st=t;t+=s.min;return `<li class="step ph-${s.phase.split(' ')[0].toLowerCase()}">
+      <div class="stime">${st}–${t}<br><span>${s.min} min</span></div>
+      <div><div class="sphase">${esc(s.phase)}</div><div class="stitle">${esc(s.title)}</div><div class="sdetail">${esc(s.detail)}</div>
+      ${s.phase=='Do-now'&&q.doNow?.length?`<ul class="donow">${q.doNow.map(x=>`<li><b>${esc(x.when)}</b>${x.note?` <span class="sub">(${esc(x.note)})</span>`:''}<br>${esc(x.q)}</li>`).join('')}</ul>`:''}
+      ${s.resource?`<div class="sres">${esc(s.resource)}</div>`:''}</div></li>`}).join('')}</ol>
+    <h3>Vocabulary</h3><div class="vocab">${q.vocab.map(v=>`<span>${esc(v)}</span>`).join('')}</div>`}
 function detail(l){
   const t=tasksOf(l),s=state(l.id);
   return `<div class="detail" data-for="${l.id}"><div>

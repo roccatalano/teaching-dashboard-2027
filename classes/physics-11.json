@@ -60,7 +60,96 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Explain that a wave transfers energy without transferring matter",
+     "Distinguish between transverse and longitudinal waves",
+     "Distinguish between mechanical and electromagnetic waves"
+    ],
+    "vocab": [
+     "wave",
+     "medium",
+     "mechanical wave",
+     "electromagnetic wave",
+     "transverse",
+     "longitudinal",
+     "compression",
+     "rarefaction",
+     "oscillation"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "note": "first lesson of the year: Year 10 science",
+      "q": "What is the unit of energy? Give one example of energy being transferred from one object to another."
+     },
+     {
+      "when": "Last week",
+      "note": "Year 10 science",
+      "q": "Name three forms of energy."
+     },
+     {
+      "when": "Last term",
+      "note": "Year 9–10 science",
+      "q": "Can sound travel through outer space? Explain why or why not."
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Students answer the three do-now questions as they arrive, then self-mark as you reveal answers."
+     },
+     {
+      "min": 8,
+      "phase": "Course intro",
+      "title": "Welcome to VCE Physics",
+      "detail": "Course structure, the logbook (why it matters for an S), how CFATs and SACs work, where the eBook and Pearson resources live."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements; students copy them into their books."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "What does a wave carry?",
+      "detail": "Prerequisite: energy transfer, and particles in a medium. Think-pair-share: “At the footy, a Mexican wave travels around the stadium. Does anyone actually move around the stadium?” Draw out: energy moves, the people (the medium) stay in place."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Mechanical vs EM; transverse vs longitudinal",
+      "detail": "Define a mechanical wave (needs a medium) and an EM wave (no medium). Model transverse and longitudinal waves (rope, slinky or the eBook interactive). Students sketch both, labelling particle oscillation and the direction of energy transfer, plus compressions and rarefactions.",
+      "resource": "Pearson SB 2.1; eBook interactive: Wave pulse and a mechanical wave"
+     },
+     {
+      "min": 6,
+      "phase": "Hook",
+      "title": "Extreme wave science",
+      "detail": "Play the video; students note one example of a mechanical wave and say whether it is transverse or longitudinal.",
+      "resource": "Pearson video: Extreme wave science"
+     },
+     {
+      "min": 20,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 2.1 Key questions 1–9. Early finishers: Case study questions 1–4 (p 69).",
+      "resource": "Pearson SB 2.1 KQ 1–9; CS 1–4 p 69"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Sound is a ___ , ___ wave. Light is a ___ , ___ wave.” Plus one sketch of a longitudinal wave with a compression labelled. Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -104,7 +193,87 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Identify amplitude, wavelength, period and frequency on wave graphs",
+     "Use $v = f\\lambda$ and $T = \\frac{1}{f}$ to calculate wave properties",
+     "Explain that frequency is set by the source and wave speed by the medium"
+    ],
+    "vocab": [
+     "amplitude",
+     "wavelength, $\\lambda$",
+     "period, $T$",
+     "frequency, $f$",
+     "hertz (Hz)",
+     "wave speed",
+     "displacement–distance graph",
+     "displacement–time graph"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "Is a sound wave transverse or longitudinal? Is it mechanical or electromagnetic?"
+     },
+     {
+      "when": "Last week",
+      "note": "Lesson 1",
+      "q": "What does a wave transfer from one place to another, and what does it not transfer?"
+     },
+     {
+      "when": "Last term",
+      "note": "Year 10 science",
+      "q": "A car travels 100 m in 5 s. What is its average speed?"
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Speed and rearranging formulas",
+      "detail": "Prerequisites: $v = \\frac{d}{t}$, rearranging, and unit conversions. Mini whiteboards: “Rearrange $v = \\frac{d}{t}$ for $t$. Convert 2.5 km to m and 300 ms to s.” Note who struggles with rearranging."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "Wave graphs and the wave equation",
+      "detail": "Displacement–distance graph: amplitude and wavelength. Displacement–time graph: amplitude and period (students often mix these two graphs up, so contrast them side by side). Define $f = \\frac{1}{T}$, derive $v = \\frac{\\lambda}{T} = f\\lambda$. Then: frequency is set by the source, speed by the medium, so wavelength changes when a wave enters a new medium.",
+      "resource": "Pearson SB 2.2 worked examples"
+     },
+     {
+      "min": 12,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Two worked problems together: (1) $f = 250$ Hz, $\\lambda = 1.2$ m: find $v$ and $T$. (2) Sound in air ($v = 340$ m s$^{-1}$) at $f = 680$ Hz: find $\\lambda$. Then read values off one displacement–time graph."
+     },
+     {
+      "min": 22,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 2.2 Key questions 1–7, then Chapter review 4, 5 and 7–13 as time allows. Preview Lesson 3: it is the slinky prac, so bring logbooks.",
+      "resource": "Pearson SB 2.2 KQ 1–7; Chapter review"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“A radio station broadcasts at 100 MHz. Find the wavelength.” ($c = 3.0 \\times 10^8$ m s$^{-1}$.) Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -159,7 +328,79 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Generate and observe transverse and longitudinal waves in springs and ropes",
+     "Measure wavelength and frequency and calculate wave speed",
+     "Record raw data and observations correctly in a logbook"
+    ],
+    "vocab": [
+     "pulse",
+     "reflection",
+     "superposition",
+     "raw data",
+     "uncertainty",
+     "logbook"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "A wave has $f = 4$ Hz and $\\lambda = 0.5$ m. Calculate its speed."
+     },
+     {
+      "when": "Last week",
+      "note": "Lesson 1",
+      "q": "Sketch a longitudinal wave and label a compression and a rarefaction."
+     },
+     {
+      "when": "Last term",
+      "note": "Year 10 science",
+      "q": "List two safety rules that apply in every science prac."
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Logbook launch",
+      "title": "Setting up the logbook",
+      "detail": "First prac of the year: show the logbook layout (date, title, aim, risks, method, raw data, analysis, reflection). Every entry dated; raw data never rubbed out."
+     },
+     {
+      "min": 8,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through PA1: aim, equipment, what to measure. Risks: stretched springs whipping back, trip hazards across the floor; how to manage them.",
+      "resource": "PA1 teacher notes and risk assessment"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "Waves in slinky springs and ropes",
+      "detail": "Students run PA1 in groups: generate transverse and longitudinal pulses and waves, observe reflection, and measure wavelength and frequency to calculate speed. Teacher circulates, checking logbook entries as they are written.",
+      "resource": "PA1 SPARKlab (students open in the eBook)"
+     },
+     {
+      "min": 12,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Groups calculate $v = f\\lambda$ for their trials and compare. Discuss: does changing the frequency change the speed? (It shouldn’t, since the medium is the same.)"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Students write a one-sentence conclusion and one source of error with how to reduce it. Teacher sights and initials each logbook."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -211,7 +452,88 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Order the regions of the EM spectrum by wavelength, frequency and energy",
+     "Describe the Sun’s radiation as mainly UV, visible and infrared",
+     "Compare uses and hazards of different regions of the EM spectrum"
+    ],
+    "vocab": [
+     "electromagnetic spectrum",
+     "radio",
+     "microwave",
+     "infrared",
+     "visible",
+     "ultraviolet",
+     "X-ray",
+     "gamma",
+     "speed of light, $c$"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "In the slinky prac, what happened to the wavelength when you increased the frequency? Why?"
+     },
+     {
+      "when": "Last week",
+      "note": "Lesson 2",
+      "q": "A wave has a period of 0.02 s. What is its frequency?"
+     },
+     {
+      "when": "Last term",
+      "note": "Year 9–10 science",
+      "q": "Name two types of radiation that can harm people."
+     }
+    ],
+    "steps": [
+     {
+      "min": 8,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 7,
+      "phase": "APK",
+      "title": "Scientific notation and prefixes",
+      "detail": "Prerequisites: powers of ten and SI prefixes. Mini whiteboards: “Write 500 nm in metres. Write 2.4 GHz in hertz. Which is larger, $10^{-7}$ or $10^{-9}$?” Ask: “What everyday things use radiation?” to surface the idea that all radiation is dangerous."
+     },
+     {
+      "min": 20,
+      "phase": "New knowledge",
+      "title": "The EM spectrum",
+      "detail": "Build the spectrum from radio to gamma with wavelength and frequency arrows in opposite directions; energy increases with frequency. All EM waves travel at $c$ in a vacuum. The Sun emits mainly UV, visible and IR. Worked example: light with $\\lambda = 500$ nm, find $f$.",
+      "resource": "Pearson SB 2.3"
+     },
+     {
+      "min": 12,
+      "phase": "Guided practice",
+      "title": "Uses and hazards",
+      "detail": "Class table: one use and one hazard for each region, filled in together from the student book."
+     },
+     {
+      "min": 22,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 2.3 Key questions 1–8, then Chapter review 6 and 14–18.",
+      "resource": "Pearson SB 2.3 KQ 1–8; Chapter review"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Order by increasing frequency: infrared, ultraviolet, visible, radio.” Plus one use of microwaves. Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
@@ -283,7 +605,70 @@
      "text": "CFAT 1 marked and data entered",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Apply the law of reflection",
+     "Use Snell’s law, $n_1\\sin\\theta_1 = n_2\\sin\\theta_2$, to calculate angles of refraction",
+     "Explain refraction in terms of the change in wave speed between media"
+    ],
+    "vocab": [
+     "incident ray",
+     "normal",
+     "angle of incidence",
+     "angle of refraction",
+     "refractive index, $n$",
+     "Snell’s law"
+    ],
+    "doNow": [],
+    "steps": [
+     {
+      "min": 20,
+      "phase": "CFAT 1",
+      "title": "Ch 2 Waves and EM radiation",
+      "detail": "CFAT 1 replaces the do-now today. Students sit it as they arrive (closed book, about 20 min). Collect for marking."
+     },
+     {
+      "min": 2,
+      "phase": "Learning goals",
+      "title": "Share the goals",
+      "detail": "Read the “I can” statements together."
+     },
+     {
+      "min": 5,
+      "phase": "APK",
+      "title": "Trigonometry check",
+      "detail": "Prerequisite: sine and inverse sine on the calculator, and calculator in degree mode. Two quick checks on mini whiteboards."
+     },
+     {
+      "min": 18,
+      "phase": "New knowledge",
+      "title": "Reflection and refraction",
+      "detail": "Law of reflection with ray diagrams measured from the normal. Refraction: light slows in a denser medium and bends toward the normal. Refractive index $n = \\frac{c}{v}$. Snell’s law with a worked example (air to glass, $n = 1.5$, $\\theta_1 = 40^\\circ$).",
+      "resource": "Pearson SB 3.1"
+     },
+     {
+      "min": 10,
+      "phase": "Guided practice",
+      "title": "We do",
+      "detail": "Two Snell’s law problems together: glass to air, and water to glass. Students predict “toward or away from the normal” before calculating."
+     },
+     {
+      "min": 16,
+      "phase": "Apply",
+      "title": "Independent practice",
+      "detail": "Pearson 3.1 Key questions 1–10. Chapter review questions for homework.",
+      "resource": "Pearson SB 3.1 KQ 1–10; Chapter review"
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Goals revisited",
+      "detail": "“Light enters water ($n = 1.33$) from air at $30^\\circ$. Find the angle of refraction.” Red/amber/green on each goal."
+     }
+    ]
+   }
   },
   {
    "type": "prac",
@@ -334,7 +719,79 @@
      "text": "Prac sheet ready",
      "done": false
     }
-   ]
+   ],
+   "sequence": {
+    "length": 79,
+    "goals": [
+     "Measure the speed of sound using the clap-and-echo method",
+     "Identify sources of error and uncertainty in timing measurements",
+     "Compare an experimental value with an accepted value"
+    ],
+    "vocab": [
+     "echo",
+     "reaction time",
+     "random error",
+     "systematic error",
+     "percentage difference",
+     "accepted value"
+    ],
+    "doNow": [
+     {
+      "when": "Last lesson",
+      "q": "State the law of reflection."
+     },
+     {
+      "when": "Last week",
+      "note": "Lesson 2",
+      "q": "Write the wave equation and state the unit of each quantity."
+     },
+     {
+      "when": "Last term",
+      "note": "Year 10 science",
+      "q": "Roughly how fast does sound travel in air?"
+     }
+    ],
+    "steps": [
+     {
+      "min": 6,
+      "phase": "Do-now",
+      "title": "Retrieval practice",
+      "detail": "Three do-now questions done independently, then self-marked."
+     },
+     {
+      "min": 10,
+      "phase": "Pre-lab briefing",
+      "title": "Aim, method and risks",
+      "detail": "Walk through OE 2.2.1: clap and listen for the echo off a large wall; time many intervals to reduce reaction-time error. Risks: working outdoors, hearing. Choose the site in advance (a tall flat wall with open space in front).",
+      "resource": "OE 2.2.1 teacher notes and solutions"
+     },
+     {
+      "min": 35,
+      "phase": "Prac",
+      "title": "Speed of sound by clap and echo",
+      "detail": "Groups take repeated timings at a measured distance from the wall, recording raw data in the logbook as they go.",
+      "resource": "OE 2.2.1 student sheet (also in the eBook)"
+     },
+     {
+      "min": 15,
+      "phase": "Analysis",
+      "title": "Process the results",
+      "detail": "Calculate the speed of sound using $v = \\frac{2d}{t}$ (the sound travels there and back). Find the mean, then the percentage difference from 340 m s$^{-1}$. Discuss reaction time as the main source of error."
+     },
+     {
+      "min": 8,
+      "phase": "Exit ticket",
+      "title": "Logbook check",
+      "detail": "Write a conclusion and one improvement to the method. Teacher sights and initials logbooks."
+     },
+     {
+      "min": 5,
+      "phase": "Pack-up",
+      "title": "Return equipment",
+      "detail": "Equipment back; outside area cleared."
+     }
+    ]
+   }
   },
   {
    "type": "lesson",
