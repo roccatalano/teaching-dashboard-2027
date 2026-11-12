@@ -43,6 +43,7 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 .detail label{display:flex;gap:8px;align-items:center;padding:3px 0;cursor:pointer}
 .detail textarea{width:100%;min-height:70px;font:inherit;border:1px solid var(--line);border-radius:8px;padding:8px}
 .toggle{display:inline-flex;margin:16px 0 2px;border:1px solid var(--line);border-radius:8px;overflow:hidden}.toggle button{font:inherit;border:0;background:var(--card);padding:6px 16px;cursor:pointer}.toggle button.on{background:var(--ink);color:#fff}
+.sub{color:var(--muted);font-size:12px}
 .empty{color:var(--muted);font-style:italic}
 .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:6px}
 .legend span{display:flex;gap:5px;align-items:center}.legend i{width:10px;height:10px;border-radius:3px;background:var(--c)}
@@ -91,14 +92,21 @@ function cambridgePane(l){const c=l.cambridge||{resources:[]};
   const g={};c.resources.forEach(r=>(g[r.kind]=g[r.kind]||[]).push(r));
   return (c.sections?.length?`<div class="meta" style="margin-top:10px"><span>Cambridge section ${c.sections.join(', ')}</span></div>`:'')+
     Object.entries(g).map(([k,rs])=>`<h3>${KIND[k]||k}</h3><ul>${rs.map(r=>`<li>${resLink(r)}</li>`).join('')}</ul>`).join('')}
+const LKIND={slides:'Slides',notes:'Notes',prac:'Pracs',worksheet:'Worksheets',sac:'SACs',exam:'Exams',plan:'His unit plan'};
+function lloydPane(l){const rs=l.lloyd||[];
+  if(!rs.length)return '<div class="empty" style="margin-top:12px">No Mr Lloyd resources for this lesson</div>';
+  const g={};rs.forEach(r=>(g[r.kind]=g[r.kind]||[]).push(r));
+  const order=['prac','worksheet','sac','exam','slides','notes','plan'];
+  const extra=r=>r.teacher?` <span class="sub">(${resLink({label:'teacher version',url:r.teacherUrl})})</span>`:r.solutions?` <span class="sub">(${resLink({label:'solutions',url:r.solutionsUrl})})</span>`:'';
+  return order.filter(k=>g[k]).map(k=>`<h3>${LKIND[k]}</h3><ul>${g[k].map(r=>`<li>${resLink(r)}${extra(r)}</li>`).join('')}</ul>`).join('')}
 function detail(l){
   const t=tasksOf(l),s=state(l.id);
   return `<div class="detail" data-for="${l.id}"><div>
     <div class="meta"><span>${esc(l.aos)} · Week ${l.week} · Lesson ${l.lesson}</span></div>
     <h2>${l.section?esc(l.section)+' · ':''}${esc(l.title)}</h2>
     ${l.keyKnowledge?.length?`<h3>Key knowledge</h3>${list(l.keyKnowledge)}`:''}
-    <div class="toggle"><button data-src="pearson" class="${source=='pearson'?'on':''}">Pearson</button><button data-src="cambridge" class="${source=='cambridge'?'on':''}">Cambridge</button></div>
-    <div class="pane">${source=='pearson'?pearsonPane(l):cambridgePane(l)}</div>
+    <div class="toggle"><button data-src="pearson" class="${source=='pearson'?'on':''}">Pearson</button><button data-src="cambridge" class="${source=='cambridge'?'on':''}">Cambridge</button><button data-src="lloyd" class="${source=='lloyd'?'on':''}">Mr Lloyd</button></div>
+    <div class="pane">${source=='pearson'?pearsonPane(l):source=='lloyd'?lloydPane(l):cambridgePane(l)}</div>
   </div><div>
     <h3>Prep tasks</h3>${t.length?t.map((x,i)=>`<label><input type="checkbox" data-i="${i}" ${x.done?'checked':''}> ${esc(x.text)}</label>`).join(''):'<div class="empty">No tasks</div>'}
     <h3>Notes</h3><textarea data-notes placeholder="Reflections, changes for next time">${esc(s.notes??l.notes??'')}</textarea>
