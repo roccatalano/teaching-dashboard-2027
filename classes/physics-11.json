@@ -260,7 +260,7 @@
       "min": 7,
       "phase": "APK",
       "title": "Speed and rearranging formulas",
-      "detail": "Prerequisites: $v = \\frac{d}{t}$, rearranging, and unit conversions. Mini whiteboards: “Rearrange $v = \\frac{d}{t}$ for $t$. Convert 2.5 km to m and 300 ms to s.” Note who struggles with rearranging."
+      "detail": "Prerequisites: $v = \\frac{d}{t}$, rearranging, and unit conversions. On the guided sheet: “Rearrange $v = \\frac{d}{t}$ for $t$. Convert 2.5 km to m and 300 ms to s.” Note who struggles with rearranging."
      },
      {
       "min": 20,
@@ -560,7 +560,7 @@
       "min": 7,
       "phase": "APK",
       "title": "Scientific notation and prefixes",
-      "detail": "Prerequisites: powers of ten and SI prefixes. Mini whiteboards: “Write 500 nm in metres. Write 2.4 GHz in hertz. Which is larger, $10^{-7}$ or $10^{-9}$?” Ask: “What everyday things use radiation?” to surface the idea that all radiation is dangerous."
+      "detail": "Prerequisites: powers of ten and SI prefixes. On the guided sheet: “Write 500 nm in metres. Write 2.4 GHz in hertz. Which is larger, $10^{-7}$ or $10^{-9}$?” Ask: “What everyday things use radiation?” to surface the idea that all radiation is dangerous."
      },
      {
       "min": 20,
@@ -716,7 +716,7 @@
       "min": 5,
       "phase": "APK",
       "title": "Trigonometry check",
-      "detail": "Prerequisite: sine and inverse sine on the calculator, and calculator in degree mode. Two quick checks on mini whiteboards."
+      "detail": "Prerequisite: sine and inverse sine on the calculator, and calculator in degree mode. Two quick checks on the guided sheet."
      },
      {
       "min": 18,
@@ -1019,7 +1019,7 @@
       "min": 7,
       "phase": "APK",
       "title": "Refraction recap",
-      "detail": "Prerequisite: Snell’s law and “toward/away from the normal”. Two quick mini-whiteboard sketches: ray entering glass, ray leaving glass."
+      "detail": "Prerequisite: Snell’s law and “toward/away from the normal”. Two quick sketches on the guided sheet: ray entering glass, ray leaving glass."
      },
      {
       "min": 20,
@@ -1185,7 +1185,7 @@
       "min": 5,
       "phase": "APK",
       "title": "States of matter",
-      "detail": "Prerequisite: particle model from Year 9–10. Mini whiteboards: “Sketch particles in a solid, liquid and gas. What is different about their motion?”"
+      "detail": "Prerequisite: particle model from Year 9–10. On the guided sheet: “Sketch particles in a solid, liquid and gas. What is different about their motion?”"
      },
      {
       "min": 18,
@@ -2792,7 +2792,7 @@
       "min": 7,
       "phase": "APK",
       "title": "Atomic structure",
-      "detail": "Prerequisite: Year 9–10 atomic model. Mini whiteboards: “Draw a lithium atom. Where is most of its mass?”"
+      "detail": "Prerequisite: Year 9–10 atomic model. On the guided sheet: “Draw a lithium atom. Where is most of its mass?”"
      },
      {
       "min": 20,

@@ -35,13 +35,13 @@ I=lambda n:f'p11-u1-l{n:02d}'
 T(I(7),['Explain dispersion of white light in a prism in terms of refractive index varying with wavelength','Explain how rainbows and mirages form','Describe polarisation as evidence that light is a transverse wave'],
  ['dispersion','spectrum','total internal reflection','critical angle','mirage','polarisation'],
  dn('Light enters glass ($n = 1.5$) from air at $40^\\circ$. Find the angle of refraction.','Which EM radiation has the highest frequency?','What is the speed of sound in air, roughly? (OE 2.2.1)',bn='Lesson 4',cn='Week 2 prac'),
- ('Refraction recap','Prerequisite: Snell’s law and “toward/away from the normal”. Two quick mini-whiteboard sketches: ray entering glass, ray leaving glass.'),
+ ('Refraction recap','Prerequisite: Snell’s law and “toward/away from the normal”. Two quick sketches on the guided sheet: ray entering glass, ray leaving glass.'),
  'Dispersion, rainbows, mirages and polarisation','Refractive index depends on wavelength, so colours refract by different amounts (violet most). Prism and rainbow ray diagrams. Total internal reflection and critical angle: $n_1\\sin\\theta_c = n_2\\sin 90^\\circ$; optical fibres. Mirages from refraction through air layers of different temperature. Polarisation only happens to transverse waves.','Pearson SB 3.2',
  'Critical angle for glass ($n = 1.5$) to air; then explain in words why the sky looks blue or the ocean blue (link to the video).',
  '“Why does a prism split white light? Which colour bends most?”',video=('Why is the ocean blue?','Play the video; students note how scattering and absorption depend on wavelength.'))
 T(I(8),['Distinguish between heat, temperature and internal energy','Describe temperature as the average translational kinetic energy of particles','Convert between Celsius and kelvin'],
  ['temperature','heat','internal energy','kinetic theory','kelvin','absolute zero','thermal equilibrium'],
- [],('States of matter','Prerequisite: particle model from Year 9–10. Mini whiteboards: “Sketch particles in a solid, liquid and gas. What is different about their motion?”'),
+ [],('States of matter','Prerequisite: particle model from Year 9–10. On the guided sheet: “Sketch particles in a solid, liquid and gas. What is different about their motion?”'),
  'Heat, temperature and internal energy','Kinetic particle model. Temperature as average translational kinetic energy; internal energy as total kinetic + potential energy of particles. Heat is energy transferred because of a temperature difference. Kelvin scale: $T(\\text{K}) = T(^\\circ\\text{C}) + 273$; absolute zero. Thermal equilibrium.','Pearson SB 4.1',
  'Convert 25 °C, −196 °C and 373 K. Then: two blocks at different temperatures touch; describe what happens to their particles until equilibrium.',
  '“What is the difference between heat and temperature? Convert 15 °C to kelvin.”')
@@ -121,7 +121,7 @@ X(I(19),['Demonstrate Outcome 1 under SAC conditions'],['(all AoS1 vocabulary)']
 T(I(20),['Describe the structure of the atom and nucleus','Use nuclear notation for isotopes','Explain nuclear stability in terms of the forces in the nucleus'],
  ['nucleon','proton','neutron','isotope','radioisotope','atomic number','mass number','strong nuclear force'],
  dn('How did you go in SAC 1? Name one topic you’ll keep practising.','What does Wien’s law describe?','What is a transverse wave?',bn='Week 5',cn='Week 1'),
- ('Atomic structure','Prerequisite: Year 9–10 atomic model. Mini whiteboards: “Draw a lithium atom. Where is most of its mass?”'),
+ ('Atomic structure','Prerequisite: Year 9–10 atomic model. On the guided sheet: “Draw a lithium atom. Where is most of its mass?”'),
  'Atoms, isotopes and nuclear stability','Nuclear notation $^A_ZX$; isotopes; the strong nuclear force vs electrostatic repulsion; the weak nuclear force; the band of stability (N vs Z graph).','Pearson SB 6.1',
  'Write nuclear notation for carbon-14 and uranium-238; use the N–Z graph to predict whether three isotopes are stable.',
  '“Why don’t the protons in a nucleus fly apart?” (Start the lesson with 15 min of SAC 1 feedback if the SACs are marked: shorten Apply.)')
