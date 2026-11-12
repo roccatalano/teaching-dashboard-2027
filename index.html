@@ -67,6 +67,8 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 .stime{font-size:12px;font-weight:600;color:var(--ink)}.stime span{font-weight:400;color:var(--muted)}
 .sphase{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--c,var(--muted));font-weight:600}
 .stitle{font-weight:500}.sdetail{font-size:13px;line-height:1.5;margin-top:2px}.sres{font-size:12px;color:var(--muted);margin-top:4px}.sres:before{content:"Resources: "}
+.donow{margin:6px 0 0;padding-left:18px;font-size:13px;line-height:1.5}.donow li{margin-bottom:4px}
+.ph-apk{--c:#b5487a}.ph-learning,.ph-course{--c:var(--muted)}
 .ph-do-now{--c:var(--review-i)}.ph-new{--c:var(--lesson-i)}.ph-guided{--c:var(--lesson-i)}.ph-apply{--c:var(--prac-i)}.ph-exit{--c:#5b3fb0}
 .vocab{display:flex;flex-wrap:wrap;gap:5px}.vocab span{font-size:12px;background:var(--other);border-radius:6px;padding:2px 8px}
 @media(max-width:760px){.seq{border-left:0;padding-left:0}}
@@ -146,6 +148,7 @@ function seqPane(l){const q=l.sequence;
     <ol class="steps">${q.steps.map(s=>{const st=t;t+=s.min;return `<li class="step ph-${s.phase.split(' ')[0].toLowerCase()}">
       <div class="stime">${st}–${t}<br><span>${s.min} min</span></div>
       <div><div class="sphase">${esc(s.phase)}</div><div class="stitle">${esc(s.title)}</div><div class="sdetail">${esc(s.detail)}</div>
+      ${s.phase=='Do-now'&&q.doNow?`<ul class="donow">${q.doNow.map(x=>`<li><b>${esc(x.when)}</b>${x.note?` <span class="sub">(${esc(x.note)})</span>`:''}<br>${esc(x.q)}</li>`).join('')}</ul>`:''}
       ${s.resource?`<div class="sres">${esc(s.resource)}</div>`:''}</div></li>`}).join('')}</ol>
     <h3>Vocabulary</h3><div class="vocab">${q.vocab.map(v=>`<span>${esc(v)}</span>`).join('')}</div>`}
 function detail(l){
