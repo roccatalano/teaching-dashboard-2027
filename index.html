@@ -79,6 +79,10 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 .legend span{display:flex;gap:5px;align-items:center}.legend i{width:10px;height:10px;border-radius:3px;background:var(--c)}
 .placeholder{background:var(--card);border:1px dashed var(--muted);border-radius:12px;padding:40px;text-align:center;color:var(--muted);margin-top:30px}
 @media(max-width:760px){.week{grid-template-columns:1fr}.detail{grid-column:1;grid-template-columns:1fr}}
+
+.res{margin:0;padding-left:18px;line-height:1.55}.res .path{display:block;font-size:11px;color:var(--muted);word-break:break-all}
+.teach{margin-top:8px;padding:8px 10px;background:var(--bg);border-radius:8px}.teach h3{margin-top:0}
+.scope{font-size:12px;color:var(--muted)}
 </style>
 </head>
 <body>
@@ -94,156 +98,105 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 <main id="main"></main>
 <script>
 const CLASSES=[{id:'physics-11',name:'11 Physics',file:'classes/physics-11.json'}];
-const TYPE={lesson:'Lesson',prac:'Prac',sac:'Assessment',review:'Review',consolidation:'Practice',buffer:'Buffer',options:'Options',investigation:'Investigation'};
+const TYPE={lesson:'Lesson',prac:'Prac',sac:'Assessment',review:'Review'};
 const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-let data={},tab=store.get('tab','physics-11'),openId=null,expandAll=false;
+let data={},tab=store.get('tab','physics-11'),view=store.get('view','plan'),openId=null,expandAll=false;
 const $=s=>document.querySelector(s);
-const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-function state(id){return store.get('st:'+id,{})}
-function setState(id,s){store.set('st:'+id,s)}
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const state=id=>store.get('st:'+id,{}), setState=(id,s)=>store.set('st:'+id,s);
 function tasksOf(l){const s=state(l.id);return l.tasks.map((t,i)=>({...t,done:s.done?.[i]??t.done}))}
 function progress(l){const t=tasksOf(l);return t.length?t.filter(x=>x.done).length/t.length:0}
-
+function list(arr,empty){return arr&&arr.length?`<ul>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:`<div class="empty">${empty||'None'}</div>`}
+function link(r){if(!r)return '';return r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.label)}</a>`:esc(r.label)}
+function res(arr){return arr&&arr.length?`<ul class="res">${arr.map(r=>`<li>${link(r)}${r.path?`<span class="path">${esc(r.path)}</span>`:''}</li>`).join('')}</ul>`:'<div class="empty">None</div>'}
+function typeset(){if(window.renderMathInElement)renderMathInElement($('#main'),{delimiters:[{left:'$',right:'$',display:false}],throwOnError:false})}
 function renderTabs(){
   $('#tabs').innerHTML=[...CLASSES.map(c=>`<button data-t="${c.id}" class="${tab==c.id?'on':''}">${c.name}</button>`),`<button data-t="schedule" class="${tab=='schedule'?'on':''}">Schedule</button>`].join('');
   $('#tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{tab=b.dataset.t;store.set('tab',tab);render()});
 }
-function list(arr,emptyMsg){return arr&&arr.length?`<ul>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:`<div class="empty">${emptyMsg||'None'}</div>`}
-const KIND={worksheet:'Worksheets',questions:'Section questions',checkin:'Check-in questions',prac:'Practicals',slides:'Figure slides',answers:'Answers',
-  review:'Chapter review questions',summary:'Chapter summaries',checklist:'Checklists',links:'Curated internet resources',test:'Chapter tests',option:'Options booklets',exam:'Practice exams',extra:'Extras'};
-let source=store.get('source','pearson');let view=store.get('view','plan');let openAos=null;
-const OVK={pracs:'Pracs',worksheets:'Worksheets',sacs:'SACs',exams:'Exams',slides:'Slides and notes'};
-function aosOverview(o,a){
-  const res=['pracs','worksheets','sacs','exams','slides'].filter(k=>o.resources[k]).map(k=>`<h3>${OVK[k]} (${o.resources[k].length})</h3><ul>${o.resources[k].map(r=>`<li>${resLink(r)}${r.teacher?' <span class="sub">(+ teacher version)</span>':r.solutions?' <span class="sub">(+ solutions)</span>':''}</li>`).join('')}</ul>`).join('');
-  return `<div class="ov"><div><div class="meta"><span>Mr Lloyd · ${esc(a)} · from his ${esc(o.plan)}</span></div>
-    <h3>His lesson sequence (${o.lessonCount} lessons)</h3><ol>${o.sequence.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div><div>${res}</div></div>`}
-function resLink(r){return r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.label)}</a>`:esc(r.label)}
-function pearsonPane(l){const p=l.pearson||{};
-  return `<h3>Read</h3>${list(p.reading,'No reading set')}
-    <h3>Student book questions</h3>${list(p.questions,'No questions set')}
-    ${p.experiments?.length?`<h3>Online experiments (eBook)</h3>${list(p.experiments)}`:''}
-    ${p.videos?.length?`<h3>Videos (eBook)</h3>${list(p.videos)}`:''}`}
-function cambridgePane(l){const c=l.cambridge||{resources:[]};
-  if(!c.resources.length)return '<div class="empty" style="margin-top:12px">No Cambridge resources mapped to this lesson</div>';
-  const g={};c.resources.forEach(r=>(g[r.kind]=g[r.kind]||[]).push(r));
-  return (c.sections?.length?`<div class="meta" style="margin-top:10px"><span>Cambridge section ${c.sections.join(', ')}</span></div>`:'')+
-    Object.entries(g).map(([k,rs])=>`<h3>${KIND[k]||k}</h3><ul>${rs.map(r=>`<li>${resLink(r)}</li>`).join('')}</ul>`).join('')}
-const LKIND={slides:'Slides',notes:'Notes',prac:'Pracs',worksheet:'Worksheets',sac:'SACs',exam:'Exams',plan:'His unit plan'};
-function lloydPane(l){const rs=l.lloyd||[];
-  if(!rs.length)return '<div class="empty" style="margin-top:12px">No Mr Lloyd resources for this lesson</div>';
-  const g={};rs.forEach(r=>(g[r.kind]=g[r.kind]||[]).push(r));
-  const order=['prac','worksheet','sac','exam','slides','notes','plan'];
-  const extra=r=>r.teacher?` <span class="sub">(${resLink({label:'teacher version',url:r.teacherUrl})})</span>`:r.solutions?` <span class="sub">(${resLink({label:'solutions',url:r.solutionsUrl})})</span>`:'';
-  return order.filter(k=>g[k]).map(k=>`<h3>${LKIND[k]}</h3><ul>${g[k].map(r=>`<li>${resLink(r)}${extra(r)}</li>`).join('')}</ul>`).join('')}
-function cfatBox(c){
-  const g={};c.sources.forEach(r=>(g[r.kind]=g[r.kind]||[]).push(r));
-  return `<details class="cfatbox"><summary><b>${esc(c.id)}</b> · ${esc(c.title)} <span class="sub">· ${esc(c.format)}</span></summary>
-    <div class="meta" style="margin-top:8px"><span>Pearson ${esc(c.coversPearson)} · Cambridge ${esc(c.covers.join(', '))}</span></div>
-    <div style="font-size:13px;margin-top:4px">${esc(c.plan)}</div>
-    ${['checkin','questions','test','checklist'].filter(k=>g[k]).map(k=>`<h3>${KIND[k]}</h3><ul>${g[k].map(r=>`<li>${resLink(r)}</li>`).join('')}</ul>`).join('')}</details>`}
-function seqPane(l){const q=l.sequence;
-  if(!q)return `<div class="seqempty">Guided lesson sequence not written yet</div>`;
-  let t=0;
-  return `<div class="seqhead"><h3 style="margin-top:0">Guided lesson sequence</h3><span class="sub">${q.length} min</span></div>
-    <div class="goals"><b>Learning goals: I can…</b><ul>${q.goals.map(g=>`<li>${esc(g)}</li>`).join('')}</ul></div>
-    <ol class="steps">${q.steps.map(s=>{const st=t;t+=s.min;return `<li class="step ph-${s.phase.split(' ')[0].toLowerCase()}">
-      <div class="stime">${st}–${t}<br><span>${s.min} min</span></div>
-      <div><div class="sphase">${esc(s.phase)}</div><div class="stitle">${esc(s.title)}</div><div class="sdetail">${esc(s.detail)}</div>
-      ${s.phase=='Do-now'&&q.doNow?`<ul class="donow">${q.doNow.map(x=>`<li><b>${esc(x.when)}</b>${x.note?` <span class="sub">(${esc(x.note)})</span>`:''}<br>${esc(x.q)}</li>`).join('')}</ul>`:''}
-      ${s.resource?`<div class="sres">${esc(s.resource)}</div>`:''}</div></li>`}).join('')}</ol>
-    <h3>Vocabulary</h3><div class="vocab">${q.vocab.map(v=>`<span>${esc(v)}</span>`).join('')}</div>`}
+function cfatBox(c){return `<details class="cfatbox"><summary><b>${esc(c.id)}</b> · ${esc(c.title)} <span class="sub">· ${esc(c.format)}</span></summary>
+  <div class="meta" style="margin-top:8px"><span>Covers ${esc(c.covers.join(', '))}</span></div>
+  <div style="font-size:13px;margin-top:4px">${esc(c.plan)}</div><h3>Sources</h3>${list(c.sources)}</details>`}
+function pracBox(p){
+  return `<div class="pracbox"><div class="meta"><span>THIS WEEK’S PRAC</span><span class="src src-pearson">${esc(p.kind)}${p.code?' '+esc(p.code):''}</span></div>
+    <div class="ttl">${esc(p.title)}</div>
+    ${p.student?`<h3>For students</h3>${res([p.student,...(p.extra?[p.extra.student]:[])])}`:''}
+    ${p.teacher&&p.teacher.length?`<h3>Teacher</h3>${res([...p.teacher,...(p.extra?p.extra.teacher:[])])}`:''}
+    <div class="sub" style="margin-top:6px">Logbook: date, aim, risks, method, raw data, analysis, reflection.</div></div>`}
+function pearsonPane(l){
+  return `${l.read?`<h3>Read</h3><div>${esc(l.read)}</div>`:''}
+    ${l.questions?.length?`<h3>Student book questions</h3>${list(l.questions)}`:''}
+    ${l.experiments?.length&&l.type=='lesson'?`<h3>Online experiments (eBook)</h3>${res(l.experiments)}`:''}
+    ${l.solutions?`<div class="teach"><h3>Teacher: answers</h3>${res([l.solutions])}</div>`:''}
+    ${l.note?`<h3>Note</h3><div>${esc(l.note)}</div>`:''}`}
+function seqPane(l){const q=l.sequence;if(!q)return `<div class="seqempty">Guided lesson sequence not written yet</div>`;return ''}
 function detail(l){
   const t=tasksOf(l),s=state(l.id);
   return `<div class="detail" data-for="${l.id}"><div>
     <div class="meta"><span>${esc(l.aos)} · Week ${l.week} · Lesson ${l.lesson}</span></div>
     <h2>${l.section?esc(l.section)+' · ':''}${esc(l.title)}</h2>
     ${l.keyKnowledge?.length?`<h3>Key knowledge</h3>${list(l.keyKnowledge)}`:''}
-    ${l.prac?`<div class="pracbox"><div class="meta"><span>THIS WEEK’S PRAC</span><span class="src src-${l.prac.source.split(' ')[0].toLowerCase()}">${esc(l.prac.source)}${l.prac.code?' '+esc(l.prac.code):''}</span></div>
-      <div class="ttl">${esc(l.prac.label)}</div>${l.prac.path?`<ul><li>${resLink({label:'Student version',url:l.prac.url})}</li>${l.prac.teacher?`<li>${resLink({label:'Teacher version',url:l.prac.teacherUrl})}</li>`:''}</ul>`:''}
-      <div class="sub">Logbook: date, aim, risks, method, raw data, analysis, reflection.</div></div>`:''}
+    ${l.prac?pracBox(l.prac):''}
     ${l.cfat?cfatBox(l.cfat):''}
-    <div class="toggle"><button data-src="pearson" class="${source=='pearson'?'on':''}">Pearson</button><button data-src="cambridge" class="${source=='cambridge'?'on':''}">Cambridge</button><button data-src="lloyd" class="${source=='lloyd'?'on':''}">Mr Lloyd</button></div>
-    <div class="pane">${source=='pearson'?pearsonPane(l):source=='lloyd'?lloydPane(l):cambridgePane(l)}</div>
+    ${pearsonPane(l)}
     <h3>Prep tasks</h3>${t.length?t.map((x,i)=>`<label><input type="checkbox" data-i="${i}" ${x.done?'checked':''}> ${esc(x.text)}</label>`).join(''):'<div class="empty">No tasks</div>'}
-    <h3>Notes</h3><textarea data-notes placeholder="Reflections, changes for next time">${esc(s.notes??l.notes??'')}</textarea>
-  </div><div class="seq">${seqPane(l)}</div></div>`;
-}
+    <h3>Notes</h3><textarea data-notes placeholder="Reflections, changes for next time">${esc(s.notes??'')}</textarea>
+  </div><div class="seq">${seqPane(l)}</div></div>`}
 function renderClass(c){
-  const d=data[c.id];
-  const sel=$('#aosFilter'),f=sel.value;
+  const d=data[c.id],sel=$('#aosFilter'),f=sel.value;
   const aosList=[...new Set(d.lessons.map(l=>l.aos))];
   sel.innerHTML='<option value="">All areas of study</option>'+aosList.map(a=>`<option ${a==f?'selected':''}>${a}</option>`).join('');
-  let h='',lastU=0,lastA='';
-  const legend=`<div class="legend">${['lesson','prac','review','sac','consolidation'].map(k=>`<span class="t-${k}"><i></i>${TYPE[k]}</span>`).join('')}<span><i style="background:#8a6ad8"></i>CFAT</span></div>`;
-  for(const u of [1,2]){
-    const L=d.lessons.filter(l=>l.unit==u&&(!f||l.aos==f));if(!L.length)continue;
-    h+=`<div class="unit">Unit ${u}</div>`+(u==1||f?legend:'');
-    const weeks=[...new Set(L.map(l=>l.week))];
-    for(const w of weeks){
-      const W=L.filter(l=>l.week==w);
-      if(W[0].aos!=lastA){lastA=W[0].aos;const ov=d.lloydOverview?.[lastA];
-        h+=`<div class="aos"><b>${esc(lastA)}</b><span>${esc(W[0].aosTitle)}${ov?` <button class="ovbtn" data-aos="${esc(lastA)}">${openAos==lastA?'Hide':'Mr Lloyd resources'}</button>`:''}</span></div>`;
-        if(ov&&openAos==lastA)h+=aosOverview(ov,lastA);}
-      h+=`<div class="week"><div class="wl"><b>Week ${w}</b>${u==1?'Semester 1':'Semester 2'}</div>`;
-      for(const l of W){
-        h+=`<div class="card t-${l.type} ${l.cfat?'has-cfat':''} ${openId==l.id?'open':''}" data-id="${l.id}">
-          <div class="meta"><span>L${l.lesson}${l.section?' · '+esc(l.section):''}</span><span class="tags">${l.cfat?'<span class="tag cfat">CFAT</span>':''}<span class="tag">${TYPE[l.type]}</span></span></div>
-          <div class="ttl">${esc(l.title)}</div><div class="bar"><i style="width:${Math.round(progress(l)*100)}%"></i></div></div>`;
-      }
-      W.filter(l=>expandAll||l.id==openId).forEach(l=>h+=detail(l));
-      h+='</div>';
-    }
+  const L=d.lessons.filter(l=>!f||l.aos==f);
+  const pr=d.lessons.filter(l=>l.type=='prac').length;
+  let h=`<div class="unit">Unit 1 <span class="scope">· ${esc(d.scope)} · ${d.weeksPerUnit} weeks × ${d.lessonsPerWeek} lessons × ${d.lessonMinutes} min · ${pr} prac lessons ≈ ${(pr*d.lessonMinutes/60).toFixed(1)} h</span></div>
+    <div class="legend">${['lesson','prac','review','sac'].map(k=>`<span class="t-${k}"><i></i>${TYPE[k]}</span>`).join('')}<span><i style="background:#8a6ad8"></i>CFAT</span></div>`;
+  let lastA='';
+  for(const w of [...new Set(L.map(l=>l.week))]){
+    const W=L.filter(l=>l.week==w);
+    if(W[0].aos!=lastA){lastA=W[0].aos;h+=`<div class="aos"><b>${esc(lastA)}</b><span>${esc(W[0].aosTitle)}</span></div>`}
+    h+=`<div class="week"><div class="wl"><b>Week ${w}</b>Semester 1</div>`;
+    for(const l of W)h+=`<div class="card t-${l.type} ${l.cfat?'has-cfat':''} ${openId==l.id?'open':''}" data-id="${l.id}">
+      <div class="meta"><span>L${l.lesson}${l.section?' · '+esc(l.section):''}</span><span class="tags">${l.cfat?'<span class="tag cfat">CFAT</span>':''}<span class="tag">${TYPE[l.type]}</span></span></div>
+      <div class="ttl">${esc(l.title)}</div><div class="bar"><i style="width:${Math.round(progress(l)*100)}%"></i></div></div>`;
+    W.filter(l=>expandAll||l.id==openId).forEach(l=>h+=detail(l));
+    h+='</div>';
   }
   $('#main').innerHTML=h;
-  $('#main').querySelectorAll('.ovbtn').forEach(b=>b.onclick=()=>{openAos=openAos==b.dataset.aos?null:b.dataset.aos;renderClass(c)});
   $('#main').querySelectorAll('.card').forEach(el=>el.onclick=()=>{openId=openId==el.dataset.id?null:el.dataset.id;renderClass(c)});
-  $('#main').querySelectorAll('.detail').forEach(dv=>{
-    const id=dv.dataset.for;
+  $('#main').querySelectorAll('.detail').forEach(dv=>{const id=dv.dataset.for;
     dv.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.onchange=()=>{const s=state(id);s.done=s.done||{};s.done[cb.dataset.i]=cb.checked;setState(id,s);renderClass(c)});
-    const ta=dv.querySelector('[data-notes]');ta.oninput=()=>{const s=state(id);s.notes=ta.value;setState(id,s)};
-    dv.querySelectorAll('[data-src]').forEach(b=>b.onclick=()=>{source=b.dataset.src;store.set('source',source);renderClass(c)});
-  });
+    const ta=dv.querySelector('[data-notes]');ta.oninput=()=>{const s=state(id);s.notes=ta.value;setState(id,s)};});
   typeset();
 }
-function typeset(){if(window.renderMathInElement)renderMathInElement($('#main'),{delimiters:[{left:'$',right:'$',display:false}],throwOnError:false})}
-function taskList(arr,empty){
-  if(!arr||!arr.length)return `<div class="empty">${empty}</div>`;
-  return '<ul>'+arr.map(t=>`<li>${resLink(t)} <span class="src src-${(t.source||'').split(' ')[0].toLowerCase()}">${esc(t.source||'')}</span>${t.solutions?` <span class="sub">· ${resLink(t.solutions)}</span>`:' <span class="sub nosol">· no solutions</span>'}</li>`).join('')+'</ul>'}
+function taskList(arr,empty){if(!arr||!arr.length)return `<div class="empty">${empty}</div>`;
+  return '<ul>'+arr.map(t=>`<li>${link(t)} <span class="src src-pearson">${esc(t.source||'')}</span>${t.solutions?` <span class="sub">· ${link(t.solutions)}</span>`:' <span class="sub nosol">· no solutions</span>'}${t.path?`<span class="path" style="display:block;font-size:11px;color:var(--muted)">${esc(t.path)}</span>`:''}</li>`).join('')+'</ul>'}
 function renderAssessment(c){
-  const a=data[c.id].assessment;if(!a){$('#main').innerHTML='<div class="placeholder">No assessment plan yet</div>';return}
-  let h=`<div class="unit">Assessment plan</div><div class="arules"><h3>The rules (VCE Physics Study Design, Units 1 and 2)</h3><ul>${a.rules.map(r=>`<li>${esc(r)}</li>`).join('')}</ul>
-    <details><summary>Suitable assessment task types (any of these, for Outcomes 1 and 2 in each unit)</summary><ul>${a.suitableTasks.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></details></div>`;
-  let lastU=0;
-  for(const x of a.aos){
-    const u=x.aos[1];if(u!=lastU){lastU=u;h+=`<div class="unit" style="font-size:17px">Unit ${u}</div>`}
-    h+=`<div class="acard"><div class="ahead"><div><b>${esc(x.aos)}</b> · ${esc(x.title)}</div>
-      ${x.when?`<button class="goto" data-id="${x.when.id}">Week ${x.when.week} · Lesson ${x.when.lesson}</button>`:''}</div>
-      <div class="agrid"><div><h3>Outcome</h3><p>${esc(x.outcome)}</p><h3>What students do</h3><p>${esc(x.task)}</p>
-      <div class="sub">Task type: ${esc(x.taskType)}</div>
-      ${x.gaps.length?`<h3>Gaps to fill</h3><ul class="gaps">${x.gaps.map(g=>`<li>${esc(g)}</li>`).join('')}</ul>`:''}</div>
-      <div><h3>Practice</h3>${taskList(x.practice,'None yet')}<h3>Actual task</h3>${taskList(x.actual,'None yet')}<h3>Redemption</h3>${taskList(x.redemption,'None yet')}</div></div></div>`}
-  h+=`<div class="unit" style="font-size:17px">Exams</div>`;
-  for(const e of a.exams){h+=`<div class="acard"><div class="ahead"><div><b>${esc(e.name)}</b> · ${esc(e.covers)}</div><span class="sub">${esc(e.when)}</span></div>
-    <div class="agrid"><div><h3>Practice</h3>${taskList(e.practice,'None yet')}</div><div><h3>Actual exam</h3>${taskList(e.actual,'None yet')}</div></div></div>`}
+  const a=data[c.id].assessment;
+  let h=`<div class="unit">Assessment plan · Unit 1</div><div class="arules"><h3>The rules (VCE Physics Study Design)</h3>${list(a.rules)}
+    <details><summary>Suitable assessment task types</summary>${list(a.suitableTasks)}</details></div>`;
+  for(const x of a.aos)h+=`<div class="acard"><div class="ahead"><div><b>${esc(x.aos)}</b> · ${esc(x.title)}</div><button class="goto" data-id="${x.when.id}">Week ${x.when.week} · Lesson ${x.when.lesson}</button></div>
+    <div class="agrid"><div><h3>Outcome</h3><p>${esc(x.outcome)}</p><h3>What students do</h3><p>${esc(x.task)}</p><div class="sub">Task type: ${esc(x.taskType)}</div>
+      <h3>Pearson</h3><p class="sub">${esc(x.pearsonNote)}</p>${x.gaps.length?`<h3>To do</h3><ul class="gaps">${x.gaps.map(g=>`<li>${esc(g)}</li>`).join('')}</ul>`:''}</div>
+    <div><h3>Practice</h3>${taskList(x.practice,'None yet')}<h3>Actual task</h3>${taskList(x.actual,'Not written yet')}<h3>Redemption</h3>${taskList(x.redemption,'Not written yet')}<h3>Models for writing the SAC</h3>${taskList(x.models,'None')}</div></div></div>`;
+  for(const e of a.exams)h+=`<div class="acard"><div class="ahead"><div><b>${esc(e.name)}</b> · ${esc(e.covers)}</div><span class="sub">${esc(e.when)}</span></div>
+    <div class="agrid"><div><h3>Practice</h3>${taskList(e.practice,'None yet')}</div><div><h3>Actual exam</h3>${taskList(e.actual,'Not written yet')}</div></div></div>`;
   $('#main').innerHTML=h;
   $('#main').querySelectorAll('.goto').forEach(b=>b.onclick=()=>{view='plan';store.set('view',view);openId=b.dataset.id;render();setTimeout(()=>document.querySelector(`[data-id="${b.dataset.id}"]`)?.scrollIntoView({block:'center'}),50)});
 }
 function render(){
   renderTabs();
-  $('#ctl').style.display=tab=='schedule'?'none':'flex';
-  if(tab=='schedule'){$('#main').innerHTML='<div class="placeholder"><h2>Schedule</h2>All classes merged into one weekly timetable will appear here once more classes and your timetable are added.</div>';return}
+  const show=tab!='schedule';$('#viewtog').style.display=show?'':'none';$('#ctl').style.display=show&&view=='plan'?'flex':'none';
+  if(!show){$('#main').innerHTML='<div class="placeholder"><h2>Schedule</h2>All classes merged into one weekly timetable will appear here once more classes and your timetable are added.</div>';return}
   const c=CLASSES.find(c=>c.id==tab)||CLASSES[0];
   $('#viewtog').innerHTML=`<button data-v="plan" class="${view=='plan'?'on':''}">Unit plan</button><button data-v="assess" class="${view=='assess'?'on':''}">Assessment plan</button>`;
   $('#viewtog').querySelectorAll('button').forEach(b=>b.onclick=()=>{view=b.dataset.v;store.set('view',view);render()});
-  $('#aosFilter').style.display=$('#expand').style.display=view=='plan'?'':'none';
-  if(view=='assess'){renderAssessment(c);return}
-  renderClass(c);
+  view=='assess'?renderAssessment(c):renderClass(c);
 }
 $('#aosFilter').onchange=()=>render();
 $('#expand').onclick=()=>{expandAll=!expandAll;$('#expand').textContent=expandAll?'Collapse all':'Expand all';render()};
 window.addEventListener('load',typeset);
 Promise.all(CLASSES.map(c=>fetch(c.file).then(r=>r.json()).then(j=>data[c.id]=j))).then(render)
-  .catch(e=>{$('#main').innerHTML='<div class="placeholder">Could not load class data. Open this page through GitHub Pages or a local server.</div>'});
+  .catch(e=>{$('#main').innerHTML='<div class="placeholder">Could not load class data.</div>'});
 </script>
 </body>
 </html>
