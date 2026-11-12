@@ -40,10 +40,11 @@ def sac(aos,sel,label,f,sol=None):
   T=[l for l in L if l['aos']==aos and sel(l)]
   assert f in fs,f; assert sol is None or sol in fs,sol
   put(T,'sac',label,f,solutions=sol)
-isSac=lambda l:l['type']=='sac'; isRev=lambda l:l['type']=='review'
+isSac=lambda l:l['type']=='sac'; isRev=lambda l:l['type']=='review' and 'SAC review' not in l['title']
 for a,p in [('U1 AoS1',U1+'U1_AoS1_2026_SAC'),('U1 AoS2',U1+'U1_AoS2_2026_SAC'),('U2 AoS1',U2+'U2_AoS1_2026_SAC')]:
   sac(a,isSac,'SAC',p+'.pdf',p+'_solutions.pdf')
-  sac(a,isSac,'Redemption SAC',p+'_redemption.pdf',p+'_redemption_solutions.pdf')
+  red=(lambda l:'SAC review' in l['title']) if any(l['aos']==a and 'SAC review' in l['title'] for l in L) else isSac
+  sac(a,red,'Redemption SAC',p+'_redemption.pdf',p+'_redemption_solutions.pdf')
 for a,p in [('U1 AoS2',U1+'U1_AoS2_2026_SAC'),('U2 AoS1',U2+'U2_AoS1_2026_SAC')]:
   sac(a,isRev,'Practice SAC',p+'_practice.pdf',p+'_practice_solutions.pdf')
 sac('U1 AoS3',isSac,'SAC',U1+'U1_AoS3_2026_SAC (1).pdf',U1+'U1_AoS3_2026_SAC_solutions (1).pdf')
@@ -54,8 +55,8 @@ sac('U2 AoS3',isSac,'SAC (2025 poster)',U2+'U2_AoS3_2025_SAC_with_cover.pdf')
 def exam(titles,label,f,sol=None):
   assert f in fs,f; assert sol is None or sol in fs,sol
   put([l for l in L if l['title'] in titles],'exam',label,f,solutions=sol)
-exam(('Unit 1 wrap-up','Revision: Unit 1'),'Unit 1 exam (2026)','Unit 1/Exams/Physics_U1_Exam_2026.pdf','Unit 1/Exams/Physics_U1_Exam_solutions_2026.pdf')
-exam(('Unit 1 wrap-up','Revision: Unit 1'),'Unit 1 exam (older)','Unit 1/Exams/Physics_unit1_exam.pdf','Unit 1/Exams/Physics_unit1_exam_answers.pdf')
+exam(('Unit 1 wrap-up and exam revision','Exam revision: Unit 1','Revision: Unit 1'),'Unit 1 exam (2026)','Unit 1/Exams/Physics_U1_Exam_2026.pdf','Unit 1/Exams/Physics_U1_Exam_solutions_2026.pdf')
+exam(('Unit 1 wrap-up and exam revision','Exam revision: Unit 1','Revision: Unit 1'),'Unit 1 exam (older)','Unit 1/Exams/Physics_unit1_exam.pdf','Unit 1/Exams/Physics_unit1_exam_answers.pdf')
 exam(('Revision: Unit 2',),'Unit 2 practice exam (2026)','Unit 2/Exams/Physics_U2_Exam_2026_practice.pdf','Unit 2/Exams/Physics_U2_Exam_2026_practice_solutions.pdf')
 exam(('Units 1 and 2 practice exam',),'Unit 2 exam (2026)','Unit 2/Exams/Physics_U2_Exam_2026.pdf','Unit 2/Exams/Physics_U2_Exam_2026_solutions.pdf')
 exam(('Revision: Unit 2',),'Unit 2 exam (older)','Unit 2/Exams/Physics_U2_exam.pdf','Unit 2/Exams/Physics_U2_Exam_solutions.pdf')

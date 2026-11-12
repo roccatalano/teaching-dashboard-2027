@@ -7,7 +7,7 @@ GROUPS=[(['2','3'],'Waves, light and refraction'),(['4','5'],'Thermal energy and
 for l in L: l.pop('cfat',None)
 def chs(l): return {x.split('.')[0] for x in l.get('section','').split(', ') if '.' in x}
 for n,(pch,name) in enumerate(GROUPS,1):
-  idx=[i for i,l in enumerate(L) if l['type'] in('lesson','consolidation','prac') and chs(l)&set(pch)]
+  idx=[i for i,l in enumerate(L) if l['type'] in('lesson','consolidation') and chs(l)&set(pch)]
   last=max(idx); t=last+1
   if t>=len(L) or L[t]['type'] in('review','sac') or L[t]['unit']!=L[last]['unit'] or 'cfat' in L[t]: t=last
   secs=sorted({s for i in idx for s in L[i]['cambridge']['sections']})

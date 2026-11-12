@@ -47,6 +47,7 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 .ov{background:#fbfaf6;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 14px;display:grid;grid-template-columns:1fr 1.3fr;gap:20px}
 .ov h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:12px 0 4px}.ov ol,.ov ul{margin:0;padding-left:20px;line-height:1.55}
 @media(max-width:760px){.ov{grid-template-columns:1fr}}
+.pracbox{margin-top:14px;border:1.5px solid var(--prac-i);background:var(--prac);border-radius:10px;padding:10px 14px}.pracbox ul{margin:6px 0;padding-left:18px}
 .tags{display:flex;gap:4px}.tag.cfat{background:#efe9fb;color:#5b3fb0;font-weight:600}
 .card.has-cfat{box-shadow:inset 0 -3px 0 #8a6ad8}
 .cfatbox{margin-top:14px;border:1.5px solid #8a6ad8;background:#f7f4fe;border-radius:10px;padding:10px 14px}.cfatbox h3{margin-top:10px}.cfatbox summary{cursor:pointer;font-size:14px}
@@ -157,6 +158,9 @@ function detail(l){
     <div class="meta"><span>${esc(l.aos)} · Week ${l.week} · Lesson ${l.lesson}</span></div>
     <h2>${l.section?esc(l.section)+' · ':''}${esc(l.title)}</h2>
     ${l.keyKnowledge?.length?`<h3>Key knowledge</h3>${list(l.keyKnowledge)}`:''}
+    ${l.prac?`<div class="pracbox"><div class="meta"><span>THIS WEEK’S PRAC</span><span class="src src-${l.prac.source.split(' ')[0].toLowerCase()}">${esc(l.prac.source)}${l.prac.code?' '+esc(l.prac.code):''}</span></div>
+      <div class="ttl">${esc(l.prac.label)}</div>${l.prac.path?`<ul><li>${resLink({label:'Student version',url:l.prac.url})}</li>${l.prac.teacher?`<li>${resLink({label:'Teacher version',url:l.prac.teacherUrl})}</li>`:''}</ul>`:''}
+      <div class="sub">Logbook: date, aim, risks, method, raw data, analysis, reflection.</div></div>`:''}
     ${l.cfat?cfatBox(l.cfat):''}
     <div class="toggle"><button data-src="pearson" class="${source=='pearson'?'on':''}">Pearson</button><button data-src="cambridge" class="${source=='cambridge'?'on':''}">Cambridge</button><button data-src="lloyd" class="${source=='lloyd'?'on':''}">Mr Lloyd</button></div>
     <div class="pane">${source=='pearson'?pearsonPane(l):source=='lloyd'?lloydPane(l):cambridgePane(l)}</div>
