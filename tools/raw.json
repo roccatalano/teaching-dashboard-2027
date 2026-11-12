@@ -1,0 +1,849 @@
+[
+ {
+  "unit": 1,
+  "aos": 1,
+  "week": "",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "",
+   "",
+   "Prior knowledge review",
+   "",
+   "WS 1 Knowledge review\u2014waves and energy",
+   "SB:\nHeinemann Physics 11 videos and interactives list\nEXP risk assessment template\nUnit 1 teaching plan template\nUnits 3 and 4 exam readiness guide (provided for reference only)\nSAB:\nUnit 1 AoS 1 WS solutions",
+   ""
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 1,
+  "week": "1",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "1",
+   "2.1 Longitudinal and transverse waves\n\n2.2 Measuring waves",
+   "Electromagnetic radiation\n\u2022identify all electromagnetic waves as transverse waves travelling at the same speed, c, in a vacuum as distinct from mechanical waves that require a medium to propagate\n\u2022identify the amplitude, wavelength, period and frequency of waves\n\u2022calculate the wavelength, frequency, period and speed of travel of waves using: \n\u2022explain the wavelength of a wave as a result of the velocity (determined by the medium through which it travels) and the frequency (determined by the source)",
+   "SB:\n2.1 KQ 1\u20139\nCR 1\u20133\nCS 1\u20134, p 69\n2.2 KQ 1\u20137\nCR 4, 5, 7\u201313 \n\nOA:\nChapter 2 PK\u00a01\u20135\n2.1 KQ 1\u20138\n2.2 KQ 1\u201310",
+   "WS 2 Interpreting graphs of waves\nPA 1 Waves in slinky springs and ropes",
+   "SB:\nChapter 2 fully worked solutions\nVideo: Wave pulse and a mechanical wave\nVideo: Extreme wave science\nEXP 2.2.1\nEXP 2.2.1 teacher notes and solutions\nSAB:\nUnit 1 AoS 1 WS solutions\nUnit 1 AoS 1 PA solutions\nUnit 1 AoS 1 PA teacher notes\nPA 1 SPARKlab",
+   "SB:\nCS 1\u20134, p 69\nEXP 2.2.1\n\n\nSAB:\nWS 2 Interpreting graphs of waves\nPA 1 Waves in slinky springs and ropes"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 1,
+  "week": "2",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "2",
+   "2.3 The electromagnetic spectrum\n\n3.1 Reflection and refraction\n\n3.2 Dispersion and polarisation",
+   "\u2022describe electromagnetic radiation emitted from the Sun as mainly ultraviolet, visible and infrared\n\u2022compare the wavelength and frequencies of different regions of the electromagnetic spectrum, including radio, microwave, infrared, visible, ultraviolet, x-ray and gamma, and compare the different uses each has in society\n\u2022investigate and analyse theoretically and practically the behaviour of waves including:\n\u2013refraction using Snell\u2019s Law: n1\u00a0sin\u00a0(\u03b81) = n2\u00a0sin(\u03b82) and n1v1 = n2v2\n\u2013total internal reflection and critical angle including applications:n1\u00a0sin\u00a0(\u03b8c) = n2\u00a0sin\u00a0(90\u00b0)\n\u2022investigate and explain theoretically and practically colour dispersion in prisms and lenses with reference to refraction of the components of white light as they pass from one medium to another\n\u2022explain the formation of optical phenomena: rainbows; mirages\n\u2022investigate light transmission through optical fibres for communication",
+   "SB: \n2.3 KQ 1\u20138\nCR 6, 14\u201318\n\n3.1 KQ 1\u201310\nCR 1, 3, 5\u201314, 16\u201318\n3.2 KQ 1\u20135\nCR 2, 4, 15 \nOA: \n2.3 KQ 1\u20139\nCR 1\u201324\nRF\n\nChapter 3 PK\u00a01\u20136\n3.1 KQ 1\u20139\n3.2 KQ 1\u20138\nCR 1\u201318\nRF",
+   "WS 3 Waves and light\nPA 2 Dispersion and refraction\nPA 3 Measuring the speed of light",
+   "SB:\nChapter 2 fully worked solutions\nChapter 3 fully worked solutions\nVideo: Why is the ocean blue?\nEXP 3.2.1\nEXP 3.2.1 teacher notes and solutions\nSAB:\nUnit 1 AoS 1 WS solutions\nUnit 1 AoS 1 PA solutions\nUnit 1 AoS 1 PA teacher notes\nPA 3 teacher risk assessment\nHeating teacher risk assessment\nPA 2 SPARKlab \nPA 3 SPARKlab",
+   "SB:\nEXP 3.2.1\nSAB:\nWS 3 Waves and light\nPA 2 Dispersion and refraction \nPA 3 Measuring the speed of light"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 1,
+  "week": "3",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "3",
+   "4.1 Heat and temperature \n\n4.2 Specific heat capacity\n\n4.3 Latent heat",
+   "Thermal energy\n\u2022convert between Celsius and kelvin scales\n\u2022describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system: \n\u2013explain why cooling results from evaporation using a simple kinetic energy model\n\u2022investigate and analyse theoretically and practically the energy required to: \n\u2013raise the temperature of a substance: Q = mc\u0394T\n\u2013change the state of a substance: Q = mL",
+   "SB:\n4.1 KQ 1\u20138 \nCR 1\u20134\n4.2 KQ 1\u20138\nCR 5, 6, 10, 13\u201315, 18\nCS 1\u20135, p 116\n4.3 KQ 1\u20136\nCR 8, 9, 16, 17\n\nOA: \nChapter 4 PK\u00a01\u20135 \n4.1 KQ 1\u20138\n4.2 KQ 1\u20139\n4.3 KQ 1\u201310",
+   "WS 4 Specific heat capacity\nWS 5 Thermal equilibrium\nPA 4 The relationship between temperature and heat\nPA 5 Determining the specific heat capacity of a substance\nPA 6 Latent heat of fusion",
+   "SB:\nChapter 4 fully worked solutions\nSAB:\nUnit 1 AoS 1 WS solutions\nUnit 1 AoS 1 PA solutions\nUnit 1 AoS 1 PA teacher notes\nHeating teacher risk assessment\nPA 4 SPARKlab\nPA 5 SPARKlab\nPA 6 SPARKlab",
+   "SB:\nCS 1\u20135, p 116\n\nSAB:\nWS 4 Specific heat capacity\nWS 5 Thermal equilibrium\nPA 4 The relationship between temperature and heat\nPA 5 Determining the specific heat capacity of a substance\nPA 6 Latent heat of fusion"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 1,
+  "week": "4",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "4",
+   "4.4 Conduction, convection and radiation\n\n5.1 Wien\u2019s law and black-body radiation\n\n5.2 Radiation and the enhanced greenhouse effect",
+   "\u2022describe temperature with reference to the average translational kinetic energy of the atoms and molecules within a system:\n\u2013distinguish between conduction, convection and radiation with reference to heat transfers within and between systems\n\nInteraction of thermal energy and electromagnetic radiation\n\u2022calculate the peak wavelength of the radiated electromagnetic radiation using Wien\u2019s Law: \u03bbmaxT = constant \n\u2022compare the total energy across the electromagnetic spectrum emitted by objects at different temperatures\n\u2022apply concepts of energy transfer, energy transformation, temperature change and change of state to climate change and global warming",
+   "SB:\n4.4 KQ 1\u20136\nCR 7, 11, 12\n\n5.1 KQ 1\u20137\nCR 9\u201315\n5.2 KQ 1\u20136\nCR 1\u20138\n\nOA: \n4.4 KQ 1\u201310\nCR 1\u201326\nRF\n\nChapter 5 PK\u00a01\u20135\n5.1 KQ 1\u20139\n5.2 KQ 1\u20138\nCR 1\u201327 \nRF",
+   "WS 6 Electromagnetic radiation\nWS 7 Climate in the balance\u2014the role of oceans and air in climate control",
+   "SB:\nChapter 4 fully worked solutions\nEXP 4.4.1\nEXP 4.4.1 teacher risk assessment\nEXP 4.4.1 teacher notes and solutions\nEXP 4.4.2\nEXP 4.4.2 teacher risk assessment\nEXP 4.4.2 teacher notes and solutions\nChapter 5 fully worked solutions\nVideo: What is fire?\nVideo: The greenhouse effect and global warming\nEXP 5.2.1\nSAB:\nUnit 1 AoS 1 WS solutions",
+   "SB:\nEXP 4.4.1\nEXP 4.4.2\nEXP 5.2.1\nSAB:\nWS 6 Electromagnetic radiation\nWS 7 Climate in the balance\u2014the role of oceans and air in climate control"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 1,
+  "week": "",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "",
+   "Review",
+   "",
+   "SB:\nUnit 1 AoS 1 Review",
+   "WS 8 Literacy review\u2014energy\nWS 9 Reflection\u2014How are light and heat explained?\nUnit 1 AoS 1 EQ",
+   "SB:\nUnit 1 AoS 1 Review fully worked solutions\nSAB:\nUnit 1 AoS 1 WS solutions\nUnit 1 AoS 1 EQ solutions",
+   "SAB:\nWS 8 Literacy review\u2014energy\nUnit 1 AoS 1 EQ"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 2,
+  "week": "",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "",
+   "",
+   "Prior knowledge review",
+   "",
+   "WS 10 Knowledge review\u2014the properties of matter",
+   "SB:\nHeinemann Physics 11 videos list\nUnit 1 teaching plan template\nSAB:\nUnit 1 AoS 2 WS solutions",
+   ""
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 2,
+  "week": "5",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "5",
+   "6.1 Atoms, isotopes and radioisotopes\n\n6.2 Radioactivity",
+   "Radiation from the nucleus\n\u2022explain nuclear stability with reference to the forces in the nucleus including electrostatic forces, the strong nuclear force and the weak nuclear force\n\u2022model radioactive decay as random decay with a particular half-life, including mathematical modelling with reference to whole half-lives\n\u2022describe the properties of \u03b1, \u03b2\u2013, \u03b2+ and \u03b3\n\u2022explain nuclear transformations using decay equations involving \u03b1, \u03b2\u2212, \u03b2+ and \u03b3 radiation\n\u2022analyse decay series diagrams with reference to type of decay and stability of isotopes",
+   "SB:\n6.1 KQ 1\u20135 \nCR 1, 2, 15\n6.2 KQ 1\u20138 \nCS 1\u20136 p 171\nCR 3, 4, 5\n\nOA: \nChapter 6 PK\u00a01\u20135 \n6.1 KQ 1\u20138\n6.2 KQ 1\u20138",
+   "WS 11 Half-life in radioactive decay\nWS 12 Decaying away\nPA 7 Detecting radiation with a G\u2013M tube\nPA 8 An analogue model of radioactive decay",
+   "SB:\nChapter 6 fully worked solutions\nVideo: Alpha, beta and gamma radiation\nSAB:\nUnit 1 AoS 2 WS solutions\nUnit 1 AoS 2 PA solutions\nUnit 1 AoS 2 PA teacher notes\nPA 7 teacher risk assessment\nHeating teacher risk assessment\nPA 7 SPARKlab\nPA 8 SPARKlab",
+   "SB:\nCS 1\u20136, p 171\nSAB:\nWS 11 Half-life in radioactive decay\nWS 12 Decaying away\nPA 7 Detecting radiation with a G\u2013M tube\nPA 8 An analogue model of radioactive decay"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 2,
+  "week": "6",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "6",
+   "6.3 Half-life and decay series\n\n6.4 Radiation and the human body",
+   "\u2022analyse decay series diagrams with reference to type of decay and stability of isotopes\n\u2022explain the effects of \u03b1, \u03b2 and \u03b3 radiation on humans, including:\n\u2013different capacities to cause cell damage\n\u2013short- and long-term effects of low and high doses \n\u2013ionising impacts of radioactive sources outside and inside the body\n\u2013calculations of absorbed dose (gray), equivalent dose (sievert) and effective dose (sievert)\n\u2022evaluate the use of medical radioisotopes in therapy including the effects on healthy and damaged tissues and cells",
+   "SB: \n6.3 KQ 1\u20135 \nCR 6, 13, 14, 19\n6.4 KQ 1\u20139 \nCR 7\u201312, 16\u201318\n\nOA: \n6.3 KQ 1\u20139\n6.4 KQ 1\u20139\nCR 1\u201322\nRF",
+   "",
+   "SB:\nChapter 6 fully worked solutions\nEXP 6.3.1\nEXP 6.3.1 teacher risk assessment\nEXP 6.3.1 teacher notes and solutions\nEXP 6.3.2\nEXP 6.3.2 teacher notes and solutions\nEXP 6.4.1\nSAB:\nUnit 1 AoS 2 PA solutions\nUnit 1 AoS 2 PA teacher notes\nPA 9 SPARKlab",
+   "SB:\nEXP 6.3.1\nEXP 6.3.2\nEXP 6.4.1"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 2,
+  "week": "7",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "7",
+   "7.1 Energy from mass",
+   "Nuclear energy\n\u2022explain, qualitatively, nuclear energy as energy resulting from the conversion of mass",
+   "SB: \n7.1 KQ 1\u20135 \nCR 9\u201314\n\nOA: \nChapter 7 PK\u00a01\u20135 \n7.1 KQ 1\u20138",
+   "",
+   "SB:\nChapter 7 fully worked solutions\nSAB:\nUnit 1 AoS 2 WS solutions",
+   ""
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 2,
+  "week": "8",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "8",
+   "7.2 Fission, fusion and the future of nuclear energy in Australia",
+   "\u2022explain fission chain reactions including:\n\u2013the effect of mass and shape on criticality\n\u2013neutron absorption and moderation\n\u2022compare the processes of nuclear fusion and nuclear fission\n\u2022explain, using a binding energy curve, why both fusion and fission are reactions that release energy\n\u2022investigate the viability of nuclear energy as an energy source for Australia",
+   "SB:\n7.2 KQ 1\u20138 \nCR 1\u20138\n\nOA: \n7.2 KQ 1\u20139\nCR 1\u201320\nRF",
+   "WS 13 Nuclear energy\nWS 14 Fission versus fusion\nPA 9 The OPAL research reactor, Lucas Heights\u2014How can the energy of the atomic nucleus be harnessed?",
+   "SB:\nChapter 7 fully worked solutions\nVideo: Thermonuclear fusion\nEXP 7.2.1\nEXP 7.2.1 teacher notes and solutions\nSAB:\nUnit 1 AoS 2 WS solutions\nUnit 1 AoS 2 PA solutions\nUnit 1 AoS 2 PA teacher notes\nPA 9 SPARKlab",
+   "SB:\nEXP 7.2.1\nSAB:\nWS 13 Nuclear energy\nWS 14 Fission versus fusion\nPA 9 The OPAL research reactor, Lucas Heights\u2014how can the energy of the atomic nucleus be harnessed?"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 2,
+  "week": "",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "",
+   "Review",
+   "",
+   "",
+   "WS 15 Literacy review\u2014the terminology of ionising radiation\nWS 16 Reflection\u2014How is energy from the nucleus utilised?\nUnit 1 AoS 2 EQ",
+   "SB:\nUnit 1 AoS 2 review fully worked solutions\nSAB:\nUnit 1 AoS 2 WS solutions\nUnit 1 AoS 2 EQ solutions",
+   "SAB:\nWS 15 Literacy review\u2014the terminology of ionising radiation\nUnit 1 AoS 2 EQ"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 3,
+  "week": "",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "",
+   "",
+   "Prior knowledge review",
+   "",
+   "WS 17 Knowledge review\u2014electricity",
+   "SB:\nHeinemann Physics 11 videos list\nUnit 1 teaching plan template\nSAB:\nUnit 1 AoS 3 WS solutions",
+   ""
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 3,
+  "week": "9",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "9",
+   "8.1 Behaviour of charged particles",
+   "Concepts used to model electricity\n\u2022apply concepts of charge (Q), electric current (I), potential difference (V), energy (E) and power (P), in electric circuits",
+   "SB:\n8.1 KQ 1\u20135\nCR 1, 2, 9\n\nOA: \nChapter 8 PK\u00a01\u20135 \n8.1 KQ 1\u20138",
+   "",
+   "SB:\nChapter 8 fully worked solutions\nVideo: Flow of charge through a conductor\nEXP 8.1.1\nEXP 8.1.1 teacher risk assessment\nEXP 8.1.1 teacher notes and solutions",
+   "SB:\nEXP 8.1.1"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 3,
+  "week": "10",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "10",
+   "8.2 Electric current and circuits",
+   "\u2022apply concepts of charge (Q), electric current (I), potential difference (V), energy (E) and power (P), in electric circuits\n\u2022analyse and evaluate different analogies used to describe electric current and potential difference\n\u2022investigate and analyse theoretically and practically electric circuits using the relationships: , ,",
+   "SB:\n8.2 KQ 1\u201310 \nCR 3, 4, 6, 8, 10, 11, 28\n\nOA: \n8.2 KQ 1\u20138",
+   "PA 10 Electrostatics with a Van de Graaff generator",
+   "SB:\nChapter 8 fully worked solutions\nEXP 8.2.1\nEXP 8.2.1 teacher risk assessment\nEXP 8.2.1 teacher notes and solutions\nEXP 8.2.2\nEXP 8.2.2 teacher risk assessment\nEXP 8.2.2 teacher notes and solutions\nSAB:\nUnit 1 AoS 3 PA solutions\nUnit 1 AoS 3 PA teacher notes\nPA 10 teacher risk assessment\nElectricity teacher risk assessment\nPA 10 SPARKlab",
+   "SB:\nEXP 8.2.1\nEXP 8.2.2\nSAB:\nPA 10 Electrostatics with a Van de Graaff generator"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 3,
+  "week": "11",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "11",
+   "8.3 Energy in electric circuits",
+   "\u2022apply concepts of charge (Q), electric current (I), potential difference (V), energy (E) and power (P), in electric circuits\n\u2022analyse and evaluate different analogies used to describe electric current and potential difference\n\u2022investigate and analyse theoretically and practically electric circuits using the relationships: , , \n\u2022justify the use of selected meters (ammeter, voltmeter, multimeter) in circuits",
+   "SB:\nCS 1\u20134, p 226\n8.3 KQ 1\u20138\nCR 5, 12\u201318, 25, 29\n\nOA: \n8.3 KQ 1\u20138",
+   "",
+   "SB:\nChapter 8 fully worked solutions",
+   "SB:\nCS 1\u20134, p 226"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 3,
+  "week": "12",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "12",
+   "8.4 Resistance",
+   "Circuit electricity\n\u2022model resistance in series and parallel circuits using:\n\u2013current versus potential difference (I\u2013V) graphs\n\u2013resistance as the potential difference to current ratio, including R = constant for ohmic devices",
+   "SB:\n8.4 KQ 1\u20138\nCR 7, 19\u201324, 26, 27\n\nOA: \n8.4 KQ 1\u20138\nCR 1\u201323\nRF",
+   "WS 18 Resistance is variable\u2014Ohm\u2019s law\nPA 11 Ohmic and non-ohmic conductors",
+   "SB:\nChapter 8 fully worked solutions\nEXP 8.4.1\nEXP 8.4.1 teacher notes and solutions\nEXP 8.4.2\nEXP 8.4.2 teacher risk assessment\nEXP 8.4.2 teacher notes and solutions\nSAB:\nUnit 1 AoS 3 WS solutions\nUnit 1 AoS 3 PA solutions\nUnit 1 AoS 3 PA teacher notes\nElectricity teacher risk assessment\nPA 11 SPARKlab",
+   "SB:\nEXP 8.4.1\nEXP 8.4.2\nSAB:\nWS 18 Resistance is variable\u2014Ohm\u2019s law\nPA 11 Ohmic and non-ohmic conductors"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 3,
+  "week": "13",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "13",
+   "9.1 Series and parallel circuits",
+   "\u2022model resistance in series and parallel circuits using:\n\u2013equivalent resistance in arrangements in series: Requivalent = R1 + R2 + \u2026 + Rn \n\u2013equivalent resistance in arrangements in parallel: \n\u2022calculate and analyse the equivalent resistance of circuits comprising parallel and series resistance\n\u2022analyse circuits comprising voltage dividers\n\u2022compare power transfers in series and parallel circuits\n\u2022explain why the circuits in homes are mostly parallel circuits\n\nUsing electricity\n\u2022investigate and apply theoretically and practically concepts of current, resistance, potential difference (voltage drop) and power to the operation of electronic circuits comprising resistors, light bulbs, diodes, thermistors, light dependent resistors (LDRs), light-emitting diodes (LEDs) and potentiometers (quantitative analysis restricted to use of and P = VI)\n\u2022investigate practically the operation of simple circuits containing resistors, variable resistors, diodes and other non-ohmic devices",
+   "SB:\nCS 1\u20133, p 253\n9.1 KQ 1\u20138 \nCR 1, 3, 6, 14\u201318\n\nOA: \nChapter 9 PK\u00a01\u20135\n9.1 KQ 1\u201311",
+   "WS 19 Series and parallel circuits\nPA 12 Finding the resistance of an ohmic resistor \nPA 13 Series and parallel circuits",
+   "SB:\nChapter 9 fully worked solutions\nVideo: The properties of a series circuit\nVideo: Current in a parallel circuit\nEXP 9.1.1\nEXP 9.1.1 teacher risk assessment\nEXP 9.1.1 teacher notes and solutions\nSAB:\nUnit 1 AoS 3 WS solutions\nUnit 1 AoS 3 PA solutions\nUnit 1 AoS 3 PA teacher notes\nElectricity teacher risk assessment\nPA 12 SPARKlab\nPA 13 SPARKlab",
+   "SB:\nCS 1\u20133, p 253\nEXP 9.1.1\nSAB:\nWS 19 Series and parallel circuits\nPA 12 Finding the resistance of an ohmic resistor \nPA 13 Series and parallel circuits"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 3,
+  "week": "14",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "14",
+   "9.2 Using electricity",
+   "\u2022describe energy transfers and transformations with reference to resistors, light bulbs, diodes, thermistors, light dependent resistors (LDRs), light-emitting diodes (LEDs) and potentiometers in common devices",
+   "SB:\n9.2 KQ 1\u20138\nCR 4, 9\u201311\nOA: \n9.2 KQ 1\u20138",
+   "WS 20 Heating and power loss in electric circuits",
+   "SB:\nChapter 9 fully worked solutions\nSAB:\nUnit 1 AoS 3 WS solutions",
+   "SAB:\nWS 20 Heating and power loss in electric circuits"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 3,
+  "week": "15",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "15",
+   "9.3 Electrical safety",
+   "Concepts used to model electricity\n\u2022apply the kilowatt-hour (kW h) as a unit of energy\nCircuit electricity\n\u2022model household (AC) electrical systems as simple direct current (DC) circuits\n\u2022explain why the circuits in homes are mostly parallel circuits\nElectrical safety in the home\n\u2022model household electricity connections as a simple DC circuit comprising fuses, switches, circuit breakers, loads and earth\n\u2022compare the operation of safety devices including fuses, circuit breakers and residual current devices (RCDs)\n\u2022describe the causes, effects and first aid treatment of electric shock and identify the approximate danger thresholds for current and duration",
+   "SB: \n9.3 KQ 1\u20138 \nCR 2, 5, 7, 8, 12, 13\n\nOA: \n9.3 KQ 1\u20138\nCR 1\u201323\nRF",
+   "WS 21 Household circuits and electrical safety\nPA 14 Electrical equivalent of heat",
+   "SB:\nChapter 9 fully worked solutions\nSAB:\nUnit 1 AoS 3 WS solutions\nUnit 1 AoS 3 PA solutions\nUnit 1 AoS 3 PA teacher notes\nElectricity teacher risk assessment\nHeating teacher risk assessment\nPA 14 SPARKlab",
+   "SAB:\nWS 21 Household circuits and electrical safety\nPA 14 Electrical equivalent of heat"
+  ]
+ },
+ {
+  "unit": 1,
+  "aos": 3,
+  "week": "",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "",
+   "Review",
+   "",
+   "",
+   "WS 22 Literacy review\u2014electricity\nWS 23 Reflection\u2014How can electricity be used to transfer energy?\nUnit 1 AoS 3 EQ",
+   "SB:\nUnit 1 AoS 3 review fully worked solutions\nSAB:\nUnit 1 AoS 3 WS solutions\nUnit 1 AoS 3 EQ solutions",
+   "SAB:\nWS 22 Literacy review\u2014electricity\nUnit 1 AoS 3 EQ"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "",
+   "",
+   "Prior knowledge review",
+   "",
+   "WS 24 Knowledge review\u2014understanding motion",
+   "SB:\nHeinemann Physics 11 videos and interactives list\nEXP risk assessment template\nUnit 2 teaching plan template\nUnits 3 and 4 exam readiness guide (provided for reference only)\nSAB:\nUnit 2 AoS 1 WS solutions",
+   ""
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "1",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "1",
+   "10.1 Scalars and vectors\n\n10.2 Adding and subtracting vectors in one and two dimensions",
+   "Concepts used to model motion\n\u2022identify parameters of motion as vectors or scalars",
+   "SB:\n10.1 KQ 1\u20138\nCR 1\u20135\nCS 1\u20133, p 301\n10.2 KQ 1\u20138\nCR 6\u201327\nOA:\nChapter 10 PK 1\u20135 \n10.1 KQ 1\u20138\n10.2 KQ 1\u20138",
+   "WS 25 Vectors in the classroom",
+   "SB:\nChapter 10 fully worked solutions\nVideo: Scalars and vectors\nSAB:\nUnit 2 AoS 1 WS solutions\nUnit 2 AoS 1 PA solutions\nUnit 2 AoS 1 PA teacher notes",
+   "SB:\nCS 1\u20133, p 301\nSAB:\nWS 25 Vectors in the classroom"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "2",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "2",
+   "10.3 Vector components\n\n11.1 Displacement, speed and velocity\n\n11.2 Acceleration\n\n11.3 Graphing position, velocity and acceleration over time",
+   "\u2022analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at, v2 = u2 + 2as, s = (u + v)t, s = ut + at2, s = vt \u2013 at2\n\u2022analyse, graphically, non-uniform motion in a straight line",
+   "SB: \n10.3 KQ 1\u20138\nCR 28\nCS 1\u20134, p 313\nCS 1\u20133, p 317\n11.1 KQ 1\u20138\nCR 1\u20133, 6, 7\nCS 1\u20133, p 323\n11.2 KR 1\u20137\nCR 4, 8, 10\nCS 1\u20133, p 333\n11.3 KQ 1\u20138\nCR 9, 11, 12, 18, 24\n\nOA: \n10.3 1\u20135\nCR 1\u201319\nRF\nChapter 11 PK 1\u20135\n11.2 KQ 1\u20138\n11.3 KQ 1\u20139",
+   "WS 27 Position\u2013time and velocity\u2013time graphs\nWS 28 Race analysis\u2014a study of relative motion",
+   "SB:\nChapter 10 fully worked solutions\nChapter 11 fully worked solutions\nVideo: Reading from a graph\nEXP 10.3.1\nEXP 10.3.1 teacher notes and solutions\nSAB:\nUnit 2 AoS 1 WS solutions",
+   "SB:\nCS 1\u20134, p 313\nCS 1\u20133, p 317\nCS 1\u20133, p 323\nCS 1\u20133, p 333\nSAB:\nWS 27 Position\u2013time and velocity\u2013time graphs\nWS 28 Race analysis\u2014a study of relative motion"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "3",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "3",
+   "11.4 Equations for uniform acceleration",
+   "\u2022analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: v = u + at, v2 = u2 + 2as, s = (u + v)t, s = ut + at2, s = vt \u2013 at2",
+   "SB: \n11.4 KQ 1\u20138\nCR 16\u201318, 20, 21\n\nOA: \n11.4 KQ 1\u20138",
+   "PA 15 Analysing motion with a motion sensor\nPA 16 A reaction timer\nPA 17 Measuring height or distance using kinematics",
+   "SB:\nChapter 11 fully worked solutions\nSAB:\nUnit 2 AoS 1 WS solutions\nUnit 2 AoS 1 PA teacher notes\nElectricity teacher risk assessment\nPA 17 SPARKlab",
+   "SAB:\nPA 15 Analysing motion with a motion sensor\nPA 16 A reaction timer\nPA 17 Measuring height or distance using kinematics"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "4",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "4",
+   "11.5 Vertical motion",
+   "\u2022analyse graphically, numerically and algebraically, straight-line motion under constant acceleration: : v = u + at, v2 = u2 + 2as, s = (u + v)t, s = ut + at2, s = vt \u2013 at2\nForces and motion\n\u2022model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8\u00a0N\u00a0kg\u20131 near the surface of Earth)",
+   "SB: \nCS 1\u20133, p 345\n11.5 KQ  1\u20138\nCR  5, 14, 15, 19, 22\u201331\n\nOA: \n11.5 KQ 1\u20138 \nCR 1\u201318\nRF",
+   "PA 18 Acceleration down an incline\nPA 20 Verifying the value of acceleration due to gravity at the Earth\u2019s surface",
+   "SB:\nChapter 11 fully worked solutions\nSAB:\nUnit 2 AoS 1 PA solutions\nUnit 2 AoS 1 PA teacher notes\nPA 18 SPARKlab\nPA 20 SPARKlab",
+   "SB:\nCS 1\u20133, p 345\n\nSAB:\nPA 18 Acceleration down an incline\nPA 20 Verifying the value of acceleration due to gravity at the Earth\u2019s surface"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "5",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "5",
+   "12.1 Newton\u2019s first law\n\n12.2 Newton\u2019s second law\n12.3 Newton\u2019s third law",
+   "Forces and motion\n\u2022apply Newton\u2019s three laws of motion to a body on which forces act: a = , Fon A by B = \u2013Fon B by A\n\u2022apply the vector model of forces, including vector addition and components of forces, to readily observable forces including the force due to gravity, friction and normal forces",
+   "CS 1\u20133, p 359 \n12.1 KQ 1\u20138\nCR 1, 2, 18\n12.2 KQ 1\u20138\nCR 9, 17\n12.2 KQ 1\u20138\nCR 4\u20138\n12.3 KQ 1\u20137\nCR 3, 10, 19\n\nOA: \nChapter 12 PK 1\u20135 \n12.1 KQ 1\u20138 \n12.2 KQ 1\u201311",
+   "WS 32 Working against the force\nPA 19 Newton\u2019s second law\nWS 30 Which Newton is that?\nWS 31 Understanding Newton\u2019s third law",
+   "SB:\nChapter 12 fully worked solutions\nVideo: How do airplanes fly?\nEXP 12.3.1\nEXP 12.3.1 teacher notes and solutions\nSAB:\nUnit 2 AoS 1 WS solutions\nUnit 2 AoS 1 PA solutions\nUnit 2 AoS 1 PA teacher notes\nHeating teacher risk assessment\nPA 19 SPARKlab",
+   "SB:\nCS 1\u20133, p 359 \nEXP 12.3.1\nSAB:\nWS 32 Working against the force\nPA 19 Newton\u2019s second law\nWS 30 Which Newton is that?\nWS 31 Understanding Newton\u2019s third law"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "6",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "6",
+   "12.4 Momentum and conservation of momentum\n\n12.5 Momentum transfer\n\n12.6 Momentum and net force",
+   "\u2022model the force due to gravity, Fg, as the force of gravity acting at the centre of mass of a body, Fon body by Earth = mg, where g is the gravitational field strength (9.8\u00a0N\u00a0kg\u20131 near the surface of Earth)\n\u2022model forces as vectors acting at the point of application (with magnitude and direction), labelling these forces using the convention \u2018force on A by B\u2019 or Fon A by B = \u2013Fon B by A\nForces and motion\n\u2022explain changes in momentum as being caused by a net force: \u0394p = Fnet\nConcepts used to model motion\n\u2022apply concepts of momentum to linear motion: p = mv\nEnergy and motion\n\u2022analyse impulse in an isolated system (for collisions between objects moving in a straight line): F\u0394t = m\u0394v\n\u2022investigate and analyse theoretically and practically momentum conservation in one dimension",
+   "SB: \n12.4 KQ 1\u20136\nCR 11\u201316\n12.5 KQ 1\u20136\n12.6 KQ 1\u20138\nCR 20\u201321\n\nOA: \n12.3 KQ 1\u20138\n12.4 KQ 1\u201310\n12.5 KQ 1\u20137\n12.6 KQ 1\u20139\nCR 1\u201320  \nRF",
+   "WS 35 Human earthquake",
+   "SB:\nChapter 12 fully worked solutions\nEXP 12.4.1\nEXP 12.4.1 teacher notes and solutions\nEXP 12.6.1\nSAB:\nUnit 2 AoS 1 WS solutions\nPA 19 SPARKlab",
+   "SB:\nEXP 12.4.1\nEXP 12.6.1\nSAB:\nWS 35 Human earthquake"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "7",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "7",
+   "13.1 Work",
+   "Energy and motion\n\u2022apply the concept of work done by a force using:\n\u2013work done = force \u00d7 displacement: W = F\u00a0s\u00a0cos\u00a0\u03b8, where force is constant\n\u2013work done = area under force vs distance graph",
+   "SB: \n13.1 KQ 1\u20139\nCR 5, 6\n\nOA: \nChapter 13 PK 1\u20135\n13.1 KQ 1\u201311",
+   "WS 32 Working against the force",
+   "SB:\nChapter 13 fully worked solutions\nVideo: Work in physics\nSAB:\nUnit 2 AoS 1 WS solutions",
+   "SAB:\nWS 32 Working against the force"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "8",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "8",
+   "13.2 Mechanical energy",
+   "\u2022investigate and analyse theoretically and practically Hooke\u2019s Law for an ideal spring: F = \u2013kx, where x is extension\n\u2022analyse and model mechanical energy transfers and transformations using energy conservation: \n\u2013changes in gravitational potential energy near Earth\u2019s surface: Eg = mg\u0394h\n\u2013strain potential energy in ideal springs: Es = kx2\n\u2013kinetic energy: Ek = mv2",
+   "SB: \n13.2 KQ 1\u201310\nCR 1\u20134, 7\u201316, 20, 21\n\nOA: \n13.2 KQ 1\u201313",
+   "WS 33 Determining the spring constant\u2014data analysis\nPA 23 Conservation of energy",
+   "SB:\nChapter 13 fully worked solutions\nEXP 13.2.1\nEXP 13.2.1 teacher notes and solutions\nSAB:\nUnit 2 AoS 1 WS solutions\nUnit 2 AoS 1 PA solutions\nUnit 2 AoS 1 PA teacher notes\nPA 23 SPARKlab",
+   "SB:\nEXP 13.2.1\nEXP 13.2.1 teacher notes and solutions\nSAB:\nWS 33 Determining the spring constant\u2014data analysis\nPA 23 Conservation of energy"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "9",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "9",
+   "13.3 Using energy: power and efficiency",
+   "\u2022analyse rate of energy transfer using power: P =  \n\u2022calculate the efficiency of an energy transfer system:",
+   "SB: \nCS 1\u20134, p 424\n13.3 KQ 1\u201310\nCR 17\u201319, 22\n\nOA: \n13.3 KQ 1\u201310 \nCR 1\u201325      \nRF",
+   "WS 34 Engine power\nPA 21 Work, energy and power",
+   "SB: \nChapter 13 fully worked solutions\nVideo: The potential for fun\nSAB:\nUnit 2 AoS 1 WS solutions\nUnit 2 AoS 1 PA solutions\nUnit 2 AoS 1 PA teacher notes\nHeating teacher risk assessment\nPA 21 SPARKlab",
+   "SB:\nCS 1\u20134, p 424\nSAB:\nWS 34 Engine power\nPA 21 Work, energy and power"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "10",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "10",
+   "14.1 Torque",
+   "Equilibrium\n\u2022calculate torque, \u03c4 = r\u22a5F",
+   "SB: \n14.1 KQ 1\u20139\nCR 1\u201312, 16, 19\u201323\n\nOA: \nChapter 14 PK 1\u20135\n14.1 KQ 1\u20139",
+   "WS 36 Calculating torque",
+   "SB: \nChapter 14 fully worked solutions\nVideo: Force arm\nSAB:\nUnit 2 AoS 1 WS solutions\nUnit 2 AoS 1 PA solutions\nUnit 2 AoS 1 PA teacher notes",
+   "SAB:\nWS 36 Calculating torque"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "11",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "11",
+   "14.2 Translational equilibrium\n\n14.3 Static equilibrium",
+   "\u2022analyse translational and rotational forces (torques) in simple structures in translational and rotational equilibrium\nApplication of motion\n\u2022investigate the application of motion concepts through a case study, for example, through motion in sport, vehicle safety, a device or a structure",
+   "SB:\n14.2 KQ 1\u20137\nCR 13\u201315, 18, 24\nCS 1, 2, p 467\n14.3 KQ 1\u201311\nCR 17, 25\u201328\n\nOA: \n14.2 KQ 1\u20138\n14.3 KQ 1\u201312\nCR 1\u201321\nRF",
+   "WS 29 Analysing motion in two dimensions",
+   "SB: \nChapter 14 fully worked solutions\nVideo: Equilibrium\nSAB:\nUnit 2 AoS 1 WS solutions",
+   "SB:\nCS 1,2, p 467\nSAB:\nWS 29 Analysing motion in two dimensions"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 1,
+  "week": "",
+  "hdr": [
+   "Week",
+   "Heinemann Physics 11 5E student book chapter",
+   "Key knowledge",
+   "Questions",
+   "Heinemann Physics\u00a011 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "",
+   "",
+   "Review",
+   "",
+   "WS 37 Literacy review\u2014motion\nWS 38 Reflection\u2014How is motion understood?\n\nUnit 2 AoS 1 EQ",
+   "SB:\nUnit 2 AoS 1 review fully worked solutions\nSAB:\nUnit 2 AoS 1 WS solutions\nUnit 2 AoS 1 EQ solutions",
+   "SAB:\nWS 37 Literacy review\u2014motion\nUnit 2 AoS 1 EQ"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 2,
+  "week": "12",
+  "hdr": [
+   "Week",
+   "Key ideas",
+   "Key knowledge",
+   "Heinemann Physics 11 5E student book chapter/section",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources with online assessment",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "12",
+   "Options\n\u2022How does physics explain climate change?\n\u2022How do fusion and fission compare as viable nuclear energy power sources?\n\u2022How do heavy things fly?\n\u2022How do forces act on structures and materials?\n\u2022How do forces act on the human body?\n\u2022How is radiation used to maintain human health?\n\u2022How does the human body use electricity?\n\u2022How can human vision be enhanced?\n\u2022How is physics used in photography?\n\u2022How do instruments make music?\n\u2022How can performance in ball sports be improved?\n\u2022How can AC electricity charge a DC device?\n\u2022How do astrophysicists investigate stars and black holes?\n\u2022How can we detect possible life beyond Earth\u2019s Solar System?\n\u2022How can physics explain traditional artefacts, knowledge and techniques? \n\u2022How do particle accelerators work?\n\u2022How does physics explain the origins of matter?\n\u2022How is contemporary physics research being conducted in our region?",
+   "\u2022evaluate validity of sources of information \n\u2022apply physics concepts specific to the investigation: definitions of key terms; and use of appropriate scientific terminology, conventions and representations \n\u2022apply the use of data representations, models and theories in organising and explaining observed phenomena and physics concepts, and discuss the limitations of the explanations\n\u2022discuss the influence of sociocultural, economic, legal and political factors relevant to the selected issue or application\n\u2022apply physics understanding to justify a stance, opinion or solution to the selected issue or application.",
+   "",
+   "Investigation template",
+   "Unit 2 AoS 2 Option 2.2\nUnit 2 AoS 2 Option 2.2 teacher notes\nUnit 2 AoS 2 Option 2.5\nUnit 2 AoS 2 Option 2.5 teacher notes\nUnit 2 AoS 2 Option 2.10\nUnit 2 AoS 2 Option 2.10 teacher notes\nUnit 2 AoS 2 Option 2.11\nUnit 2 AoS 2 Option 2.11 teacher notes\nUnit 2 AoS 2 Option 2.12\nUnit 2 AoS 2 Option 2.12 teacher notes\nUnit 2 AoS 2 Option 2.15\nUnit 2 AoS 2 Option 2.15 teacher notes",
+   "Unit 2 AoS 2 Option 2.2\nUnit 2 AoS 2 Option 2.5\nUnit 2 AoS 2 Option 2.10\nUnit 2 AoS 2 Option 2.11\nUnit 2 AoS 2 Option 2.12\nUnit 2 AoS 2 Option 2.15"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 3,
+  "week": "13\u201314",
+  "hdr": [
+   "Week",
+   "Key knowledge",
+   "Heinemann Physics 11 5E student book chapter/section",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources with online assessment",
+   "Suggested assessment (can be adapted and used as assessment tasks to meet the requirements of the study design)"
+  ],
+  "cells": [
+   "13\u201314",
+   "Investigation design\n\u2022apply the physics concepts specific to the selected investigation and explain their significance, including definitions of key terms, and physics representations\n\u2022evaluate the characteristics of the scientific methodology relevant to the investigation, selected from: experiment; fieldwork, classification and identification, modelling, simulation, and the development of a product, process or system\n\u2022apply techniques of primary qualitative and quantitative data generation relevant to the investigation\n\u2022identify and apply concepts of accuracy, precision, repeatability, reproducibility, resolution, and validity of data in relation to the investigation\n\u2022identify and apply health, safety and ethical guidelines relevant to the selected scientific investigation\n\nScientific evidence\n\u2022distinguish between an aim, a hypothesis, a model, a theory and a law\n\u2022identify and explain observations and experiments that are consistent with, or challenge, current models or theories \n\u2022describe the characteristics of primary data\n\u2022evaluate methods of organising, analysing and evaluating primary data to identify patterns and relationships including scientific error, causes of uncertainty, and limitations of data, methodologies and methods\n\u2022model the scientific practice of using a logbook to authenticate generated primary data\n\nScientific communication\n\u2022apply the conventions of scientific report writing including scientific terminology and representations, standard abbreviations, units of measurement, significant figures and acknowledgement of references\n\u2022apply the key findings of the selected investigation and their relationship to key physics concepts.",
+   "n/a",
+   "AoS 3: Scientific investigation:Crumple zones and collisions\u2014how can impulse be used to improve the safety of vehicles?",
+   "Unit 2 AoS 3 sample poster \nUnit 2 AoS 3 poster template \nUnit 2 AoS 3 sample logbook \nUnit 2 AoS 3 logbook template \nUnit 2 AoS 3 teacher notes\nUnit 2 AoS 3 assessment rubric\nUnit 2 AoS 3 student checklist",
+   "Unit 2 AoS 3 logbook template \nUnit 2 AoS 3 sample poster \nUnit 2 AoS 3 poster template \nUnit 2 AoS 3 teacher notes\nUnit 2 AoS 3 assessment rubric\nUnit 2 AoS 3 student checklist"
+  ]
+ },
+ {
+  "unit": 2,
+  "aos": 4,
+  "week": "15",
+  "hdr": [
+   "Week",
+   "Key knowledge",
+   "Heinemann Physics 11 5E student book chapter/section",
+   "Heinemann Physics 11 Skills and Assessment",
+   "Heinemann Physics 11 5E eBook resources with online assessment",
+   "Suggested assessment"
+  ],
+  "cells": [
+   "15",
+   "All",
+   "All",
+   "All",
+   "Whole book/unit:\nUnits 3 and 4 exam readiness guide\nUnits 1 and 2 practice exam\nUnits 1 and 2 practice exam MC answer sheet\nUnits 1 and 2 practice exam suggested answers\nUnits 1 and 2 practice exam mapping document",
+   "Whole book:\nPractice exam"
+  ]
+ }
+]
