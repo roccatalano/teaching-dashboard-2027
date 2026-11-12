@@ -146,7 +146,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Sound is a ___ , ___ wave. Light is a ___ , ___ wave.” Plus one sketch of a longitudinal wave with a compression labelled. Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 1A Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Which of the following characteristics is particularly associated with wave motion? A. vibrations which are longitudinal to the direction of motion B. the transfer of matter from one place to another C. vibrations which transfer energy from one place to another D. vibrations which are transverse to the direction of motion",
+      "note": "Cambridge 1A Section questions, Q1"
+     },
+     {
+      "q": "Which of the following statements best describes the frequency of a moving transverse wave? A. The frequency of the wave is related to the time it takes a wave to travel any fixed distance. B. The frequency of the wave is related to the time it takes a wave crest to travel one wavelength. C. The frequency of the wave is inversely related to the time it takes a wave crest to travel one wavelength. D. The frequency of the wave is equal to the time it takes a wave crest to travel one wavelength. Short answer questions Use the following information to answer Questions 3 and 4. The sketch below shows a side-on view of a wave in a rope. It is a transverse wave, and is moving from left to right. [Diagram Description automatically generated]",
+      "note": "Cambridge 1A Section questions, Q2"
      }
     ]
    }
@@ -272,7 +283,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“A radio station broadcasts at 100 MHz. Find the wavelength.” ($c = 3.0 \\times 10^8$ m s$^{-1}$.) Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 1A Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Calculate the speed of a wave of frequency 3.0 × 10⁹ Hz and wavelength 2.5 cm.",
+      "note": "Cambridge 1A Section questions, Q5"
+     },
+     {
+      "q": "Calculate the frequency of a wave of speed 56 mm s^(–1) and wavelength 1.4 × 10^(–5) m.",
+      "note": "Cambridge 1A Section questions, Q6"
      }
     ]
    }
@@ -536,7 +558,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Order by increasing frequency: infrared, ultraviolet, visible, radio.” Plus one use of microwaves. Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 1B Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Arrange the following components of visible light in order of increasing wavelength: yellow, green, violet, red.",
+      "note": "Cambridge 1B Section questions, Q4"
+     },
+     {
+      "q": "Rank the following colours in order of increasing frequency: green, ultraviolet, red, yellow.",
+      "note": "Cambridge 1B Section questions, Q5"
      }
     ]
    }
@@ -671,7 +704,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Light enters water ($n = 1.33$) from air at $30^\\circ$. Find the angle of refraction.” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 1C Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "A light beam is travelling through an unknown liquid with a refractive index of 1.75. Which of the following is closest to the speed of light in the liquid? A. 1.7 × 10⁸ m s^(–1) B. 2.3 × 10⁸ m s^(–1) C. 3.0 × 10⁸ m s^(–1) D. 5.3 × 10⁸ m s^(–1)",
+      "note": "Cambridge 1C Section questions, Q3"
+     },
+     {
+      "q": "For a ray of light moving from one medium to another to bend away from the normal A. the speed must stay the same and the refractive index must increase. B. the speed must decrease and the refractive index must decrease. C. the speed must increase and the refractive index must decrease. D. the speed must stay the same and the refractive index must decrease.",
+      "note": "Cambridge 1C Section questions, Q5"
      }
     ]
    }
@@ -940,7 +984,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Why does a prism split white light? Which colour bends most?” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 1C Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "White light is dispersed into the colours of the spectrum after passing through a triangular prism. a. Which colour, red or violet, is deviated the most in this process? b. Outline the reasons why this occurs.",
+      "note": "Cambridge 1C Section questions, Q9"
+     },
+     {
+      "q": "The critical angle occurs when A. light travels from a high n medium into a low n medium. B. light travels from a low n medium into a high n medium. C. light travels from a high speed medium into a lower speed medium. D. light is blocked from transmission, so it all reflects at the surface.",
+      "note": "Cambridge 1C Section questions, Q6"
      }
     ]
    }
@@ -1078,7 +1133,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“What is the difference between heat and temperature? Convert 15 °C to kelvin.” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 2A Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Which of the following temperature pairs are the same, to within one degree kelvin? A. 0 K and 273°C B. –113°C and 160 K C. 20°C and 253 K D. 370 K and 90°C",
+      "note": "Cambridge 2A Section questions, Q1"
+     },
+     {
+      "q": "The temperature of a block of material is A. linked to the total thermal energy in the block. B. proportional to the kinetic energy of the most energetic molecules in the block. C. a measure of the amount of energy that can be extracted from the block. D. a measure of the average potential energy of the molecules in the block.",
+      "note": "Cambridge 2A Section questions, Q2"
      }
     ]
    }
@@ -1335,7 +1401,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“How much energy heats 0.5 kg of water by 10 °C?” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 2A Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "A 1.5 kg block of a metal alloy is heated, raising its thermal energy by 4500 J. Its temperature rises by 5.0°C. Calculate the specific heat capacity of the alloy. []",
+      "note": "Cambridge 2A Section questions, Q11"
+     },
+     {
+      "q": "When soups contain a large proportion of solids (e.g. vegetables, noodles, meat), compared to water, they tend to cool more quickly. Suggest physical reasons for this.",
+      "note": "Cambridge 2A Section questions, Q9"
      }
     ]
    }
@@ -1461,7 +1538,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Why does sweating cool you down?” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 2A Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Calculate the energy required to convert 1 kg of ice at –20°C to water at +20°C. Use the specific heat of ice, which is different from that of water, and is equal to 2108 J kg^(–1).",
+      "note": "Cambridge 2A Section questions, Q8"
+     },
+     {
+      "q": "An electric kettle contains 1.5 kg of water at 20°C and has a power rating of 2000 W. a. Assume it is insulated perfectly. How long will it take to raise the entire 1.5 kg of water to boiling point? b. Assuming all the water in the kettle is at 100°C, how much longer will it take it to convert all the water to steam?",
+      "note": "Cambridge 2A Section questions, Q7"
      }
     ]
    }
@@ -1725,7 +1813,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Explain how a thermos flask reduces all three types of heat transfer.” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 2A Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "A block of wood at 20°C and a block of aluminium also at 20°C feel to be at different temperatures when you put your hand on them. The aluminium block feels colder. This is because A. aluminium is a better radiator than wood. B. aluminium is a better thermal conductor than wood. C. wood is a better thermal conductor than aluminium. D. your hand is not an accurate thermometer. Short answer questions",
+      "note": "Cambridge 2A Section questions, Q5"
+     },
+     {
+      "q": "Suggest why people sometimes prefer mittens (left) to gloves (right) in cold weather. [][]",
+      "note": "Cambridge 2A Section questions, Q10"
      }
     ]
    }
@@ -1871,7 +1970,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“A star peaks at 500 nm. Estimate its surface temperature.” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 2B Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Wien’s law states that A. the peak wavelength of a blackbody is inversely proportional to its Celsius temperature. B. the peak wavelength of a blackbody is directly proportional to its kelvin temperature. C. the peak wavelength of a blackbody is directly proportional to its Celsius temperature. D. the peak wavelength of a blackbody is inversely proportional to its kelvin temperature. Use the following blackbody radiation curves to answer Questions 3 and 4. []",
+      "note": "Cambridge 2B Section questions, Q2"
+     },
+     {
+      "q": "Which temperature curve has the highest peak frequency value? A. T = 5500 K B. T = 5000 K C. T = 4000 K D. T = 3500 K",
+      "note": "Cambridge 2B Section questions, Q3"
      }
     ]
    }
@@ -2140,7 +2250,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Explain in three sentences how extra CO₂ leads to warming.” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 2B Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Earth can be modelled as a blackbody with a temperature of 20°C. a. Use Wien’s law to estimate the peak wavelength emitted from Earth. b. Identify the region of the electromagnetic spectrum of this peak wavelength.",
+      "note": "Cambridge 2B Section questions, Q5"
+     },
+     {
+      "q": "Outline the role that ‘greenhouse’ gases (such as H₂O, CH₄ and CO₂) play in Earth’s infrared emissions.",
+      "note": "Cambridge 2B Section questions, Q6"
      }
     ]
    }
@@ -2556,7 +2677,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Why don’t the protons in a nucleus fly apart?” (Start the lesson with 15 min of SAC 1 feedback if the SACs are marked: shorten Apply.) Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 3A Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Use the internationally accepted format _(Z)^(A)X to write down the elements containing the following nucleons: a. 2 neutrons and 1 proton b. 12 protons and 25 nucleons c. 94 protons and 143 neutrons",
+      "note": "Cambridge 3A Section questions, Q6"
+     },
+     {
+      "q": "Explain why it is possible to have two different elements with the same number of nucleons.",
+      "note": "Cambridge 3A Section questions, Q7"
      }
     ]
    }
@@ -2697,7 +2829,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Which radiation is stopped by paper? Write the alpha decay of Po-210.” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 3B Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "An α-particle has an energy of 1.0 × 10⁻¹² J. The energy of the α-particle in MeV is closest to: A. 1.0 MeV B. 6.2 MeV C. 9.4 MeV D. 18.7 MeV",
+      "note": "Cambridge 3B Section questions, Q3"
+     },
+     {
+      "q": "A radioactive source is placed 2 cm from a detector. The count rate decreases slightly if a sheet of paper is inserted between the source and the detector. It is reduced to background radiation level if the sheet of paper is replaced by a 1 cm thick sheet of aluminium. The radiation emitted by the radioactive source is most likely to be A. α only. B. α and β. C. β and γ. D. γ only.",
+      "note": "Cambridge 3B Section questions, Q4"
      }
     ]
    }
@@ -2832,7 +2975,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“A source has a half-life of 5 years. What fraction is left after 15 years?” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 3C Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Gold-198 has a half-life of 2.7 days. Using the formula $N = \\ N_{0}{(\\frac{1}{2})}^{n}$ calculate the: a. percentage of gold-198 remaining after 8.1 days have elapsed b. time it takes to have only $\\frac{1}{16}\\ $th of the original gold-198 remaining.",
+      "note": "Cambridge 3C Section questions, Q5"
+     },
+     {
+      "q": "Why do medical diagnostic radioisotopes usually have short half-lives measured in hours or days (e.g. technetium-99m, 6 hours; iodine-131, 8 days)?",
+      "note": "Cambridge 3C Section questions, Q7"
      }
     ]
    }
@@ -2963,7 +3117,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Why is alpha radiation more dangerous inside the body than outside it?” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 3E Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "How much energy, absorbed via γ-rays, would cause the death of a 60 kg person within 50 hours due to a radiation exposure dose of 40 Sv? A. 120 J B. B 1200 J C. C 2400 J D. D 3000 J",
+      "note": "Cambridge 3E Section questions, Q4"
+     },
+     {
+      "q": "Why is it more dangerous for pregnant women to be exposed to high radiation levels than for other people?",
+      "note": "Cambridge 3E Section questions, Q5"
      }
     ]
    }
@@ -3371,7 +3536,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Give one argument for and one against nuclear power in Australia, using physics.” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 4B Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Why are nuclear fission weapons far more powerful than TNT, for the same mass of explosive material?",
+      "note": "Cambridge 4B Section questions, Q6"
+     },
+     {
+      "q": "Why are nuclear fusion weapons far more powerful than nuclear fission weapons, for the same mass of explosive material? 8. a One of the long-term effects from a nuclear explosion is radioactive fallout. If all 3.0 × 10²⁶ radioactive fission nuclei were spread evenly among the human population (8 billion), how many radioactive nuclei would each human breathe in? b Why is this not a realistic calculation?",
+      "note": "Cambridge 4B Section questions, Q7"
      }
     ]
    }
@@ -3852,7 +4028,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Why do metals conduct electricity but plastic doesn’t?” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 5A Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Calculate the number of electrons in the following charges. a. 1 C b. 5 C c. 100 C",
+      "note": "Cambridge 5A Section questions, Q10"
+     },
+     {
+      "q": "Devise an analogy for electric current that compares electrons to canoeists or kayakers drifting down a river that is flowing gently. a. Explain three similarities between this situation and a real electric circuit. b. Explain three differences between this situation and a real electric circuit.",
+      "note": "Cambridge 5A Section questions, Q8"
      }
     ]
    }
@@ -3993,7 +4180,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Where do you connect an ammeter, and why?” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 5A/5B Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "How much energy is given to each coulomb of charge by the 240 V mains supply? A. 240 J B. 1 J C. 100 J D. 240 V",
+      "note": "Cambridge 5B Section questions, Q1"
+     },
+     {
+      "q": "A charge of 100 C flows past a point in a circuit in 25 s. Calculate the current through the circuit.",
+      "note": "Cambridge 5A Section questions, Q11"
      }
     ]
    }
@@ -4261,7 +4459,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Find the power of a 240 V appliance drawing 5 A.” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 5B/5E Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "How much energy is delivered to a 240 V mains appliance by each 20 C of charge passing through it? A. 20 J B. 240 J C. 240 V D. 4800 J",
+      "note": "Cambridge 5B Section questions, Q3"
+     },
+     {
+      "q": "What is the power of a lamp that is designed to operate at 240 V, 0.5 A? A 0.5 Ws B 120 W C 240 W D 480 W",
+      "note": "Cambridge 5E Section questions, Q1"
      }
     ]
    }
@@ -4395,7 +4604,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Sketch the I–V graph of a filament lamp and explain its shape.” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 5C Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "What is the resistance of a light bulb in which the current is 0.5 A when it is connected to a potential difference of 240 V? A. 240 Ω B. 120 Ω C. 480 Ω D. 2 mΩ",
+      "note": "Cambridge 5C Section questions, Q1"
+     },
+     {
+      "q": "What is the current in an appliance of resistance 1000 Ω when it is connected to the 240 V mains supply? A. 0.24 A B. 2.4 × 10⁵ A C. 4.2 A D. 24 A",
+      "note": "Cambridge 5C Section questions, Q3"
      }
     ]
    }
@@ -4694,7 +4914,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Why are homes wired in parallel?” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 5D Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Lamps of resistance 300 Ω, 400 Ω and 600 Ω are connected in parallel and connected to a 12 V battery. a Draw a circuit diagram of the arrangement. b What is the total resistance in the circuit? c What is the current in each resistance? d What is the total current leaving the battery",
+      "note": "Cambridge 5D Section questions, Q7"
+     },
+     {
+      "q": "Which type of circuit is most useful for supplying the same potential difference to several components at once? A series B parallel with an extra series component C series with a parallel component D parallel",
+      "note": "Cambridge 5D Section questions, Q3"
      }
     ]
    }
@@ -4814,7 +5045,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“Why does switching on more appliances increase the current from the supply?” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 5E Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "What is the power of a lamp that is designed to operate 240 V, 0.25 A? A 0.25 W B 60 W C 120 W D 960 W",
+      "note": "Cambridge 5E Section questions, Q2"
+     },
+     {
+      "q": "Calculate the current in a 20 W motor connected to a 12 V power supply.",
+      "note": "Cambridge 5E Section questions, Q6"
      }
     ]
    }
@@ -5083,7 +5325,18 @@
       "min": 8,
       "phase": "Exit ticket",
       "title": "Goals revisited",
-      "detail": "“An RCD trips but the fuse doesn’t. What kind of fault happened?” Red/amber/green on each goal."
+      "detail": "Two Cambridge section questions on today’s content (below), done individually and handed in. Then red/amber/green on each goal.",
+      "resource": "Cambridge 6C Section questions; answers in Cambridge Chapter Suggested responses (TEACHER ONLY)"
+     }
+    ],
+    "exitQs": [
+     {
+      "q": "Explain why it is extremely dangerous to replace thin fuse wire with thicker wire, or with a nail. (This is one of the reasons fuses have been replaced with circuit breakers.)",
+      "note": "Cambridge 6C Section questions, Q8"
+     },
+     {
+      "q": "The reason for an earth wire connecting to the casing of an electrical appliance is to A supply extra electrons from the earth to neutralise the current. B provide a low-resistance path for high current to flow to earth, tripping the circuit breaker or fuse. C provide a high-resistance path to stop the current to flowing to earth. D bypass the fuse or circuit breaker.",
+      "note": "Cambridge 6C Section questions, Q3"
      }
     ]
    }
