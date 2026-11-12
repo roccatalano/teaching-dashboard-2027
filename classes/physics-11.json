@@ -228,6 +228,23 @@
    "week": 2,
    "lesson": 5,
    "id": "p11-u1-l05",
+   "cfat": {
+    "id": "CFAT 1",
+    "title": "Ch 2 Waves and electromagnetic radiation",
+    "covers": [
+     "2.1",
+     "2.2",
+     "2.3"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Write 5–8 short questions modelled on the student book Key questions for these sections (change the numbers and contexts: students can see the fully worked solutions in the eBook), plus 1 extended question in the style of the chapter Case study questions. Use the sections’ key knowledge as the success criteria.",
+    "sources": [
+     "Student book 2.1 Key questions (as models)",
+     "Student book 2.2 Key questions (as models)",
+     "Student book 2.3 Key questions (as models)",
+     "Ch02 fully worked solutions (marking guide)"
+    ]
+   },
    "tasks": [
     {
      "text": "Slides ready",
@@ -239,6 +256,14 @@
     },
     {
      "text": "Exit ticket",
+     "done": false
+    },
+    {
+     "text": "CFAT 1 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 1 marked and data entered",
      "done": false
     }
    ]
@@ -329,26 +354,6 @@
    "week": 3,
    "lesson": 7,
    "id": "p11-u1-l07",
-   "cfat": {
-    "id": "CFAT 1",
-    "title": "Waves, EM spectrum and refraction",
-    "covers": [
-     "2.1",
-     "2.2",
-     "2.3",
-     "3.1"
-    ],
-    "format": "15–20 min, start of lesson, individual, closed book",
-    "plan": "Write 5–8 short questions modelled on the student book Key questions for these sections (change the numbers and contexts: students can see the fully worked solutions in the eBook), plus 1 extended question in the style of the chapter Case study questions. Use the sections’ key knowledge as the success criteria.",
-    "sources": [
-     "Student book 2.1 Key questions (as models)",
-     "Student book 2.2 Key questions (as models)",
-     "Student book 2.3 Key questions (as models)",
-     "Student book 3.1 Key questions (as models)",
-     "Ch02 fully worked solutions (marking guide)",
-     "Ch03 fully worked solutions (marking guide)"
-    ]
-   },
    "tasks": [
     {
      "text": "Slides ready",
@@ -360,14 +365,6 @@
     },
     {
      "text": "Exit ticket",
-     "done": false
-    },
-    {
-     "text": "CFAT 1 written",
-     "done": false
-    },
-    {
-     "text": "CFAT 1 marked and data entered",
      "done": false
     }
    ]
@@ -401,6 +398,21 @@
    "week": 3,
    "lesson": 8,
    "id": "p11-u1-l08",
+   "cfat": {
+    "id": "CFAT 2",
+    "title": "Ch 3 Light",
+    "covers": [
+     "3.1",
+     "3.2"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Write 5–8 short questions modelled on the student book Key questions for these sections (change the numbers and contexts: students can see the fully worked solutions in the eBook), plus 1 extended question in the style of the chapter Case study questions. Use the sections’ key knowledge as the success criteria.",
+    "sources": [
+     "Student book 3.1 Key questions (as models)",
+     "Student book 3.2 Key questions (as models)",
+     "Ch03 fully worked solutions (marking guide)"
+    ]
+   },
    "tasks": [
     {
      "text": "Slides ready",
@@ -412,6 +424,14 @@
     },
     {
      "text": "Exit ticket",
+     "done": false
+    },
+    {
+     "text": "CFAT 2 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 2 marked and data entered",
      "done": false
     }
    ]
@@ -704,6 +724,25 @@
    "week": 5,
    "lesson": 14,
    "id": "p11-u1-l14",
+   "cfat": {
+    "id": "CFAT 3",
+    "title": "Ch 4 Thermal energy",
+    "covers": [
+     "4.1",
+     "4.2",
+     "4.3",
+     "4.4"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Write 5–8 short questions modelled on the student book Key questions for these sections (change the numbers and contexts: students can see the fully worked solutions in the eBook), plus 1 extended question in the style of the chapter Case study questions. Use the sections’ key knowledge as the success criteria.",
+    "sources": [
+     "Student book 4.1 Key questions (as models)",
+     "Student book 4.2 Key questions (as models)",
+     "Student book 4.3 Key questions (as models)",
+     "Student book 4.4 Key questions (as models)",
+     "Ch04 fully worked solutions (marking guide)"
+    ]
+   },
    "tasks": [
     {
      "text": "Slides ready",
@@ -715,6 +754,14 @@
     },
     {
      "text": "Exit ticket",
+     "done": false
+    },
+    {
+     "text": "CFAT 3 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 3 marked and data entered",
      "done": false
     }
    ]
@@ -808,25 +855,6 @@
    "week": 6,
    "lesson": 16,
    "id": "p11-u1-l16",
-   "cfat": {
-    "id": "CFAT 2",
-    "title": "Heat, temperature and thermal energy transfer",
-    "covers": [
-     "4.1",
-     "4.2",
-     "4.3",
-     "4.4"
-    ],
-    "format": "15–20 min, start of lesson, individual, closed book",
-    "plan": "Write 5–8 short questions modelled on the student book Key questions for these sections (change the numbers and contexts: students can see the fully worked solutions in the eBook), plus 1 extended question in the style of the chapter Case study questions. Use the sections’ key knowledge as the success criteria.",
-    "sources": [
-     "Student book 4.1 Key questions (as models)",
-     "Student book 4.2 Key questions (as models)",
-     "Student book 4.3 Key questions (as models)",
-     "Student book 4.4 Key questions (as models)",
-     "Ch04 fully worked solutions (marking guide)"
-    ]
-   },
    "tasks": [
     {
      "text": "Slides ready",
@@ -838,14 +866,6 @@
     },
     {
      "text": "Exit ticket",
-     "done": false
-    },
-    {
-     "text": "CFAT 2 written",
-     "done": false
-    },
-    {
-     "text": "CFAT 2 marked and data entered",
      "done": false
     }
    ]
@@ -870,6 +890,21 @@
    "keyKnowledge": [],
    "experiments": [],
    "section": "",
+   "cfat": {
+    "id": "CFAT 4",
+    "title": "Ch 5 Thermal radiation and climate (SAC 1 readiness check)",
+    "covers": [
+     "5.1",
+     "5.2"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Write 5–8 short questions modelled on the student book Key questions for these sections (change the numbers and contexts: students can see the fully worked solutions in the eBook), plus 1 extended question in the style of the chapter Case study questions. Use the sections’ key knowledge as the success criteria.",
+    "sources": [
+     "Student book 5.1 Key questions (as models)",
+     "Student book 5.2 Key questions (as models)",
+     "Ch05 fully worked solutions (marking guide)"
+    ]
+   },
    "tasks": [
     {
      "text": "Review set",
@@ -877,6 +912,14 @@
     },
     {
      "text": "Answers ready",
+     "done": false
+    },
+    {
+     "text": "CFAT 4 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 4 marked and data entered",
      "done": false
     }
    ]
@@ -1238,8 +1281,8 @@
    "lesson": 25,
    "id": "p11-u1-l25",
    "cfat": {
-    "id": "CFAT 3",
-    "title": "Radioactivity, half-life and dose",
+    "id": "CFAT 5",
+    "title": "Ch 6 Radiation from the nucleus",
     "covers": [
      "6.1",
      "6.2",
@@ -1270,11 +1313,11 @@
      "done": false
     },
     {
-     "text": "CFAT 3 written",
+     "text": "CFAT 5 written",
      "done": false
     },
     {
-     "text": "CFAT 3 marked and data entered",
+     "text": "CFAT 5 marked and data entered",
      "done": false
     }
    ]
@@ -1407,6 +1450,21 @@
    "keyKnowledge": [],
    "experiments": [],
    "section": "",
+   "cfat": {
+    "id": "CFAT 6",
+    "title": "Ch 7 Nuclear energy (SAC 2 readiness check)",
+    "covers": [
+     "7.1",
+     "7.2"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Write 5–8 short questions modelled on the student book Key questions for these sections (change the numbers and contexts: students can see the fully worked solutions in the eBook), plus 1 extended question in the style of the chapter Case study questions. Use the sections’ key knowledge as the success criteria.",
+    "sources": [
+     "Student book 7.1 Key questions (as models)",
+     "Student book 7.2 Key questions (as models)",
+     "Ch07 fully worked solutions (marking guide)"
+    ]
+   },
    "tasks": [
     {
      "text": "Review set",
@@ -1414,6 +1472,14 @@
     },
     {
      "text": "Answers ready",
+     "done": false
+    },
+    {
+     "text": "CFAT 6 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 6 marked and data entered",
      "done": false
     }
    ]
@@ -1829,8 +1895,8 @@
    "lesson": 37,
    "id": "p11-u1-l37",
    "cfat": {
-    "id": "CFAT 4",
-    "title": "Charge, current, energy and resistance",
+    "id": "CFAT 7",
+    "title": "Ch 8 Electrical physics",
     "covers": [
      "8.1",
      "8.2",
@@ -1861,11 +1927,11 @@
      "done": false
     },
     {
-     "text": "CFAT 4 written",
+     "text": "CFAT 7 written",
      "done": false
     },
     {
-     "text": "CFAT 4 marked and data entered",
+     "text": "CFAT 7 marked and data entered",
      "done": false
     }
    ]
@@ -2042,6 +2108,23 @@
    "keyKnowledge": [],
    "experiments": [],
    "section": "",
+   "cfat": {
+    "id": "CFAT 8",
+    "title": "Ch 9 Electric circuits (SAC 3 readiness check)",
+    "covers": [
+     "9.1",
+     "9.2",
+     "9.3"
+    ],
+    "format": "15–20 min, start of lesson, individual, closed book",
+    "plan": "Write 5–8 short questions modelled on the student book Key questions for these sections (change the numbers and contexts: students can see the fully worked solutions in the eBook), plus 1 extended question in the style of the chapter Case study questions. Use the sections’ key knowledge as the success criteria.",
+    "sources": [
+     "Student book 9.1 Key questions (as models)",
+     "Student book 9.2 Key questions (as models)",
+     "Student book 9.3 Key questions (as models)",
+     "Ch09 fully worked solutions (marking guide)"
+    ]
+   },
    "tasks": [
     {
      "text": "Review set",
@@ -2049,6 +2132,14 @@
     },
     {
      "text": "Answers ready",
+     "done": false
+    },
+    {
+     "text": "CFAT 8 written",
+     "done": false
+    },
+    {
+     "text": "CFAT 8 marked and data entered",
      "done": false
     }
    ]

@@ -94,12 +94,16 @@ for w,(items,prac) in enumerate(WEEKS,1):
     lessons.append(L)
 assert len(lessons)==48,len(lessons)
 # ---------- CFATs ----------
-CF=[(7,'CFAT 1','Waves, EM spectrum and refraction',['2.1','2.2','2.3','3.1'],'Ch02, Ch03'),
-    (16,'CFAT 2','Heat, temperature and thermal energy transfer',['4.1','4.2','4.3','4.4'],'Ch04'),
-    (25,'CFAT 3','Radioactivity, half-life and dose',['6.1','6.2','6.3','6.4'],'Ch06'),
-    (37,'CFAT 4','Charge, current, energy and resistance',['8.1','8.2','8.3','8.4'],'Ch08')]
+CF=[(5,'CFAT 1','Ch 2 Waves and electromagnetic radiation',['2.1','2.2','2.3'],'Ch02'),
+    (8,'CFAT 2','Ch 3 Light',['3.1','3.2'],'Ch03'),
+    (14,'CFAT 3','Ch 4 Thermal energy',['4.1','4.2','4.3','4.4'],'Ch04'),
+    (17,'CFAT 4','Ch 5 Thermal radiation and climate (SAC 1 readiness check)',['5.1','5.2'],'Ch05'),
+    (25,'CFAT 5','Ch 6 Radiation from the nucleus',['6.1','6.2','6.3','6.4'],'Ch06'),
+    (28,'CFAT 6','Ch 7 Nuclear energy (SAC 2 readiness check)',['7.1','7.2'],'Ch07'),
+    (37,'CFAT 7','Ch 8 Electrical physics',['8.1','8.2','8.3','8.4'],'Ch08'),
+    (41,'CFAT 8','Ch 9 Electric circuits (SAC 3 readiness check)',['9.1','9.2','9.3'],'Ch09')]
 for n,cid,t,secs,chs in CF:
-  L=lessons[n-1]; assert L['type']=='lesson',(n,L['type'])
+  L=lessons[n-1]; assert L['type'] in('lesson','review'),(n,L['type'])
   L['cfat']=dict(id=cid,title=t,covers=secs,format='15–20 min, start of lesson, individual, closed book',
     plan='Write 5–8 short questions modelled on the student book Key questions for these sections (change the numbers and contexts: students can see the fully worked solutions in the eBook), plus 1 extended question in the style of the chapter Case study questions. Use the sections’ key knowledge as the success criteria.',
     sources=[f'Student book {s} Key questions (as models)' for s in secs]+[f'{c} fully worked solutions (marking guide)' for c in chs.split(', ')])
