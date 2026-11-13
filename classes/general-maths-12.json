@@ -122,20 +122,23 @@
      "youTry": "Edrolo 1B WE4"
     }
    ],
-   "cas": {
-    "classpad": [
-     {
-      "title": "ClassPad Help 400 – Statistics: basic settings and actions",
-      "url": "https://www.youtube.com/watch?v=Qqg8vWK3SE8"
-     }
-    ],
-    "ti": [
-     {
-      "title": "Analysing data | Getting Started Series – Lists & Spreadsheets",
-      "url": "https://www.youtube.com/watch?v=qDZRQeUvC0I"
-     }
-    ]
-   }
+   "cas": [
+    {
+     "skill": "Setting up the statistics app",
+     "classpad": [
+      {
+       "title": "ClassPad Help 400 – Statistics: basic settings and actions",
+       "url": "https://www.youtube.com/watch?v=Qqg8vWK3SE8"
+      }
+     ],
+     "ti": [
+      {
+       "title": "Analysing data | Getting Started Series – Lists & Spreadsheets",
+       "url": "https://www.youtube.com/watch?v=qDZRQeUvC0I"
+      }
+     ]
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -279,44 +282,72 @@
      "youTry": "Edrolo 1D WE3"
     }
    ],
-   "cas": {
-    "classpad": [
-     {
-      "title": "ClassPad Help 406 – Create a histogram from a list",
-      "url": "https://www.youtube.com/watch?v=2YuJoKS4XvM"
-     },
-     {
-      "title": "ClassPad Help 407 – Create a histogram from a frequency table",
-      "url": "https://www.youtube.com/watch?v=E3JIz_SDywE"
-     },
-     {
-      "title": "ClassPad Help 440 – Histogram class intervals",
-      "url": "https://www.youtube.com/watch?v=nnJtqIB6yWM"
-     },
-     {
-      "title": "ClassPad Help 007 – Simple calculations in Main",
-      "url": "https://www.youtube.com/watch?v=Zb9V3RwXVLA"
-     }
-    ],
-    "ti": [
-     {
-      "title": "Creating histograms | Getting Started Series – Data & Statistics",
-      "url": "https://www.youtube.com/watch?v=YrluejAQRK4"
-     },
-     {
-      "title": "Dot plots & box plots | Getting Started Series – Data & Statistics",
-      "url": "https://www.youtube.com/watch?v=73Ymuvv-BU8"
-     },
-     {
-      "title": "Settings and calculations | Getting Started Series – Calculator",
-      "url": "https://www.youtube.com/watch?v=35RcQzXqj6o"
-     },
-     {
-      "title": "Data analysis: box-plots, dot-plots and histograms (long walkthrough)",
-      "url": "https://www.youtube.com/watch?v=wCb6z1IbVy8&t=965s"
-     }
-    ]
-   }
+   "cas": [
+    {
+     "skill": "Creating a histogram",
+     "classpad": [
+      {
+       "title": "ClassPad Help 406 – Create a histogram from a list",
+       "url": "https://www.youtube.com/watch?v=2YuJoKS4XvM"
+      },
+      {
+       "title": "ClassPad Help 407 – Create a histogram from a frequency table",
+       "url": "https://www.youtube.com/watch?v=E3JIz_SDywE"
+      }
+     ],
+     "ti": [
+      {
+       "title": "Creating histograms | Getting Started Series – Data & Statistics",
+       "url": "https://www.youtube.com/watch?v=YrluejAQRK4"
+      }
+     ]
+    },
+    {
+     "skill": "Setting histogram class intervals",
+     "classpad": [
+      {
+       "title": "ClassPad Help 440 – Histogram class intervals",
+       "url": "https://www.youtube.com/watch?v=nnJtqIB6yWM"
+      }
+     ],
+     "ti": []
+    },
+    {
+     "skill": "Creating a dot plot",
+     "classpad": [],
+     "ti": [
+      {
+       "title": "Dot plots & box plots | Getting Started Series – Data & Statistics",
+       "url": "https://www.youtube.com/watch?v=73Ymuvv-BU8"
+      }
+     ]
+    },
+    {
+     "skill": "Finding logs (base 10)",
+     "classpad": [
+      {
+       "title": "ClassPad Help 007 – Simple calculations in Main",
+       "url": "https://www.youtube.com/watch?v=Zb9V3RwXVLA"
+      }
+     ],
+     "ti": [
+      {
+       "title": "Settings and calculations | Getting Started Series – Calculator",
+       "url": "https://www.youtube.com/watch?v=35RcQzXqj6o"
+      }
+     ]
+    },
+    {
+     "skill": "Full walkthrough: dot plots, boxplots and histograms",
+     "classpad": [],
+     "ti": [
+      {
+       "title": "Data analysis: box-plots, dot-plots and histograms (long walkthrough)",
+       "url": "https://www.youtube.com/watch?v=wCb6z1IbVy8&t=965s"
+      }
+     ]
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -453,28 +484,31 @@
      "youTry": "Edrolo 1G WE1"
     }
    ],
-   "cas": {
-    "classpad": [
-     {
-      "title": "ClassPad Help 401 – Statistical calcs from a list",
-      "url": "https://www.youtube.com/watch?v=K93TBJP-uaA"
-     },
-     {
-      "title": "ClassPad Help 402 – Statistical calcs from a frequency table",
-      "url": "https://www.youtube.com/watch?v=GjbQKBD9f00"
-     }
-    ],
-    "ti": [
-     {
-      "title": "Analysing data | Getting Started Series – Lists & Spreadsheets",
-      "url": "https://www.youtube.com/watch?v=qDZRQeUvC0I"
-     },
-     {
-      "title": "Data analysis – univariate data (long walkthrough)",
-      "url": "https://www.youtube.com/watch?v=lqml9PBBhV0&t=630s"
-     }
-    ]
-   }
+   "cas": [
+    {
+     "skill": "Calculating summary statistics (mean, median, standard deviation)",
+     "classpad": [
+      {
+       "title": "ClassPad Help 401 – Statistical calcs from a list",
+       "url": "https://www.youtube.com/watch?v=K93TBJP-uaA"
+      },
+      {
+       "title": "ClassPad Help 402 – Statistical calcs from a frequency table",
+       "url": "https://www.youtube.com/watch?v=GjbQKBD9f00"
+      }
+     ],
+     "ti": [
+      {
+       "title": "Analysing data | Getting Started Series – Lists & Spreadsheets",
+       "url": "https://www.youtube.com/watch?v=qDZRQeUvC0I"
+      },
+      {
+       "title": "Data analysis – univariate data (long walkthrough)",
+       "url": "https://www.youtube.com/watch?v=lqml9PBBhV0&t=630s"
+      }
+     ]
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -597,32 +631,41 @@
      "youTry": null
     }
    ],
-   "cas": {
-    "classpad": [
-     {
-      "title": "ClassPad Help 403 – Create a boxplot from a list",
-      "url": "https://www.youtube.com/watch?v=HBS1g3cja2g"
-     },
-     {
-      "title": "ClassPad Help 404 – Create a boxplot from a frequency table",
-      "url": "https://www.youtube.com/watch?v=sw2xy8_x1k0"
-     },
-     {
-      "title": "ClassPad Help 405 – Create multiple boxplots",
-      "url": "https://www.youtube.com/watch?v=NCoE4Z-irZ0"
-     }
-    ],
-    "ti": [
-     {
-      "title": "Dot plots & box plots | Getting Started Series – Data & Statistics",
-      "url": "https://www.youtube.com/watch?v=73Ymuvv-BU8"
-     },
-     {
-      "title": "Data analysis: box-plots, dot-plots and histograms (long walkthrough)",
-      "url": "https://www.youtube.com/watch?v=wCb6z1IbVy8&t=965s"
-     }
-    ]
-   }
+   "cas": [
+    {
+     "skill": "Creating a boxplot",
+     "classpad": [
+      {
+       "title": "ClassPad Help 403 – Create a boxplot from a list",
+       "url": "https://www.youtube.com/watch?v=HBS1g3cja2g"
+      },
+      {
+       "title": "ClassPad Help 404 – Create a boxplot from a frequency table",
+       "url": "https://www.youtube.com/watch?v=sw2xy8_x1k0"
+      }
+     ],
+     "ti": [
+      {
+       "title": "Dot plots & box plots | Getting Started Series – Data & Statistics",
+       "url": "https://www.youtube.com/watch?v=73Ymuvv-BU8"
+      },
+      {
+       "title": "Data analysis: box-plots, dot-plots and histograms (long walkthrough)",
+       "url": "https://www.youtube.com/watch?v=wCb6z1IbVy8&t=965s"
+      }
+     ]
+    },
+    {
+     "skill": "Creating parallel boxplots",
+     "classpad": [
+      {
+       "title": "ClassPad Help 405 – Create multiple boxplots",
+       "url": "https://www.youtube.com/watch?v=NCoE4Z-irZ0"
+      }
+     ],
+     "ti": []
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -756,36 +799,41 @@
     }
    ],
    "weDoNote": "1I is online-only in Cambridge: no printed Examples.",
-   "cas": {
-    "classpad": [
-     {
-      "title": "ClassPad Help 401 – Statistical calcs from a list",
-      "url": "https://www.youtube.com/watch?v=K93TBJP-uaA"
-     },
-     {
-      "title": "ClassPad Help 007 – Simple calculations in Main",
-      "url": "https://www.youtube.com/watch?v=Zb9V3RwXVLA"
-     },
-     {
-      "title": "ClassPad Help 80 – Normal probability calculations",
-      "url": "https://www.youtube.com/watch?v=OGBTcuB7S8E"
-     },
-     {
-      "title": "ClassPad Help 470 – Normal probability calculations",
-      "url": "https://www.youtube.com/watch?v=awgngSed02c"
-     },
-     {
-      "title": "ClassPad Help 81 – Inverse normal probability calculations",
-      "url": "https://www.youtube.com/watch?v=3VFcgs8Mp40"
-     }
-    ],
-    "ti": [
-     {
-      "title": "Calculating and understanding z-scores with TI-nspire",
-      "url": "https://www.youtube.com/watch?v=yrR9IALJD6g"
-     }
-    ]
-   }
+   "cas": [
+    {
+     "skill": "Calculating z-scores",
+     "classpad": [
+      {
+       "title": "ClassPad Help 007 – Simple calculations in Main",
+       "url": "https://www.youtube.com/watch?v=Zb9V3RwXVLA"
+      }
+     ],
+     "ti": [
+      {
+       "title": "Calculating and understanding z-scores with TI-nspire",
+       "url": "https://www.youtube.com/watch?v=yrR9IALJD6g"
+      }
+     ]
+    },
+    {
+     "skill": "Normal probability calculations",
+     "classpad": [
+      {
+       "title": "ClassPad Help 80 – Normal probability calculations",
+       "url": "https://www.youtube.com/watch?v=OGBTcuB7S8E"
+      },
+      {
+       "title": "ClassPad Help 470 – Normal probability calculations",
+       "url": "https://www.youtube.com/watch?v=awgngSed02c"
+      },
+      {
+       "title": "ClassPad Help 81 – Inverse normal probability calculations",
+       "url": "https://www.youtube.com/watch?v=3VFcgs8Mp40"
+      }
+     ],
+     "ti": []
+    }
+   ]
   },
   {
    "type": "sac",

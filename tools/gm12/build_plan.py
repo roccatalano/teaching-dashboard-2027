@@ -154,14 +154,15 @@ TI={'bar':yt('Bar & pie graphs | Getting Started Series – Data & Statistics','
  'uni':yt('Data analysis – univariate data (long walkthrough)','https://www.youtube.com/watch?v=lqml9PBBhV0&t=630s'),
  'z':yt('Calculating and understanding z-scores with TI-nspire','https://www.youtube.com/watch?v=yrR9IALJD6g'),
  'calc':yt('Settings and calculations | Getting Started Series – Calculator','https://www.youtube.com/watch?v=35RcQzXqj6o')}
-CASV={'gm12-u3-s1':(['stat'],['lists']),
- 'gm12-u3-s2':(['hl','hf','hc','calc'],['hist','dotbox','calc','long']),
- 'gm12-u3-s3':(['sl','sf'],['lists','uni']),
- 'gm12-u3-s4':(['bl','bf','bm'],['dotbox','long']),
- 'gm12-u3-s5':(['sl','calc','n80','n470','n81'],['z'])}
+SK=lambda name,cp,ti:dict(skill=name,classpad=[CP[k] for k in cp],ti=[TI[k] for k in ti])
+CASV={'gm12-u3-s1':[SK('Setting up the statistics app',['stat'],['lists'])],
+ 'gm12-u3-s2':[SK('Creating a histogram',['hl','hf'],['hist']),SK('Setting histogram class intervals',['hc'],[]),
+   SK('Creating a dot plot',[],['dotbox']),SK('Finding logs (base 10)',['calc'],['calc']),SK('Full walkthrough: dot plots, boxplots and histograms',[],['long'])],
+ 'gm12-u3-s3':[SK('Calculating summary statistics (mean, median, standard deviation)',['sl','sf'],['lists','uni'])],
+ 'gm12-u3-s4':[SK('Creating a boxplot',['bl','bf'],['dotbox','long']),SK('Creating parallel boxplots',['bm'],[])],
+ 'gm12-u3-s5':[SK('Calculating z-scores',['calc'],['z']),SK('Normal probability calculations',['n80','n470','n81'],[])]}
 for l in L:
-  if l['id'] in CASV:
-    a,b=CASV[l['id']]; l['cas']=dict(classpad=[CP[k] for k in a],ti=[TI[k] for k in b])
+  if l['id'] in CASV: l['cas']=CASV[l['id']]
 ids={l['title']:l for l in L}
 def when(t):l=ids[t];return dict(id=l['id'],week=l['week'],lesson=l['lesson'])
 SD='VCE Mathematics Study Design 2023–2027'
