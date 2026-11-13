@@ -13,11 +13,21 @@
 --review:#faeeda;--review-i:#854f0b;--other:#f1efe8;--other-i:#5f5e5a}
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);font-size:14px}
-header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);padding:10px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.top{position:sticky;top:0;z-index:5}
+header{background:var(--card);border-bottom:1px solid var(--line);padding:10px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
 header h1{font-size:17px;font-weight:600;margin:0 12px 0 0}
 .tabs button,.ctl button,.ctl select{font:inherit;border:1px solid var(--line);background:var(--card);border-radius:8px;padding:6px 12px;cursor:pointer}
 .tabs button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
 .ctl{margin-left:auto;display:flex;gap:8px;align-items:center}
+.subbar{background:#fbfaf6;border-bottom:1px solid var(--line);padding:6px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.subbar .toggle{margin:0;border:0;border-radius:0;gap:2px}.subbar .toggle button{border-radius:6px;padding:5px 14px;color:var(--muted)}
+.subbar .toggle button.on{background:var(--card);color:var(--ink);box-shadow:inset 0 -2px 0 var(--ink)}
+.ctable{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:10px}
+.ctable th{text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);background:#fbfaf6;padding:8px 10px;border-bottom:1px solid var(--line)}
+.ctable td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}.ctable tr:last-child td{border-bottom:0}
+.ctable select,.ctable textarea{font:inherit;border:1px solid var(--line);border-radius:6px;padding:4px 6px;background:var(--card)}.ctable textarea{width:100%;min-height:36px;font-size:13px}
+.ctable td details{font-size:13px}.ctable td details ul{margin:4px 0;padding-left:18px}
+.st-written{color:var(--prac-i)}.st-drafting{color:var(--review-i)}.st-planned{color:var(--muted)}
 main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 .unit{font-size:20px;font-weight:600;margin:28px 0 4px}
 .aos{margin:18px 0 8px;padding:6px 0;border-top:2px solid var(--ink);display:flex;justify-content:space-between;gap:12px}
@@ -88,15 +98,19 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 </style>
 </head>
 <body>
+<div class="top">
 <header>
   <h1>Teaching dashboard 2027</h1>
   <nav class="tabs" id="tabs"></nav>
-  <div class="toggle" id="viewtog" style="margin:0"></div>
+</header>
+<div class="subbar" id="subbar">
+  <div class="toggle" id="viewtog"></div>
   <div class="ctl" id="ctl">
     <select id="aosFilter"><option value="">All areas of study</option></select>
     <button id="expand">Expand all</button>
   </div>
-</header>
+</div>
+</div>
 <main id="main"></main>
 <script>
 const CLASSES=[{id:'physics-11',name:'11 Physics',file:'classes/physics-11.json'},{id:'general-maths-12',name:'12 General Maths',file:'classes/general-maths-12.json'}];
@@ -199,14 +213,36 @@ function renderAssessment(c){
   $('#main').innerHTML=h;
   $('#main').querySelectorAll('.goto').forEach(b=>b.onclick=()=>{view='plan';store.set('view',view);openId=b.dataset.id;render();setTimeout(()=>document.querySelector(`[data-id="${b.dataset.id}"]`)?.scrollIntoView({block:'center'}),50)});
 }
+function cfatList(c){const d=data[c.id];
+  return [...d.lessons.filter(l=>l.cfat).map(l=>({...l.cfat,lessonId:l.id,when:`${l.weekLabel||'Week '+l.week} · Lesson ${l.lesson}`})),...(d.cfats||[])]}
+function renderCfats(c){
+  const C=cfatList(c),st=store.get('cfat:'+c.id,{});
+  let h=`<div class="unit">CFATs · ${esc(data[c.id].unitLabel||'Unit 1')} <span class="scope">· ${C.length} planned</span></div>`;
+  if(!C.length){$('#main').innerHTML=h+'<div class="placeholder"><h2>No CFATs planned yet</h2>CFATs added to this class’s lessons will be listed here, with status and notes for each.</div>';return}
+  const n=k=>C.filter(x=>(st[x.id]?.status||'planned')==k).length;
+  h+=`<div class="legend"><span class="st-planned">Planned: ${n('planned')}</span><span class="st-drafting">Drafting: ${n('drafting')}</span><span class="st-written">Written: ${n('written')}</span></div>
+  <table class="ctable"><tr><th>CFAT</th><th>When</th><th>Covers</th><th>Format &amp; plan</th><th>Status</th><th style="width:22%">Notes</th></tr>`;
+  for(const x of C){const s=st[x.id]||{};
+    h+=`<tr><td><b>${esc(x.id)}</b><div class="sub">${esc(x.title)}</div></td>
+    <td>${x.lessonId?`<button class="goto" data-id="${x.lessonId}">${esc(x.when)}</button>`:esc(x.when||'Not scheduled')}</td>
+    <td>${esc((x.covers||[]).join(', '))}</td>
+    <td><div class="sub">${esc(x.format||'')}</div>${x.plan||x.sources?.length?`<details><summary>Plan &amp; sources</summary><div>${esc(x.plan||'')}</div>${x.sources?.length?list(x.sources):''}</details>`:''}</td>
+    <td><select data-cid="${esc(x.id)}" class="st-${s.status||'planned'}">${['planned','drafting','written'].map(k=>`<option value="${k}" ${(s.status||'planned')==k?'selected':''}>${k[0].toUpperCase()+k.slice(1)}</option>`).join('')}</select></td>
+    <td><textarea data-cnote="${esc(x.id)}" placeholder="Notes">${esc(s.notes||'')}</textarea></td></tr>`}
+  $('#main').innerHTML=h+'</table>';
+  const save=(id,k,v)=>{const S=store.get('cfat:'+c.id,{});S[id]={...S[id],[k]:v};store.set('cfat:'+c.id,S)};
+  $('#main').querySelectorAll('[data-cid]').forEach(el=>el.onchange=()=>{save(el.dataset.cid,'status',el.value);renderCfats(c)});
+  $('#main').querySelectorAll('[data-cnote]').forEach(el=>el.oninput=()=>save(el.dataset.cnote,'notes',el.value));
+  $('#main').querySelectorAll('.goto').forEach(b=>b.onclick=()=>{view='plan';store.set('view',view);openId=b.dataset.id;render();setTimeout(()=>document.querySelector(`[data-id="${b.dataset.id}"]`)?.scrollIntoView({block:'center'}),50)});
+}
 function render(){
   renderTabs();
-  const show=tab!='schedule';$('#viewtog').style.display=show?'':'none';$('#ctl').style.display=show&&view=='plan'?'flex':'none';
+  const show=tab!='schedule';$('#subbar').style.display=show?'':'none';$('#ctl').style.display=show&&view=='plan'?'flex':'none';
   if(!show){$('#main').innerHTML='<div class="placeholder"><h2>Schedule</h2>All classes merged into one weekly timetable will appear here once more classes and your timetable are added.</div>';return}
   const c=CLASSES.find(c=>c.id==tab)||CLASSES[0];
-  $('#viewtog').innerHTML=`<button data-v="plan" class="${view=='plan'?'on':''}">Unit plan</button><button data-v="assess" class="${view=='assess'?'on':''}">Assessment plan</button>`;
+  $('#viewtog').innerHTML=`<button data-v="plan" class="${view=='plan'?'on':''}">Unit plan</button><button data-v="assess" class="${view=='assess'?'on':''}">Assessment plan</button><button data-v="cfat" class="${view=='cfat'?'on':''}">CFATs</button>`;
   $('#viewtog').querySelectorAll('button').forEach(b=>b.onclick=()=>{view=b.dataset.v;store.set('view',view);render()});
-  view=='assess'?renderAssessment(c):renderClass(c);
+  view=='assess'?renderAssessment(c):view=='cfat'?renderCfats(c):renderClass(c);
 }
 $('#aosFilter').onchange=()=>render();
 $('#expand').onclick=()=>{expandAll=!expandAll;$('#expand').textContent=expandAll?'Collapse all':'Expand all';render()};

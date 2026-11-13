@@ -15,16 +15,16 @@ W=[
  ('t1','Week 6','Term 1',A1,[('lesson','4D','Choosing and applying a transformation'),('lesson','5A','Time series data: features of time series plots'),('lesson','5B','Smoothing with moving means')]),
  ('t1','Week 7','Term 1 · Labour Day Mon 8 Mar',A1,[('lesson','5B','Centring moving means'),('lesson','5C','Smoothing with moving medians'),('lesson','5D','Seasonal indices')]),
  ('t1','Week 8','Term 1',A1,[('lesson','5D','Deseasonalising and reseasonalising'),('lesson','5E','Trend lines and forecasting'),('review','6','Review: distributions and associations')]),
- ('t1','Week 9','Term 1',A1,[('review','6','Review: regression, transformations and time series'),('sac','SAC 1','Application task (Data analysis)'),('review','SAC 1','SAC 1 feedback')]),
- ('t2','Week 1','Term 2',A2,[('lesson','7A','Sequences and recurrence relations'),('lesson','7B, 7D','Linear and geometric growth and decay'),('lesson','7C, 7E','Explicit rules for linear and geometric growth and decay')]),
- ('t2','Week 2','Term 2',A2,[('lesson','7F','Interest rates over different periods; effective interest rates'),('review','7','Chapter 7 review'),('lesson','8A','Compound interest investments with regular additions')]),
- ('t2','Week 3','Term 2',A2,[('lesson','8B','Reducing balance loans and annuities'),('lesson','8C','Amortisation tables'),('lesson','8D','Analysing financial situations with amortisation tables')]),
- ('t2','Week 4','Term 2',A2,[('lesson','8E','Finance solver: balance and final payment'),('lesson','8F','Finance solver: interest rate, time and payment'),('lesson','8G','Harder financial problems')]),
- ('t2','Week 5','Term 2',A2,[('lesson','8H','Interest-only loans'),('lesson','8I','Perpetuities'),('review','8','Chapter 8 review')]),
- ('t2','Week 6','Term 2',A2,[('review','9','Review: recursion and financial modelling'),('review','SAC 2','Practice SAC'),('sac','SAC 2','Modelling or problem-solving task 1 (Recursion and financial modelling)')]),
- ('t2','Week 7','Term 2',A2,[('review','SAC 2','SAC 2 feedback'),('review','Exam','Unit 3 mock exam revision'),('review','Exam','Unit 3 mock exam revision')]),
- ('t2','Week 8','Term 2',A2,[('review','Exam','Unit 3 mock exam revision'),('review','Exam','Unit 3 mock exam revision'),('review','Exam','Unit 3 mock exam revision')]),
- ('t2','Week 9','Term 2',A2,[('sac','Exam','Unit 3 mock exams')]),
+ ('t1','Week 9','Term 1',A1,[('review','6','Review: regression, transformations and time series'),('review','SAC 1','SAC 1 practice application task'),('review','SAC 1','SAC 1 targeted revision')]),
+ ('t2','Week 1','Term 2',A2,[('review','SAC 1','SAC 1 refresher (before Part 1, Wed 14 Apr after school)'),('lesson','7A','Sequences and recurrence relations'),('sac','SAC 1','SAC 1 Part 2: in class (10 min reading + 60 min)')]),
+ ('t2','Week 2','Term 2',A2,[('lesson','7B, 7D','Linear and geometric growth and decay'),('lesson','7C, 7E','Explicit rules for linear and geometric growth and decay'),('lesson','7F','Interest rates over different periods; effective interest rates')]),
+ ('t2','Week 3','Term 2',A2,[('review','SAC 1','SAC 1 feedback'),('review','7','Chapter 7 review'),('lesson','8A','Compound interest investments with regular additions')]),
+ ('t2','Week 4','Term 2',A2,[('lesson','8B','Reducing balance loans and annuities'),('lesson','8C','Amortisation tables'),('lesson','8D','Analysing financial situations with amortisation tables')]),
+ ('t2','Week 5','Term 2',A2,[('lesson','8E','Finance solver: balance and final payment'),('lesson','8F','Finance solver: interest rate, time and payment'),('lesson','8G','Harder financial problems')]),
+ ('t2','Week 6','Term 2',A2,[('lesson','8H','Interest-only loans'),('lesson','8I','Perpetuities'),('review','8','Chapter 8 review')]),
+ ('t2','Week 7','Term 2',A2,[('review','9','Review: recursion and financial modelling'),('review','SAC 2','SAC 2 practice task'),('review','SAC 2','SAC 2 targeted revision')]),
+ ('t2','Week 8','Term 2',A2,[('review','Buffer','Buffer: SAC 2 revision and catch-up (Part 1, Wed 2 Jun after school)'),('review','Buffer','Buffer: catch-up'),('review','Buffer','Buffer: catch-up')]),
+ ('t2','Week 9','Term 2',A2,[('review','Buffer','Buffer: catch-up (Part 2, Wed 9 Jun after school)'),('review','Buffer','Buffer: catch-up'),('review','SAC 2','SAC 2 feedback (once marked)')]),
 ]
 TASKS={'lesson':['Slides ready','Guided sheet ready','Exit ticket'],'review':['Review set ready'],'sac':['Task ready','Marking scheme ready']}
 L=[];n=0;s=0
@@ -49,18 +49,19 @@ ids={l['title']:l for l in L}
 def when(t):l=ids[t];return dict(id=l['id'],week=l['week'],lesson=l['lesson'])
 SD='VCE Mathematics Study Design 2023–2027'
 d=dict(id='general-maths-12',name='Year 12 General Maths',unitLabel='Unit 3',
- scope='Unit 3 only · lesson order only (details to come) · step-up before summer, then Term 1 and Term 2 Weeks 1–9',
- summary='Step-up 5 lessons · Term 1: 26 lessons · Term 2 Weeks 1–9: 25 lessons · 3 lessons a week (2 in the Term 1 short week)',
+ scope='Unit 3 only · lesson order only (details to come) · step-up before summer, then Term 1 and Term 2 Weeks 1–9 · SAC sittings after school on Wednesdays',
+ summary='Step-up 5 lessons · Term 1: 26 lessons · Term 2 Weeks 1–9: 27 lessons · 3 lessons a week (2 in the Term 1 short week)',
  textbook='Cambridge Senior Mathematics General Mathematics VCE Units 3&4 (2nd ed.)',
  lessonsPerWeek=3,lessonMinutes=None,lessons=L,
  assessment=dict(rulesTitle=SD,
   rules=['Unit 3 School-assessed Coursework contributes 24 per cent to the study score (60 marks).',
    'Application task (Data analysis): 4–6 hours over 1–2 weeks. Outcome 1: 10, Outcome 2: 20, Outcome 3: 10 marks.',
    'Modelling or problem-solving task 1 (Recursion and financial modelling): 2–3 hours over 1 week. Outcome 1: 5, Outcome 2: 10, Outcome 3: 5 marks.',
-   'Examinations 1 and 2 each contribute 30 per cent.'],
+   'Examinations 1 and 2 each contribute 30 per cent.',
+   'School arrangement: SAC sittings run after school on Wednesdays (up to 100 minutes), so they do not use lesson time.'],
   suitableTasks=['Application task: a guided investigation of a given data set with several variables, with three components of increasing complexity: data plots (including smoothed plots for time series); summary statistics (including seasonal indices); modelling linear associations or trends (including data transformation).'],
-  aos=[dict(aos='SAC 1',title='Application task: Data analysis',when=when('Application task (Data analysis)'),outcome='Outcomes 1–3 (40 of 60 marks)',task='Guided investigation of a given multivariate data set.',taskType='Application task, 4–6 hours over 1–2 weeks',gaps=['Timing: currently one lesson. The Study Design requires 4–6 hours over 1–2 weeks.'],practice=[],actual=[],redemption=[],models=[]),
-       dict(aos='SAC 2',title='Modelling or problem-solving task 1: Recursion and financial modelling',when=when('Modelling or problem-solving task 1 (Recursion and financial modelling)'),outcome='Outcomes 1–3 (20 of 60 marks)',task='Modelling or problem-solving task on recursion and financial modelling.',taskType='Modelling or problem-solving task, 2–3 hours over 1 week',gaps=['Timing: currently one lesson. The Study Design requires 2–3 hours over 1 week.'],practice=[],actual=[],redemption=[],models=[])],
-  exams=[dict(name='Unit 3 mock exams',covers='Unit 3: Data analysis; Recursion and financial modelling',when='Term 2 Week 9',practice=[],actual=[])]))
+  aos=[dict(aos='SAC 1',title='Application task: Data analysis',when=when('SAC 1 Part 2: in class (10 min reading + 60 min)'),outcome='Outcomes 1–3 (40 of 60 marks)',task='Guided investigation of a given multivariate data set, in three parts: Part 1 after school Wed 14 Apr (10 min reading + 90 min), Part 2 in class in Term 2 Week 1 (10 min reading + 60 min), Part 3 after school Wed 21 Apr (10 min reading + 90 min). Total 4 h 30 min (4 h working time) over 7 days.',taskType='Application task, 4–6 hours over 1–2 weeks',gaps=['Check lessons are at least 70 minutes long, for Part 2.','Part 2 must fall between the two Wednesday sittings (Thu 15 Apr – Tue 20 Apr).','Confirm the Wednesday dates against the school calendar.'],practice=[],actual=[],redemption=[],models=[]),
+       dict(aos='SAC 2',title='Modelling or problem-solving task 1: Recursion and financial modelling',when=when('Buffer: SAC 2 revision and catch-up (Part 1, Wed 2 Jun after school)'),outcome='Outcomes 1–3 (20 of 60 marks)',task='Modelling or problem-solving task on recursion and financial modelling, in two parts after school: Part 1 Wed 2 Jun, Part 2 Wed 9 Jun. Keep the total at 2–3 hours, e.g. 2 × (10 min reading + 80 min).',taskType='Modelling or problem-solving task, 2–3 hours over 1 week',gaps=['Two full 100-minute sittings would be 3 h 20 min, over the 3-hour maximum. Cap each sitting.','Confirm the Wednesday dates against the school calendar.'],practice=[],actual=[],redemption=[],models=[])],
+  exams=[]))
 json.dump(d,open('classes/general-maths-12.json','w'),ensure_ascii=False,indent=1)
 print(len(L),'entries')

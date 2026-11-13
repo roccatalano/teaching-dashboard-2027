@@ -2,8 +2,8 @@
  "id": "general-maths-12",
  "name": "Year 12 General Maths",
  "unitLabel": "Unit 3",
- "scope": "Unit 3 only · lesson order only (details to come) · step-up before summer, then Term 1 and Term 2 Weeks 1–9",
- "summary": "Step-up 5 lessons · Term 1: 26 lessons · Term 2 Weeks 1–9: 25 lessons · 3 lessons a week (2 in the Term 1 short week)",
+ "scope": "Unit 3 only · lesson order only (details to come) · step-up before summer, then Term 1 and Term 2 Weeks 1–9 · SAC sittings after school on Wednesdays",
+ "summary": "Step-up 5 lessons · Term 1: 26 lessons · Term 2 Weeks 1–9: 27 lessons · 3 lessons a week (2 in the Term 1 short week)",
  "textbook": "Cambridge Senior Mathematics General Mathematics VCE Units 3&4 (2nd ed.)",
  "lessonsPerWeek": 3,
  "lessonMinutes": null,
@@ -843,9 +843,9 @@
    "dates": "22–25 Mar"
   },
   {
-   "type": "sac",
+   "type": "review",
    "section": "SAC 1",
-   "title": "Application task (Data analysis)",
+   "title": "SAC 1 practice application task",
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
@@ -858,11 +858,7 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Task ready",
-     "done": false
-    },
-    {
-     "text": "Marking scheme ready",
+     "text": "Review set ready",
      "done": false
     }
    ],
@@ -871,7 +867,7 @@
   {
    "type": "review",
    "section": "SAC 1",
-   "title": "SAC 1 feedback",
+   "title": "SAC 1 targeted revision",
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
@@ -891,9 +887,9 @@
    "dates": "22–25 Mar"
   },
   {
-   "type": "lesson",
-   "section": "7A",
-   "title": "Sequences and recurrence relations",
+   "type": "review",
+   "section": "SAC 1",
+   "title": "SAC 1 refresher (before Part 1, Wed 14 Apr after school)",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -906,15 +902,7 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Slides ready",
-     "done": false
-    },
-    {
-     "text": "Guided sheet ready",
-     "done": false
-    },
-    {
-     "text": "Exit ticket",
+     "text": "Review set ready",
      "done": false
     }
    ],
@@ -922,8 +910,8 @@
   },
   {
    "type": "lesson",
-   "section": "7B, 7D",
-   "title": "Linear and geometric growth and decay",
+   "section": "7A",
+   "title": "Sequences and recurrence relations",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -951,9 +939,9 @@
    "dates": "12–16 Apr"
   },
   {
-   "type": "lesson",
-   "section": "7C, 7E",
-   "title": "Explicit rules for linear and geometric growth and decay",
+   "type": "sac",
+   "section": "SAC 1",
+   "title": "SAC 1 Part 2: in class (10 min reading + 60 min)",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -966,15 +954,11 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Slides ready",
+     "text": "Task ready",
      "done": false
     },
     {
-     "text": "Guided sheet ready",
-     "done": false
-    },
-    {
-     "text": "Exit ticket",
+     "text": "Marking scheme ready",
      "done": false
     }
    ],
@@ -982,8 +966,8 @@
   },
   {
    "type": "lesson",
-   "section": "7F",
-   "title": "Interest rates over different periods; effective interest rates",
+   "section": "7B, 7D",
+   "title": "Linear and geometric growth and decay",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1011,9 +995,9 @@
    "dates": "19–23 Apr"
   },
   {
-   "type": "review",
-   "section": "7",
-   "title": "Chapter 7 review",
+   "type": "lesson",
+   "section": "7C, 7E",
+   "title": "Explicit rules for linear and geometric growth and decay",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1026,7 +1010,15 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Review set ready",
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
      "done": false
     }
    ],
@@ -1034,8 +1026,8 @@
   },
   {
    "type": "lesson",
-   "section": "8A",
-   "title": "Compound interest investments with regular additions",
+   "section": "7F",
+   "title": "Interest rates over different periods; effective interest rates",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1063,9 +1055,9 @@
    "dates": "19–23 Apr"
   },
   {
-   "type": "lesson",
-   "section": "8B",
-   "title": "Reducing balance loans and annuities",
+   "type": "review",
+   "section": "SAC 1",
+   "title": "SAC 1 feedback",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1078,24 +1070,16 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Slides ready",
-     "done": false
-    },
-    {
-     "text": "Guided sheet ready",
-     "done": false
-    },
-    {
-     "text": "Exit ticket",
+     "text": "Review set ready",
      "done": false
     }
    ],
    "dates": "26–30 Apr"
   },
   {
-   "type": "lesson",
-   "section": "8C",
-   "title": "Amortisation tables",
+   "type": "review",
+   "section": "7",
+   "title": "Chapter 7 review",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1108,15 +1092,7 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Slides ready",
-     "done": false
-    },
-    {
-     "text": "Guided sheet ready",
-     "done": false
-    },
-    {
-     "text": "Exit ticket",
+     "text": "Review set ready",
      "done": false
     }
    ],
@@ -1124,8 +1100,8 @@
   },
   {
    "type": "lesson",
-   "section": "8D",
-   "title": "Analysing financial situations with amortisation tables",
+   "section": "8A",
+   "title": "Compound interest investments with regular additions",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1154,8 +1130,8 @@
   },
   {
    "type": "lesson",
-   "section": "8E",
-   "title": "Finance solver: balance and final payment",
+   "section": "8B",
+   "title": "Reducing balance loans and annuities",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1184,8 +1160,8 @@
   },
   {
    "type": "lesson",
-   "section": "8F",
-   "title": "Finance solver: interest rate, time and payment",
+   "section": "8C",
+   "title": "Amortisation tables",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1214,8 +1190,8 @@
   },
   {
    "type": "lesson",
-   "section": "8G",
-   "title": "Harder financial problems",
+   "section": "8D",
+   "title": "Analysing financial situations with amortisation tables",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1244,8 +1220,8 @@
   },
   {
    "type": "lesson",
-   "section": "8H",
-   "title": "Interest-only loans",
+   "section": "8E",
+   "title": "Finance solver: balance and final payment",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1274,8 +1250,8 @@
   },
   {
    "type": "lesson",
-   "section": "8I",
-   "title": "Perpetuities",
+   "section": "8F",
+   "title": "Finance solver: interest rate, time and payment",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1303,9 +1279,9 @@
    "dates": "10–14 May"
   },
   {
-   "type": "review",
-   "section": "8",
-   "title": "Chapter 8 review",
+   "type": "lesson",
+   "section": "8G",
+   "title": "Harder financial problems",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1318,16 +1294,24 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Review set ready",
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
      "done": false
     }
    ],
    "dates": "10–14 May"
   },
   {
-   "type": "review",
-   "section": "9",
-   "title": "Review: recursion and financial modelling",
+   "type": "lesson",
+   "section": "8H",
+   "title": "Interest-only loans",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1340,16 +1324,24 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Review set ready",
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
      "done": false
     }
    ],
    "dates": "17–21 May"
   },
   {
-   "type": "review",
-   "section": "SAC 2",
-   "title": "Practice SAC",
+   "type": "lesson",
+   "section": "8I",
+   "title": "Perpetuities",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1362,16 +1354,24 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Review set ready",
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
      "done": false
     }
    ],
    "dates": "17–21 May"
   },
   {
-   "type": "sac",
-   "section": "SAC 2",
-   "title": "Modelling or problem-solving task 1 (Recursion and financial modelling)",
+   "type": "review",
+   "section": "8",
+   "title": "Chapter 8 review",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1384,11 +1384,7 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Task ready",
-     "done": false
-    },
-    {
-     "text": "Marking scheme ready",
+     "text": "Review set ready",
      "done": false
     }
    ],
@@ -1396,8 +1392,8 @@
   },
   {
    "type": "review",
-   "section": "SAC 2",
-   "title": "SAC 2 feedback",
+   "section": "9",
+   "title": "Review: recursion and financial modelling",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1418,8 +1414,8 @@
   },
   {
    "type": "review",
-   "section": "Exam",
-   "title": "Unit 3 mock exam revision",
+   "section": "SAC 2",
+   "title": "SAC 2 practice task",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1440,8 +1436,8 @@
   },
   {
    "type": "review",
-   "section": "Exam",
-   "title": "Unit 3 mock exam revision",
+   "section": "SAC 2",
+   "title": "SAC 2 targeted revision",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1462,8 +1458,8 @@
   },
   {
    "type": "review",
-   "section": "Exam",
-   "title": "Unit 3 mock exam revision",
+   "section": "Buffer",
+   "title": "Buffer: SAC 2 revision and catch-up (Part 1, Wed 2 Jun after school)",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1484,8 +1480,8 @@
   },
   {
    "type": "review",
-   "section": "Exam",
-   "title": "Unit 3 mock exam revision",
+   "section": "Buffer",
+   "title": "Buffer: catch-up",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1506,8 +1502,8 @@
   },
   {
    "type": "review",
-   "section": "Exam",
-   "title": "Unit 3 mock exam revision",
+   "section": "Buffer",
+   "title": "Buffer: catch-up",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1527,9 +1523,9 @@
    "dates": "31 May – 4 Jun"
   },
   {
-   "type": "sac",
-   "section": "Exam",
-   "title": "Unit 3 mock exams",
+   "type": "review",
+   "section": "Buffer",
+   "title": "Buffer: catch-up (Part 2, Wed 9 Jun after school)",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -1542,11 +1538,51 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Task ready",
+     "text": "Review set ready",
      "done": false
-    },
+    }
+   ],
+   "dates": "7–11 Jun"
+  },
+  {
+   "type": "review",
+   "section": "Buffer",
+   "title": "Buffer: catch-up",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 20,
+   "weekLabel": "Week 9",
+   "termLabel": "Term 2",
+   "lesson": 52,
+   "id": "gm12-u3-l52",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
     {
-     "text": "Marking scheme ready",
+     "text": "Review set ready",
+     "done": false
+    }
+   ],
+   "dates": "7–11 Jun"
+  },
+  {
+   "type": "review",
+   "section": "SAC 2",
+   "title": "SAC 2 feedback (once marked)",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 20,
+   "weekLabel": "Week 9",
+   "termLabel": "Term 2",
+   "lesson": 53,
+   "id": "gm12-u3-l53",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
      "done": false
     }
    ],
@@ -1559,7 +1595,8 @@
    "Unit 3 School-assessed Coursework contributes 24 per cent to the study score (60 marks).",
    "Application task (Data analysis): 4–6 hours over 1–2 weeks. Outcome 1: 10, Outcome 2: 20, Outcome 3: 10 marks.",
    "Modelling or problem-solving task 1 (Recursion and financial modelling): 2–3 hours over 1 week. Outcome 1: 5, Outcome 2: 10, Outcome 3: 5 marks.",
-   "Examinations 1 and 2 each contribute 30 per cent."
+   "Examinations 1 and 2 each contribute 30 per cent.",
+   "School arrangement: SAC sittings run after school on Wednesdays (up to 100 minutes), so they do not use lesson time."
   ],
   "suitableTasks": [
    "Application task: a guided investigation of a given data set with several variables, with three components of increasing complexity: data plots (including smoothed plots for time series); summary statistics (including seasonal indices); modelling linear associations or trends (including data transformation)."
@@ -1569,15 +1606,17 @@
     "aos": "SAC 1",
     "title": "Application task: Data analysis",
     "when": {
-     "id": "gm12-u3-l25",
-     "week": 11,
-     "lesson": 25
+     "id": "gm12-u3-l29",
+     "week": 12,
+     "lesson": 29
     },
     "outcome": "Outcomes 1–3 (40 of 60 marks)",
-    "task": "Guided investigation of a given multivariate data set.",
+    "task": "Guided investigation of a given multivariate data set, in three parts: Part 1 after school Wed 14 Apr (10 min reading + 90 min), Part 2 in class in Term 2 Week 1 (10 min reading + 60 min), Part 3 after school Wed 21 Apr (10 min reading + 90 min). Total 4 h 30 min (4 h working time) over 7 days.",
     "taskType": "Application task, 4–6 hours over 1–2 weeks",
     "gaps": [
-     "Timing: currently one lesson. The Study Design requires 4–6 hours over 1–2 weeks."
+     "Check lessons are at least 70 minutes long, for Part 2.",
+     "Part 2 must fall between the two Wednesday sittings (Thu 15 Apr – Tue 20 Apr).",
+     "Confirm the Wednesday dates against the school calendar."
     ],
     "practice": [],
     "actual": [],
@@ -1588,15 +1627,16 @@
     "aos": "SAC 2",
     "title": "Modelling or problem-solving task 1: Recursion and financial modelling",
     "when": {
-     "id": "gm12-u3-l44",
-     "week": 17,
-     "lesson": 44
+     "id": "gm12-u3-l48",
+     "week": 19,
+     "lesson": 48
     },
     "outcome": "Outcomes 1–3 (20 of 60 marks)",
-    "task": "Modelling or problem-solving task on recursion and financial modelling.",
+    "task": "Modelling or problem-solving task on recursion and financial modelling, in two parts after school: Part 1 Wed 2 Jun, Part 2 Wed 9 Jun. Keep the total at 2–3 hours, e.g. 2 × (10 min reading + 80 min).",
     "taskType": "Modelling or problem-solving task, 2–3 hours over 1 week",
     "gaps": [
-     "Timing: currently one lesson. The Study Design requires 2–3 hours over 1 week."
+     "Two full 100-minute sittings would be 3 h 20 min, over the 3-hour maximum. Cap each sitting.",
+     "Confirm the Wednesday dates against the school calendar."
     ],
     "practice": [],
     "actual": [],
@@ -1604,14 +1644,6 @@
     "models": []
    }
   ],
-  "exams": [
-   {
-    "name": "Unit 3 mock exams",
-    "covers": "Unit 3: Data analysis; Recursion and financial modelling",
-    "when": "Term 2 Week 9",
-    "practice": [],
-    "actual": []
-   }
-  ]
+  "exams": []
  }
 }
