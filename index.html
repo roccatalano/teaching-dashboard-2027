@@ -194,8 +194,6 @@ function detail(l){
     ${l.keyKnowledge?.length?`<h3>Key knowledge</h3>${list(l.keyKnowledge)}`:''}
     ${l.prac?pracBox(l.prac):''}
     ${pearsonPane(l)}
-    <h3>Prep tasks</h3>${t.length?t.map((x,i)=>`<label><input type="checkbox" data-i="${i}" ${x.done?'checked':''}> ${esc(x.text)}</label>`).join(''):'<div class="empty">No tasks</div>'}
-    <h3>Notes</h3><textarea data-notes placeholder="Reflections, changes for next time">${esc(s.notes??'')}</textarea>
   </div><div class="seq">${seqPane(l)}</div></div>`}
 function renderClass(c){
   const d=data[c.id],sel=$('#aosFilter'),f=sel.value;
@@ -221,7 +219,7 @@ function renderClass(c){
   $('#main').querySelectorAll('.detail').forEach(dv=>{const id=dv.dataset.for;
     dv.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.onchange=()=>{const s=state(id);s.done=s.done||{};s.done[cb.dataset.i]=cb.checked;setState(id,s);renderClass(c)});
     dv.querySelectorAll('[data-nest]').forEach(n=>n.ontoggle=()=>store.set('nest:'+n.dataset.nest,n.open));
-    const ta=dv.querySelector('[data-notes]');ta.oninput=()=>{const s=state(id);s.notes=ta.value;setState(id,s)};});
+    const ta=dv.querySelector('[data-notes]');if(ta)ta.oninput=()=>{const s=state(id);s.notes=ta.value;setState(id,s)};});
   typeset();
 }
 function taskList(arr,empty){if(!arr||!arr.length)return `<div class="empty">${empty}</div>`;
