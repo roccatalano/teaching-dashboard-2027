@@ -142,7 +142,10 @@ CP={'stat':yt('ClassPad Help 400 – Statistics: basic settings and actions','ht
  'bl':yt('ClassPad Help 403 – Create a boxplot from a list','https://www.youtube.com/watch?v=HBS1g3cja2g'),
  'bf':yt('ClassPad Help 404 – Create a boxplot from a frequency table','https://www.youtube.com/watch?v=sw2xy8_x1k0'),
  'bm':yt('ClassPad Help 405 – Create multiple boxplots','https://www.youtube.com/watch?v=NCoE4Z-irZ0'),
- 'calc':yt('ClassPad Help 007 – Simple calculations in Main','https://www.youtube.com/watch?v=Zb9V3RwXVLA')}
+ 'calc':yt('ClassPad Help 007 – Simple calculations in Main','https://www.youtube.com/watch?v=Zb9V3RwXVLA'),
+ 'n80':yt('ClassPad Help 80 – Normal probability calculations','https://www.youtube.com/watch?v=OGBTcuB7S8E'),
+ 'n470':yt('ClassPad Help 470 – Normal probability calculations','https://www.youtube.com/watch?v=awgngSed02c'),
+ 'n81':yt('ClassPad Help 81 – Inverse normal probability calculations','https://www.youtube.com/watch?v=3VFcgs8Mp40')}
 TI={'bar':yt('Bar & pie graphs | Getting Started Series – Data & Statistics','https://www.youtube.com/watch?v=Wt0QZBrRzDA'),
  'lists':yt('Analysing data | Getting Started Series – Lists & Spreadsheets','https://www.youtube.com/watch?v=qDZRQeUvC0I'),
  'hist':yt('Creating histograms | Getting Started Series – Data & Statistics','https://www.youtube.com/watch?v=YrluejAQRK4'),
@@ -151,11 +154,11 @@ TI={'bar':yt('Bar & pie graphs | Getting Started Series – Data & Statistics','
  'uni':yt('Data analysis – univariate data (long walkthrough)','https://www.youtube.com/watch?v=lqml9PBBhV0&t=630s'),
  'z':yt('Calculating and understanding z-scores with TI-nspire','https://www.youtube.com/watch?v=yrR9IALJD6g'),
  'calc':yt('Settings and calculations | Getting Started Series – Calculator','https://www.youtube.com/watch?v=35RcQzXqj6o')}
-CASV={'gm12-u3-s1':(['stat','pie'],['bar','lists']),
+CASV={'gm12-u3-s1':(['stat'],['lists']),
  'gm12-u3-s2':(['hl','hf','hc','calc'],['hist','dotbox','calc','long']),
  'gm12-u3-s3':(['sl','sf'],['lists','uni']),
  'gm12-u3-s4':(['bl','bf','bm'],['dotbox','long']),
- 'gm12-u3-s5':(['sl','calc'],['z'])}
+ 'gm12-u3-s5':(['sl','calc','n80','n470','n81'],['z'])}
 for l in L:
   if l['id'] in CASV:
     a,b=CASV[l['id']]; l['cas']=dict(classpad=[CP[k] for k in a],ti=[TI[k] for k in b])
