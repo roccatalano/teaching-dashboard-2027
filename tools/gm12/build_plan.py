@@ -415,5 +415,13 @@ for l in L:
     if l.get('id') in EXIT:
         l['exit']=[dict(ref=f'Edrolo U3&4 {s} Q{n}',src=_EP[(s,n)]) for s,n in EXIT[l['id']]]
 
+
+# ---- Do Now: current Study Design VCAA (2023-26 incl. NHT); built by tools/gm12/donow.py ----
+_DN=json.load(open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)),'vcaa_donow_aos1.json'),encoding='utf-8'))
+for l in L:
+    k=(l.get('id') or '').replace('gm12-u3-','')
+    if _DN.get(k):
+        l['doNow']=[dict(exam=f"Exam {x['ex']}",ref=f"VCAA {x['paper']} Exam {x['ex']} {x['q']}",sec=x['sec']) for x in _DN[k]]
+
 json.dump(d,open('classes/general-maths-12.json','w'),ensure_ascii=False,indent=1)
 print(len(L),'entries')

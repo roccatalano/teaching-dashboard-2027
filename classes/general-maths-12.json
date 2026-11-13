@@ -437,6 +437,23 @@
      "ref": "Edrolo U3&4 1D Q13",
      "src": "VCAA 2019 Exam 1 Q3"
     }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 NHT Exam 1 Q2",
+     "sec": "1A"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q2ai",
+     "sec": "1B"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q1a",
+     "sec": "1A"
+    }
    ]
   },
   {
@@ -755,6 +772,28 @@
      "ref": "Edrolo U3&4 1G Q10",
      "src": "VCAA 2021 Exam 2 Q1b"
     }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2025 NHT Exam 1 Q4",
+     "sec": "1C"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 NHT Exam 1 Q4",
+     "sec": "1E"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2026 Exam 2 Q2b",
+     "sec": "1C"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 NHT Exam 2 Q2a",
+     "sec": "1B"
+    }
    ]
   },
   {
@@ -963,6 +1002,28 @@
     {
      "ref": "Edrolo U3&4 1I Q15",
      "src": "Adapted from VCAA 2017 Exam 1 Q10"
+    }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q1",
+     "sec": "1F"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 Exam 1 Q4",
+     "sec": "1G"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q1bi",
+     "sec": "1F"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 NHT Exam 2 Q1b",
+     "sec": "1G"
     }
    ]
   },
@@ -1217,6 +1278,28 @@
      "ref": "Edrolo U3&4 2A Q13",
      "src": "VCAA 2021 Exam 1 Q3"
     }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q4",
+     "sec": "1H"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q5",
+     "sec": "1I"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 Exam 2 Q1ai",
+     "sec": "1H"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 Exam 2 Q1b",
+     "sec": "1I"
+    }
    ]
   },
   {
@@ -1382,6 +1465,28 @@
      "ref": "Edrolo U3&4 2B Q13",
      "src": "VCAA 2017 Exam 2 Q2e"
     }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 Exam 1 Q1",
+     "sec": "2A"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2025 Exam 1 Q4",
+     "sec": "1E"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q1ci",
+     "sec": "2A"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2025 Exam 2 Q1b",
+     "sec": "1A"
+    }
    ]
   },
   {
@@ -1522,6 +1627,28 @@
      "ref": "Edrolo U3&4 2C Q16",
      "src": "Adapted from VCAA 2016 Exam 2 Q3a"
     }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2025 NHT Exam 1 Q11",
+     "sec": "2C"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2025 NHT Exam 1 Q5",
+     "sec": "1C"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2025 NHT Exam 2 Q3a",
+     "sec": "1B"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q1bii",
+     "sec": "1F"
+    }
    ]
   },
   {
@@ -1641,6 +1768,28 @@
     {
      "ref": "Edrolo U3&4 2C Q17",
      "src": "VCAA 2020 Exam 2 Q6b"
+    }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2025 NHT Exam 1 Q10",
+     "sec": "2E"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 Exam 1 Q5",
+     "sec": "1G"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q3c",
+     "sec": "2E"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 NHT Exam 2 Q1c",
+     "sec": "1G"
     }
    ]
   },
@@ -1794,6 +1943,28 @@
     {
      "ref": "Edrolo U3&4 2D Q14",
      "src": "VCAA 2019 Exam 2 Q4c"
+    }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 Exam 1 Q9",
+     "sec": "2F"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 NHT Exam 1 Q6",
+     "sec": "1H"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q3b",
+     "sec": "2F"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 Exam 2 Q1aii",
+     "sec": "1H"
     }
    ]
   },
@@ -1976,6 +2147,28 @@
      "ref": "Edrolo U3&4 3A Q15",
      "src": "VCAA 2017 Exam 2 Q3a, bi"
     }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q2",
+     "sec": "2G"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2025 Exam 1 Q10",
+     "sec": "2H"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q1e",
+     "sec": "2G"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2026 Exam 2 Q3c",
+     "sec": "1I"
+    }
    ]
   },
   {
@@ -2111,6 +2304,28 @@
     {
      "ref": "Edrolo U3&4 3B Q13",
      "src": "Adapted from VCAA 2017 Exam 2 Q3bii"
+    }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q7",
+     "sec": "3A"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2025 NHT Exam 1 Q9",
+     "sec": "2H"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q3a",
+     "sec": "3A"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q2aii",
+     "sec": "2A"
     }
    ]
   },
@@ -2290,6 +2505,28 @@
      "ref": "Edrolo U3&4 3C Q14",
      "src": "Adapted from VCAA 2021 Exam 2 Q3b"
     }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q8",
+     "sec": "3B"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2026 NHT Exam 1 Q9",
+     "sec": "2F"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q1cii",
+     "sec": "3B"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 Exam 2 Q3d",
+     "sec": "2E"
+    }
    ]
   },
   {
@@ -2404,6 +2641,28 @@
      "kind": "Skill",
      "ref": "Cambridge U1&2 9A checklist #1",
      "text": "Find k in direct variation"
+    }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 NHT Exam 1 Q10",
+     "sec": "3C"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q6",
+     "sec": "2G"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 NHT Exam 2 Q4e",
+     "sec": "3C"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q2bii",
+     "sec": "2G"
     }
    ]
   },
@@ -2522,6 +2781,28 @@
      "ref": "Edrolo U3&4 3E Q12",
      "src": "VCAA 2017 Exam 2 Q4b-cii"
     }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 NHT Exam 1 Q11",
+     "sec": "4A"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2026 Exam 1 Q7",
+     "sec": "2H"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 NHT Exam 2 Q4a",
+     "sec": "3A"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q1d",
+     "sec": "3B"
+    }
    ]
   },
   {
@@ -2629,6 +2910,28 @@
     {
      "ref": "Edrolo U3&4 3E Q11",
      "src": "VCAA 2018 Exam 1 Q11"
+    }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 Exam 1 Q11",
+     "sec": "4B"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 NHT Exam 1 Q12",
+     "sec": "4A"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2026 Exam 2 Q5g",
+     "sec": "4B"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 Exam 2 Q3f",
+     "sec": "3C"
     }
    ]
   },
@@ -2764,6 +3067,28 @@
     {
      "ref": "Edrolo U3&4 3E Q13",
      "src": "VCAA 2020 Exam 2 Q6d"
+    }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q11",
+     "sec": "4C"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2025 Exam 1 Q11",
+     "sec": "4B"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2026 NHT Exam 2 Q1a",
+     "sec": "1A"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 NHT Exam 2 Q1ai",
+     "sec": "1F"
     }
    ]
   },
@@ -2929,6 +3254,28 @@
      "ref": "Edrolo U3&4 4A Q13",
      "src": "VCAA 2021 Exam 1 Q12"
     }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q12",
+     "sec": "4D"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2026 Exam 1 Q11",
+     "sec": "4C"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 Exam 2 Q3a",
+     "sec": "2A"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2025 NHT Exam 2 Q4d",
+     "sec": "2E"
+    }
    ]
   },
   {
@@ -3034,6 +3381,28 @@
     {
      "ref": "Edrolo U3&4 4B Q17",
      "src": "VCAA 2021 Exam 1 Q14"
+    }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 Exam 1 Q12",
+     "sec": "5A"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2026 NHT Exam 1 Q10",
+     "sec": "4C"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q4a",
+     "sec": "5A"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 NHT Exam 2 Q4b",
+     "sec": "2F"
     }
    ]
   },
@@ -3149,6 +3518,28 @@
      "ref": "Edrolo U3&4 4B Q18",
      "src": "VCAA 2016 Exam 2 Q4b"
     }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q15",
+     "sec": "5B"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2025 Exam 1 Q12",
+     "sec": "5A"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2025 Exam 2 Q4c",
+     "sec": "5B"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 Exam 2 Q4b",
+     "sec": "5A"
+    }
    ]
   },
   {
@@ -3244,6 +3635,28 @@
     {
      "ref": "Edrolo U3&4 4C Q15",
      "src": "VCAA 2019 Exam 1 Q13"
+    }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 NHT Exam 1 Q14",
+     "sec": "5B"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 NHT Exam 1 Q5",
+     "sec": "1I"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2025 Exam 2 Q4d",
+     "sec": "5B"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 Exam 2 Q3b",
+     "sec": "3A"
     }
    ]
   },
@@ -3367,6 +3780,28 @@
      "ref": "Edrolo U3&4 4D Q17",
      "src": "VCAA 2020 Exam 1 Q17"
     }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q13",
+     "sec": "5C"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2026 NHT Exam 1 Q3",
+     "sec": "2H"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 Exam 2 Q4a",
+     "sec": "5C"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q3d",
+     "sec": "3B"
+    }
    ]
   },
   {
@@ -3464,6 +3899,28 @@
     {
      "ref": "Edrolo U3&4 4D Q18",
      "src": "VCAA 2019 Exam 2 Q6a,b"
+    }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2023 Exam 1 Q16",
+     "sec": "5D"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 NHT Exam 1 Q13",
+     "sec": "5C"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q4b",
+     "sec": "5D"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 Exam 2 Q3gi",
+     "sec": "3C"
     }
    ]
   },
@@ -3615,6 +4072,28 @@
     {
      "ref": "Edrolo U3&4 4E Q12",
      "src": "VCAA 2018 Exam 2 Q3bii,biii,d"
+    }
+   ],
+   "doNow": [
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2024 NHT Exam 1 Q15",
+     "sec": "5D"
+    },
+    {
+     "exam": "Exam 1",
+     "ref": "VCAA 2026 Exam 1 Q10",
+     "sec": "4B"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2023 Exam 2 Q4c",
+     "sec": "5D"
+    },
+    {
+     "exam": "Exam 2",
+     "ref": "VCAA 2024 NHT Exam 2 Q1aii",
+     "sec": "1F"
     }
    ]
   },
