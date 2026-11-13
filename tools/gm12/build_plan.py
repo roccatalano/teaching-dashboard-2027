@@ -426,12 +426,17 @@ for l in L:
 
 # ---- Lesson materials (placeholders; status 'todo' | 'draft' | 'ready'; file = path when made) ----
 MAT_KINDS=[('Guided slides','Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.'),
-           ('Guided worksheet','Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.'),
+           ('Guided worksheet','Student companion to the slides, in the same order, with space to answer. Max 3 double-sided pages.'),
            ('Bound reference entry','One A4 sheet: key ideas, key formulas, simple how-tos and examples.')]
 MAT_LESSONS=['gm12-u3-s1','gm12-u3-s2','gm12-u3-s3','gm12-u3-s4']
 for l in L:
     if l.get('id') in MAT_LESSONS:
         l['materials']=[dict(kind=k,desc=d,status='todo',file='') for k,d in MAT_KINDS]
+MAT_DONE={('gm12-u3-s1','Guided slides'):('ready','Lesson Materials/S1 slides.html'),
+          ('gm12-u3-s1','Guided worksheet'):('ready','Lesson Materials/S1 guided worksheet.html')}
+for l in L:
+    for m in l.get('materials',[]):
+        if (l['id'],m['kind']) in MAT_DONE: m['status'],m['file']=MAT_DONE[(l['id'],m['kind'])]
 
 json.dump(d,open('classes/general-maths-12.json','w'),ensure_ascii=False,indent=1)
 print(len(L),'entries')
