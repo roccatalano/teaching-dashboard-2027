@@ -24,9 +24,11 @@ W=[
  ('t2','Week 6','Term 2',A2,[('lesson','8F','Finance solver: interest rate, time and payment'),('lesson','8G','Harder financial problems'),('lesson','8H','Interest-only loans')]),
  ('t2','Week 7','Term 2',A2,[('lesson','8I','Perpetuities'),('review','8','Chapter 8 review'),('review','9','Review: recursion and financial modelling')]),
  ('t2','Week 8','Term 2',A2,[('review','SAC 2','SAC 2 revision (Part 1, Wed 2 Jun after school)'),('review','Exam','Unit 3 exam revision'),('review','Exam','Unit 3 exam revision')]),
- ('t2','Week 9','Term 2 · mock exam week',A2,[('sac','Exam','Unit 3 mock exams: no classes')]),
+ ('t2','Week 9','Term 2 · trial exam week',A2,[('sac','Exam','Unit 3 trial exams')]),
+ ('t2','Week 10','Term 2',A2,[('tbc','','To be planned'),('tbc','','To be planned'),('tbc','','To be planned')]),
+ ('t2','Week 11','Term 2',A2,[('tbc','','To be planned'),('tbc','','To be planned'),('tbc','','To be planned')]),
 ]
-TASKS={'lesson':['Slides ready','Guided sheet ready','Exit ticket'],'review':['Review set ready'],'sac':['Task ready','Marking scheme ready']}
+TASKS={'tbc':[],'lesson':['Slides ready','Guided sheet ready','Exit ticket'],'review':['Review set ready'],'sac':['Task ready','Marking scheme ready']}
 L=[];n=0;s=0
 for wi,(blk,wl,tl,(aos,at),ls) in enumerate(W,1):
   for typ,sec,title in ls:
@@ -45,12 +47,14 @@ def rng(blk,wl):
 for blk,wl,tl,_,_ in W:
   for l in L:
     if l['weekLabel']==wl and l['termLabel']==tl: l['dates']=rng(blk,wl)
+for l in L:
+  if l['title']=='Unit 3 trial exams': l['span']=3
 ids={l['title']:l for l in L}
 def when(t):l=ids[t];return dict(id=l['id'],week=l['week'],lesson=l['lesson'])
 SD='VCE Mathematics Study Design 2023–2027'
 d=dict(id='general-maths-12',name='Year 12 General Maths',unitLabel='Unit 3',
- scope='Unit 3 only · lesson order only (details to come) · step-up before summer, then Term 1 and Term 2 Weeks 1–9 · SAC sittings after school on Wednesdays',
- summary='Step-up 5 lessons · Term 1: 26 lessons · Term 2 Weeks 1–8: 24 lessons, Week 9 mock exams · 3 lessons a week (2 in the Term 1 short week)',
+ scope='Unit 3 only · lesson order only (details to come) · step-up before summer, then Term 1 and Term 2 Weeks 1–11 · SAC sittings after school on Wednesdays',
+ summary='Step-up 5 lessons · Term 1: 26 lessons · Term 2 Weeks 1–8: 24 lessons, Week 9 trial exams · Weeks 10–11 to be planned · 3 lessons a week (2 in the Term 1 short week)',
  textbook='Cambridge Senior Mathematics General Mathematics VCE Units 3&4 (2nd ed.)',
  lessonsPerWeek=3,lessonMinutes=None,lessons=L,
  assessment=dict(rulesTitle=SD,
@@ -61,7 +65,7 @@ d=dict(id='general-maths-12',name='Year 12 General Maths',unitLabel='Unit 3',
    'School arrangement: SAC sittings run after school on Wednesdays (up to 100 minutes), so they do not use lesson time.'],
   suitableTasks=['Application task: a guided investigation of a given data set with several variables, with three components of increasing complexity: data plots (including smoothed plots for time series); summary statistics (including seasonal indices); modelling linear associations or trends (including data transformation).'],
   aos=[dict(aos='SAC 1',title='Application task: Data analysis',when=when('SAC 1 Part 2: in class (10 min reading + 60 min)'),outcome='Outcomes 1–3 (40 of 60 marks)',task='Guided investigation of a given multivariate data set, in three parts: Part 1 after school Wed 14 Apr (10 min reading + 90 min), Part 2 in class in Term 2 Week 1 (10 min reading + 60 min). No new content until Part 3 is done; Chapter 7 starts after it., Part 3 after school Wed 21 Apr (10 min reading + 90 min). Total 4 h 30 min (4 h working time) over 7 days.',taskType='Application task, 4–6 hours over 1–2 weeks',gaps=['Check lessons are at least 70 minutes long, for Part 2.','Part 2 must fall between the two Wednesday sittings (Thu 15 Apr – Tue 20 Apr).','Confirm the Wednesday dates against the school calendar.'],practice=[],actual=[],redemption=[],models=[]),
-       dict(aos='SAC 2',title='Modelling or problem-solving task 1: Recursion and financial modelling',when=when('SAC 2 revision (Part 1, Wed 2 Jun after school)'),outcome='Outcomes 1–3 (20 of 60 marks)',task='Modelling or problem-solving task on recursion and financial modelling, in two parts after school: Part 1 Wed 2 Jun (Week 8), Part 2 Wed 9 Jun (Week 9, mock exam week). Feedback in Week 10. Keep the total at 2–3 hours, e.g. 2 × (10 min reading + 80 min).',taskType='Modelling or problem-solving task, 2–3 hours over 1 week',gaps=['Part 2 falls in mock exam week: confirm, or move it to Wed 16 Jun (Week 10).','Week 10 lessons are not planned yet (Unit 4 starts there); SAC 2 feedback needs a slot.','Two full 100-minute sittings would be 3 h 20 min, over the 3-hour maximum. Cap each sitting.','Confirm the Wednesday dates against the school calendar.'],practice=[],actual=[],redemption=[],models=[])],
-  exams=[dict(name='Unit 3 mock exams',covers='Unit 3: Data analysis; Recursion and financial modelling',when='Term 2 Week 9 (mock exam week, no classes)',practice=[],actual=[])]))
+       dict(aos='SAC 2',title='Modelling or problem-solving task 1: Recursion and financial modelling',when=when('SAC 2 revision (Part 1, Wed 2 Jun after school)'),outcome='Outcomes 1–3 (20 of 60 marks)',task='Modelling or problem-solving task on recursion and financial modelling, in two parts after school: Part 1 Wed 2 Jun (Week 8), Part 2 Wed 9 Jun (Week 9, trial exam week). Feedback in Week 10. Keep the total at 2–3 hours, e.g. 2 × (10 min reading + 80 min).',taskType='Modelling or problem-solving task, 2–3 hours over 1 week',gaps=['Part 2 falls in trial exam week: confirm, or move it to Wed 16 Jun (Week 10).','Week 10 lessons are not planned yet (Unit 4 starts there); SAC 2 feedback needs a slot.','Two full 100-minute sittings would be 3 h 20 min, over the 3-hour maximum. Cap each sitting.','Confirm the Wednesday dates against the school calendar.'],practice=[],actual=[],redemption=[],models=[])],
+  exams=[dict(name='Unit 3 trial exams',covers='Unit 3: Data analysis; Recursion and financial modelling',when='Term 2 Week 9 (trial exam week, no classes)',practice=[],actual=[])]))
 json.dump(d,open('classes/general-maths-12.json','w'),ensure_ascii=False,indent=1)
 print(len(L),'entries')
