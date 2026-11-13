@@ -184,14 +184,14 @@
     {
      "kind": "Guided slides",
      "desc": "Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.",
-     "status": "todo",
-     "file": ""
+     "status": "ready",
+     "file": "Lesson Materials/S1 slides.html"
     },
     {
      "kind": "Guided worksheet",
-     "desc": "Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.",
-     "status": "todo",
-     "file": ""
+     "desc": "Student companion to the slides, in the same order, with space to answer. Max 3 double-sided pages.",
+     "status": "ready",
+     "file": "Lesson Materials/S1 guided worksheet.html"
     },
     {
      "kind": "Bound reference entry",
@@ -484,7 +484,7 @@
     },
     {
      "kind": "Guided worksheet",
-     "desc": "Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.",
+     "desc": "Student companion to the slides, in the same order, with space to answer. Max 3 double-sided pages.",
      "status": "todo",
      "file": ""
     },
@@ -844,7 +844,7 @@
     },
     {
      "kind": "Guided worksheet",
-     "desc": "Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.",
+     "desc": "Student companion to the slides, in the same order, with space to answer. Max 3 double-sided pages.",
      "status": "todo",
      "file": ""
     },
@@ -1095,7 +1095,7 @@
     },
     {
      "kind": "Guided worksheet",
-     "desc": "Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.",
+     "desc": "Student companion to the slides, in the same order, with space to answer. Max 3 double-sided pages.",
      "status": "todo",
      "file": ""
     },
