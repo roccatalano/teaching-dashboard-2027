@@ -105,6 +105,31 @@ for l in L:
     l['successCriteria']=[dict(sub=x,items=SC[x]) for x in subs if SC[x]]
     l['studyDesign']=[SDT[i] for i in sd]
     l['keyVocab']=voc
+# We Do: Cambridge Examples (titles from the Chapter 1 skills checklist / example headings) paired with the
+# Edrolo You Try map agreed with Rocco (Planning\Topics\1. Data Analysis\HANDOFF.md). Edrolo chapter letters differ from Cambridge.
+EX={1:('1A','Types of data','Edrolo 1A Q11 a–e (exercise question; approved exception)'),
+ 2:('1B','Constructing a frequency table for categorical data','Edrolo 1B WE1'),3:('1B','Constructing a bar chart from a frequency table','Edrolo 1B WE2'),
+ 4:('1B','Constructing a percentage segmented bar chart','Edrolo 1B WE3'),5:('1B','Describing the distribution of a categorical variable','Edrolo 1B WE4'),
+ 6:('1C','Constructing a frequency table for discrete numerical data',None),7:('1C','Constructing a grouped frequency table','Edrolo 1C WE4'),
+ 8:('1C','Constructing a histogram from a frequency table','Edrolo 1C WE5'),9:('1C','Describing the features of a distribution from a histogram',None),
+ 10:('1D','Constructing a dot plot','Edrolo 1C WE1'),11:('1D','Constructing a stem plot','Edrolo 1C WE2'),
+ 12:('1E','Using a CAS calculator to find logs','Edrolo 1D WE1'),13:('1E','Interpreting a histogram with a log scale','Edrolo 1D WE3'),
+ 14:('1F','Finding the median value in a data set','Edrolo 1E WE1'),15:('1F','Finding the median value from a dot plot','Edrolo 1F WE2'),
+ 16:('1F','Finding the median value from a stem plot','Edrolo 1F WE3'),17:('1F','Finding the range from a stem plot','Edrolo 1E WE2a'),
+ 18:('1F','Finding the IQR from an ordered stem plot when n is even','Edrolo 1E WE2b'),19:('1F','Finding the IQR from a stem plot when n is odd',None),
+ 20:('1F','Finding the median and quartiles from a histogram','Edrolo 1F WE1'),21:('1F','Calculating the mean using the formula','Edrolo 1G WE1'),
+ 22:('1G','Constructing a boxplot from a five-number summary','Edrolo 1E WE4'),23:('1G','Reading values from a boxplot','Edrolo 1E WE6'),
+ 24:('1G','Estimating percentages from a boxplot',None),25:('1G','Using a boxplot to describe a distribution without outliers','Edrolo 1F WE5'),
+ 26:('1G','Using a boxplot to describe a distribution with outliers',None),27:('1G','Using a boxplot to answer statistical questions',None),
+ 28:('1H','Applying the 68–95–99.7% rule','Edrolo 1H WE1'),29:('1H','Calculating standard scores','Edrolo 1I WE1'),
+ 30:('1H','Using standardised scores to make comparisons','Edrolo 1I WE3'),31:('1H','Using standardised scores to find percentages','Edrolo 1H WE2a'),
+ 32:('1H','Converting standardised scores into actual scores','Edrolo 1I WE2'),33:('1H','Finding the standard deviation given the mean and one percentage',None),
+ 34:('1H','Finding the mean and standard deviation','Edrolo 1H WE3a')}
+WEDO={'gm12-u3-s1':range(1,6),'gm12-u3-s2':range(6,14),'gm12-u3-s3':range(14,22),'gm12-u3-s4':range(22,28),'gm12-u3-s5':range(28,35)}
+for l in L:
+  if l['id'] in WEDO:
+    l['weDo']=[dict(n=n,sub=EX[n][0],title=EX[n][1],youTry=EX[n][2]) for n in WEDO[l['id']]]
+    if l['id']=='gm12-u3-s5': l['weDoNote']='1I is online-only in Cambridge: no printed Examples.'
 ids={l['title']:l for l in L}
 def when(t):l=ids[t];return dict(id=l['id'],week=l['week'],lesson=l['lesson'])
 SD='VCE Mathematics Study Design 2023–2027'

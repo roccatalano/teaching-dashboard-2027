@@ -89,6 +89,38 @@
     "Bar chart: a bar for each category, bars separated by gaps",
     "Segmented bar chart: one bar split into segments, one per category",
     "Mode (modal category): the most common value or category"
+   ],
+   "weDo": [
+    {
+     "n": 1,
+     "sub": "1A",
+     "title": "Types of data",
+     "youTry": "Edrolo 1A Q11 a–e (exercise question; approved exception)"
+    },
+    {
+     "n": 2,
+     "sub": "1B",
+     "title": "Constructing a frequency table for categorical data",
+     "youTry": "Edrolo 1B WE1"
+    },
+    {
+     "n": 3,
+     "sub": "1B",
+     "title": "Constructing a bar chart from a frequency table",
+     "youTry": "Edrolo 1B WE2"
+    },
+    {
+     "n": 4,
+     "sub": "1B",
+     "title": "Constructing a percentage segmented bar chart",
+     "youTry": "Edrolo 1B WE3"
+    },
+    {
+     "n": 5,
+     "sub": "1B",
+     "title": "Describing the distribution of a categorical variable",
+     "youTry": "Edrolo 1B WE4"
+    }
    ]
   },
   {
@@ -182,6 +214,56 @@
     "Shape: symmetric, positively skewed or negatively skewed",
     "Outlier: a value that stands out from the rest of the data",
     "Log scale: an axis in powers of 10, for data spanning several orders of magnitude"
+   ],
+   "weDo": [
+    {
+     "n": 6,
+     "sub": "1C",
+     "title": "Constructing a frequency table for discrete numerical data",
+     "youTry": null
+    },
+    {
+     "n": 7,
+     "sub": "1C",
+     "title": "Constructing a grouped frequency table",
+     "youTry": "Edrolo 1C WE4"
+    },
+    {
+     "n": 8,
+     "sub": "1C",
+     "title": "Constructing a histogram from a frequency table",
+     "youTry": "Edrolo 1C WE5"
+    },
+    {
+     "n": 9,
+     "sub": "1C",
+     "title": "Describing the features of a distribution from a histogram",
+     "youTry": null
+    },
+    {
+     "n": 10,
+     "sub": "1D",
+     "title": "Constructing a dot plot",
+     "youTry": "Edrolo 1C WE1"
+    },
+    {
+     "n": 11,
+     "sub": "1D",
+     "title": "Constructing a stem plot",
+     "youTry": "Edrolo 1C WE2"
+    },
+    {
+     "n": 12,
+     "sub": "1E",
+     "title": "Using a CAS calculator to find logs",
+     "youTry": "Edrolo 1D WE1"
+    },
+    {
+     "n": 13,
+     "sub": "1E",
+     "title": "Interpreting a histogram with a log scale",
+     "youTry": "Edrolo 1D WE3"
+    }
    ]
   },
   {
@@ -268,6 +350,56 @@
     "Quartiles (Q1, Q3): split the ordered data into four equal groups",
     "Interquartile range (IQR): Q3 − Q1, the spread of the middle 50%",
     "Standard deviation (s): spread of the data around the mean"
+   ],
+   "weDo": [
+    {
+     "n": 14,
+     "sub": "1F",
+     "title": "Finding the median value in a data set",
+     "youTry": "Edrolo 1E WE1"
+    },
+    {
+     "n": 15,
+     "sub": "1F",
+     "title": "Finding the median value from a dot plot",
+     "youTry": "Edrolo 1F WE2"
+    },
+    {
+     "n": 16,
+     "sub": "1F",
+     "title": "Finding the median value from a stem plot",
+     "youTry": "Edrolo 1F WE3"
+    },
+    {
+     "n": 17,
+     "sub": "1F",
+     "title": "Finding the range from a stem plot",
+     "youTry": "Edrolo 1E WE2a"
+    },
+    {
+     "n": 18,
+     "sub": "1F",
+     "title": "Finding the IQR from an ordered stem plot when n is even",
+     "youTry": "Edrolo 1E WE2b"
+    },
+    {
+     "n": 19,
+     "sub": "1F",
+     "title": "Finding the IQR from a stem plot when n is odd",
+     "youTry": null
+    },
+    {
+     "n": 20,
+     "sub": "1F",
+     "title": "Finding the median and quartiles from a histogram",
+     "youTry": "Edrolo 1F WE1"
+    },
+    {
+     "n": 21,
+     "sub": "1F",
+     "title": "Calculating the mean using the formula",
+     "youTry": "Edrolo 1G WE1"
+    }
    ]
   },
   {
@@ -352,6 +484,44 @@
     "Lower fence: Q1 − 1.5 × IQR",
     "Upper fence: Q3 + 1.5 × IQR",
     "Outlier: a value below the lower fence or above the upper fence"
+   ],
+   "weDo": [
+    {
+     "n": 22,
+     "sub": "1G",
+     "title": "Constructing a boxplot from a five-number summary",
+     "youTry": "Edrolo 1E WE4"
+    },
+    {
+     "n": 23,
+     "sub": "1G",
+     "title": "Reading values from a boxplot",
+     "youTry": "Edrolo 1E WE6"
+    },
+    {
+     "n": 24,
+     "sub": "1G",
+     "title": "Estimating percentages from a boxplot",
+     "youTry": null
+    },
+    {
+     "n": 25,
+     "sub": "1G",
+     "title": "Using a boxplot to describe a distribution without outliers",
+     "youTry": "Edrolo 1F WE5"
+    },
+    {
+     "n": 26,
+     "sub": "1G",
+     "title": "Using a boxplot to describe a distribution with outliers",
+     "youTry": null
+    },
+    {
+     "n": 27,
+     "sub": "1G",
+     "title": "Using a boxplot to answer statistical questions",
+     "youTry": null
+    }
    ]
   },
   {
@@ -440,7 +610,52 @@
     "Standardised score (z-score): how many standard deviations a value is above or below the mean",
     "Population: every member of the group being studied",
     "Sample: a subset of the population"
-   ]
+   ],
+   "weDo": [
+    {
+     "n": 28,
+     "sub": "1H",
+     "title": "Applying the 68–95–99.7% rule",
+     "youTry": "Edrolo 1H WE1"
+    },
+    {
+     "n": 29,
+     "sub": "1H",
+     "title": "Calculating standard scores",
+     "youTry": "Edrolo 1I WE1"
+    },
+    {
+     "n": 30,
+     "sub": "1H",
+     "title": "Using standardised scores to make comparisons",
+     "youTry": "Edrolo 1I WE3"
+    },
+    {
+     "n": 31,
+     "sub": "1H",
+     "title": "Using standardised scores to find percentages",
+     "youTry": "Edrolo 1H WE2a"
+    },
+    {
+     "n": 32,
+     "sub": "1H",
+     "title": "Converting standardised scores into actual scores",
+     "youTry": "Edrolo 1I WE2"
+    },
+    {
+     "n": 33,
+     "sub": "1H",
+     "title": "Finding the standard deviation given the mean and one percentage",
+     "youTry": null
+    },
+    {
+     "n": 34,
+     "sub": "1H",
+     "title": "Finding the mean and standard deviation",
+     "youTry": "Edrolo 1H WE3a"
+    }
+   ],
+   "weDoNote": "1I is online-only in Cambridge: no printed Examples."
   },
   {
    "type": "sac",
