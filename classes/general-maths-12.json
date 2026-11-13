@@ -1,0 +1,1561 @@
+{
+ "id": "general-maths-12",
+ "name": "Year 12 General Maths",
+ "unitLabel": "Unit 3",
+ "scope": "Unit 3 only · lesson order only (details to come) · step-up before summer, then Term 1 and Term 2 Weeks 1–9",
+ "summary": "Step-up 5 lessons · Term 1: 26 lessons · Term 2 Weeks 1–9: 25 lessons · 3 lessons a week (2 in the Term 1 short week)",
+ "textbook": "Cambridge Senior Mathematics General Mathematics VCE Units 3&4 (2nd ed.)",
+ "lessonsPerWeek": 3,
+ "lessonMinutes": null,
+ "lessons": [
+  {
+   "type": "lesson",
+   "section": "1A–1B",
+   "title": "Types of data; categorical data",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 1,
+   "weekLabel": "Step-up week 1",
+   "termLabel": "Nov–Dec 2026",
+   "lesson": "S1",
+   "id": "gm12-u3-s1",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "1C–1D",
+   "title": "Histograms, dot plots and stem plots",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 1,
+   "weekLabel": "Step-up week 1",
+   "termLabel": "Nov–Dec 2026",
+   "lesson": "S2",
+   "id": "gm12-u3-s2",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "1E–1F",
+   "title": "Log (base 10) scales; centre and spread",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 1,
+   "weekLabel": "Step-up week 1",
+   "termLabel": "Nov–Dec 2026",
+   "lesson": "S3",
+   "id": "gm12-u3-s3",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "1G",
+   "title": "Five-number summary, boxplots and outliers",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 2,
+   "weekLabel": "Step-up week 2",
+   "termLabel": "Nov–Dec 2026",
+   "lesson": "S4",
+   "id": "gm12-u3-s4",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "1H–1I",
+   "title": "Normal distribution, z-scores; populations and samples",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 2,
+   "weekLabel": "Step-up week 2",
+   "termLabel": "Nov–Dec 2026",
+   "lesson": "S5",
+   "id": "gm12-u3-s5",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "1",
+   "title": "Chapter 1 review",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 3,
+   "weekLabel": "Week 1",
+   "termLabel": "Term 1 · short week",
+   "lesson": 1,
+   "id": "gm12-u3-l01",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "sac",
+   "section": "1",
+   "title": "Chapter 1 test",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 3,
+   "weekLabel": "Week 1",
+   "termLabel": "Term 1 · short week",
+   "lesson": 2,
+   "id": "gm12-u3-l02",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Task ready",
+     "done": false
+    },
+    {
+     "text": "Marking scheme ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "2A–2B",
+   "title": "Response and explanatory variables; two-way tables",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 4,
+   "weekLabel": "Week 2",
+   "termLabel": "Term 1",
+   "lesson": 3,
+   "id": "gm12-u3-l03",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "2C",
+   "title": "Numerical vs categorical: parallel boxplots, back-to-back stem plots",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 4,
+   "weekLabel": "Week 2",
+   "termLabel": "Term 1",
+   "lesson": 4,
+   "id": "gm12-u3-l04",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "2D–2E",
+   "title": "Scatterplots: direction, form and strength",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 4,
+   "weekLabel": "Week 2",
+   "termLabel": "Term 1",
+   "lesson": 5,
+   "id": "gm12-u3-l05",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "2F",
+   "title": "Correlation coefficient, $r$",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 5,
+   "weekLabel": "Week 3",
+   "termLabel": "Term 1",
+   "lesson": 6,
+   "id": "gm12-u3-l06",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "2G–2H",
+   "title": "Coefficient of determination; correlation and causation",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 5,
+   "weekLabel": "Week 3",
+   "termLabel": "Term 1",
+   "lesson": 7,
+   "id": "gm12-u3-l07",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "2I",
+   "title": "Which graph? and Chapter 2 review",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 5,
+   "weekLabel": "Week 3",
+   "termLabel": "Term 1",
+   "lesson": 8,
+   "id": "gm12-u3-l08",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "3A",
+   "title": "Least squares regression line",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 6,
+   "weekLabel": "Week 4",
+   "termLabel": "Term 1",
+   "lesson": 9,
+   "id": "gm12-u3-l09",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "3B",
+   "title": "Interpreting slope and intercept; predictions",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 6,
+   "weekLabel": "Week 4",
+   "termLabel": "Term 1",
+   "lesson": 10,
+   "id": "gm12-u3-l10",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "3C",
+   "title": "Residual analysis and regression analysis",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 6,
+   "weekLabel": "Week 4",
+   "termLabel": "Term 1",
+   "lesson": 11,
+   "id": "gm12-u3-l11",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "4A",
+   "title": "Squared transformation",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 7,
+   "weekLabel": "Week 5",
+   "termLabel": "Term 1",
+   "lesson": 12,
+   "id": "gm12-u3-l12",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "4B",
+   "title": "Log transformation",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 7,
+   "weekLabel": "Week 5",
+   "termLabel": "Term 1",
+   "lesson": 13,
+   "id": "gm12-u3-l13",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "4C",
+   "title": "Reciprocal transformation",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 7,
+   "weekLabel": "Week 5",
+   "termLabel": "Term 1",
+   "lesson": 14,
+   "id": "gm12-u3-l14",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "4D",
+   "title": "Choosing and applying a transformation",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 8,
+   "weekLabel": "Week 6",
+   "termLabel": "Term 1",
+   "lesson": 15,
+   "id": "gm12-u3-l15",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "5A",
+   "title": "Time series data: features of time series plots",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 8,
+   "weekLabel": "Week 6",
+   "termLabel": "Term 1",
+   "lesson": 16,
+   "id": "gm12-u3-l16",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "5B",
+   "title": "Smoothing with moving means",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 8,
+   "weekLabel": "Week 6",
+   "termLabel": "Term 1",
+   "lesson": 17,
+   "id": "gm12-u3-l17",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "5B",
+   "title": "Centring moving means",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 9,
+   "weekLabel": "Week 7",
+   "termLabel": "Term 1 · Labour Day Mon 8 Mar",
+   "lesson": 18,
+   "id": "gm12-u3-l18",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "5C",
+   "title": "Smoothing with moving medians",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 9,
+   "weekLabel": "Week 7",
+   "termLabel": "Term 1 · Labour Day Mon 8 Mar",
+   "lesson": 19,
+   "id": "gm12-u3-l19",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "5D",
+   "title": "Seasonal indices",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 9,
+   "weekLabel": "Week 7",
+   "termLabel": "Term 1 · Labour Day Mon 8 Mar",
+   "lesson": 20,
+   "id": "gm12-u3-l20",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "5D",
+   "title": "Deseasonalising and reseasonalising",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 10,
+   "weekLabel": "Week 8",
+   "termLabel": "Term 1",
+   "lesson": 21,
+   "id": "gm12-u3-l21",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "5E",
+   "title": "Trend lines and forecasting",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 10,
+   "weekLabel": "Week 8",
+   "termLabel": "Term 1",
+   "lesson": 22,
+   "id": "gm12-u3-l22",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "6",
+   "title": "Review: distributions and associations",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 10,
+   "weekLabel": "Week 8",
+   "termLabel": "Term 1",
+   "lesson": 23,
+   "id": "gm12-u3-l23",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "6",
+   "title": "Review: regression, transformations and time series",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 11,
+   "weekLabel": "Week 9",
+   "termLabel": "Term 1",
+   "lesson": 24,
+   "id": "gm12-u3-l24",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "sac",
+   "section": "SAC 1",
+   "title": "Application task (Data analysis)",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 11,
+   "weekLabel": "Week 9",
+   "termLabel": "Term 1",
+   "lesson": 25,
+   "id": "gm12-u3-l25",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Task ready",
+     "done": false
+    },
+    {
+     "text": "Marking scheme ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "SAC 1",
+   "title": "SAC 1 feedback",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 11,
+   "weekLabel": "Week 9",
+   "termLabel": "Term 1",
+   "lesson": 26,
+   "id": "gm12-u3-l26",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "7A",
+   "title": "Sequences and recurrence relations",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 12,
+   "weekLabel": "Week 1",
+   "termLabel": "Term 2",
+   "lesson": 27,
+   "id": "gm12-u3-l27",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "7B, 7D",
+   "title": "Linear and geometric growth and decay",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 12,
+   "weekLabel": "Week 1",
+   "termLabel": "Term 2",
+   "lesson": 28,
+   "id": "gm12-u3-l28",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "7C, 7E",
+   "title": "Explicit rules for linear and geometric growth and decay",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 12,
+   "weekLabel": "Week 1",
+   "termLabel": "Term 2",
+   "lesson": 29,
+   "id": "gm12-u3-l29",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "7F",
+   "title": "Interest rates over different periods; effective interest rates",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 13,
+   "weekLabel": "Week 2",
+   "termLabel": "Term 2",
+   "lesson": 30,
+   "id": "gm12-u3-l30",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "7",
+   "title": "Chapter 7 review",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 13,
+   "weekLabel": "Week 2",
+   "termLabel": "Term 2",
+   "lesson": 31,
+   "id": "gm12-u3-l31",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "8A",
+   "title": "Compound interest investments with regular additions",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 13,
+   "weekLabel": "Week 2",
+   "termLabel": "Term 2",
+   "lesson": 32,
+   "id": "gm12-u3-l32",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "8B",
+   "title": "Reducing balance loans and annuities",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 14,
+   "weekLabel": "Week 3",
+   "termLabel": "Term 2",
+   "lesson": 33,
+   "id": "gm12-u3-l33",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "8C",
+   "title": "Amortisation tables",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 14,
+   "weekLabel": "Week 3",
+   "termLabel": "Term 2",
+   "lesson": 34,
+   "id": "gm12-u3-l34",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "8D",
+   "title": "Analysing financial situations with amortisation tables",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 14,
+   "weekLabel": "Week 3",
+   "termLabel": "Term 2",
+   "lesson": 35,
+   "id": "gm12-u3-l35",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "8E",
+   "title": "Finance solver: balance and final payment",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 15,
+   "weekLabel": "Week 4",
+   "termLabel": "Term 2",
+   "lesson": 36,
+   "id": "gm12-u3-l36",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "8F",
+   "title": "Finance solver: interest rate, time and payment",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 15,
+   "weekLabel": "Week 4",
+   "termLabel": "Term 2",
+   "lesson": 37,
+   "id": "gm12-u3-l37",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "8G",
+   "title": "Harder financial problems",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 15,
+   "weekLabel": "Week 4",
+   "termLabel": "Term 2",
+   "lesson": 38,
+   "id": "gm12-u3-l38",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "8H",
+   "title": "Interest-only loans",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 16,
+   "weekLabel": "Week 5",
+   "termLabel": "Term 2",
+   "lesson": 39,
+   "id": "gm12-u3-l39",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "lesson",
+   "section": "8I",
+   "title": "Perpetuities",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 16,
+   "weekLabel": "Week 5",
+   "termLabel": "Term 2",
+   "lesson": 40,
+   "id": "gm12-u3-l40",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "8",
+   "title": "Chapter 8 review",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 16,
+   "weekLabel": "Week 5",
+   "termLabel": "Term 2",
+   "lesson": 41,
+   "id": "gm12-u3-l41",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "9",
+   "title": "Review: recursion and financial modelling",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 17,
+   "weekLabel": "Week 6",
+   "termLabel": "Term 2",
+   "lesson": 42,
+   "id": "gm12-u3-l42",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "SAC 2",
+   "title": "Practice SAC",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 17,
+   "weekLabel": "Week 6",
+   "termLabel": "Term 2",
+   "lesson": 43,
+   "id": "gm12-u3-l43",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "sac",
+   "section": "SAC 2",
+   "title": "Modelling or problem-solving task 1 (Recursion and financial modelling)",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 17,
+   "weekLabel": "Week 6",
+   "termLabel": "Term 2",
+   "lesson": 44,
+   "id": "gm12-u3-l44",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Task ready",
+     "done": false
+    },
+    {
+     "text": "Marking scheme ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "SAC 2",
+   "title": "SAC 2 feedback",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 18,
+   "weekLabel": "Week 7",
+   "termLabel": "Term 2",
+   "lesson": 45,
+   "id": "gm12-u3-l45",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "Exam",
+   "title": "Unit 3 mock exam revision",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 18,
+   "weekLabel": "Week 7",
+   "termLabel": "Term 2",
+   "lesson": 46,
+   "id": "gm12-u3-l46",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "Exam",
+   "title": "Unit 3 mock exam revision",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 18,
+   "weekLabel": "Week 7",
+   "termLabel": "Term 2",
+   "lesson": 47,
+   "id": "gm12-u3-l47",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "Exam",
+   "title": "Unit 3 mock exam revision",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 19,
+   "weekLabel": "Week 8",
+   "termLabel": "Term 2",
+   "lesson": 48,
+   "id": "gm12-u3-l48",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "Exam",
+   "title": "Unit 3 mock exam revision",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 19,
+   "weekLabel": "Week 8",
+   "termLabel": "Term 2",
+   "lesson": 49,
+   "id": "gm12-u3-l49",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "review",
+   "section": "Exam",
+   "title": "Unit 3 mock exam revision",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 19,
+   "weekLabel": "Week 8",
+   "termLabel": "Term 2",
+   "lesson": 50,
+   "id": "gm12-u3-l50",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Review set ready",
+     "done": false
+    }
+   ]
+  },
+  {
+   "type": "sac",
+   "section": "Exam",
+   "title": "Unit 3 mock exams",
+   "aos": "U3 AoS2",
+   "aosTitle": "Recursion and financial modelling",
+   "unit": 3,
+   "week": 20,
+   "weekLabel": "Week 9",
+   "termLabel": "Term 2",
+   "lesson": 51,
+   "id": "gm12-u3-l51",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Task ready",
+     "done": false
+    },
+    {
+     "text": "Marking scheme ready",
+     "done": false
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "rulesTitle": "VCE Mathematics Study Design 2023–2027",
+  "rules": [
+   "Unit 3 School-assessed Coursework contributes 24 per cent to the study score (60 marks).",
+   "Application task (Data analysis): 4–6 hours over 1–2 weeks. Outcome 1: 10, Outcome 2: 20, Outcome 3: 10 marks.",
+   "Modelling or problem-solving task 1 (Recursion and financial modelling): 2–3 hours over 1 week. Outcome 1: 5, Outcome 2: 10, Outcome 3: 5 marks.",
+   "Examinations 1 and 2 each contribute 30 per cent."
+  ],
+  "suitableTasks": [
+   "Application task: a guided investigation of a given data set with several variables, with three components of increasing complexity: data plots (including smoothed plots for time series); summary statistics (including seasonal indices); modelling linear associations or trends (including data transformation)."
+  ],
+  "aos": [
+   {
+    "aos": "SAC 1",
+    "title": "Application task: Data analysis",
+    "when": {
+     "id": "gm12-u3-l25",
+     "week": 11,
+     "lesson": 25
+    },
+    "outcome": "Outcomes 1–3 (40 of 60 marks)",
+    "task": "Guided investigation of a given multivariate data set.",
+    "taskType": "Application task, 4–6 hours over 1–2 weeks",
+    "gaps": [
+     "Timing: currently one lesson. The Study Design requires 4–6 hours over 1–2 weeks."
+    ],
+    "practice": [],
+    "actual": [],
+    "redemption": [],
+    "models": []
+   },
+   {
+    "aos": "SAC 2",
+    "title": "Modelling or problem-solving task 1: Recursion and financial modelling",
+    "when": {
+     "id": "gm12-u3-l44",
+     "week": 17,
+     "lesson": 44
+    },
+    "outcome": "Outcomes 1–3 (20 of 60 marks)",
+    "task": "Modelling or problem-solving task on recursion and financial modelling.",
+    "taskType": "Modelling or problem-solving task, 2–3 hours over 1 week",
+    "gaps": [
+     "Timing: currently one lesson. The Study Design requires 2–3 hours over 1 week."
+    ],
+    "practice": [],
+    "actual": [],
+    "redemption": [],
+    "models": []
+   }
+  ],
+  "exams": [
+   {
+    "name": "Unit 3 mock exams",
+    "covers": "Unit 3: Data analysis; Recursion and financial modelling",
+    "when": "Term 2 Week 9",
+    "practice": [],
+    "actual": []
+   }
+  ]
+ }
+}

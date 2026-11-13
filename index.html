@@ -98,7 +98,7 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 </header>
 <main id="main"></main>
 <script>
-const CLASSES=[{id:'physics-11',name:'11 Physics',file:'classes/physics-11.json'}];
+const CLASSES=[{id:'physics-11',name:'11 Physics',file:'classes/physics-11.json'},{id:'general-maths-12',name:'12 General Maths',file:'classes/general-maths-12.json'}];
 const TYPE={lesson:'Lesson',prac:'Prac',sac:'Assessment',review:'Review'};
 const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 let data={},tab=store.get('tab','physics-11'),view=store.get('view','plan'),openId=null,expandAll=false;
@@ -148,7 +148,7 @@ function seqPane(l){const q=l.sequence;
 function detail(l){
   const t=tasksOf(l),s=state(l.id);
   return `<div class="detail" data-for="${l.id}"><div>
-    <div class="meta"><span>${esc(l.aos)} · Week ${l.week} · Lesson ${l.lesson}</span></div>
+    <div class="meta"><span>${esc(l.aos)} · ${esc(l.weekLabel||'Week '+l.week)}${l.termLabel?' ('+esc(l.termLabel)+')':''} · Lesson ${l.lesson}</span></div>
     <h2>${l.section?esc(l.section)+' · ':''}${esc(l.title)}</h2>
     ${l.keyKnowledge?.length?`<h3>Key knowledge</h3>${list(l.keyKnowledge)}`:''}
     ${l.prac?pracBox(l.prac):''}
@@ -163,13 +163,13 @@ function renderClass(c){
   sel.innerHTML='<option value="">All areas of study</option>'+aosList.map(a=>`<option ${a==f?'selected':''}>${a}</option>`).join('');
   const L=d.lessons.filter(l=>!f||l.aos==f);
   const pr=d.lessons.filter(l=>l.type=='prac').length;
-  let h=`<div class="unit">Unit 1 <span class="scope">· ${esc(d.scope)} · ${d.weeksPerUnit} weeks × ${d.lessonsPerWeek} lessons × ${d.lessonMinutes} min · ${pr} prac lessons ≈ ${(pr*d.lessonMinutes/60).toFixed(1)} h</span></div>
+  let h=`<div class="unit">${esc(d.unitLabel||'Unit 1')} <span class="scope">· ${esc(d.scope)} · ${d.summary?esc(d.summary):`${d.weeksPerUnit} weeks × ${d.lessonsPerWeek} lessons × ${d.lessonMinutes} min · ${pr} prac lessons ≈ ${(pr*d.lessonMinutes/60).toFixed(1)} h`}</span></div>
     <div class="legend">${['lesson','prac','review','sac'].map(k=>`<span class="t-${k}"><i></i>${TYPE[k]}</span>`).join('')}<span><i style="background:#8a6ad8"></i>CFAT</span></div>`;
   let lastA='';
   for(const w of [...new Set(L.map(l=>l.week))]){
     const W=L.filter(l=>l.week==w);
     if(W[0].aos!=lastA){lastA=W[0].aos;h+=`<div class="aos"><b>${esc(lastA)}</b><span>${esc(W[0].aosTitle)}</span></div>`}
-    h+=`<div class="week"><div class="wl"><b>Week ${w}</b>Semester 1</div>`;
+    h+=`<div class="week"><div class="wl"><b>${esc(W[0].weekLabel||'Week '+w)}</b>${esc(W[0].termLabel||'Semester 1')}</div>`;
     for(const l of W)h+=`<div class="card t-${l.type} ${l.cfat?'has-cfat':''} ${openId==l.id?'open':''}" data-id="${l.id}">
       <div class="meta"><span>L${l.lesson}${l.section?' · '+esc(l.section):''}</span><span class="tags">${l.cfat?'<span class="tag cfat">CFAT</span>':''}<span class="tag">${TYPE[l.type]}</span></span></div>
       <div class="ttl">${esc(l.title)}</div><div class="bar"><i style="width:${Math.round(progress(l)*100)}%"></i></div></div>`;
@@ -187,11 +187,11 @@ function taskList(arr,empty){if(!arr||!arr.length)return `<div class="empty">${e
   return '<ul>'+arr.map(t=>`<li>${link(t)} <span class="src src-pearson">${esc(t.source||'')}</span>${t.solutions?` <span class="sub">· ${link(t.solutions)}</span>`:' <span class="sub nosol">· no solutions</span>'}${t.path?`<span class="path" style="display:block;font-size:11px;color:var(--muted)">${esc(t.path)}</span>`:''}</li>`).join('')+'</ul>'}
 function renderAssessment(c){
   const a=data[c.id].assessment;
-  let h=`<div class="unit">Assessment plan · Unit 1</div><div class="arules"><h3>The rules (VCE Physics Study Design)</h3>${list(a.rules)}
+  let h=`<div class="unit">Assessment plan · ${esc(data[c.id].unitLabel||'Unit 1')}</div><div class="arules"><h3>The rules (${esc(a.rulesTitle||'VCE Physics Study Design')})</h3>${list(a.rules)}
     <details><summary>Suitable assessment task types</summary>${list(a.suitableTasks)}</details></div>`;
-  for(const x of a.aos)h+=`<div class="acard"><div class="ahead"><div><b>${esc(x.aos)}</b> · ${esc(x.title)}</div><button class="goto" data-id="${x.when.id}">Week ${x.when.week} · Lesson ${x.when.lesson}</button></div>
+  for(const x of a.aos)h+=`<div class="acard"><div class="ahead"><div><b>${esc(x.aos)}</b> · ${esc(x.title)}</div><button class="goto" data-id="${x.when.id}">${esc(data[c.id].lessons.find(l=>l.id==x.when.id)?.weekLabel||'Week '+x.when.week)} · Lesson ${x.when.lesson}</button></div>
     <div class="agrid"><div><h3>Outcome</h3><p>${esc(x.outcome)}</p><h3>What students do</h3><p>${esc(x.task)}</p><div class="sub">Task type: ${esc(x.taskType)}</div>
-      <h3>Pearson</h3><p class="sub">${esc(x.pearsonNote)}</p>${x.gaps.length?`<h3>To do</h3><ul class="gaps">${x.gaps.map(g=>`<li>${esc(g)}</li>`).join('')}</ul>`:''}</div>
+      ${x.pearsonNote?`<h3>Pearson</h3><p class="sub">${esc(x.pearsonNote)}</p>`:''}${x.gaps.length?`<h3>To do</h3><ul class="gaps">${x.gaps.map(g=>`<li>${esc(g)}</li>`).join('')}</ul>`:''}</div>
     <div><h3>Practice</h3>${taskList(x.practice,'None yet')}<h3>Actual task</h3>${taskList(x.actual,'Not written yet')}<h3>Redemption</h3>${taskList(x.redemption,'Not written yet')}<h3>Models for writing the SAC</h3>${taskList(x.models,'None')}</div></div></div>`;
   for(const e of a.exams)h+=`<div class="acard"><div class="ahead"><div><b>${esc(e.name)}</b> · ${esc(e.covers)}</div><span class="sub">${esc(e.when)}</span></div>
     <div class="agrid"><div><h3>Practice</h3>${taskList(e.practice,'None yet')}</div><div><h3>Actual exam</h3>${taskList(e.actual,'Not written yet')}</div></div></div>`;
