@@ -5,9 +5,9 @@ import json
 A1=('U3 AoS1','Data analysis'); A2=('U3 AoS2','Recursion and financial modelling')
 # (block, weekLabel, termLabel, aos, [(type, section, title), ...])
 W=[
- ('su','Step-up week 1','Nov–Dec 2026',A1,[('lesson','1A–1B','Types of data; categorical data'),('lesson','1C–1D','Histograms, dot plots and stem plots'),('lesson','1E–1F','Log (base 10) scales; centre and spread')]),
- ('su','Step-up week 2','Nov–Dec 2026',A1,[('lesson','1G','Five-number summary, boxplots and outliers'),('lesson','1H–1I','Normal distribution, z-scores; populations and samples')]),
- ('t1','Week 1','Term 1 · short week',A1,[('review','1','Chapter 1 review'),('sac','1','Chapter 1 test')]),
+ ('su','Step-up week 1','Nov–Dec 2026',A1,[('lesson','1A–1B','Types of data; categorical data'),('lesson','1C–1E','Histograms, dot plots, stem plots and log scales')]),
+ ('su','Step-up week 2','Nov–Dec 2026',A1,[('lesson','1F–1G','Centre and spread; five-number summary, boxplots and outliers'),('lesson','1H–1I','Normal distribution, z-scores; populations and samples'),('review','1','CFAT 1.1.3 and CFAT feedback')]),
+ ('t1','Week 1','Term 1 · short week',A1,[('sac','1','Chapter 1 test (part 1)'),('sac','1','Chapter 1 test (part 2)')]),
  ('t1','Week 2','Term 1',A1,[('lesson','2A–2B','Response and explanatory variables; two-way tables'),('lesson','2C','Numerical vs categorical: parallel boxplots, back-to-back stem plots'),('lesson','2D–2E','Scatterplots: direction, form and strength')]),
  ('t1','Week 3','Term 1',A1,[('lesson','2F','Correlation coefficient, $r$'),('lesson','2G–2H','Coefficient of determination; correlation and causation'),('review','2I','Which graph? and Chapter 2 review')]),
  ('t1','Week 4','Term 1',A1,[('lesson','3A','Least squares regression line'),('lesson','3B','Interpreting slope and intercept; predictions'),('lesson','3C','Residual analysis and regression analysis')]),
@@ -54,12 +54,12 @@ FMT='About 20 min, start of lesson, individual, closed book (CAS allowed)'
 SRC='Edrolo GM U3&4 2023 exercise questions (CFAT-only)'
 DIR='1. Data Analysis\\CFATs\\Chapter 1\\'
 CF={
- 'gm12-u3-s4':[dict(id='CFAT 1.1.1',title='Types of data, displays, log scales',covers=['1A','1B','1C','1D','1E'],format=FMT,file=DIR+'CFAT 1.1.1 [1A–1E].docx',status='Written (10 Nov 2026)',
-   plan='Done at the start of the 1G lesson, a single-subchapter lesson. Covers everything from Step-up lessons 1–3.',sources=[SRC+': 1A Q15, Q17 · 1B Q8, Q9 · 1C Q6, Q17 · 1D Q9, Q12, Q14'])],
- 'gm12-u3-l01':[dict(id='CFAT 1.1.2',title='Describing numerical data: median, IQR, boxplots, SOCS',covers=['1F (median, IQR)','1G'],format=FMT,file=DIR+'CFAT 1.1.2 [1F, 1G].docx',status='Written (10 Nov 2026)',
-   plan='Chapter 1 review lesson, after the summer break.',sources=[SRC+': 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19']),
-  dict(id='CFAT 1.1.3',title='Mean and SD, the normal distribution, z-scores',covers=['1F (mean, SD)','1H','1I'],format=FMT,file=DIR+'CFAT 1.1.3 [1H, 1F, 1I].docx',status='Written (10 Nov 2026)',marks=16,
-   plan='Chapter 1 review lesson, straight after CFAT 1.1.2. Cambridge 1I not assessed. Q8a has a blank normal curve scaffold.',sources=[SRC+': 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15'])],
+ 'gm12-u3-s3':[dict(id='CFAT 1.1.1',title='Types of data, displays, log scales',covers=['1A','1B','1C','1D','1E'],format=FMT,file=DIR+'CFAT 1.1.1 [1A–1E].docx',status='Written (10 Nov 2026)',
+   plan='Start of Step-up lesson 3, after Step-up week 1 (1A–1E).',sources=[SRC+': 1A Q15, Q17 · 1B Q8, Q9 · 1C Q6, Q17 · 1D Q9, Q12, Q14'])],
+ 'gm12-u3-s4':[dict(id='CFAT 1.1.2',title='Describing numerical data: median, IQR, boxplots, SOCS',covers=['1F (median, IQR)','1G'],format=FMT,file=DIR+'CFAT 1.1.2 [1F, 1G].docx',status='Written (10 Nov 2026)',
+   plan='Start of Step-up lesson 4, the lesson after 1F–1G.',sources=[SRC+': 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19'])],
+ 'gm12-u3-s5':[dict(id='CFAT 1.1.3',title='Mean and SD, the normal distribution, z-scores',covers=['1F (mean, SD)','1H','1I'],format=FMT,file=DIR+'CFAT 1.1.3 [1H, 1F, 1I].docx',status='Written (10 Nov 2026)',marks=16,
+   plan='Start of Step-up lesson 5, the lesson after 1H–1I. The rest of the lesson is feedback on CFATs 1.1.1–1.1.3. Cambridge 1I not assessed. Q8a has a blank normal curve scaffold.',sources=[SRC+': 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15'])],
 }
 for l in L:
   if l['id'] in CF: l['cfats']=CF[l['id']]
@@ -68,7 +68,7 @@ def when(t):l=ids[t];return dict(id=l['id'],week=l['week'],lesson=l['lesson'])
 SD='VCE Mathematics Study Design 2023–2027'
 d=dict(id='general-maths-12',name='Year 12 General Maths',unitLabel='Unit 3',
  scope='Unit 3 only · lesson order only (details to come) · step-up before summer, then Term 1 and Term 2 Weeks 1–11 · SAC sittings after school on Wednesdays',
- summary='Step-up 5 lessons · Term 1: 26 lessons · Term 2 Weeks 1–8: 24 lessons, Week 9 trial exams · Weeks 10–11 to be planned · 3 lessons a week (2 in the Term 1 short week)',
+ summary='Step-up 5 lessons · Term 1: 26 lessons · Term 2 Weeks 1–8: 24 lessons, Week 9 trial exams · Weeks 10–11 to be planned · 3 lessons a week (2 in Step-up week 1 and the Term 1 short week)',
  textbook='Cambridge Senior Mathematics General Mathematics VCE Units 3&4 (2nd ed.)',
  lessonsPerWeek=3,lessonMinutes=None,lessons=L,
  assessment=dict(rulesTitle=SD,
