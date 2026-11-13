@@ -66,6 +66,11 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 .nest>.nb{padding:0 14px 12px;font-size:13px;line-height:1.55}.nest .nb ul{margin:4px 0;padding-left:18px}.nest .nb h4{margin:8px 0 2px;font-size:12px;color:var(--ink)}
 .nest.n-cfat{border-color:#8a6ad8;background:#f7f4fe}.nest.n-cfat>summary{color:#5b3fb0}
 .wedo{margin:4px 0;padding-left:0;list-style:none}.wedo li{padding:6px 0;border-bottom:1px dashed var(--line)}.wedo li:last-child{border-bottom:0}.wedo .yt{font-size:12px;color:var(--prac-i);margin-top:2px}.wedo .yt.none{color:var(--muted);font-style:italic}
+.casg{display:grid;grid-template-columns:1fr 1fr;gap:12px}.casg h4{margin:6px 0 6px}@media(max-width:760px){.casg{grid-template-columns:1fr}}
+.vid{margin-bottom:10px}.vid .vt{font-size:12px;line-height:1.35;margin:4px 0 2px}.vid a{font-size:12px}
+.yt{position:relative;display:block;width:100%;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#000;cursor:pointer;border:0;padding:0}
+.yt img{width:100%;height:100%;object-fit:cover;opacity:.85}.yt:after{content:"▶";position:absolute;inset:0;margin:auto;width:46px;height:32px;border-radius:8px;background:#c4302b;color:#fff;font-size:16px;display:flex;align-items:center;justify-content:center}
+.yt.on:after{display:none}.yt iframe{width:100%;height:100%;border:0}
 .pracbox{margin-top:14px;border:1.5px solid var(--prac-i);background:var(--prac);border-radius:10px;padding:10px 14px}.pracbox ul{margin:6px 0;padding-left:18px}
 .tags{display:flex;gap:4px}.tag.cfat{background:#efe9fb;color:#5b3fb0;font-weight:600}
 .card.has-cfat{box-shadow:inset 0 -3px 0 #8a6ad8}
@@ -186,7 +191,11 @@ function nests(l){const c=cfs(l),n=a=>(a||[]).reduce((t,g)=>t+(g.items?g.items.l
    +nest('sc','Success criteria',l.successCriteria?.length?grouped(l.successCriteria):'',n(l.successCriteria))
    +nest('sd','Study Design',l.studyDesign?.length?list(l.studyDesign):'',l.studyDesign?.length)
    +nest('voc','Key vocabulary',l.keyVocab?.length?`<ul>${l.keyVocab.map(v=>{const i=v.indexOf(': ');return `<li>${i>0?`<b>${esc(v.slice(0,i))}</b>: ${esc(v.slice(i+2))}`:esc(v)}</li>`}).join('')}</ul>`:'',l.keyVocab?.length)
+   +nest('cas','CAS videos',l.cas?`<div class="casg"><div><h4>Casio ClassPad</h4>${vids(l.cas.classpad)}</div><div><h4>TI-nspire</h4>${vids(l.cas.ti)}</div></div>`:'',l.cas?(l.cas.classpad.length+l.cas.ti.length):null)
    +nest('wedo','Worked examples &amp; you trys',l.weDo?.length?`<ol class="wedo">${l.weDo.map(x=>`<li><span class="sub">${esc(x.sub)}</span> <b>Example ${x.n}</b> · ${esc(x.title)}<div class="${x.youTry?'yt':'yt none'}">${x.youTry?'You try: '+esc(x.youTry):'No you try'}</div></li>`).join('')}</ol>${l.weDoNote?`<div class="sub">${esc(l.weDoNote)}</div>`:''}`:'',l.weDo?.length)}
+const ytId=u=>{const m=String(u).match(/[?&]v=([\w-]{11})/)||String(u).match(/youtu\.be\/([\w-]{11})/);return m?m[1]:''};
+const ytStart=u=>{const m=String(u).match(/[?&]t=(\d+)/);return m?m[1]:''};
+function vids(arr){return (arr||[]).map(v=>{const id=ytId(v.url);return `<div class="vid"><button class="yt" data-yt="${id}" data-start="${ytStart(v.url)}" aria-label="Play ${esc(v.title)}"><img loading="lazy" src="https://i.ytimg.com/vi/${id}/mqdefault.jpg" alt=""></button><div class="vt">${esc(v.title)}</div><a href="${esc(v.url)}" target="_blank" rel="noopener">Open on YouTube ↗</a></div>`}).join('')||'<div class="empty">None for this lesson</div>'}
 function detail(l){
   const t=tasksOf(l),s=state(l.id);
   return `<div class="detail" data-for="${l.id}"><div>
@@ -221,6 +230,7 @@ function renderClass(c){
   $('#main').querySelectorAll('.detail').forEach(dv=>{const id=dv.dataset.for;
     dv.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.onchange=()=>{const s=state(id);s.done=s.done||{};s.done[cb.dataset.i]=cb.checked;setState(id,s);renderClass(c)});
     dv.querySelectorAll('[data-nest]').forEach(n=>n.ontoggle=()=>store.set('nest:'+n.dataset.nest,n.open));
+    dv.querySelectorAll('.yt[data-yt]').forEach(bt=>bt.onclick=()=>{bt.innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${bt.dataset.yt}?autoplay=1${bt.dataset.start?'&start='+bt.dataset.start:''}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;bt.onclick=null;bt.style.cursor='default';bt.classList.add('on')});
     const ta=dv.querySelector('[data-notes]');if(ta)ta.oninput=()=>{const s=state(id);s.notes=ta.value;setState(id,s)};});
   typeset();
 }

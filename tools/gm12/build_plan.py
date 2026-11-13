@@ -130,6 +130,35 @@ for l in L:
   if l['id'] in WEDO:
     l['weDo']=[dict(n=n,sub=EX[n][0],title=EX[n][1],youTry=EX[n][2]) for n in WEDO[l['id']]]
     if l['id']=='gm12-u3-s5': l['weDoNote']='1I is online-only in Cambridge: no printed Examples.'
+# CAS videos: links from 12MAG 2027\CAS Videos (Casio ClassPad and TI-nspire support-video lists for VCE GM 3&4).
+def yt(t,u): return dict(title=t,url=u)
+CP={'stat':yt('ClassPad Help 400 – Statistics: basic settings and actions','https://www.youtube.com/watch?v=Qqg8vWK3SE8'),
+ 'pie':yt('ClassPad Help 520 – Pie chart','https://www.youtube.com/watch?v=PKbqBLbW9DI'),
+ 'hl':yt('ClassPad Help 406 – Create a histogram from a list','https://www.youtube.com/watch?v=2YuJoKS4XvM'),
+ 'hf':yt('ClassPad Help 407 – Create a histogram from a frequency table','https://www.youtube.com/watch?v=E3JIz_SDywE'),
+ 'hc':yt('ClassPad Help 440 – Histogram class intervals','https://www.youtube.com/watch?v=nnJtqIB6yWM'),
+ 'sl':yt('ClassPad Help 401 – Statistical calcs from a list','https://www.youtube.com/watch?v=K93TBJP-uaA'),
+ 'sf':yt('ClassPad Help 402 – Statistical calcs from a frequency table','https://www.youtube.com/watch?v=GjbQKBD9f00'),
+ 'bl':yt('ClassPad Help 403 – Create a boxplot from a list','https://www.youtube.com/watch?v=HBS1g3cja2g'),
+ 'bf':yt('ClassPad Help 404 – Create a boxplot from a frequency table','https://www.youtube.com/watch?v=sw2xy8_x1k0'),
+ 'bm':yt('ClassPad Help 405 – Create multiple boxplots','https://www.youtube.com/watch?v=NCoE4Z-irZ0'),
+ 'calc':yt('ClassPad Help 007 – Simple calculations in Main','https://www.youtube.com/watch?v=Zb9V3RwXVLA')}
+TI={'bar':yt('Bar & pie graphs | Getting Started Series – Data & Statistics','https://www.youtube.com/watch?v=Wt0QZBrRzDA'),
+ 'lists':yt('Analysing data | Getting Started Series – Lists & Spreadsheets','https://www.youtube.com/watch?v=qDZRQeUvC0I'),
+ 'hist':yt('Creating histograms | Getting Started Series – Data & Statistics','https://www.youtube.com/watch?v=YrluejAQRK4'),
+ 'dotbox':yt('Dot plots & box plots | Getting Started Series – Data & Statistics','https://www.youtube.com/watch?v=73Ymuvv-BU8'),
+ 'long':yt('Data analysis: box-plots, dot-plots and histograms (long walkthrough)','https://www.youtube.com/watch?v=wCb6z1IbVy8&t=965s'),
+ 'uni':yt('Data analysis – univariate data (long walkthrough)','https://www.youtube.com/watch?v=lqml9PBBhV0&t=630s'),
+ 'z':yt('Calculating and understanding z-scores with TI-nspire','https://www.youtube.com/watch?v=yrR9IALJD6g'),
+ 'calc':yt('Settings and calculations | Getting Started Series – Calculator','https://www.youtube.com/watch?v=35RcQzXqj6o')}
+CASV={'gm12-u3-s1':(['stat','pie'],['bar','lists']),
+ 'gm12-u3-s2':(['hl','hf','hc','calc'],['hist','dotbox','calc','long']),
+ 'gm12-u3-s3':(['sl','sf'],['lists','uni']),
+ 'gm12-u3-s4':(['bl','bf','bm'],['dotbox','long']),
+ 'gm12-u3-s5':(['sl','calc'],['z'])}
+for l in L:
+  if l['id'] in CASV:
+    a,b=CASV[l['id']]; l['cas']=dict(classpad=[CP[k] for k in a],ti=[TI[k] for k in b])
 ids={l['title']:l for l in L}
 def when(t):l=ids[t];return dict(id=l['id'],week=l['week'],lesson=l['lesson'])
 SD='VCE Mathematics Study Design 2023–2027'
