@@ -49,6 +49,20 @@ for blk,wl,tl,_,_ in W:
     if l['weekLabel']==wl and l['termLabel']==tl: l['dates']=rng(blk,wl)
 for l in L:
   if l['title']=='Unit 3 trial exams': l['span']=3
+# CFATs (from Planning\Topics\1. Data Analysis\README.md + HANDOFF.md). ~20 min each, on lighter lessons.
+FMT='About 20 min, start of lesson, individual, closed book (CAS allowed)'
+SRC='Edrolo GM U3&4 2023 exercise questions (CFAT-only)'
+DIR='1. Data Analysis\\CFATs\\Chapter 1\\'
+CF={
+ 'gm12-u3-s4':[dict(id='CFAT 1.1.1',title='Types of data, displays, log scales',covers=['1A','1B','1C','1D','1E'],format=FMT,file=DIR+'CFAT 1.1.1 [1A–1E].docx',status='Written (10 Nov 2026)',
+   plan='Done at the start of the 1G lesson, a single-subchapter lesson. Covers everything from Step-up lessons 1–3.',sources=[SRC+': 1A Q15, Q17 · 1B Q8, Q9 · 1C Q6, Q17 · 1D Q9, Q12, Q14'])],
+ 'gm12-u3-l01':[dict(id='CFAT 1.1.2',title='Describing numerical data: median, IQR, boxplots, SOCS',covers=['1F (median, IQR)','1G'],format=FMT,file=DIR+'CFAT 1.1.2 [1F, 1G].docx',status='Written (10 Nov 2026)',
+   plan='Chapter 1 review lesson, after the summer break.',sources=[SRC+': 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19']),
+  dict(id='CFAT 1.1.3',title='Mean and SD, the normal distribution, z-scores',covers=['1F (mean, SD)','1H','1I'],format=FMT,file=DIR+'CFAT 1.1.3 [1H, 1F, 1I].docx',status='Written (10 Nov 2026)',marks=16,
+   plan='Chapter 1 review lesson, straight after CFAT 1.1.2. Cambridge 1I not assessed. Q8a has a blank normal curve scaffold.',sources=[SRC+': 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15'])],
+}
+for l in L:
+  if l['id'] in CF: l['cfats']=CF[l['id']]
 ids={l['title']:l for l in L}
 def when(t):l=ids[t];return dict(id=l['id'],week=l['week'],lesson=l['lesson'])
 SD='VCE Mathematics Study Design 2023–2027'

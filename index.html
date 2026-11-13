@@ -122,6 +122,7 @@ let data={},tab=store.get('tab','physics-11'),view=store.get('view','plan'),open
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const state=id=>store.get('st:'+id,{}), setState=(id,s)=>store.set('st:'+id,s);
+const cfs=l=>l.cfats||(l.cfat?[l.cfat]:[]);
 function tasksOf(l){const s=state(l.id);return l.tasks.map((t,i)=>({...t,done:s.done?.[i]??t.done}))}
 function progress(l){const t=tasksOf(l);return t.length?t.filter(x=>x.done).length/t.length:0}
 function list(arr,empty){return arr&&arr.length?`<ul>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:`<div class="empty">${empty||'None'}</div>`}
@@ -132,6 +133,13 @@ function renderTabs(){
   $('#tabs').innerHTML=[...CLASSES.map(c=>`<button data-t="${c.id}" class="${tab==c.id?'on':''}">${c.name}</button>`),`<button data-t="schedule" class="${tab=='schedule'?'on':''}">Schedule</button>`].join('');
   $('#tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{tab=b.dataset.t;store.set('tab',tab);render()});
 }
+function cfatDetails(c){return `<div class="cfatbox" style="margin:0 0 14px"><div class="meta"><span>CFAT DETAILS</span>${c.marks?`<span>/${c.marks}</span>`:''}</div>
+  <div class="ttl"><b>${esc(c.id)}</b> · ${esc(c.title)}</div>
+  <div class="sub" style="margin-top:2px">Covers ${esc((c.covers||[]).join(', '))} · ${esc(c.format||'')}</div>
+  ${c.plan?`<div style="font-size:13px;margin-top:6px">${esc(c.plan)}</div>`:''}
+  ${c.status?`<h3>Status</h3><div>${esc(c.status)}</div>`:''}
+  ${c.file?`<h3>File</h3><div class="sub" style="word-break:break-all">${esc(c.file)}</div>`:''}
+  ${c.sources?.length?`<h3>Sources</h3>${list(c.sources)}`:''}</div>`}
 function cfatBox(c){return `<details class="cfatbox"><summary><b>${esc(c.id)}</b> · ${esc(c.title)} <span class="sub">· ${esc(c.format)}</span></summary>
   <div class="meta" style="margin-top:8px"><span>Covers ${esc(c.covers.join(', '))}</span></div>
   <div style="font-size:13px;margin-top:4px">${esc(c.plan)}</div><h3>Sources</h3>${list(c.sources)}</details>`}
@@ -169,11 +177,10 @@ function detail(l){
     <h2>${l.section?esc(l.section)+' · ':''}${esc(l.title)}</h2>
     ${l.keyKnowledge?.length?`<h3>Key knowledge</h3>${list(l.keyKnowledge)}`:''}
     ${l.prac?pracBox(l.prac):''}
-    ${l.cfat?cfatBox(l.cfat):''}
     ${pearsonPane(l)}
     <h3>Prep tasks</h3>${t.length?t.map((x,i)=>`<label><input type="checkbox" data-i="${i}" ${x.done?'checked':''}> ${esc(x.text)}</label>`).join(''):'<div class="empty">No tasks</div>'}
     <h3>Notes</h3><textarea data-notes placeholder="Reflections, changes for next time">${esc(s.notes??'')}</textarea>
-  </div><div class="seq">${seqPane(l)}</div></div>`}
+  </div><div class="seq">${cfs(l).map(cfatDetails).join('')}${seqPane(l)}</div></div>`}
 function renderClass(c){
   const d=data[c.id],sel=$('#aosFilter'),f=sel.value;
   const aosList=[...new Set(d.lessons.map(l=>l.aos))];
@@ -187,8 +194,8 @@ function renderClass(c){
     const W=L.filter(l=>l.week==w);
     if(W[0].aos!=lastA){lastA=W[0].aos;h+=`<div class="aos"><b>${esc(lastA)}</b><span>${esc(W[0].aosTitle)}</span></div>`}
     h+=`<div class="week"><div class="wl"><b>${esc(W[0].weekLabel||'Week '+w)}</b>${esc(W[0].termLabel||'Semester 1')}${W[0].dates?`<span class="wdates">${esc(W[0].dates)}</span>`:''}</div>`;
-    for(const l of W)h+=`<div class="card t-${l.type} ${l.span==3?'span3':''} ${l.cfat?'has-cfat':''} ${openId==l.id?'open':''}" data-id="${l.id}">
-      <div class="meta"><span>L${l.lesson}${l.section?' · '+esc(l.section):''}</span><span class="tags">${l.cfat?'<span class="tag cfat">CFAT</span>':''}<span class="tag">${TYPE[l.type]}</span></span></div>
+    for(const l of W)h+=`<div class="card t-${l.type} ${l.span==3?'span3':''} ${cfs(l).length?'has-cfat':''} ${openId==l.id?'open':''}" data-id="${l.id}">
+      <div class="meta"><span>L${l.lesson}${l.section?' · '+esc(l.section):''}</span><span class="tags">${cfs(l).length?`<span class="tag cfat">${cfs(l).length>1?cfs(l).length+' CFATs':'CFAT'}</span>`:''}<span class="tag">${TYPE[l.type]}</span></span></div>
       <div class="ttl">${esc(l.title)}</div><div class="bar"><i style="width:${Math.round(progress(l)*100)}%"></i></div></div>`;
     W.filter(l=>expandAll||l.id==openId).forEach(l=>h+=detail(l));
     h+='</div>';
@@ -216,9 +223,9 @@ function renderAssessment(c){
   $('#main').querySelectorAll('.goto').forEach(b=>b.onclick=()=>{view='plan';store.set('view',view);openId=b.dataset.id;render();setTimeout(()=>document.querySelector(`[data-id="${b.dataset.id}"]`)?.scrollIntoView({block:'center'}),50)});
 }
 function cfatList(c){const d=data[c.id];
-  return [...d.lessons.filter(l=>l.cfat).map(l=>({...l.cfat,lessonId:l.id,when:`${l.weekLabel||'Week '+l.week} · Lesson ${l.lesson}`})),...(d.cfats||[])]}
+  return [...d.lessons.flatMap(l=>cfs(l).map(c=>({...c,lessonId:l.id,when:`${l.weekLabel||'Week '+l.week} · Lesson ${l.lesson}`}))),...(d.cfats||[])]}
 function renderCfats(c){
-  const C=cfatList(c),st=store.get('cfat:'+c.id,{});
+  const C=cfatList(c),st0=store.get('cfat:'+c.id,{}),st={};C.forEach(x=>st[x.id]={status:/^written/i.test(x.status||'')?'written':'planned',...st0[x.id]});
   let h=`<div class="unit">CFATs · ${esc(data[c.id].unitLabel||'Unit 1')} <span class="scope">· ${C.length} planned</span></div>`;
   if(!C.length){$('#main').innerHTML=h+'<div class="placeholder"><h2>No CFATs planned yet</h2>CFATs added to this class’s lessons will be listed here, with status and notes for each.</div>';return}
   const n=k=>C.filter(x=>(st[x.id]?.status||'planned')==k).length;
