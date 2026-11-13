@@ -6,7 +6,7 @@ A1=('U3 AoS1','Data analysis'); A2=('U3 AoS2','Recursion and financial modelling
 # (block, weekLabel, termLabel, aos, [(type, section, title), ...])
 W=[
  ('su','Step-up week 1','Nov–Dec 2026',A1,[('lesson','1A–1B','Types of data; categorical data'),('lesson','1C–1E','Histograms, dot plots and stem plots; log scales')]),
- ('su','Step-up week 2','Nov–Dec 2026',A1,[('lesson','1F','Measures of centre and spread'),('lesson','1G','Five-number summary, boxplots and outliers'),('lesson','1H–1I','Normal distribution, z-scores; populations and samples')]),
+ ('su','Step-up week 2','Nov–Dec 2026',A1,[('lesson','1F–1G','Centre and spread; five-number summary, boxplots and outliers'),('lesson','1H–1I','Normal distribution, z-scores; populations and samples'),('review','1','CFAT 1.1.3 and CFAT feedback')]),
  ('t1','Week 1','Term 1 · short week',A1,[('sac','1','Chapter 1 test (part 1)'),('sac','1','Chapter 1 test (part 2)')]),
  ('t1','Week 2','Term 1',A1,[('lesson','2A–2B','Response and explanatory variables; two-way tables'),('lesson','2C','Numerical vs categorical: parallel boxplots, back-to-back stem plots'),('lesson','2D–2E','Scatterplots: direction, form and strength')]),
  ('t1','Week 3','Term 1',A1,[('lesson','2F','Correlation coefficient, $r$'),('lesson','2G–2H','Coefficient of determination; correlation and causation'),('review','2I','Which graph? and Chapter 2 review')]),
@@ -55,11 +55,11 @@ SRC='Edrolo GM U3&4 2023 exercise questions (CFAT-only)'
 DIR='1. Data Analysis\\CFATs\\Chapter 1\\'
 CF={
  'gm12-u3-s3':[dict(id='CFAT 1.1.1',title='Types of data, displays, log scales',covers=['1A','1B','1C','1D','1E'],format=FMT,file=DIR+'CFAT 1.1.1 [1A–1E].docx',status='Written (10 Nov 2026)',
-   plan='First 20 min of Step-up lesson 3 (1F). Covers everything from step-up week 1.',sources=[SRC+': 1A Q15, Q17 · 1B Q8, Q9 · 1C Q6, Q17 · 1D Q9, Q12, Q14'])],
+   plan='Start of Step-up lesson 3. Covers step-up week 1 (1A–1E).',sources=[SRC+': 1A Q15, Q17 · 1B Q8, Q9 · 1C Q6, Q17 · 1D Q9, Q12, Q14'])],
  'gm12-u3-s4':[dict(id='CFAT 1.1.2',title='Describing numerical data: median, IQR, boxplots, SOCS',covers=['1F (median, IQR)','1G'],format=FMT,file=DIR+'CFAT 1.1.2 [1F, 1G].docx',status='Written (10 Nov 2026)',
-   plan='Last 20 min of Step-up lesson 4 (1G), once 1G has been taught.',sources=[SRC+': 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19'])],
+   plan='Start of Step-up lesson 4. Covers Step-up lesson 3 (1F–1G).',sources=[SRC+': 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19'])],
  'gm12-u3-s5':[dict(id='CFAT 1.1.3',title='Mean and SD, the normal distribution, z-scores',covers=['1F (mean, SD)','1H','1I'],format=FMT,file=DIR+'CFAT 1.1.3 [1H, 1F, 1I].docx',status='Written (10 Nov 2026)',marks=16,
-   plan='Last 20 min of Step-up lesson 5 (1H–1I), once 1H has been taught. Cambridge 1I not assessed. Q8a has a blank normal curve scaffold.',sources=[SRC+': 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15'])],
+   plan='Start of Step-up lesson 5. Covers Step-up lesson 4 (1H–1I). The rest of the lesson is feedback on CFATs 1.1.1–1.1.3. Cambridge 1I not assessed. Q8a has a blank normal curve scaffold.',sources=[SRC+': 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15'])],
 }
 for l in L:
   if l['id'] in CF: l['cfats']=CF[l['id']]
@@ -96,8 +96,8 @@ V=dict(
  cen=['Summary statistics: numbers that describe features of a distribution, such as centre and spread','Mean (x̄): the sum of the values divided by n','Median (M): the middle value of the ordered data','Range: largest value minus smallest value','Quartiles (Q1, Q3): split the ordered data into four equal groups','Interquartile range (IQR): Q3 − Q1, the spread of the middle 50%','Standard deviation (s): spread of the data around the mean'],
  box=['Five-number summary: min, Q1, median, Q3, max','Boxplot: a display of the five-number summary, with outliers shown separately','Lower fence: Q1 − 1.5 × IQR','Upper fence: Q3 + 1.5 × IQR','Outlier: a value below the lower fence or above the upper fence'],
  nor=['Normal distribution: a bell-shaped model for symmetric data','68–95–99.7% rule: about 68%, 95% and 99.7% of values lie within 1, 2 and 3 standard deviations of the mean','Standardised score (z-score): how many standard deviations a value is above or below the mean','Population: every member of the group being studied','Sample: a subset of the population'])
-DET={'gm12-u3-s1':(['1A','1B'],[0,1,3],V['cat']),'gm12-u3-s2':(['1C','1D','1E'],[2,3],V['num']),'gm12-u3-s3':(['1F'],[4],V['cen']),
- 'gm12-u3-s4':(['1G'],[4,3],V['box']),'gm12-u3-s5':(['1H','1I'],[5],V['nor'])}
+DET={'gm12-u3-s1':(['1A','1B'],[0,1,3],V['cat']),'gm12-u3-s2':(['1C','1D','1E'],[2,3],V['num']),'gm12-u3-s3':(['1F','1G'],[4,3],V['cen']+V['box']),
+ 'gm12-u3-s4':(['1H','1I'],[5],V['nor'])}
 for l in L:
   if l['id'] in DET:
     subs,sd,voc=DET[l['id']]
@@ -125,11 +125,11 @@ EX={1:('1A','Types of data','Edrolo 1A Q11 a–e'),
  30:('1H','Using standardised scores to make comparisons','Edrolo 1I WE3'),31:('1H','Using standardised scores to find percentages','Edrolo 1H WE2a'),
  32:('1H','Converting standardised scores into actual scores','Edrolo 1I WE2'),33:('1H','Finding the standard deviation given the mean and one percentage',None),
  34:('1H','Finding the mean and standard deviation','Edrolo 1H WE3a')}
-WEDO={'gm12-u3-s1':range(1,6),'gm12-u3-s2':range(6,14),'gm12-u3-s3':range(14,22),'gm12-u3-s4':range(22,28),'gm12-u3-s5':range(28,35)}
+WEDO={'gm12-u3-s1':range(1,6),'gm12-u3-s2':range(6,14),'gm12-u3-s3':range(14,28),'gm12-u3-s4':range(28,35)}
 for l in L:
   if l['id'] in WEDO:
     l['weDo']=[dict(n=n,sub=EX[n][0],title=EX[n][1],youTry=EX[n][2]) for n in WEDO[l['id']]]
-    if l['id']=='gm12-u3-s5': l['weDoNote']='1I is online-only in Cambridge: no printed Examples.'
+    if l['id']=='gm12-u3-s4': l['weDoNote']='1I is online-only in Cambridge: no printed Examples.'
 # CAS videos: links from 12MAG 2027\CAS Videos (Casio ClassPad and TI-nspire support-video lists for VCE GM 3&4).
 def yt(t,u): return dict(title=t,url=u)
 CP={'stat':yt('ClassPad Help 400 – Statistics: basic settings and actions','https://www.youtube.com/watch?v=Qqg8vWK3SE8'),
@@ -158,9 +158,8 @@ SK=lambda name,cp,ti:dict(skill=name,classpad=[CP[k] for k in cp],ti=[TI[k] for 
 CASV={'gm12-u3-s1':[SK('Setting up the statistics app',['stat'],['lists'])],
  'gm12-u3-s2':[SK('Creating a histogram',['hl','hf'],['hist']),SK('Setting histogram class intervals',['hc'],[]),
    SK('Creating a dot plot',[],['dotbox']),SK('Finding logs (base 10)',['calc'],['calc']),SK('Full walkthrough: dot plots, boxplots and histograms',[],['long'])],
- 'gm12-u3-s3':[SK('Calculating summary statistics (mean, median, standard deviation)',['sl','sf'],['lists','uni'])],
- 'gm12-u3-s4':[SK('Creating a boxplot',['bl','bf'],['dotbox','long']),SK('Creating parallel boxplots',['bm'],[])],
- 'gm12-u3-s5':[SK('Calculating z-scores',['calc'],['z']),SK('Normal probability calculations',['n80','n470','n81'],[])]}
+ 'gm12-u3-s3':[SK('Calculating summary statistics (mean, median, standard deviation)',['sl','sf'],['lists','uni']),SK('Creating a boxplot',['bl','bf'],['dotbox','long']),SK('Creating parallel boxplots',['bm'],[])],
+ 'gm12-u3-s4':[SK('Calculating z-scores',['calc'],['z']),SK('Normal probability calculations',['n80','n470','n81'],[])]}
 for l in L:
   if l['id'] in CASV: l['cas']=CASV[l['id']]
 ids={l['title']:l for l in L}
