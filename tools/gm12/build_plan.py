@@ -397,5 +397,23 @@ for l in L:
         l['apk']=[dict(kind='Skill',ref=f'Cambridge U1&2 {s} checklist #{n}',text=CL[(s,n)]) for s,n in cl]+\
                  [dict(kind='Exam',ref=f'Edrolo U1&2 {s} Q{n}',text=ED[(s,n)]) for s,n in ed]
 
+
+# ---- Exit tasks: Edrolo General Mathematics Units 3&4 exam practice (VCAA) questions ----
+import re as _re, csv as _c2
+_EP={(r['edrolo_lesson'],int(r['q'])):_re.sub(r'\s*Data analysis','',r['source']) for r in _c2.DictReader(open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)),'y12_edrolo_exam_practice.csv'),encoding='utf-8'))}
+EXIT={'gm12-u3-s1':[('1A',15),('1A',17),('1B',13)],'gm12-u3-s2':[('1C',17),('1C',18),('1D',13)],
+ 'gm12-u3-s3':[('1E',17),('1F',19),('1G',10)],'gm12-u3-s4':[('1H',11),('1I',12),('1I',15)],
+ 'gm12-u3-l03':[('2A',11),('2A',13)],'gm12-u3-l04':[('2B',11),('2B',12),('2B',13)],
+ 'gm12-u3-l05':[('2C',15),('2C',16)],'gm12-u3-l06':[('2C',17)],'gm12-u3-l07':[('2D',13),('2D',14)],
+ 'gm12-u3-l09':[('3A',13),('3A',14),('3A',15)],'gm12-u3-l10':[('3B',11),('3B',12),('3B',13)],
+ 'gm12-u3-l11':[('3C',11),('3C',13),('3C',14)],'gm12-u3-l13':[('3E',10),('3E',12)],
+ 'gm12-u3-l14':[('3E',11)],'gm12-u3-l15':[('3D',14),('3E',13)],
+ 'gm12-u3-l16':[('4A',11),('4A',12),('4A',13)],'gm12-u3-l17':[('4B',16),('4B',17)],
+ 'gm12-u3-l18':[('4B',15),('4B',18)],'gm12-u3-l19':[('4C',13),('4C',14),('4C',15)],
+ 'gm12-u3-l20':[('4D',19),('4D',17)],'gm12-u3-l21':[('4D',18)],'gm12-u3-l22':[('4E',12)]}
+for l in L:
+    if l.get('id') in EXIT:
+        l['exit']=[dict(ref=f'Edrolo U3&4 {s} Q{n}',src=_EP[(s,n)]) for s,n in EXIT[l['id']]]
+
 json.dump(d,open('classes/general-maths-12.json','w'),ensure_ascii=False,indent=1)
 print(len(L),'entries')
