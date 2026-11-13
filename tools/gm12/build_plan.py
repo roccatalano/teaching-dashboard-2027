@@ -107,7 +107,7 @@ for l in L:
     l['keyVocab']=voc
 # We Do: Cambridge Examples (titles from the Chapter 1 skills checklist / example headings) paired with the
 # Edrolo You Try map agreed with Rocco (Planning\Topics\1. Data Analysis\HANDOFF.md). Edrolo chapter letters differ from Cambridge.
-EX={1:('1A','Types of data','Edrolo 1A Q11 a–e (exercise question; approved exception)'),
+EX={1:('1A','Types of data','Edrolo 1A Q11 a–e'),
  2:('1B','Constructing a frequency table for categorical data','Edrolo 1B WE1'),3:('1B','Constructing a bar chart from a frequency table','Edrolo 1B WE2'),
  4:('1B','Constructing a percentage segmented bar chart','Edrolo 1B WE3'),5:('1B','Describing the distribution of a categorical variable','Edrolo 1B WE4'),
  6:('1C','Constructing a frequency table for discrete numerical data',None),7:('1C','Constructing a grouped frequency table','Edrolo 1C WE4'),

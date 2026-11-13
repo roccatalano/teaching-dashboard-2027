@@ -186,7 +186,7 @@ function nests(l){const c=cfs(l),n=a=>(a||[]).reduce((t,g)=>t+(g.items?g.items.l
    +nest('sc','Success criteria',l.successCriteria?.length?grouped(l.successCriteria):'',n(l.successCriteria))
    +nest('sd','Study Design',l.studyDesign?.length?list(l.studyDesign):'',l.studyDesign?.length)
    +nest('voc','Key vocabulary',l.keyVocab?.length?`<ul>${l.keyVocab.map(v=>{const i=v.indexOf(': ');return `<li>${i>0?`<b>${esc(v.slice(0,i))}</b>: ${esc(v.slice(i+2))}`:esc(v)}</li>`}).join('')}</ul>`:'',l.keyVocab?.length)
-   +nest('wedo','We Do · worked examples &amp; you try',l.weDo?.length?`<ol class="wedo">${l.weDo.map(x=>`<li><span class="sub">${esc(x.sub)}</span> <b>Example ${x.n}</b> · ${esc(x.title)}<div class="${x.youTry?'yt':'yt none'}">${x.youTry?'You try: '+esc(x.youTry):'No You try (no matching Edrolo worked example)'}</div></li>`).join('')}</ol>${l.weDoNote?`<div class="sub">${esc(l.weDoNote)}</div>`:''}`:'',l.weDo?.length)}
+   +nest('wedo','Worked examples &amp; you trys',l.weDo?.length?`<ol class="wedo">${l.weDo.map(x=>`<li><span class="sub">${esc(x.sub)}</span> <b>Example ${x.n}</b> · ${esc(x.title)}<div class="${x.youTry?'yt':'yt none'}">${x.youTry?'You try: '+esc(x.youTry):'No you try'}</div></li>`).join('')}</ol>${l.weDoNote?`<div class="sub">${esc(l.weDoNote)}</div>`:''}`:'',l.weDo?.length)}
 function detail(l){
   const t=tasksOf(l),s=state(l.id);
   return `<div class="detail" data-for="${l.id}"><div>
