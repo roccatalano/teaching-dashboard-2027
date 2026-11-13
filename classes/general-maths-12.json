@@ -942,8 +942,8 @@
     },
     {
      "kind": "Exam",
-     "ref": "Edrolo U1&2 1G Q12",
-     "text": "adapted from VCAA 2019 Exam 1 Q6"
+     "ref": "Edrolo U1&2 1G Q13",
+     "text": "adapted from VCAA 2017 Exam 2 Q1bi"
     },
     {
      "kind": "Exam",
@@ -1206,11 +1206,6 @@
      "kind": "Skill",
      "ref": "Cambridge U1&2 1A checklist #2",
      "text": "Convert decimals to percentages"
-    },
-    {
-     "kind": "Exam",
-     "ref": "Edrolo U1&2 6A Q14",
-     "text": "adapted from VCAA 2018 Exam 2 Q2b"
     }
    ],
    "exit": [
@@ -1516,11 +1511,6 @@
      "kind": "Exam",
      "ref": "Edrolo U1&2 6A Q16",
      "text": "adapted from VCAA 2020 Exam 2 Q4bi"
-    },
-    {
-     "kind": "Exam",
-     "ref": "Edrolo U1&2 6B Q14",
-     "text": "adapted from VCAA 2016 Exam 2 Q3a"
     }
    ],
    "exit": [
@@ -1645,11 +1635,6 @@
      "kind": "Exam",
      "ref": "Edrolo U1&2 6B Q15",
      "text": "adapted from VCAA 2016 Exam 1 Q12"
-    },
-    {
-     "kind": "Exam",
-     "ref": "Edrolo U1&2 6B Q16",
-     "text": "adapted from VCAA 2020 Exam 2 Q6b"
     }
    ],
    "exit": [
@@ -3151,8 +3136,8 @@
     },
     {
      "kind": "Exam",
-     "ref": "Edrolo U1&2 1E Q13",
-     "text": "adapted from VCAA 2021 Exam 2 Q1b"
+     "ref": "Edrolo U1&2 1E Q12",
+     "text": "adapted from VCAA 2020 Exam 2 Q4aii"
     }
    ],
    "exit": [
