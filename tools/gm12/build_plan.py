@@ -423,5 +423,15 @@ for l in L:
     if _DN.get(k):
         l['doNow']=[dict(exam=f"Exam {x['ex']}",ref=f"VCAA {x['paper']} Exam {x['ex']} {x['q']}",sec=x['sec']) for x in _DN[k]]
 
+
+# ---- Lesson materials (placeholders; status 'todo' | 'draft' | 'ready'; file = path when made) ----
+MAT_KINDS=[('Guided slides','Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.'),
+           ('Guided worksheet','Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.'),
+           ('Bound reference entry','One A4 sheet: key ideas, key formulas, simple how-tos and examples.')]
+MAT_LESSONS=['gm12-u3-s1','gm12-u3-s2','gm12-u3-s3','gm12-u3-s4']
+for l in L:
+    if l.get('id') in MAT_LESSONS:
+        l['materials']=[dict(kind=k,desc=d,status='todo',file='') for k,d in MAT_KINDS]
+
 json.dump(d,open('classes/general-maths-12.json','w'),ensure_ascii=False,indent=1)
 print(len(L),'entries')

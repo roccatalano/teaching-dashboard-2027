@@ -179,6 +179,26 @@
      "ref": "Edrolo U3&4 1B Q13",
      "src": "Adapted from VCAA 2017 Exam 1 Q5"
     }
+   ],
+   "materials": [
+    {
+     "kind": "Guided slides",
+     "desc": "Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Guided worksheet",
+     "desc": "Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Bound reference entry",
+     "desc": "One A4 sheet: key ideas, key formulas, simple how-tos and examples.",
+     "status": "todo",
+     "file": ""
+    }
    ]
   },
   {
@@ -453,6 +473,26 @@
      "exam": "Exam 2",
      "ref": "VCAA 2023 Exam 2 Q1a",
      "sec": "1A"
+    }
+   ],
+   "materials": [
+    {
+     "kind": "Guided slides",
+     "desc": "Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Guided worksheet",
+     "desc": "Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Bound reference entry",
+     "desc": "One A4 sheet: key ideas, key formulas, simple how-tos and examples.",
+     "status": "todo",
+     "file": ""
     }
    ]
   },
@@ -794,6 +834,26 @@
      "ref": "VCAA 2024 NHT Exam 2 Q2a",
      "sec": "1B"
     }
+   ],
+   "materials": [
+    {
+     "kind": "Guided slides",
+     "desc": "Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Guided worksheet",
+     "desc": "Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Bound reference entry",
+     "desc": "One A4 sheet: key ideas, key formulas, simple how-tos and examples.",
+     "status": "todo",
+     "file": ""
+    }
    ]
   },
   {
@@ -1024,6 +1084,26 @@
      "exam": "Exam 2",
      "ref": "VCAA 2024 NHT Exam 2 Q1b",
      "sec": "1G"
+    }
+   ],
+   "materials": [
+    {
+     "kind": "Guided slides",
+     "desc": "Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Guided worksheet",
+     "desc": "Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Bound reference entry",
+     "desc": "One A4 sheet: key ideas, key formulas, simple how-tos and examples.",
+     "status": "todo",
+     "file": ""
     }
    ]
   },
