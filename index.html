@@ -59,6 +59,12 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 .ov{background:#fbfaf6;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 14px;display:grid;grid-template-columns:1fr 1.3fr;gap:20px}
 .ov h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:12px 0 4px}.ov ol,.ov ul{margin:0;padding-left:20px;line-height:1.55}
 @media(max-width:760px){.ov{grid-template-columns:1fr}}
+.nest{border:1px solid var(--line);border-radius:10px;margin:10px 0;background:var(--card)}
+.nest>summary{list-style:none;cursor:pointer;padding:9px 12px;display:flex;justify-content:space-between;align-items:center;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);font-weight:600}
+.nest>summary::-webkit-details-marker{display:none}.nest>summary:after{content:"▾";font-size:12px;transition:transform .15s}.nest:not([open])>summary:after{transform:rotate(-90deg)}
+.nest>summary .cnt{font-weight:400;text-transform:none;letter-spacing:0;margin-left:auto;margin-right:8px}
+.nest>.nb{padding:0 14px 12px;font-size:13px;line-height:1.55}.nest .nb ul{margin:4px 0;padding-left:18px}.nest .nb h4{margin:8px 0 2px;font-size:12px;color:var(--ink)}
+.nest.n-cfat{border-color:#8a6ad8;background:#f7f4fe}.nest.n-cfat>summary{color:#5b3fb0}
 .pracbox{margin-top:14px;border:1.5px solid var(--prac-i);background:var(--prac);border-radius:10px;padding:10px 14px}.pracbox ul{margin:6px 0;padding-left:18px}
 .tags{display:flex;gap:4px}.tag.cfat{background:#efe9fb;color:#5b3fb0;font-weight:600}
 .card.has-cfat{box-shadow:inset 0 -3px 0 #8a6ad8}
@@ -133,7 +139,7 @@ function renderTabs(){
   $('#tabs').innerHTML=[...CLASSES.map(c=>`<button data-t="${c.id}" class="${tab==c.id?'on':''}">${c.name}</button>`),`<button data-t="schedule" class="${tab=='schedule'?'on':''}">Schedule</button>`].join('');
   $('#tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{tab=b.dataset.t;store.set('tab',tab);render()});
 }
-function cfatDetails(c){return `<div class="cfatbox" style="margin:0 0 14px"><div class="meta"><span>CFAT DETAILS</span>${c.marks?`<span>/${c.marks}</span>`:''}</div>
+function cfatDetails(c){return `<div><div class="meta">${c.marks?`<span>/${c.marks}</span>`:''}</div>
   <div class="ttl"><b>${esc(c.id)}</b> · ${esc(c.title)}</div>
   <div class="sub" style="margin-top:2px">Covers ${esc((c.covers||[]).join(', '))} · ${esc(c.format||'')}</div>
   ${c.plan?`<div style="font-size:13px;margin-top:6px">${esc(c.plan)}</div>`:''}
@@ -170,17 +176,27 @@ function seqPane(l){const q=l.sequence;
       ${s.phase=='Exit ticket'&&q.exitQs?.length?`<ol class="donow">${q.exitQs.map(x=>`<li><span class="sub">${esc(x.note)}</span><div style="white-space:pre-line">${esc(x.q)}</div></li>`).join('')}</ol>`:''}
       ${s.resource?`<div class="sres">${esc(s.resource)}</div>`:''}</div></li>`}).join('')}</ol>
     <h3>Vocabulary</h3><div class="vocab">${q.vocab.map(v=>`<span>${esc(v)}</span>`).join('')}</div>`}
+const nestOpen=k=>store.get('nest:'+k,false);
+function nest(k,title,body,cnt,cls){return body?`<details class="nest ${cls||''}" data-nest="${k}" ${nestOpen(k)?'open':''}><summary>${title}${cnt!=null?`<span class="cnt">${cnt}</span>`:''}</summary><div class="nb">${body}</div></details>`:''}
+function grouped(arr){return (arr||[]).map(g=>`<h4>${esc(g.sub)}</h4>${list(g.items)}`).join('')}
+function nests(l){const c=cfs(l),n=a=>(a||[]).reduce((t,g)=>t+(g.items?g.items.length:1),0);
+  return nest('cfat',c.length>1?'CFAT details · '+c.length+' CFATs':'CFAT details',c.map(cfatDetails).join('<hr style="border:0;border-top:1px solid #d9cff5">'),c.map(x=>x.id).join(', '),'n-cfat')
+   +nest('lo','Learning objectives',l.learningObjectives?.length?grouped(l.learningObjectives):'',n(l.learningObjectives))
+   +nest('sc','Success criteria',l.successCriteria?.length?grouped(l.successCriteria):'',n(l.successCriteria))
+   +nest('sd','Study Design',l.studyDesign?.length?list(l.studyDesign):'',l.studyDesign?.length)
+   +nest('voc','Key vocabulary',l.keyVocab?.length?`<ul>${l.keyVocab.map(v=>{const i=v.indexOf(': ');return `<li>${i>0?`<b>${esc(v.slice(0,i))}</b>: ${esc(v.slice(i+2))}`:esc(v)}</li>`}).join('')}</ul>`:'',l.keyVocab?.length)}
 function detail(l){
   const t=tasksOf(l),s=state(l.id);
   return `<div class="detail" data-for="${l.id}"><div>
     <div class="meta"><span>${esc(l.aos)} · ${esc(l.weekLabel||'Week '+l.week)}${l.termLabel?' ('+esc(l.termLabel)+')':''} · Lesson ${l.lesson}</span></div>
     <h2>${l.section?esc(l.section)+' · ':''}${esc(l.title)}</h2>
+    ${nests(l)}
     ${l.keyKnowledge?.length?`<h3>Key knowledge</h3>${list(l.keyKnowledge)}`:''}
     ${l.prac?pracBox(l.prac):''}
     ${pearsonPane(l)}
     <h3>Prep tasks</h3>${t.length?t.map((x,i)=>`<label><input type="checkbox" data-i="${i}" ${x.done?'checked':''}> ${esc(x.text)}</label>`).join(''):'<div class="empty">No tasks</div>'}
     <h3>Notes</h3><textarea data-notes placeholder="Reflections, changes for next time">${esc(s.notes??'')}</textarea>
-  </div><div class="seq">${cfs(l).map(cfatDetails).join('')}${seqPane(l)}</div></div>`}
+  </div><div class="seq">${seqPane(l)}</div></div>`}
 function renderClass(c){
   const d=data[c.id],sel=$('#aosFilter'),f=sel.value;
   const aosList=[...new Set(d.lessons.map(l=>l.aos))];
@@ -204,6 +220,7 @@ function renderClass(c){
   $('#main').querySelectorAll('.card').forEach(el=>el.onclick=()=>{openId=openId==el.dataset.id?null:el.dataset.id;renderClass(c)});
   $('#main').querySelectorAll('.detail').forEach(dv=>{const id=dv.dataset.for;
     dv.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.onchange=()=>{const s=state(id);s.done=s.done||{};s.done[cb.dataset.i]=cb.checked;setState(id,s);renderClass(c)});
+    dv.querySelectorAll('[data-nest]').forEach(n=>n.ontoggle=()=>store.set('nest:'+n.dataset.nest,n.open));
     const ta=dv.querySelector('[data-notes]');ta.oninput=()=>{const s=state(id);s.notes=ta.value;setState(id,s)};});
   typeset();
 }

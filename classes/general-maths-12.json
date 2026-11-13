@@ -36,12 +36,65 @@
      "done": false
     }
    ],
-   "dates": ""
+   "dates": "",
+   "learningObjectives": [
+    {
+     "sub": "1A",
+     "items": [
+      "To be able to classify data as categorical or numerical.",
+      "To be able to further classify categorical data as nominal or ordinal.",
+      "To be able to further classify numerical data as discrete or continuous."
+     ]
+    },
+    {
+     "sub": "1B",
+     "items": [
+      "To be able to construct frequency and percentage frequency tables for categorical data.",
+      "To be able to construct bar charts and percentage bar charts from frequency tables.",
+      "To be able to interpret and describe frequency tables and bar charts.",
+      "To be able to answer statistical questions about a categorical variable."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "1A",
+     "items": [
+      "I can identify types of data."
+     ]
+    },
+    {
+     "sub": "1B",
+     "items": [
+      "I can construct a frequency table for categorical data.",
+      "I can construct a bar chart from a frequency table.",
+      "I can construct a percentage segmented bar chart from a frequency table.",
+      "I can describe the distribution of a categorical variable."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "types of data",
+    "representation, display and description of the distributions of categorical variables: data tables, two-way frequency tables and their associated segmented bar charts",
+    "use of the distribution(s) of one or more categorical or numerical variables to answer statistical questions"
+   ],
+   "keyVocab": [
+    "Categorical variable: describes a quality or category, not a quantity",
+    "Nominal: categories with no natural order (e.g. eye colour)",
+    "Ordinal: categories with a natural order (e.g. shirt size)",
+    "Numerical variable: values are quantities",
+    "Discrete: counted, whole-number values",
+    "Continuous: measured, any value in a range",
+    "Frequency table: lists each value and how often it occurs (count and %)",
+    "Bar chart: a bar for each category, bars separated by gaps",
+    "Segmented bar chart: one bar split into segments, one per category",
+    "Mode (modal category): the most common value or category"
+   ]
   },
   {
    "type": "lesson",
    "section": "1C–1E",
-   "title": "Histograms, dot plots, stem plots and log scales",
+   "title": "Histograms, dot plots and stem plots; log scales",
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
@@ -66,12 +119,75 @@
      "done": false
     }
    ],
-   "dates": ""
+   "dates": "",
+   "learningObjectives": [
+    {
+     "sub": "1C",
+     "items": [
+      "To be able to construct frequency tables for discrete numerical data.",
+      "To be able to construct frequency tables for grouped numerical data (discrete and continuous).",
+      "To be able to construct a histogram from a frequency table for numerical data.",
+      "To be able to construct a histogram from numerical data using a CAS calculator.",
+      "To be able to describe the distribution of numerical data according to its key characteristics of shape, centre, spread and outliers."
+     ]
+    },
+    {
+     "sub": "1D",
+     "items": [
+      "To be able to construct a dot plot for numerical data.",
+      "To be able to construct a stem plot for numerical data."
+     ]
+    },
+    {
+     "sub": "1E",
+     "items": [
+      "To be able to revise the concept of log10 x.",
+      "To be able to investigate the effect of the logarithmic scale on the features of a distribution."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "1C",
+     "items": [
+      "I can construct a frequency table for discrete numerical data.",
+      "I can construct a grouped frequency table.",
+      "I can construct a histogram from a grouped frequency table.",
+      "I can describe the features of a distribution from a histogram."
+     ]
+    },
+    {
+     "sub": "1D",
+     "items": [
+      "I can construct a dot plot.",
+      "I can construct a stem plot."
+     ]
+    },
+    {
+     "sub": "1E",
+     "items": [
+      "I can use a CAS calculator to find logs.",
+      "I can interpret a histogram with a log scale."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "representation, display and description of the distributions of numerical variables: dot plots, stem plots, histograms; the use of a logarithmic (base 10) scale to display data ranging over several orders of magnitude and their interpretation in terms of powers of ten",
+    "use of the distribution(s) of one or more categorical or numerical variables to answer statistical questions"
+   ],
+   "keyVocab": [
+    "Histogram: columns showing the frequency of numerical data in class intervals; bars touch",
+    "Dot plot: one dot per data value above a number line",
+    "Stem plot: each value split into a stem (leading digits) and a leaf (last digit), with a key",
+    "Shape: symmetric, positively skewed or negatively skewed",
+    "Outlier: a value that stands out from the rest of the data",
+    "Log scale: an axis in powers of 10, for data spanning several orders of magnitude"
+   ]
   },
   {
    "type": "lesson",
-   "section": "1F–1G",
-   "title": "Centre and spread; five-number summary, boxplots and outliers",
+   "section": "1F",
+   "title": "Measures of centre and spread",
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
@@ -108,20 +224,56 @@
       "1D",
       "1E"
      ],
-     "format": "About 20 min, start of lesson, individual, closed book (CAS allowed)",
+     "format": "About 20 min, individual, closed book (CAS allowed)",
      "file": "1. Data Analysis\\CFATs\\Chapter 1\\CFAT 1.1.1 [1A–1E].docx",
      "status": "Written (10 Nov 2026)",
-     "plan": "Start of Step-up lesson 3, after Step-up week 1 (1A–1E).",
+     "plan": "First 20 min of Step-up lesson 3 (1F). Covers everything from step-up week 1.",
      "sources": [
       "Edrolo GM U3&4 2023 exercise questions (CFAT-only): 1A Q15, Q17 · 1B Q8, Q9 · 1C Q6, Q17 · 1D Q9, Q12, Q14"
      ]
     }
+   ],
+   "learningObjectives": [
+    {
+     "sub": "1F",
+     "items": [
+      "To be able to understand the mean and the median as measures of centre.",
+      "To be able to understand the range, interquartile range and standard deviation as measures of spread."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "1F",
+     "items": [
+      "I can find the median value in a data set.",
+      "I can find the median value from a dot plot.",
+      "I can find the median value from a stem plot.",
+      "I can find the range from a stem plot.",
+      "I can find the IQR from a stem plot when n is even.",
+      "I can find the IQR from a stem plot when n is odd.",
+      "I can calculate the mean using the formula.",
+      "I can calculate the mean and standard deviation using the CAS calculator."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "summary of the distributions of numerical variables; the five-number summary and boxplots (including the use of the lower fence (Q1 – 1.5 × IQR) and upper fence (Q3 + 1.5 × IQR) to identify and display possible outliers); the sample mean and standard deviation and their use in comparing data distributions in terms of centre and spread"
+   ],
+   "keyVocab": [
+    "Summary statistics: numbers that describe features of a distribution, such as centre and spread",
+    "Mean (x̄): the sum of the values divided by n",
+    "Median (M): the middle value of the ordered data",
+    "Range: largest value minus smallest value",
+    "Quartiles (Q1, Q3): split the ordered data into four equal groups",
+    "Interquartile range (IQR): Q3 − Q1, the spread of the middle 50%",
+    "Standard deviation (s): spread of the data around the mean"
    ]
   },
   {
    "type": "lesson",
-   "section": "1H–1I",
-   "title": "Normal distribution, z-scores; populations and samples",
+   "section": "1G",
+   "title": "Five-number summary, boxplots and outliers",
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
@@ -155,20 +307,57 @@
       "1F (median, IQR)",
       "1G"
      ],
-     "format": "About 20 min, start of lesson, individual, closed book (CAS allowed)",
+     "format": "About 20 min, individual, closed book (CAS allowed)",
      "file": "1. Data Analysis\\CFATs\\Chapter 1\\CFAT 1.1.2 [1F, 1G].docx",
      "status": "Written (10 Nov 2026)",
-     "plan": "Start of Step-up lesson 4, the lesson after 1F–1G.",
+     "plan": "Last 20 min of Step-up lesson 4 (1G), once 1G has been taught.",
      "sources": [
       "Edrolo GM U3&4 2023 exercise questions (CFAT-only): 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19"
      ]
     }
+   ],
+   "learningObjectives": [
+    {
+     "sub": "1G",
+     "items": [
+      "To be able to construct the boxplot for displaying the distribution of a numerical data.",
+      "To be able to define and identify outliers.",
+      "To be able to construct both simple boxplots and boxplots with outliers.",
+      "To be able to determine the features of a distribution from a boxplot.",
+      "To be able to use a CAS calculator to construct a boxplot."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "1G",
+     "items": [
+      "I can construct a boxplot from a five number summary.",
+      "I can construct a boxplot with outliers from data using the CAS calculator.",
+      "I can read values from a boxplot.",
+      "I estimate percentages from a boxplot.",
+      "I can use boxplots for describe a distribution without outliers.",
+      "I can use boxplots to describe a distribution with outliers.",
+      "I can use boxplots to answer statistical questions."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "summary of the distributions of numerical variables; the five-number summary and boxplots (including the use of the lower fence (Q1 – 1.5 × IQR) and upper fence (Q3 + 1.5 × IQR) to identify and display possible outliers); the sample mean and standard deviation and their use in comparing data distributions in terms of centre and spread",
+    "use of the distribution(s) of one or more categorical or numerical variables to answer statistical questions"
+   ],
+   "keyVocab": [
+    "Five-number summary: min, Q1, median, Q3, max",
+    "Boxplot: a display of the five-number summary, with outliers shown separately",
+    "Lower fence: Q1 − 1.5 × IQR",
+    "Upper fence: Q3 + 1.5 × IQR",
+    "Outlier: a value below the lower fence or above the upper fence"
    ]
   },
   {
-   "type": "review",
-   "section": "1",
-   "title": "CFAT 1.1.3 and CFAT feedback",
+   "type": "lesson",
+   "section": "1H–1I",
+   "title": "Normal distribution, z-scores; populations and samples",
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
@@ -181,7 +370,15 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Review set ready",
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
      "done": false
     }
    ],
@@ -195,15 +392,54 @@
       "1H",
       "1I"
      ],
-     "format": "About 20 min, start of lesson, individual, closed book (CAS allowed)",
+     "format": "About 20 min, individual, closed book (CAS allowed)",
      "file": "1. Data Analysis\\CFATs\\Chapter 1\\CFAT 1.1.3 [1H, 1F, 1I].docx",
      "status": "Written (10 Nov 2026)",
      "marks": 16,
-     "plan": "Start of Step-up lesson 5, the lesson after 1H–1I. The rest of the lesson is feedback on CFATs 1.1.1–1.1.3. Cambridge 1I not assessed. Q8a has a blank normal curve scaffold.",
+     "plan": "Last 20 min of Step-up lesson 5 (1H–1I), once 1H has been taught. Cambridge 1I not assessed. Q8a has a blank normal curve scaffold.",
      "sources": [
       "Edrolo GM U3&4 2023 exercise questions (CFAT-only): 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15"
      ]
     }
+   ],
+   "learningObjectives": [
+    {
+     "sub": "1H",
+     "items": [
+      "To be able to introduce the normal model for bell-shaped distributions.",
+      "To be able to use the 68–95–99.7% rule to estimate percentages and give meaning to the standard deviation.",
+      "To be able to calculate standardised scores and use them to compare values across distributions."
+     ]
+    },
+    {
+     "sub": "1I",
+     "items": [
+      "No learning intentions found for 1I in the printed textbook (not assessed in the CFATs)."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "1H",
+     "items": [
+      "I can apply the 68-95-99.7% rule.",
+      "I can calculate standardised scores.",
+      "I can use standardised scores to make comparisons.",
+      "I can use standard scores to determine percentages.",
+      "I can convert standardised scores into actual scores.",
+      "I can solve for the values of the mean and standard deviation."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "the normal model for bell-shaped distributions and the use of the 68–95–99.7% rule to estimate percentages and to give meaning to the standard deviation; standardised values (z-scores) and their use in comparing data values across distributions"
+   ],
+   "keyVocab": [
+    "Normal distribution: a bell-shaped model for symmetric data",
+    "68–95–99.7% rule: about 68%, 95% and 99.7% of values lie within 1, 2 and 3 standard deviations of the mean",
+    "Standardised score (z-score): how many standard deviations a value is above or below the mean",
+    "Population: every member of the group being studied",
+    "Sample: a subset of the population"
    ]
   },
   {

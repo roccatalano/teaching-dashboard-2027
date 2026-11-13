@@ -5,8 +5,8 @@ import json
 A1=('U3 AoS1','Data analysis'); A2=('U3 AoS2','Recursion and financial modelling')
 # (block, weekLabel, termLabel, aos, [(type, section, title), ...])
 W=[
- ('su','Step-up week 1','Nov–Dec 2026',A1,[('lesson','1A–1B','Types of data; categorical data'),('lesson','1C–1E','Histograms, dot plots, stem plots and log scales')]),
- ('su','Step-up week 2','Nov–Dec 2026',A1,[('lesson','1F–1G','Centre and spread; five-number summary, boxplots and outliers'),('lesson','1H–1I','Normal distribution, z-scores; populations and samples'),('review','1','CFAT 1.1.3 and CFAT feedback')]),
+ ('su','Step-up week 1','Nov–Dec 2026',A1,[('lesson','1A–1B','Types of data; categorical data'),('lesson','1C–1E','Histograms, dot plots and stem plots; log scales')]),
+ ('su','Step-up week 2','Nov–Dec 2026',A1,[('lesson','1F','Measures of centre and spread'),('lesson','1G','Five-number summary, boxplots and outliers'),('lesson','1H–1I','Normal distribution, z-scores; populations and samples')]),
  ('t1','Week 1','Term 1 · short week',A1,[('sac','1','Chapter 1 test (part 1)'),('sac','1','Chapter 1 test (part 2)')]),
  ('t1','Week 2','Term 1',A1,[('lesson','2A–2B','Response and explanatory variables; two-way tables'),('lesson','2C','Numerical vs categorical: parallel boxplots, back-to-back stem plots'),('lesson','2D–2E','Scatterplots: direction, form and strength')]),
  ('t1','Week 3','Term 1',A1,[('lesson','2F','Correlation coefficient, $r$'),('lesson','2G–2H','Coefficient of determination; correlation and causation'),('review','2I','Which graph? and Chapter 2 review')]),
@@ -50,19 +50,61 @@ for blk,wl,tl,_,_ in W:
 for l in L:
   if l['title']=='Unit 3 trial exams': l['span']=3
 # CFATs (from Planning\Topics\1. Data Analysis\README.md + HANDOFF.md). ~20 min each, on lighter lessons.
-FMT='About 20 min, start of lesson, individual, closed book (CAS allowed)'
+FMT='About 20 min, individual, closed book (CAS allowed)'
 SRC='Edrolo GM U3&4 2023 exercise questions (CFAT-only)'
 DIR='1. Data Analysis\\CFATs\\Chapter 1\\'
 CF={
  'gm12-u3-s3':[dict(id='CFAT 1.1.1',title='Types of data, displays, log scales',covers=['1A','1B','1C','1D','1E'],format=FMT,file=DIR+'CFAT 1.1.1 [1A–1E].docx',status='Written (10 Nov 2026)',
-   plan='Start of Step-up lesson 3, after Step-up week 1 (1A–1E).',sources=[SRC+': 1A Q15, Q17 · 1B Q8, Q9 · 1C Q6, Q17 · 1D Q9, Q12, Q14'])],
+   plan='First 20 min of Step-up lesson 3 (1F). Covers everything from step-up week 1.',sources=[SRC+': 1A Q15, Q17 · 1B Q8, Q9 · 1C Q6, Q17 · 1D Q9, Q12, Q14'])],
  'gm12-u3-s4':[dict(id='CFAT 1.1.2',title='Describing numerical data: median, IQR, boxplots, SOCS',covers=['1F (median, IQR)','1G'],format=FMT,file=DIR+'CFAT 1.1.2 [1F, 1G].docx',status='Written (10 Nov 2026)',
-   plan='Start of Step-up lesson 4, the lesson after 1F–1G.',sources=[SRC+': 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19'])],
+   plan='Last 20 min of Step-up lesson 4 (1G), once 1G has been taught.',sources=[SRC+': 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19'])],
  'gm12-u3-s5':[dict(id='CFAT 1.1.3',title='Mean and SD, the normal distribution, z-scores',covers=['1F (mean, SD)','1H','1I'],format=FMT,file=DIR+'CFAT 1.1.3 [1H, 1F, 1I].docx',status='Written (10 Nov 2026)',marks=16,
-   plan='Start of Step-up lesson 5, the lesson after 1H–1I. The rest of the lesson is feedback on CFATs 1.1.1–1.1.3. Cambridge 1I not assessed. Q8a has a blank normal curve scaffold.',sources=[SRC+': 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15'])],
+   plan='Last 20 min of Step-up lesson 5 (1H–1I), once 1H has been taught. Cambridge 1I not assessed. Q8a has a blank normal curve scaffold.',sources=[SRC+': 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15'])],
 }
 for l in L:
   if l['id'] in CF: l['cfats']=CF[l['id']]
+# Step-up lesson details. LOs: Cambridge learning intentions (verbatim). SC: Cambridge Chapter 1 skills checklist (verbatim).
+# Study Design: VCE Mathematics Study Design 2023-2027, GM U3 AoS1 'Investigating data distributions' (verbatim).
+# Vocab: terms from the Chapter 1 'Key ideas and chapter summary'; short definitions in our own words.
+SDT=['types of data',
+ 'representation, display and description of the distributions of categorical variables: data tables, two-way frequency tables and their associated segmented bar charts',
+ 'representation, display and description of the distributions of numerical variables: dot plots, stem plots, histograms; the use of a logarithmic (base 10) scale to display data ranging over several orders of magnitude and their interpretation in terms of powers of ten',
+ 'use of the distribution(s) of one or more categorical or numerical variables to answer statistical questions',
+ 'summary of the distributions of numerical variables; the five-number summary and boxplots (including the use of the lower fence (Q1 – 1.5 × IQR) and upper fence (Q3 + 1.5 × IQR) to identify and display possible outliers); the sample mean and standard deviation and their use in comparing data distributions in terms of centre and spread',
+ 'the normal model for bell-shaped distributions and the use of the 68–95–99.7% rule to estimate percentages and to give meaning to the standard deviation; standardised values (z-scores) and their use in comparing data values across distributions']
+LOS={'1A':['To be able to classify data as categorical or numerical.','To be able to further classify categorical data as nominal or ordinal.','To be able to further classify numerical data as discrete or continuous.'],
+ '1B':['To be able to construct frequency and percentage frequency tables for categorical data.','To be able to construct bar charts and percentage bar charts from frequency tables.','To be able to interpret and describe frequency tables and bar charts.','To be able to answer statistical questions about a categorical variable.'],
+ '1C':['To be able to construct frequency tables for discrete numerical data.','To be able to construct frequency tables for grouped numerical data (discrete and continuous).','To be able to construct a histogram from a frequency table for numerical data.','To be able to construct a histogram from numerical data using a CAS calculator.','To be able to describe the distribution of numerical data according to its key characteristics of shape, centre, spread and outliers.'],
+ '1D':['To be able to construct a dot plot for numerical data.','To be able to construct a stem plot for numerical data.'],
+ '1E':['To be able to revise the concept of log10 x.','To be able to investigate the effect of the logarithmic scale on the features of a distribution.'],
+ '1F':['To be able to understand the mean and the median as measures of centre.','To be able to understand the range, interquartile range and standard deviation as measures of spread.'],
+ '1G':['To be able to construct the boxplot for displaying the distribution of a numerical data.','To be able to define and identify outliers.','To be able to construct both simple boxplots and boxplots with outliers.','To be able to determine the features of a distribution from a boxplot.','To be able to use a CAS calculator to construct a boxplot.'],
+ '1H':['To be able to introduce the normal model for bell-shaped distributions.','To be able to use the 68–95–99.7% rule to estimate percentages and give meaning to the standard deviation.','To be able to calculate standardised scores and use them to compare values across distributions.'],
+ '1I':['No learning intentions found for 1I in the printed textbook (not assessed in the CFATs).']}
+SC={'1A':['I can identify types of data.'],
+ '1B':['I can construct a frequency table for categorical data.','I can construct a bar chart from a frequency table.','I can construct a percentage segmented bar chart from a frequency table.','I can describe the distribution of a categorical variable.'],
+ '1C':['I can construct a frequency table for discrete numerical data.','I can construct a grouped frequency table.','I can construct a histogram from a grouped frequency table.','I can describe the features of a distribution from a histogram.'],
+ '1D':['I can construct a dot plot.','I can construct a stem plot.'],
+ '1E':['I can use a CAS calculator to find logs.','I can interpret a histogram with a log scale.'],
+ '1F':['I can find the median value in a data set.','I can find the median value from a dot plot.','I can find the median value from a stem plot.','I can find the range from a stem plot.','I can find the IQR from a stem plot when n is even.','I can find the IQR from a stem plot when n is odd.','I can calculate the mean using the formula.','I can calculate the mean and standard deviation using the CAS calculator.'],
+ '1G':['I can construct a boxplot from a five number summary.','I can construct a boxplot with outliers from data using the CAS calculator.','I can read values from a boxplot.','I estimate percentages from a boxplot.','I can use boxplots for describe a distribution without outliers.','I can use boxplots to describe a distribution with outliers.','I can use boxplots to answer statistical questions.'],
+ '1H':['I can apply the 68-95-99.7% rule.','I can calculate standardised scores.','I can use standardised scores to make comparisons.','I can use standard scores to determine percentages.','I can convert standardised scores into actual scores.','I can solve for the values of the mean and standard deviation.'],
+ '1I':[]}
+V=dict(
+ cat=['Categorical variable: describes a quality or category, not a quantity','Nominal: categories with no natural order (e.g. eye colour)','Ordinal: categories with a natural order (e.g. shirt size)','Numerical variable: values are quantities','Discrete: counted, whole-number values','Continuous: measured, any value in a range','Frequency table: lists each value and how often it occurs (count and %)','Bar chart: a bar for each category, bars separated by gaps','Segmented bar chart: one bar split into segments, one per category','Mode (modal category): the most common value or category'],
+ num=['Histogram: columns showing the frequency of numerical data in class intervals; bars touch','Dot plot: one dot per data value above a number line','Stem plot: each value split into a stem (leading digits) and a leaf (last digit), with a key','Shape: symmetric, positively skewed or negatively skewed','Outlier: a value that stands out from the rest of the data','Log scale: an axis in powers of 10, for data spanning several orders of magnitude'],
+ cen=['Summary statistics: numbers that describe features of a distribution, such as centre and spread','Mean (x̄): the sum of the values divided by n','Median (M): the middle value of the ordered data','Range: largest value minus smallest value','Quartiles (Q1, Q3): split the ordered data into four equal groups','Interquartile range (IQR): Q3 − Q1, the spread of the middle 50%','Standard deviation (s): spread of the data around the mean'],
+ box=['Five-number summary: min, Q1, median, Q3, max','Boxplot: a display of the five-number summary, with outliers shown separately','Lower fence: Q1 − 1.5 × IQR','Upper fence: Q3 + 1.5 × IQR','Outlier: a value below the lower fence or above the upper fence'],
+ nor=['Normal distribution: a bell-shaped model for symmetric data','68–95–99.7% rule: about 68%, 95% and 99.7% of values lie within 1, 2 and 3 standard deviations of the mean','Standardised score (z-score): how many standard deviations a value is above or below the mean','Population: every member of the group being studied','Sample: a subset of the population'])
+DET={'gm12-u3-s1':(['1A','1B'],[0,1,3],V['cat']),'gm12-u3-s2':(['1C','1D','1E'],[2,3],V['num']),'gm12-u3-s3':(['1F'],[4],V['cen']),
+ 'gm12-u3-s4':(['1G'],[4,3],V['box']),'gm12-u3-s5':(['1H','1I'],[5],V['nor'])}
+for l in L:
+  if l['id'] in DET:
+    subs,sd,voc=DET[l['id']]
+    l['learningObjectives']=[dict(sub=x,items=LOS[x]) for x in subs]
+    l['successCriteria']=[dict(sub=x,items=SC[x]) for x in subs if SC[x]]
+    l['studyDesign']=[SDT[i] for i in sd]
+    l['keyVocab']=voc
 ids={l['title']:l for l in L}
 def when(t):l=ids[t];return dict(id=l['id'],week=l['week'],lesson=l['lesson'])
 SD='VCE Mathematics Study Design 2023–2027'
