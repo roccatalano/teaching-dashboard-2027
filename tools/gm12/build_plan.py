@@ -54,7 +54,7 @@ FMT='About 20 min, individual, closed book (CAS allowed)'
 SRC='Edrolo GM U3&4 2023 exercise questions (CFAT-only)'
 DIR='1. Data Analysis\\CFATs\\Chapter 1\\'
 CF={
- 'gm12-u3-s3':[dict(id='CFAT 1.1.1',title='Types of data, displays, log scales',covers=['1A','1B','1C','1D','1E'],format=FMT,file=DIR+'CFAT 1.1.1 [1A–1E].docx',status='Written (10 Nov 2026)',
+ 'gm12-u3-s3':[dict(id='CFAT 1.1.1',title='Types of data, displays, log scales',covers=['1A','1B','1C','1D','1E'],format=FMT,file=DIR+'CFAT 1.1.1 [1A, 1B, 1C, 1D, 1E].docx',status='Written (10 Nov 2026)',
    plan='Start of Step-up lesson 3. Covers step-up week 1 (1A–1E).',sources=[SRC+': 1A Q15, Q17 · 1B Q8, Q9 · 1C Q6, Q17 · 1D Q9, Q12, Q14'])],
  'gm12-u3-s4':[dict(id='CFAT 1.1.2',title='Describing numerical data: median, IQR, boxplots, SOCS',covers=['1F (median, IQR)','1G'],format=FMT,file=DIR+'CFAT 1.1.2 [1F, 1G].docx',status='Written (10 Nov 2026)',
    plan='Start of Step-up lesson 4. Covers Step-up lesson 3 (1F–1G).',sources=[SRC+': 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19'])],
@@ -162,6 +162,164 @@ CASV={'gm12-u3-s1':[SK('Setting up the statistics app',['stat'],['lists'])],
  'gm12-u3-s4':[SK('Calculating z-scores',['calc'],['z']),SK('Normal probability calculations',['n80','n470','n81'],[])]}
 for l in L:
   if l['id'] in CASV: l['cas']=CASV[l['id']]
+# ---- AoS1 Chapters 2-5 lesson details (appended) ----
+SDA=['response and explanatory variables and their role in investigating associations between variables',
+ 'contingency (two-way) frequency tables, their associated bar charts (including percentage segmented bar charts) and their use in identifying and describing associations between two categorical variables',
+ 'back-to-back stem plots, parallel dot plots and boxplots and their use in identifying and describing associations between a numerical variable and a categorical variable',
+ 'scatterplots and their use in identifying and qualitatively describing the association between two numerical variables in terms of direction (positive/negative), form (linear/non-linear) and strength (strong/moderate/weak)',
+ 'answering statistical questions that require a knowledge of the associations between pairs of variables',
+ 'Pearson correlation coefficient, r, and its calculation and interpretation',
+ 'cause and effect; the difference between observation and experimentation when collecting data and the need for experimentation to definitively determine cause and effect']
+SDM=['least squares line of best fit y = a + bx, where x represents the explanatory variable, and y represents the response variable; the determination of the coefficients a and b using technology, and the formulas b = r × s_y / s_x and a = ȳ − b x̄',
+ 'modelling linear association between two numerical variables, including the: identification of the explanatory and response variables; use of the least squares method to fit a linear model to the data',
+ 'interpretation of the slope and intercepts of the least squares line in the context of the situation being modelled, including: use of the rule of the fitted line to make predictions being aware of the limitations of extrapolation',
+ 'use of the coefficient of determination, r², to assess the strength of the association in terms of explained variation',
+ 'use of residual analysis to check quality of fit',
+ 'data transformation and its use in transforming some forms of non-linear data to linearity using a square, logarithmic (base 10) or reciprocal transformation (applied to one axis only)',
+ 'interpretation and use of the equation of the least squares line fitted to the transformed data to make predictions']
+SDT2=['qualitative features of time series plots; recognition of features such as trend (long-term direction), seasonality (systematic, calendar related movements) and irregular fluctuations (unsystematic, short-term fluctuations); possible outliers and their sources, including one-off real-world events, and signs of structural change such as a discontinuity in the time series',
+ 'numerical smoothing of time series data using moving means with consideration of the number of terms required (using centring when appropriate) to help identify trends in time series plot with large fluctuations',
+ 'graphical smoothing of time series plots using moving medians (involving an odd number of points only) to help identify long-term trends in time series with large fluctuations',
+ 'seasonal adjustment including the use and interpretation of seasonal indices and their calculation using seasonal and yearly means',
+ 'modelling trend by fitting a least squares line to a time series with time as the explanatory variable (data de-seasonalised where necessary), and the use of the model to make forecasts (with re-seasonalisation where necessary) including consideration of the possible limitations of fitting a linear model and the limitations of extending into the future']
+NOLI='No learning intentions for this subchapter in the printed textbook.'
+LOS.update({
+ '2A':['To introduce bivariate data.','To be able to classify data as categorical or numerical.','To be able to identify explanatory and response variables.'],
+ '2B':['To be able to summarise data from two categorical variables using two-way frequency tables.','To be able to appropriately percentage two-way frequency tables.','To be able to use a percentaged two-way frequency table to identify and describe an association between two categorical variables.'],
+ '2C':['To be able to use parallel dot plots to identify and describe the association between a numerical variable and a categorical variable for small data sets.','To be able to use back-to-back stem plots to display and describe the association between a numerical variable and a categorical variable for small data sets.','To be able to use parallel boxplots to display the association between a numerical variable and a categorical variable which can take two or more values.'],
+ '2D':['To be able to introduce the scatterplot for displaying data from two numerical variables.','To be able to construct a scatterplot using a CAS calculator.'],
+ '2E':['To be able to use a scatterplot to identify an association between two variables.','From the the scatterplot, be able to classify an association according to: direction, which may be positive or negative; form, which may be linear or non-linear; strength, which may be weak, moderate or strong.'],
+ '2F':['To introduce Pearson’s correlation coefficient r as a measure of the strength of a linear association between two variables.','To be able to use technology to determine the value of Pearson’s correlation coefficient r.','To be able to classify the strength of a linear association as weak, moderate or strong based on the value of Pearson’s correlation coefficient r.'],
+ '2G':['To be able to calculate the value of the coefficient of determination.','To be able to use the coefficient of determination to assess the strength of the association in terms of the explained variation.'],
+ '2H':['To be able to define and differentiate the concepts of association and causation.'],
+ '2I':[NOLI],
+ '3A':['To be able to define linear regression.','To be able to define a residual.','To introduce the least squares line of best fit.','To be able to find the equation of the least squares line using summary statistics.','To be able to find the equation of the least squares line using technology.'],
+ '3B':['To be able to interpret the intercept and slope of the least squares line.','To be able to use the equation of the least squares line to make predictions.','To be able to use the coefficient of determination in a regression analysis.','To be able to use a residual plot to investigate the linearity assumption.','To be able to report a regression analysis.'],
+ '3C':[NOLI],
+ '4A':['To be able to apply a squared transformation to either x or y.','To be able to fit a least squares regression line to the transformed data.','To be able to use the least squares regression line fitted to the transformed data for prediction.'],
+ '4B':['To be able to apply a log10 transformation to either x or y.','To be able to fit a least squares regression line to the transformed data.','To be able to use the least squares regression line fitted to the transformed data for prediction.'],
+ '4C':['To be able to apply a reciprocal transformation to either x or y.','To be able to fit a least squares regression line to the transformed data.','To be able to use the least squares regression line fitted to the transformed data for prediction.'],
+ '4D':['To be able to use the circle of transformations to determine which transformations may help linearise a non-linear association.','To be able to use a residual plot to assess the effectiveness of a data transformation.','To be able to use the coefficient of determination to assess the effectiveness of a data transformation.'],
+ '5A':['To be able to recognise time series data.','To be able to construct a time series plot.','To be able to recognise features in the plot such as trend, seasonality and irregular fluctuations.'],
+ '5B':['To be able to smooth a time series plot using moving means.','To be able to know when and how to use centring when smoothing.'],
+ '5C':['To be able to locate the median of a data set graphically.','To be able to smooth a time series plot using moving medians.'],
+ '5D':['To be able to interpret the meaning of seasonal indices.','To be able to seasonally adjust data using seasonal indices.','To be able to calculate seasonal indices from time series data.'],
+ '5E':['To be able to use the method of least squares to fit a trend line to a time series.','To be able to use the trend line to make predictions.','To be able to use seasonal indices to add seasonality to predicted values as appropriate.']})
+SC.update({
+ '2A':['I can identify categorical and numerical variables in bivariate data.','I can identify explanatory and response variables.'],
+ '2B':['I can construct a two-way frequency table.','I can percentage a two-way frequency table.','I can describe an association from a percentaged two-way frequency table.','I can construct a segmented bar chart from a percentaged two-way frequency table.','I can describe an association from a percentaged segmented bar chart.'],
+ '2C':['I can use parallel dot plots to identify and describe the association between a numerical variable and a categorical variable.','I can use back-to-back stem plots to display and describe the association between a numerical variable and a categorical variable.','I can use parallel boxplots to display and describe the association between a numerical variable and a categorical variable.'],
+ '2D':['I can construct a scatterplot using a CAS calculator.'],
+ '2E':['I can classify the direction, form and strength of an association from a scatterplot.'],
+ '2F':['I can use technology to determine the value of the correlation coefficient r.','I can classify the strength of a linear association as weak, moderate or strong based on the value of the correlation coefficient r.'],
+ '2G':['I can calculate the value of the coefficient of determination.','I can use the coefficient of determination to assess the strength of the association in terms of the the explained variation.'],
+ '2H':['I understand that correlation does not imply causation.'],'2I':[],
+ '3A':['I can determine the equation of the least squares regression line using the formulas.','I can determine the correlation coefficient from the slope of the least squares regression line using the formula.','I can determine the equation of the least squares regression line using a CAS calculator.'],
+ '3B':['I can interpret the slope and intercept of a regression line.','I can use the regression line to make predictions.','I can use the coefficient of determination to compare associations.','I can calculate residual values.','I can interpret a residual plot.','I can write a report based on a regression analysis.'],
+ '3C':['I can use a CAS calculator to generate all of the analyses required for a regression analysis.'],
+ '4A':['I can apply the x² transformation.','I can apply the y² transformation.'],'4B':['I can apply the log x transformation.','I can apply the log y transformation.'],
+ '4C':['I can apply the reciprocal (1/x) transformation.','I can apply the reciprocal (1/y) transformation.'],'4D':['I can choose the best transformation to apply.'],
+ '5A':['I can construct a time series plot.','I can identify trend in a time series plot.','I can identify cycles in a time series plot.','I can identify seasonality in a time series plot.','I can identify structural change in a time series plot.','I can identify outliers in a time series plot.'],
+ '5B':['I can smooth a time series using moving mean smoothing.','I can smooth a time series using moving mean smoothing with centring.'],
+ '5C':['I can smooth a time series using moving median smoothing.'],
+ '5D':['I can interpret seasonal indices.','I can use seasonal indices to deseasonalise and reseasonalise data.','I can use seasonal indices to determine percentage change required to correct for seasonality.','I can calculate seasonal indices from 1 year of data.','I can calculate seasonal indices from several years of data.','I can use seasonal indices to deseasonalise a time series.'],
+ '5E':['I can fit a trend line to a time series plot.','I can use a trend line to forecast a future value (no seasonality).','I can fit a trend line to a time series plot with seasonality.','I can use a trend line to forecast a future value (with seasonality).']})
+EX2={2:{1:('2A','Identifying associations as categorical or numerical'),2:('2A','Identifying the response and explanatory variables'),3:('2A','Identifying the response and explanatory variables'),
+ 4:('2B','Constructing a two-way frequency table'),5:('2B','Identifying and describing an association from a percentaged two-way table (2 × 2)'),6:('2B','Identifying and describing associations from a percentaged two-way table (3 × 3)'),
+ 7:('2B','Constructing a segmented bar chart'),8:('2B','Identifying and describing associations from a segmented bar chart'),9:('2C','Using a parallel dot plot to identify and describe associations'),
+ 10:('2C','Using a back-to-back stem plot to identify and describe associations'),11:('2C','Comparing distributions across two groups using parallel boxplots'),12:('2C','Comparing distributions across more than two groups using parallel boxplots'),
+ 13:('2E','Direction of association'),14:('2E','Form of an association'),15:('2E','Strength of an association'),16:('2F','Classifying the strength of a linear association'),
+ 17:('2G','Calculating the coefficient of determination'),18:('2G','Interpreting the coefficient of determination'),19:('2G','Calculating and interpreting the coefficient of determination'),
+ 20:('2G','Calculating and interpreting the coefficient of determination'),21:('2G','Calculating the correlation coefficient from the coefficient of determination')},
+ 3:{1:('3A','Determining the equation of the least squares regression line using summary statistics and the correlation coefficient'),2:('3A','Determining the correlation coefficient using the slope of the least squares regression line'),
+ 3:('3B','Interpreting the slope and intercept of a regression line'),4:('3B','Using the regression line to make predictions'),5:('3B','Using the coefficient of determination to compare associations'),
+ 6:('3B','Calculating a residual'),7:('3B','Interpreting a residual plot'),8:('3B','Reporting the results of a regression analysis')},
+ 4:{1:('4A','Applying the x-squared transformation'),2:('4A','Applying the y-squared transformation'),3:('4B','Applying the log x transformation'),4:('4B','Applying the log y transformation'),
+ 5:('4C','Applying the reciprocal (1/x) transformation'),6:('4C','Applying the reciprocal (1/y) transformation'),7:('4D','Choosing the best transformation')},
+ 5:{1:('5A','Constructing a time series plot'),2:('5A','Identifying trends'),3:('5A','Identifying cycles'),4:('5A','Identifying seasonality'),5:('5A','Identifying structural change'),6:('5A','Identifying outliers'),
+ 7:('5B','Three- and five-moving mean smoothing'),8:('5B','Three- and five-moving mean smoothing of a time series'),9:('5B','Two-moving mean smoothing with centring'),10:('5B','Four- and six-moving mean smoothing with centring'),
+ 11:('5B','Smoothing of a time series using four-mean smoothing with centring'),12:('5C','Three-moving median smoothing using a graphical approach'),13:('5C','Five-moving median smoothing using a graphical approach'),
+ 14:('5D','Interpreting seasonal indices'),15:('5D','Using seasonal indices'),16:('5D','Using seasonal indices to determine percentage change required to correct for seasonality'),
+ 17:('5D','Calculating seasonal indices (1 year’s data)'),18:('5D','Calculating seasonal indices (several years’ data)'),19:('5D','Deseasonalising a time series'),
+ 20:('5E','Fitting a trend line'),21:('5E','Forecasting'),22:('5E','Fitting a trend line (seasonality)'),23:('5E','Forecasting (seasonality)')}}
+YT2={(2,4):'Edrolo 2A WE1',(2,5):'Edrolo 2A WE4',(2,7):'Edrolo 2A WE3',(2,8):'Edrolo 2A WE5'}
+CP.update({'sr':yt('ClassPad Help 411 – Scatterplot and regression','https://www.youtube.com/watch?v=EShk1ze8Cpw'),
+ 'pr':yt('ClassPad Help 441 – Prediction from regression line','https://www.youtube.com/watch?v=hr_53Cu1xSs'),
+ 'res':yt('ClassPad Help 442 – Residuals and residual plots','https://www.youtube.com/watch?v=q5mm9-QHhlE'),
+ 'ts':yt('ClassPad Help 412 – xyLine time series','https://www.youtube.com/watch?v=g8HfR10oVtY'),
+ 'sm':yt('ClassPad Help 545 – Smoothing time series','https://www.youtube.com/watch?v=tzfG4MilCQ4'),
+ 'mav':yt('ClassPad Help 945 – Smoothing time series using mavII','https://www.youtube.com/watch?v=WMEW4LykEgA')})
+TI.update({'sc':yt('Scatterplots | Getting Started Series – Lists & Spreadsheets','https://www.youtube.com/watch?v=AMH-Dj-VYm8'),
+ 'asc':yt('Analysing scatterplots | Getting Started Series – Data & Statistics','https://www.youtube.com/watch?v=97ptJ2fbafM'),
+ 'biv':yt('Statistical plots & bivariate data | Getting Started Series – Data & Statistics','https://www.youtube.com/watch?v=5ZrJDq4RqD4&t=364s'),
+ 'lr':yt('How to perform linear regression with TI-nspire','https://www.youtube.com/watch?v=Xse7Aqb0fLI')})
+VB=dict(
+ biv=['Bivariate data: two variables recorded for each individual','Explanatory variable (EV): the variable that may explain or predict changes in the other variable','Response variable (RV): the variable that responds to changes in the EV','Two-way frequency table: counts of two categorical variables, cross-tabulated','Percentaged two-way table: percentages calculated within each category of the EV','Association: knowing the value of one variable helps predict the value of the other','Segmented bar chart: one bar per EV category, split by the RV'],
+ numcat=['Parallel dot plots: dot plots for each group on a common scale','Back-to-back stem plot: two groups sharing one stem','Parallel boxplots: a boxplot for each group on a common scale','Comparing groups: compare shape, centre (median), spread (IQR) and outliers'],
+ sca=['Scatterplot: a plot of paired numerical data, EV on the horizontal axis','Direction: positive or negative','Form: linear or non-linear','Strength: weak, moderate or strong','Outlier: a point that does not fit the pattern of the rest'],
+ r=['Pearson’s correlation coefficient (r): measures the strength and direction of a linear association, from −1 to 1','Strength guide: |r| ≥ 0.75 strong · 0.5 to 0.75 moderate · 0.25 to 0.5 weak · below 0.25 no association','Only use r when the association is linear, with no clear outliers'],
+ r2=['Coefficient of determination (r²): the percentage of the variation in the RV that is explained by the variation in the EV','Causation: one variable directly causes a change in the other','Confounding variable: another variable that affects both variables','Common response: both variables respond to a third variable','Coincidence: an association that happens by chance','Experiment: needed to show cause and effect; an observational study is not enough'],
+ lsrl=['Least squares regression line: y = a + bx, the line that makes the sum of squared residuals as small as possible','Slope (b) = r × s_y / s_x','Intercept (a) = ȳ − b x̄','Residual: actual value − predicted value'],
+ interp=['Slope interpretation: on average, the RV changes by b for each 1-unit increase in the EV','Intercept interpretation: the predicted RV when the EV is 0','Interpolation: predicting within the range of the data (reliable)','Extrapolation: predicting outside the range of the data (unreliable)'],
+ resid=['Residual plot: residuals plotted against the EV','Random scatter: supports the linearity assumption','Clear pattern (e.g. a curve): the association is not linear','Regression analysis report: direction, form, strength, equation, slope, r² and residual check'],
+ tr=['Data transformation: applying a function to one axis to linearise the data','Squared transformation: x² or y²','Log transformation: log x or log y (base 10)','Reciprocal transformation: 1/x or 1/y','Circle of transformations: shows which transformations may linearise each shape of curve','Choosing the best transformation: compare residual plots and r²'],
+ ts=['Time series data: values recorded at regular time intervals','Trend: the long-term increase or decrease','Seasonality: a regular calendar-related pattern','Cycles: up-and-down movement over periods longer than a year','Irregular fluctuations: unpredictable, short-term changes','Structural change: a sudden change in the level or pattern','Outlier: a value that does not fit the pattern'],
+ mm=['Moving mean smoothing: replacing each value by the mean of it and its neighbours','Centring: needed when smoothing over an even number of points'],
+ med=['Moving median smoothing: replacing each value by the median of it and its neighbours, done graphically','Uses an odd number of points'],
+ si=['Seasonal index: actual value ÷ seasonal average','Seasonal indices add up to the number of seasons (and average to 1)','Deseasonalise: actual value ÷ seasonal index','Reseasonalise: deseasonalised value × seasonal index'],
+ trend=['Trend line: a least squares line fitted with time as the EV','Forecasting: using the trend line to predict future values','Limitations: forecasts further into the future are less reliable'])
+def subs_items(D,pairs): return [dict(sub=s,items=D[s][a:b]) for s,a,b in pairs if D[s][a:b]]
+def exs(ch,ns): return [dict(n=n,sub=EX2[ch][n][0],title=EX2[ch][n][1],youTry=YT2.get((ch,n),'TBM')) for n in ns]
+F=lambda s:(s,0,None)
+A2={
+ 'gm12-u3-l03':([F('2A'),F('2B')],[F('2A'),F('2B')],[SDA[0],SDA[1]],VB['biv'],[],exs(2,range(1,9))),
+ 'gm12-u3-l04':([F('2C')],[F('2C')],[SDA[2],SDA[4]],VB['numcat'],[SK('Creating parallel boxplots',['bm'],['dotbox','long'])],exs(2,range(9,13))),
+ 'gm12-u3-l05':([F('2D'),F('2E')],[F('2D'),F('2E')],[SDA[3]],VB['sca'],[SK('Creating a scatterplot',['sr'],['sc','asc','biv'])],exs(2,range(13,16))),
+ 'gm12-u3-l06':([F('2F')],[F('2F')],[SDA[5]],VB['r'],[SK('Finding the correlation coefficient r',['sr'],['lr'])],exs(2,[16])),
+ 'gm12-u3-l07':([F('2G'),F('2H')],[F('2G'),F('2H')],[SDM[3],SDA[6]],VB['r2'],[SK('Finding r and r²',['sr'],['lr'])],exs(2,range(17,22))),
+ 'gm12-u3-l08':([F('2I')],[],[SDA[4]],[],[],[]),
+ 'gm12-u3-l09':([F('3A')],[F('3A')],[SDM[0],SDM[1]],VB['lsrl'],[SK('Finding the least squares regression line',['sr'],['lr'])],exs(3,[1,2])),
+ 'gm12-u3-l10':([('3B',0,3)],[('3B',0,3)],[SDM[2],SDM[3]],VB['interp'],[SK('Making predictions from the regression line',['pr'],['lr'])],exs(3,[3,4,5])),
+ 'gm12-u3-l11':([('3B',3,5),F('3C')],[('3B',3,6),F('3C')],[SDM[4]],VB['resid'],[SK('Residuals and residual plots',['res'],['asc']),SK('Full regression analysis',['sr','res'],['lr'])],exs(3,[6,7,8])),
+ 'gm12-u3-l12':([F('4A')],[F('4A')],[SDM[5],SDM[6]],VB['tr'][:2],[SK('Fitting a regression line to transformed data',['sr'],['lr'])],exs(4,[1,2])),
+ 'gm12-u3-l13':([F('4B')],[F('4B')],[SDM[5],SDM[6]],[VB['tr'][0],VB['tr'][2]],[SK('Fitting a regression line to transformed data',['sr'],['lr'])],exs(4,[3,4])),
+ 'gm12-u3-l14':([F('4C')],[F('4C')],[SDM[5],SDM[6]],[VB['tr'][0],VB['tr'][3]],[SK('Fitting a regression line to transformed data',['sr'],['lr'])],exs(4,[5,6])),
+ 'gm12-u3-l15':([F('4D')],[F('4D')],[SDM[5],SDM[4]],VB['tr'],[SK('Checking a transformation: residual plot and r²',['res','sr'],['lr','asc'])],exs(4,[7])),
+ 'gm12-u3-l16':([F('5A')],[F('5A')],[SDT2[0]],VB['ts'],[SK('Plotting a time series',['ts'],[])],exs(5,range(1,7))),
+ 'gm12-u3-l17':([('5B',0,1)],[('5B',0,1)],[SDT2[1]],VB['mm'][:1],[SK('Smoothing a time series (moving means)',['sm','mav'],[])],exs(5,[7,8])),
+ 'gm12-u3-l18':([('5B',1,2)],[('5B',1,2)],[SDT2[1]],VB['mm'],[SK('Smoothing a time series (moving means)',['sm','mav'],[])],exs(5,[9,10,11])),
+ 'gm12-u3-l19':([F('5C')],[F('5C')],[SDT2[2]],VB['med'],[],exs(5,[12,13])),
+ 'gm12-u3-l20':([('5D',0,2)],[('5D',0,3)],[SDT2[3]],VB['si'],[],exs(5,[14,15,16])),
+ 'gm12-u3-l21':([('5D',2,3)],[('5D',3,6)],[SDT2[3]],VB['si'],[],exs(5,[17,18,19])),
+ 'gm12-u3-l22':([F('5E')],[F('5E')],[SDT2[4]],VB['trend'],[SK('Fitting a trend line (least squares)',['sr','pr'],['lr'])],exs(5,range(20,24)))}
+for l in L:
+  if l['id'] in A2:
+    lo,sc,sd,voc,cas,we=A2[l['id']]
+    l['learningObjectives']=subs_items(LOS,lo); l['successCriteria']=subs_items(SC,sc)
+    l['studyDesign']=sd; l['keyVocab']=voc
+    if cas: l['cas']=cas
+    if we: l['weDo']=we
+# CFATs for Chapters 2-5: about 20 min, start of a lighter lesson after the content is taught. No CFATs in review lessons.
+D2='1. Data Analysis\\\\CFATs\\\\Chapter '
+def cf(i,t,cov,lid,plan,st='Planned',fn=None,src=None,marks=None):
+  c=dict(id=i,title=t,covers=cov,format=FMT,status=st,plan=plan)
+  if fn:c['file']=fn
+  if src:c['sources']=src
+  if marks:c['marks']=marks
+  return lid,c
+CF2=[cf('CFAT 1.2.1','Bivariate data and associations between categorical variables',['2A','2B'],'gm12-u3-l04','Start of the 2C lesson.','Written (11 Nov 2026)',D2+'2\\\\CFAT 1.2.1 [2A, 2B].docx',['Edrolo GM U3&4 2023 exercise questions (CFAT-only): 2A Q1b, Q2, Q5, Q8, Q12 · 2B Q3a, Q5, Q11, Q12 · 2C Q2b, Q2c'],14),
+ cf('CFAT 1.2.2','Numerical vs categorical; scatterplots',['2C','2D'],'gm12-u3-l06','Start of the 2F lesson (one subchapter).','Written',D2+'2\\\\CFAT 1.2.2 [2C, 2D].docx'),
+ cf('CFAT 1.2.3','Direction, form, strength, r, r² and causation',['2E','2F','2G','2H'],'gm12-u3-l09','Start of the 3A lesson (the Chapter 2 review lesson stays CFAT-free).'),
+ cf('CFAT 1.3.1','Fitting and interpreting the least squares line',['3A','3B (slope, intercept, predictions, r²)'],'gm12-u3-l11','Start of the residuals and regression analysis lesson.'),
+ cf('CFAT 1.3.2','Residuals and regression analysis',['3B (residuals, reporting)','3C'],'gm12-u3-l12','Start of the 4A lesson.'),
+ cf('CFAT 1.4.1','Applying transformations',['4A','4B','4C'],'gm12-u3-l15','Start of the 4D lesson (one subchapter).'),
+ cf('CFAT 1.4.2','Choosing and using a transformation',['4D'],'gm12-u3-l16','Start of the 5A lesson (features of time series plots, a lighter lesson).'),
+ cf('CFAT 1.5.1','Time series and smoothing',['5A','5B','5C'],'gm12-u3-l20','Start of the first seasonal indices lesson.'),
+ cf('CFAT 1.5.2','Seasonal indices and forecasting',['5D','5E'],'gm12-u3-l22','Last 20 min of the 5E lesson: the lessons after it are all review or SAC 1 preparation.')]
+for lid,c in CF2:
+  for l in L:
+    if l['id']==lid: l.setdefault('cfats',[]).append(c)
+
 ids={l['title']:l for l in L}
 def when(t):l=ids[t];return dict(id=l['id'],week=l['week'],lesson=l['lesson'])
 SD='VCE Mathematics Study Design 2023–2027'

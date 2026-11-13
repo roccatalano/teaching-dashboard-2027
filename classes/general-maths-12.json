@@ -390,7 +390,7 @@
       "1E"
      ],
      "format": "About 20 min, individual, closed book (CAS allowed)",
-     "file": "1. Data Analysis\\CFATs\\Chapter 1\\CFAT 1.1.1 [1A–1E].docx",
+     "file": "1. Data Analysis\\CFATs\\Chapter 1\\CFAT 1.1.1 [1A, 1B, 1C, 1D, 1E].docx",
      "status": "Written (10 Nov 2026)",
      "plan": "Start of Step-up lesson 3. Covers step-up week 1 (1A–1E).",
      "sources": [
@@ -894,7 +894,107 @@
      "done": false
     }
    ],
-   "dates": "1–5 Feb"
+   "dates": "1–5 Feb",
+   "learningObjectives": [
+    {
+     "sub": "2A",
+     "items": [
+      "To introduce bivariate data.",
+      "To be able to classify data as categorical or numerical.",
+      "To be able to identify explanatory and response variables."
+     ]
+    },
+    {
+     "sub": "2B",
+     "items": [
+      "To be able to summarise data from two categorical variables using two-way frequency tables.",
+      "To be able to appropriately percentage two-way frequency tables.",
+      "To be able to use a percentaged two-way frequency table to identify and describe an association between two categorical variables."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "2A",
+     "items": [
+      "I can identify categorical and numerical variables in bivariate data.",
+      "I can identify explanatory and response variables."
+     ]
+    },
+    {
+     "sub": "2B",
+     "items": [
+      "I can construct a two-way frequency table.",
+      "I can percentage a two-way frequency table.",
+      "I can describe an association from a percentaged two-way frequency table.",
+      "I can construct a segmented bar chart from a percentaged two-way frequency table.",
+      "I can describe an association from a percentaged segmented bar chart."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "response and explanatory variables and their role in investigating associations between variables",
+    "contingency (two-way) frequency tables, their associated bar charts (including percentage segmented bar charts) and their use in identifying and describing associations between two categorical variables"
+   ],
+   "keyVocab": [
+    "Bivariate data: two variables recorded for each individual",
+    "Explanatory variable (EV): the variable that may explain or predict changes in the other variable",
+    "Response variable (RV): the variable that responds to changes in the EV",
+    "Two-way frequency table: counts of two categorical variables, cross-tabulated",
+    "Percentaged two-way table: percentages calculated within each category of the EV",
+    "Association: knowing the value of one variable helps predict the value of the other",
+    "Segmented bar chart: one bar per EV category, split by the RV"
+   ],
+   "weDo": [
+    {
+     "n": 1,
+     "sub": "2A",
+     "title": "Identifying associations as categorical or numerical",
+     "youTry": "TBM"
+    },
+    {
+     "n": 2,
+     "sub": "2A",
+     "title": "Identifying the response and explanatory variables",
+     "youTry": "TBM"
+    },
+    {
+     "n": 3,
+     "sub": "2A",
+     "title": "Identifying the response and explanatory variables",
+     "youTry": "TBM"
+    },
+    {
+     "n": 4,
+     "sub": "2B",
+     "title": "Constructing a two-way frequency table",
+     "youTry": "Edrolo 2A WE1"
+    },
+    {
+     "n": 5,
+     "sub": "2B",
+     "title": "Identifying and describing an association from a percentaged two-way table (2 × 2)",
+     "youTry": "Edrolo 2A WE4"
+    },
+    {
+     "n": 6,
+     "sub": "2B",
+     "title": "Identifying and describing associations from a percentaged two-way table (3 × 3)",
+     "youTry": "TBM"
+    },
+    {
+     "n": 7,
+     "sub": "2B",
+     "title": "Constructing a segmented bar chart",
+     "youTry": "Edrolo 2A WE3"
+    },
+    {
+     "n": 8,
+     "sub": "2B",
+     "title": "Identifying and describing associations from a segmented bar chart",
+     "youTry": "Edrolo 2A WE5"
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -924,7 +1024,102 @@
      "done": false
     }
    ],
-   "dates": "1–5 Feb"
+   "dates": "1–5 Feb",
+   "learningObjectives": [
+    {
+     "sub": "2C",
+     "items": [
+      "To be able to use parallel dot plots to identify and describe the association between a numerical variable and a categorical variable for small data sets.",
+      "To be able to use back-to-back stem plots to display and describe the association between a numerical variable and a categorical variable for small data sets.",
+      "To be able to use parallel boxplots to display the association between a numerical variable and a categorical variable which can take two or more values."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "2C",
+     "items": [
+      "I can use parallel dot plots to identify and describe the association between a numerical variable and a categorical variable.",
+      "I can use back-to-back stem plots to display and describe the association between a numerical variable and a categorical variable.",
+      "I can use parallel boxplots to display and describe the association between a numerical variable and a categorical variable."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "back-to-back stem plots, parallel dot plots and boxplots and their use in identifying and describing associations between a numerical variable and a categorical variable",
+    "answering statistical questions that require a knowledge of the associations between pairs of variables"
+   ],
+   "keyVocab": [
+    "Parallel dot plots: dot plots for each group on a common scale",
+    "Back-to-back stem plot: two groups sharing one stem",
+    "Parallel boxplots: a boxplot for each group on a common scale",
+    "Comparing groups: compare shape, centre (median), spread (IQR) and outliers"
+   ],
+   "cas": [
+    {
+     "skill": "Creating parallel boxplots",
+     "classpad": [
+      {
+       "title": "ClassPad Help 405 – Create multiple boxplots",
+       "url": "https://www.youtube.com/watch?v=NCoE4Z-irZ0"
+      }
+     ],
+     "ti": [
+      {
+       "title": "Dot plots & box plots | Getting Started Series – Data & Statistics",
+       "url": "https://www.youtube.com/watch?v=73Ymuvv-BU8"
+      },
+      {
+       "title": "Data analysis: box-plots, dot-plots and histograms (long walkthrough)",
+       "url": "https://www.youtube.com/watch?v=wCb6z1IbVy8&t=965s"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 9,
+     "sub": "2C",
+     "title": "Using a parallel dot plot to identify and describe associations",
+     "youTry": "TBM"
+    },
+    {
+     "n": 10,
+     "sub": "2C",
+     "title": "Using a back-to-back stem plot to identify and describe associations",
+     "youTry": "TBM"
+    },
+    {
+     "n": 11,
+     "sub": "2C",
+     "title": "Comparing distributions across two groups using parallel boxplots",
+     "youTry": "TBM"
+    },
+    {
+     "n": 12,
+     "sub": "2C",
+     "title": "Comparing distributions across more than two groups using parallel boxplots",
+     "youTry": "TBM"
+    }
+   ],
+   "cfats": [
+    {
+     "id": "CFAT 1.2.1",
+     "title": "Bivariate data and associations between categorical variables",
+     "covers": [
+      "2A",
+      "2B"
+     ],
+     "format": "About 20 min, individual, closed book (CAS allowed)",
+     "status": "Written (11 Nov 2026)",
+     "plan": "Start of the 2C lesson.",
+     "file": "1. Data Analysis\\\\CFATs\\\\Chapter 2\\\\CFAT 1.2.1 [2A, 2B].docx",
+     "sources": [
+      "Edrolo GM U3&4 2023 exercise questions (CFAT-only): 2A Q1b, Q2, Q5, Q8, Q12 · 2B Q3a, Q5, Q11, Q12 · 2C Q2b, Q2c"
+     ],
+     "marks": 14
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -954,7 +1149,92 @@
      "done": false
     }
    ],
-   "dates": "1–5 Feb"
+   "dates": "1–5 Feb",
+   "learningObjectives": [
+    {
+     "sub": "2D",
+     "items": [
+      "To be able to introduce the scatterplot for displaying data from two numerical variables.",
+      "To be able to construct a scatterplot using a CAS calculator."
+     ]
+    },
+    {
+     "sub": "2E",
+     "items": [
+      "To be able to use a scatterplot to identify an association between two variables.",
+      "From the the scatterplot, be able to classify an association according to: direction, which may be positive or negative; form, which may be linear or non-linear; strength, which may be weak, moderate or strong."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "2D",
+     "items": [
+      "I can construct a scatterplot using a CAS calculator."
+     ]
+    },
+    {
+     "sub": "2E",
+     "items": [
+      "I can classify the direction, form and strength of an association from a scatterplot."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "scatterplots and their use in identifying and qualitatively describing the association between two numerical variables in terms of direction (positive/negative), form (linear/non-linear) and strength (strong/moderate/weak)"
+   ],
+   "keyVocab": [
+    "Scatterplot: a plot of paired numerical data, EV on the horizontal axis",
+    "Direction: positive or negative",
+    "Form: linear or non-linear",
+    "Strength: weak, moderate or strong",
+    "Outlier: a point that does not fit the pattern of the rest"
+   ],
+   "cas": [
+    {
+     "skill": "Creating a scatterplot",
+     "classpad": [
+      {
+       "title": "ClassPad Help 411 – Scatterplot and regression",
+       "url": "https://www.youtube.com/watch?v=EShk1ze8Cpw"
+      }
+     ],
+     "ti": [
+      {
+       "title": "Scatterplots | Getting Started Series – Lists & Spreadsheets",
+       "url": "https://www.youtube.com/watch?v=AMH-Dj-VYm8"
+      },
+      {
+       "title": "Analysing scatterplots | Getting Started Series – Data & Statistics",
+       "url": "https://www.youtube.com/watch?v=97ptJ2fbafM"
+      },
+      {
+       "title": "Statistical plots & bivariate data | Getting Started Series – Data & Statistics",
+       "url": "https://www.youtube.com/watch?v=5ZrJDq4RqD4&t=364s"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 13,
+     "sub": "2E",
+     "title": "Direction of association",
+     "youTry": "TBM"
+    },
+    {
+     "n": 14,
+     "sub": "2E",
+     "title": "Form of an association",
+     "youTry": "TBM"
+    },
+    {
+     "n": 15,
+     "sub": "2E",
+     "title": "Strength of an association",
+     "youTry": "TBM"
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -984,7 +1264,73 @@
      "done": false
     }
    ],
-   "dates": "8–12 Feb"
+   "dates": "8–12 Feb",
+   "learningObjectives": [
+    {
+     "sub": "2F",
+     "items": [
+      "To introduce Pearson’s correlation coefficient r as a measure of the strength of a linear association between two variables.",
+      "To be able to use technology to determine the value of Pearson’s correlation coefficient r.",
+      "To be able to classify the strength of a linear association as weak, moderate or strong based on the value of Pearson’s correlation coefficient r."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "2F",
+     "items": [
+      "I can use technology to determine the value of the correlation coefficient r.",
+      "I can classify the strength of a linear association as weak, moderate or strong based on the value of the correlation coefficient r."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "Pearson correlation coefficient, r, and its calculation and interpretation"
+   ],
+   "keyVocab": [
+    "Pearson’s correlation coefficient (r): measures the strength and direction of a linear association, from −1 to 1",
+    "Strength guide: |r| ≥ 0.75 strong · 0.5 to 0.75 moderate · 0.25 to 0.5 weak · below 0.25 no association",
+    "Only use r when the association is linear, with no clear outliers"
+   ],
+   "cas": [
+    {
+     "skill": "Finding the correlation coefficient r",
+     "classpad": [
+      {
+       "title": "ClassPad Help 411 – Scatterplot and regression",
+       "url": "https://www.youtube.com/watch?v=EShk1ze8Cpw"
+      }
+     ],
+     "ti": [
+      {
+       "title": "How to perform linear regression with TI-nspire",
+       "url": "https://www.youtube.com/watch?v=Xse7Aqb0fLI"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 16,
+     "sub": "2F",
+     "title": "Classifying the strength of a linear association",
+     "youTry": "TBM"
+    }
+   ],
+   "cfats": [
+    {
+     "id": "CFAT 1.2.2",
+     "title": "Numerical vs categorical; scatterplots",
+     "covers": [
+      "2C",
+      "2D"
+     ],
+     "format": "About 20 min, individual, closed book (CAS allowed)",
+     "status": "Written",
+     "plan": "Start of the 2F lesson (one subchapter).",
+     "file": "1. Data Analysis\\\\CFATs\\\\Chapter 2\\\\CFAT 1.2.2 [2C, 2D].docx"
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1014,7 +1360,98 @@
      "done": false
     }
    ],
-   "dates": "8–12 Feb"
+   "dates": "8–12 Feb",
+   "learningObjectives": [
+    {
+     "sub": "2G",
+     "items": [
+      "To be able to calculate the value of the coefficient of determination.",
+      "To be able to use the coefficient of determination to assess the strength of the association in terms of the explained variation."
+     ]
+    },
+    {
+     "sub": "2H",
+     "items": [
+      "To be able to define and differentiate the concepts of association and causation."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "2G",
+     "items": [
+      "I can calculate the value of the coefficient of determination.",
+      "I can use the coefficient of determination to assess the strength of the association in terms of the the explained variation."
+     ]
+    },
+    {
+     "sub": "2H",
+     "items": [
+      "I understand that correlation does not imply causation."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "use of the coefficient of determination, r², to assess the strength of the association in terms of explained variation",
+    "cause and effect; the difference between observation and experimentation when collecting data and the need for experimentation to definitively determine cause and effect"
+   ],
+   "keyVocab": [
+    "Coefficient of determination (r²): the percentage of the variation in the RV that is explained by the variation in the EV",
+    "Causation: one variable directly causes a change in the other",
+    "Confounding variable: another variable that affects both variables",
+    "Common response: both variables respond to a third variable",
+    "Coincidence: an association that happens by chance",
+    "Experiment: needed to show cause and effect; an observational study is not enough"
+   ],
+   "cas": [
+    {
+     "skill": "Finding r and r²",
+     "classpad": [
+      {
+       "title": "ClassPad Help 411 – Scatterplot and regression",
+       "url": "https://www.youtube.com/watch?v=EShk1ze8Cpw"
+      }
+     ],
+     "ti": [
+      {
+       "title": "How to perform linear regression with TI-nspire",
+       "url": "https://www.youtube.com/watch?v=Xse7Aqb0fLI"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 17,
+     "sub": "2G",
+     "title": "Calculating the coefficient of determination",
+     "youTry": "TBM"
+    },
+    {
+     "n": 18,
+     "sub": "2G",
+     "title": "Interpreting the coefficient of determination",
+     "youTry": "TBM"
+    },
+    {
+     "n": 19,
+     "sub": "2G",
+     "title": "Calculating and interpreting the coefficient of determination",
+     "youTry": "TBM"
+    },
+    {
+     "n": 20,
+     "sub": "2G",
+     "title": "Calculating and interpreting the coefficient of determination",
+     "youTry": "TBM"
+    },
+    {
+     "n": 21,
+     "sub": "2G",
+     "title": "Calculating the correlation coefficient from the coefficient of determination",
+     "youTry": "TBM"
+    }
+   ]
   },
   {
    "type": "review",
@@ -1036,7 +1473,20 @@
      "done": false
     }
    ],
-   "dates": "8–12 Feb"
+   "dates": "8–12 Feb",
+   "learningObjectives": [
+    {
+     "sub": "2I",
+     "items": [
+      "No learning intentions for this subchapter in the printed textbook."
+     ]
+    }
+   ],
+   "successCriteria": [],
+   "studyDesign": [
+    "answering statistical questions that require a knowledge of the associations between pairs of variables"
+   ],
+   "keyVocab": []
   },
   {
    "type": "lesson",
@@ -1066,7 +1516,85 @@
      "done": false
     }
    ],
-   "dates": "15–19 Feb"
+   "dates": "15–19 Feb",
+   "learningObjectives": [
+    {
+     "sub": "3A",
+     "items": [
+      "To be able to define linear regression.",
+      "To be able to define a residual.",
+      "To introduce the least squares line of best fit.",
+      "To be able to find the equation of the least squares line using summary statistics.",
+      "To be able to find the equation of the least squares line using technology."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "3A",
+     "items": [
+      "I can determine the equation of the least squares regression line using the formulas.",
+      "I can determine the correlation coefficient from the slope of the least squares regression line using the formula.",
+      "I can determine the equation of the least squares regression line using a CAS calculator."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "least squares line of best fit y = a + bx, where x represents the explanatory variable, and y represents the response variable; the determination of the coefficients a and b using technology, and the formulas b = r × s_y / s_x and a = ȳ − b x̄",
+    "modelling linear association between two numerical variables, including the: identification of the explanatory and response variables; use of the least squares method to fit a linear model to the data"
+   ],
+   "keyVocab": [
+    "Least squares regression line: y = a + bx, the line that makes the sum of squared residuals as small as possible",
+    "Slope (b) = r × s_y / s_x",
+    "Intercept (a) = ȳ − b x̄",
+    "Residual: actual value − predicted value"
+   ],
+   "cas": [
+    {
+     "skill": "Finding the least squares regression line",
+     "classpad": [
+      {
+       "title": "ClassPad Help 411 – Scatterplot and regression",
+       "url": "https://www.youtube.com/watch?v=EShk1ze8Cpw"
+      }
+     ],
+     "ti": [
+      {
+       "title": "How to perform linear regression with TI-nspire",
+       "url": "https://www.youtube.com/watch?v=Xse7Aqb0fLI"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 1,
+     "sub": "3A",
+     "title": "Determining the equation of the least squares regression line using summary statistics and the correlation coefficient",
+     "youTry": "TBM"
+    },
+    {
+     "n": 2,
+     "sub": "3A",
+     "title": "Determining the correlation coefficient using the slope of the least squares regression line",
+     "youTry": "TBM"
+    }
+   ],
+   "cfats": [
+    {
+     "id": "CFAT 1.2.3",
+     "title": "Direction, form, strength, r, r² and causation",
+     "covers": [
+      "2E",
+      "2F",
+      "2G",
+      "2H"
+     ],
+     "format": "About 20 min, individual, closed book (CAS allowed)",
+     "status": "Planned",
+     "plan": "Start of the 3A lesson (the Chapter 2 review lesson stays CFAT-free)."
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1096,7 +1624,74 @@
      "done": false
     }
    ],
-   "dates": "15–19 Feb"
+   "dates": "15–19 Feb",
+   "learningObjectives": [
+    {
+     "sub": "3B",
+     "items": [
+      "To be able to interpret the intercept and slope of the least squares line.",
+      "To be able to use the equation of the least squares line to make predictions.",
+      "To be able to use the coefficient of determination in a regression analysis."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "3B",
+     "items": [
+      "I can interpret the slope and intercept of a regression line.",
+      "I can use the regression line to make predictions.",
+      "I can use the coefficient of determination to compare associations."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "interpretation of the slope and intercepts of the least squares line in the context of the situation being modelled, including: use of the rule of the fitted line to make predictions being aware of the limitations of extrapolation",
+    "use of the coefficient of determination, r², to assess the strength of the association in terms of explained variation"
+   ],
+   "keyVocab": [
+    "Slope interpretation: on average, the RV changes by b for each 1-unit increase in the EV",
+    "Intercept interpretation: the predicted RV when the EV is 0",
+    "Interpolation: predicting within the range of the data (reliable)",
+    "Extrapolation: predicting outside the range of the data (unreliable)"
+   ],
+   "cas": [
+    {
+     "skill": "Making predictions from the regression line",
+     "classpad": [
+      {
+       "title": "ClassPad Help 441 – Prediction from regression line",
+       "url": "https://www.youtube.com/watch?v=hr_53Cu1xSs"
+      }
+     ],
+     "ti": [
+      {
+       "title": "How to perform linear regression with TI-nspire",
+       "url": "https://www.youtube.com/watch?v=Xse7Aqb0fLI"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 3,
+     "sub": "3B",
+     "title": "Interpreting the slope and intercept of a regression line",
+     "youTry": "TBM"
+    },
+    {
+     "n": 4,
+     "sub": "3B",
+     "title": "Using the regression line to make predictions",
+     "youTry": "TBM"
+    },
+    {
+     "n": 5,
+     "sub": "3B",
+     "title": "Using the coefficient of determination to compare associations",
+     "youTry": "TBM"
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1126,7 +1721,116 @@
      "done": false
     }
    ],
-   "dates": "15–19 Feb"
+   "dates": "15–19 Feb",
+   "learningObjectives": [
+    {
+     "sub": "3B",
+     "items": [
+      "To be able to use a residual plot to investigate the linearity assumption.",
+      "To be able to report a regression analysis."
+     ]
+    },
+    {
+     "sub": "3C",
+     "items": [
+      "No learning intentions for this subchapter in the printed textbook."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "3B",
+     "items": [
+      "I can calculate residual values.",
+      "I can interpret a residual plot.",
+      "I can write a report based on a regression analysis."
+     ]
+    },
+    {
+     "sub": "3C",
+     "items": [
+      "I can use a CAS calculator to generate all of the analyses required for a regression analysis."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "use of residual analysis to check quality of fit"
+   ],
+   "keyVocab": [
+    "Residual plot: residuals plotted against the EV",
+    "Random scatter: supports the linearity assumption",
+    "Clear pattern (e.g. a curve): the association is not linear",
+    "Regression analysis report: direction, form, strength, equation, slope, r² and residual check"
+   ],
+   "cas": [
+    {
+     "skill": "Residuals and residual plots",
+     "classpad": [
+      {
+       "title": "ClassPad Help 442 – Residuals and residual plots",
+       "url": "https://www.youtube.com/watch?v=q5mm9-QHhlE"
+      }
+     ],
+     "ti": [
+      {
+       "title": "Analysing scatterplots | Getting Started Series – Data & Statistics",
+       "url": "https://www.youtube.com/watch?v=97ptJ2fbafM"
+      }
+     ]
+    },
+    {
+     "skill": "Full regression analysis",
+     "classpad": [
+      {
+       "title": "ClassPad Help 411 – Scatterplot and regression",
+       "url": "https://www.youtube.com/watch?v=EShk1ze8Cpw"
+      },
+      {
+       "title": "ClassPad Help 442 – Residuals and residual plots",
+       "url": "https://www.youtube.com/watch?v=q5mm9-QHhlE"
+      }
+     ],
+     "ti": [
+      {
+       "title": "How to perform linear regression with TI-nspire",
+       "url": "https://www.youtube.com/watch?v=Xse7Aqb0fLI"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 6,
+     "sub": "3B",
+     "title": "Calculating a residual",
+     "youTry": "TBM"
+    },
+    {
+     "n": 7,
+     "sub": "3B",
+     "title": "Interpreting a residual plot",
+     "youTry": "TBM"
+    },
+    {
+     "n": 8,
+     "sub": "3B",
+     "title": "Reporting the results of a regression analysis",
+     "youTry": "TBM"
+    }
+   ],
+   "cfats": [
+    {
+     "id": "CFAT 1.3.1",
+     "title": "Fitting and interpreting the least squares line",
+     "covers": [
+      "3A",
+      "3B (slope, intercept, predictions, r²)"
+     ],
+     "format": "About 20 min, individual, closed book (CAS allowed)",
+     "status": "Planned",
+     "plan": "Start of the residuals and regression analysis lesson."
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1156,7 +1860,78 @@
      "done": false
     }
    ],
-   "dates": "22–26 Feb"
+   "dates": "22–26 Feb",
+   "learningObjectives": [
+    {
+     "sub": "4A",
+     "items": [
+      "To be able to apply a squared transformation to either x or y.",
+      "To be able to fit a least squares regression line to the transformed data.",
+      "To be able to use the least squares regression line fitted to the transformed data for prediction."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "4A",
+     "items": [
+      "I can apply the x² transformation.",
+      "I can apply the y² transformation."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "data transformation and its use in transforming some forms of non-linear data to linearity using a square, logarithmic (base 10) or reciprocal transformation (applied to one axis only)",
+    "interpretation and use of the equation of the least squares line fitted to the transformed data to make predictions"
+   ],
+   "keyVocab": [
+    "Data transformation: applying a function to one axis to linearise the data",
+    "Squared transformation: x² or y²"
+   ],
+   "cas": [
+    {
+     "skill": "Fitting a regression line to transformed data",
+     "classpad": [
+      {
+       "title": "ClassPad Help 411 – Scatterplot and regression",
+       "url": "https://www.youtube.com/watch?v=EShk1ze8Cpw"
+      }
+     ],
+     "ti": [
+      {
+       "title": "How to perform linear regression with TI-nspire",
+       "url": "https://www.youtube.com/watch?v=Xse7Aqb0fLI"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 1,
+     "sub": "4A",
+     "title": "Applying the x-squared transformation",
+     "youTry": "TBM"
+    },
+    {
+     "n": 2,
+     "sub": "4A",
+     "title": "Applying the y-squared transformation",
+     "youTry": "TBM"
+    }
+   ],
+   "cfats": [
+    {
+     "id": "CFAT 1.3.2",
+     "title": "Residuals and regression analysis",
+     "covers": [
+      "3B (residuals, reporting)",
+      "3C"
+     ],
+     "format": "About 20 min, individual, closed book (CAS allowed)",
+     "status": "Planned",
+     "plan": "Start of the 4A lesson."
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1186,7 +1961,65 @@
      "done": false
     }
    ],
-   "dates": "22–26 Feb"
+   "dates": "22–26 Feb",
+   "learningObjectives": [
+    {
+     "sub": "4B",
+     "items": [
+      "To be able to apply a log10 transformation to either x or y.",
+      "To be able to fit a least squares regression line to the transformed data.",
+      "To be able to use the least squares regression line fitted to the transformed data for prediction."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "4B",
+     "items": [
+      "I can apply the log x transformation.",
+      "I can apply the log y transformation."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "data transformation and its use in transforming some forms of non-linear data to linearity using a square, logarithmic (base 10) or reciprocal transformation (applied to one axis only)",
+    "interpretation and use of the equation of the least squares line fitted to the transformed data to make predictions"
+   ],
+   "keyVocab": [
+    "Data transformation: applying a function to one axis to linearise the data",
+    "Log transformation: log x or log y (base 10)"
+   ],
+   "cas": [
+    {
+     "skill": "Fitting a regression line to transformed data",
+     "classpad": [
+      {
+       "title": "ClassPad Help 411 – Scatterplot and regression",
+       "url": "https://www.youtube.com/watch?v=EShk1ze8Cpw"
+      }
+     ],
+     "ti": [
+      {
+       "title": "How to perform linear regression with TI-nspire",
+       "url": "https://www.youtube.com/watch?v=Xse7Aqb0fLI"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 3,
+     "sub": "4B",
+     "title": "Applying the log x transformation",
+     "youTry": "TBM"
+    },
+    {
+     "n": 4,
+     "sub": "4B",
+     "title": "Applying the log y transformation",
+     "youTry": "TBM"
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1216,7 +2049,65 @@
      "done": false
     }
    ],
-   "dates": "22–26 Feb"
+   "dates": "22–26 Feb",
+   "learningObjectives": [
+    {
+     "sub": "4C",
+     "items": [
+      "To be able to apply a reciprocal transformation to either x or y.",
+      "To be able to fit a least squares regression line to the transformed data.",
+      "To be able to use the least squares regression line fitted to the transformed data for prediction."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "4C",
+     "items": [
+      "I can apply the reciprocal (1/x) transformation.",
+      "I can apply the reciprocal (1/y) transformation."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "data transformation and its use in transforming some forms of non-linear data to linearity using a square, logarithmic (base 10) or reciprocal transformation (applied to one axis only)",
+    "interpretation and use of the equation of the least squares line fitted to the transformed data to make predictions"
+   ],
+   "keyVocab": [
+    "Data transformation: applying a function to one axis to linearise the data",
+    "Reciprocal transformation: 1/x or 1/y"
+   ],
+   "cas": [
+    {
+     "skill": "Fitting a regression line to transformed data",
+     "classpad": [
+      {
+       "title": "ClassPad Help 411 – Scatterplot and regression",
+       "url": "https://www.youtube.com/watch?v=EShk1ze8Cpw"
+      }
+     ],
+     "ti": [
+      {
+       "title": "How to perform linear regression with TI-nspire",
+       "url": "https://www.youtube.com/watch?v=Xse7Aqb0fLI"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 5,
+     "sub": "4C",
+     "title": "Applying the reciprocal (1/x) transformation",
+     "youTry": "TBM"
+    },
+    {
+     "n": 6,
+     "sub": "4C",
+     "title": "Applying the reciprocal (1/y) transformation",
+     "youTry": "TBM"
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1246,7 +2137,84 @@
      "done": false
     }
    ],
-   "dates": "1–5 Mar"
+   "dates": "1–5 Mar",
+   "learningObjectives": [
+    {
+     "sub": "4D",
+     "items": [
+      "To be able to use the circle of transformations to determine which transformations may help linearise a non-linear association.",
+      "To be able to use a residual plot to assess the effectiveness of a data transformation.",
+      "To be able to use the coefficient of determination to assess the effectiveness of a data transformation."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "4D",
+     "items": [
+      "I can choose the best transformation to apply."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "data transformation and its use in transforming some forms of non-linear data to linearity using a square, logarithmic (base 10) or reciprocal transformation (applied to one axis only)",
+    "use of residual analysis to check quality of fit"
+   ],
+   "keyVocab": [
+    "Data transformation: applying a function to one axis to linearise the data",
+    "Squared transformation: x² or y²",
+    "Log transformation: log x or log y (base 10)",
+    "Reciprocal transformation: 1/x or 1/y",
+    "Circle of transformations: shows which transformations may linearise each shape of curve",
+    "Choosing the best transformation: compare residual plots and r²"
+   ],
+   "cas": [
+    {
+     "skill": "Checking a transformation: residual plot and r²",
+     "classpad": [
+      {
+       "title": "ClassPad Help 442 – Residuals and residual plots",
+       "url": "https://www.youtube.com/watch?v=q5mm9-QHhlE"
+      },
+      {
+       "title": "ClassPad Help 411 – Scatterplot and regression",
+       "url": "https://www.youtube.com/watch?v=EShk1ze8Cpw"
+      }
+     ],
+     "ti": [
+      {
+       "title": "How to perform linear regression with TI-nspire",
+       "url": "https://www.youtube.com/watch?v=Xse7Aqb0fLI"
+      },
+      {
+       "title": "Analysing scatterplots | Getting Started Series – Data & Statistics",
+       "url": "https://www.youtube.com/watch?v=97ptJ2fbafM"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 7,
+     "sub": "4D",
+     "title": "Choosing the best transformation",
+     "youTry": "TBM"
+    }
+   ],
+   "cfats": [
+    {
+     "id": "CFAT 1.4.1",
+     "title": "Applying transformations",
+     "covers": [
+      "4A",
+      "4B",
+      "4C"
+     ],
+     "format": "About 20 min, individual, closed book (CAS allowed)",
+     "status": "Planned",
+     "plan": "Start of the 4D lesson (one subchapter)."
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1276,7 +2244,104 @@
      "done": false
     }
    ],
-   "dates": "1–5 Mar"
+   "dates": "1–5 Mar",
+   "learningObjectives": [
+    {
+     "sub": "5A",
+     "items": [
+      "To be able to recognise time series data.",
+      "To be able to construct a time series plot.",
+      "To be able to recognise features in the plot such as trend, seasonality and irregular fluctuations."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "5A",
+     "items": [
+      "I can construct a time series plot.",
+      "I can identify trend in a time series plot.",
+      "I can identify cycles in a time series plot.",
+      "I can identify seasonality in a time series plot.",
+      "I can identify structural change in a time series plot.",
+      "I can identify outliers in a time series plot."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "qualitative features of time series plots; recognition of features such as trend (long-term direction), seasonality (systematic, calendar related movements) and irregular fluctuations (unsystematic, short-term fluctuations); possible outliers and their sources, including one-off real-world events, and signs of structural change such as a discontinuity in the time series"
+   ],
+   "keyVocab": [
+    "Time series data: values recorded at regular time intervals",
+    "Trend: the long-term increase or decrease",
+    "Seasonality: a regular calendar-related pattern",
+    "Cycles: up-and-down movement over periods longer than a year",
+    "Irregular fluctuations: unpredictable, short-term changes",
+    "Structural change: a sudden change in the level or pattern",
+    "Outlier: a value that does not fit the pattern"
+   ],
+   "cas": [
+    {
+     "skill": "Plotting a time series",
+     "classpad": [
+      {
+       "title": "ClassPad Help 412 – xyLine time series",
+       "url": "https://www.youtube.com/watch?v=g8HfR10oVtY"
+      }
+     ],
+     "ti": []
+    }
+   ],
+   "weDo": [
+    {
+     "n": 1,
+     "sub": "5A",
+     "title": "Constructing a time series plot",
+     "youTry": "TBM"
+    },
+    {
+     "n": 2,
+     "sub": "5A",
+     "title": "Identifying trends",
+     "youTry": "TBM"
+    },
+    {
+     "n": 3,
+     "sub": "5A",
+     "title": "Identifying cycles",
+     "youTry": "TBM"
+    },
+    {
+     "n": 4,
+     "sub": "5A",
+     "title": "Identifying seasonality",
+     "youTry": "TBM"
+    },
+    {
+     "n": 5,
+     "sub": "5A",
+     "title": "Identifying structural change",
+     "youTry": "TBM"
+    },
+    {
+     "n": 6,
+     "sub": "5A",
+     "title": "Identifying outliers",
+     "youTry": "TBM"
+    }
+   ],
+   "cfats": [
+    {
+     "id": "CFAT 1.4.2",
+     "title": "Choosing and using a transformation",
+     "covers": [
+      "4D"
+     ],
+     "format": "About 20 min, individual, closed book (CAS allowed)",
+     "status": "Planned",
+     "plan": "Start of the 5A lesson (features of time series plots, a lighter lesson)."
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1306,7 +2371,59 @@
      "done": false
     }
    ],
-   "dates": "1–5 Mar"
+   "dates": "1–5 Mar",
+   "learningObjectives": [
+    {
+     "sub": "5B",
+     "items": [
+      "To be able to smooth a time series plot using moving means."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "5B",
+     "items": [
+      "I can smooth a time series using moving mean smoothing."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "numerical smoothing of time series data using moving means with consideration of the number of terms required (using centring when appropriate) to help identify trends in time series plot with large fluctuations"
+   ],
+   "keyVocab": [
+    "Moving mean smoothing: replacing each value by the mean of it and its neighbours"
+   ],
+   "cas": [
+    {
+     "skill": "Smoothing a time series (moving means)",
+     "classpad": [
+      {
+       "title": "ClassPad Help 545 – Smoothing time series",
+       "url": "https://www.youtube.com/watch?v=tzfG4MilCQ4"
+      },
+      {
+       "title": "ClassPad Help 945 – Smoothing time series using mavII",
+       "url": "https://www.youtube.com/watch?v=WMEW4LykEgA"
+      }
+     ],
+     "ti": []
+    }
+   ],
+   "weDo": [
+    {
+     "n": 7,
+     "sub": "5B",
+     "title": "Three- and five-moving mean smoothing",
+     "youTry": "TBM"
+    },
+    {
+     "n": 8,
+     "sub": "5B",
+     "title": "Three- and five-moving mean smoothing of a time series",
+     "youTry": "TBM"
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1336,7 +2453,66 @@
      "done": false
     }
    ],
-   "dates": "8–12 Mar"
+   "dates": "8–12 Mar",
+   "learningObjectives": [
+    {
+     "sub": "5B",
+     "items": [
+      "To be able to know when and how to use centring when smoothing."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "5B",
+     "items": [
+      "I can smooth a time series using moving mean smoothing with centring."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "numerical smoothing of time series data using moving means with consideration of the number of terms required (using centring when appropriate) to help identify trends in time series plot with large fluctuations"
+   ],
+   "keyVocab": [
+    "Moving mean smoothing: replacing each value by the mean of it and its neighbours",
+    "Centring: needed when smoothing over an even number of points"
+   ],
+   "cas": [
+    {
+     "skill": "Smoothing a time series (moving means)",
+     "classpad": [
+      {
+       "title": "ClassPad Help 545 – Smoothing time series",
+       "url": "https://www.youtube.com/watch?v=tzfG4MilCQ4"
+      },
+      {
+       "title": "ClassPad Help 945 – Smoothing time series using mavII",
+       "url": "https://www.youtube.com/watch?v=WMEW4LykEgA"
+      }
+     ],
+     "ti": []
+    }
+   ],
+   "weDo": [
+    {
+     "n": 9,
+     "sub": "5B",
+     "title": "Two-moving mean smoothing with centring",
+     "youTry": "TBM"
+    },
+    {
+     "n": 10,
+     "sub": "5B",
+     "title": "Four- and six-moving mean smoothing with centring",
+     "youTry": "TBM"
+    },
+    {
+     "n": 11,
+     "sub": "5B",
+     "title": "Smoothing of a time series using four-mean smoothing with centring",
+     "youTry": "TBM"
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1366,7 +2542,45 @@
      "done": false
     }
    ],
-   "dates": "8–12 Mar"
+   "dates": "8–12 Mar",
+   "learningObjectives": [
+    {
+     "sub": "5C",
+     "items": [
+      "To be able to locate the median of a data set graphically.",
+      "To be able to smooth a time series plot using moving medians."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "5C",
+     "items": [
+      "I can smooth a time series using moving median smoothing."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "graphical smoothing of time series plots using moving medians (involving an odd number of points only) to help identify long-term trends in time series with large fluctuations"
+   ],
+   "keyVocab": [
+    "Moving median smoothing: replacing each value by the median of it and its neighbours, done graphically",
+    "Uses an odd number of points"
+   ],
+   "weDo": [
+    {
+     "n": 12,
+     "sub": "5C",
+     "title": "Three-moving median smoothing using a graphical approach",
+     "youTry": "TBM"
+    },
+    {
+     "n": 13,
+     "sub": "5C",
+     "title": "Five-moving median smoothing using a graphical approach",
+     "youTry": "TBM"
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1396,7 +2610,69 @@
      "done": false
     }
    ],
-   "dates": "8–12 Mar"
+   "dates": "8–12 Mar",
+   "learningObjectives": [
+    {
+     "sub": "5D",
+     "items": [
+      "To be able to interpret the meaning of seasonal indices.",
+      "To be able to seasonally adjust data using seasonal indices."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "5D",
+     "items": [
+      "I can interpret seasonal indices.",
+      "I can use seasonal indices to deseasonalise and reseasonalise data.",
+      "I can use seasonal indices to determine percentage change required to correct for seasonality."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "seasonal adjustment including the use and interpretation of seasonal indices and their calculation using seasonal and yearly means"
+   ],
+   "keyVocab": [
+    "Seasonal index: actual value ÷ seasonal average",
+    "Seasonal indices add up to the number of seasons (and average to 1)",
+    "Deseasonalise: actual value ÷ seasonal index",
+    "Reseasonalise: deseasonalised value × seasonal index"
+   ],
+   "weDo": [
+    {
+     "n": 14,
+     "sub": "5D",
+     "title": "Interpreting seasonal indices",
+     "youTry": "TBM"
+    },
+    {
+     "n": 15,
+     "sub": "5D",
+     "title": "Using seasonal indices",
+     "youTry": "TBM"
+    },
+    {
+     "n": 16,
+     "sub": "5D",
+     "title": "Using seasonal indices to determine percentage change required to correct for seasonality",
+     "youTry": "TBM"
+    }
+   ],
+   "cfats": [
+    {
+     "id": "CFAT 1.5.1",
+     "title": "Time series and smoothing",
+     "covers": [
+      "5A",
+      "5B",
+      "5C"
+     ],
+     "format": "About 20 min, individual, closed book (CAS allowed)",
+     "status": "Planned",
+     "plan": "Start of the first seasonal indices lesson."
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1426,7 +2702,54 @@
      "done": false
     }
    ],
-   "dates": "15–19 Mar"
+   "dates": "15–19 Mar",
+   "learningObjectives": [
+    {
+     "sub": "5D",
+     "items": [
+      "To be able to calculate seasonal indices from time series data."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "5D",
+     "items": [
+      "I can calculate seasonal indices from 1 year of data.",
+      "I can calculate seasonal indices from several years of data.",
+      "I can use seasonal indices to deseasonalise a time series."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "seasonal adjustment including the use and interpretation of seasonal indices and their calculation using seasonal and yearly means"
+   ],
+   "keyVocab": [
+    "Seasonal index: actual value ÷ seasonal average",
+    "Seasonal indices add up to the number of seasons (and average to 1)",
+    "Deseasonalise: actual value ÷ seasonal index",
+    "Reseasonalise: deseasonalised value × seasonal index"
+   ],
+   "weDo": [
+    {
+     "n": 17,
+     "sub": "5D",
+     "title": "Calculating seasonal indices (1 year’s data)",
+     "youTry": "TBM"
+    },
+    {
+     "n": 18,
+     "sub": "5D",
+     "title": "Calculating seasonal indices (several years’ data)",
+     "youTry": "TBM"
+    },
+    {
+     "n": 19,
+     "sub": "5D",
+     "title": "Deseasonalising a time series",
+     "youTry": "TBM"
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -1456,7 +2779,96 @@
      "done": false
     }
    ],
-   "dates": "15–19 Mar"
+   "dates": "15–19 Mar",
+   "learningObjectives": [
+    {
+     "sub": "5E",
+     "items": [
+      "To be able to use the method of least squares to fit a trend line to a time series.",
+      "To be able to use the trend line to make predictions.",
+      "To be able to use seasonal indices to add seasonality to predicted values as appropriate."
+     ]
+    }
+   ],
+   "successCriteria": [
+    {
+     "sub": "5E",
+     "items": [
+      "I can fit a trend line to a time series plot.",
+      "I can use a trend line to forecast a future value (no seasonality).",
+      "I can fit a trend line to a time series plot with seasonality.",
+      "I can use a trend line to forecast a future value (with seasonality)."
+     ]
+    }
+   ],
+   "studyDesign": [
+    "modelling trend by fitting a least squares line to a time series with time as the explanatory variable (data de-seasonalised where necessary), and the use of the model to make forecasts (with re-seasonalisation where necessary) including consideration of the possible limitations of fitting a linear model and the limitations of extending into the future"
+   ],
+   "keyVocab": [
+    "Trend line: a least squares line fitted with time as the EV",
+    "Forecasting: using the trend line to predict future values",
+    "Limitations: forecasts further into the future are less reliable"
+   ],
+   "cas": [
+    {
+     "skill": "Fitting a trend line (least squares)",
+     "classpad": [
+      {
+       "title": "ClassPad Help 411 – Scatterplot and regression",
+       "url": "https://www.youtube.com/watch?v=EShk1ze8Cpw"
+      },
+      {
+       "title": "ClassPad Help 441 – Prediction from regression line",
+       "url": "https://www.youtube.com/watch?v=hr_53Cu1xSs"
+      }
+     ],
+     "ti": [
+      {
+       "title": "How to perform linear regression with TI-nspire",
+       "url": "https://www.youtube.com/watch?v=Xse7Aqb0fLI"
+      }
+     ]
+    }
+   ],
+   "weDo": [
+    {
+     "n": 20,
+     "sub": "5E",
+     "title": "Fitting a trend line",
+     "youTry": "TBM"
+    },
+    {
+     "n": 21,
+     "sub": "5E",
+     "title": "Forecasting",
+     "youTry": "TBM"
+    },
+    {
+     "n": 22,
+     "sub": "5E",
+     "title": "Fitting a trend line (seasonality)",
+     "youTry": "TBM"
+    },
+    {
+     "n": 23,
+     "sub": "5E",
+     "title": "Forecasting (seasonality)",
+     "youTry": "TBM"
+    }
+   ],
+   "cfats": [
+    {
+     "id": "CFAT 1.5.2",
+     "title": "Seasonal indices and forecasting",
+     "covers": [
+      "5D",
+      "5E"
+     ],
+     "format": "About 20 min, individual, closed book (CAS allowed)",
+     "status": "Planned",
+     "plan": "Last 20 min of the 5E lesson: the lessons after it are all review or SAC 1 preparation."
+    }
+   ]
   },
   {
    "type": "review",
