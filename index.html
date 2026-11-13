@@ -84,6 +84,7 @@ main{max-width:1200px;margin:0 auto;padding:16px 20px 80px}
 .res{margin:0;padding-left:18px;line-height:1.55}.res .path{display:block;font-size:11px;color:var(--muted);word-break:break-all}
 .teach{margin-top:8px;padding:8px 10px;background:var(--bg);border-radius:8px}.teach h3{margin-top:0}
 .scope{font-size:12px;color:var(--muted)}
+.wdates{display:block;font-size:12px;color:var(--muted);margin-top:2px}
 </style>
 </head>
 <body>
@@ -169,7 +170,7 @@ function renderClass(c){
   for(const w of [...new Set(L.map(l=>l.week))]){
     const W=L.filter(l=>l.week==w);
     if(W[0].aos!=lastA){lastA=W[0].aos;h+=`<div class="aos"><b>${esc(lastA)}</b><span>${esc(W[0].aosTitle)}</span></div>`}
-    h+=`<div class="week"><div class="wl"><b>${esc(W[0].weekLabel||'Week '+w)}</b>${esc(W[0].termLabel||'Semester 1')}</div>`;
+    h+=`<div class="week"><div class="wl"><b>${esc(W[0].weekLabel||'Week '+w)}</b>${esc(W[0].termLabel||'Semester 1')}${W[0].dates?`<span class="wdates">${esc(W[0].dates)}</span>`:''}</div>`;
     for(const l of W)h+=`<div class="card t-${l.type} ${l.cfat?'has-cfat':''} ${openId==l.id?'open':''}" data-id="${l.id}">
       <div class="meta"><span>L${l.lesson}${l.section?' · '+esc(l.section):''}</span><span class="tags">${l.cfat?'<span class="tag cfat">CFAT</span>':''}<span class="tag">${TYPE[l.type]}</span></span></div>
       <div class="ttl">${esc(l.title)}</div><div class="bar"><i style="width:${Math.round(progress(l)*100)}%"></i></div></div>`;

@@ -35,7 +35,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": ""
   },
   {
    "type": "lesson",
@@ -64,7 +65,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": ""
   },
   {
    "type": "lesson",
@@ -93,7 +95,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": ""
   },
   {
    "type": "lesson",
@@ -122,7 +125,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": ""
   },
   {
    "type": "lesson",
@@ -151,7 +155,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": ""
   },
   {
    "type": "review",
@@ -172,7 +177,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "28–29 Jan"
   },
   {
    "type": "sac",
@@ -197,7 +203,8 @@
      "text": "Marking scheme ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "28–29 Jan"
   },
   {
    "type": "lesson",
@@ -226,7 +233,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "1–5 Feb"
   },
   {
    "type": "lesson",
@@ -255,7 +263,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "1–5 Feb"
   },
   {
    "type": "lesson",
@@ -284,7 +293,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "1–5 Feb"
   },
   {
    "type": "lesson",
@@ -313,7 +323,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "8–12 Feb"
   },
   {
    "type": "lesson",
@@ -342,7 +353,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "8–12 Feb"
   },
   {
    "type": "review",
@@ -363,7 +375,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "8–12 Feb"
   },
   {
    "type": "lesson",
@@ -392,7 +405,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "15–19 Feb"
   },
   {
    "type": "lesson",
@@ -421,7 +435,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "15–19 Feb"
   },
   {
    "type": "lesson",
@@ -450,7 +465,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "15–19 Feb"
   },
   {
    "type": "lesson",
@@ -479,7 +495,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "22–26 Feb"
   },
   {
    "type": "lesson",
@@ -508,7 +525,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "22–26 Feb"
   },
   {
    "type": "lesson",
@@ -537,7 +555,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "22–26 Feb"
   },
   {
    "type": "lesson",
@@ -566,7 +585,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "1–5 Mar"
   },
   {
    "type": "lesson",
@@ -595,7 +615,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "1–5 Mar"
   },
   {
    "type": "lesson",
@@ -624,7 +645,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "1–5 Mar"
   },
   {
    "type": "lesson",
@@ -653,7 +675,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "8–12 Mar"
   },
   {
    "type": "lesson",
@@ -682,7 +705,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "8–12 Mar"
   },
   {
    "type": "lesson",
@@ -711,7 +735,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "8–12 Mar"
   },
   {
    "type": "lesson",
@@ -740,7 +765,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "15–19 Mar"
   },
   {
    "type": "lesson",
@@ -769,7 +795,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "15–19 Mar"
   },
   {
    "type": "review",
@@ -790,7 +817,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "15–19 Mar"
   },
   {
    "type": "review",
@@ -811,7 +839,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "22–25 Mar"
   },
   {
    "type": "sac",
@@ -836,7 +865,8 @@
      "text": "Marking scheme ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "22–25 Mar"
   },
   {
    "type": "review",
@@ -857,7 +887,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "22–25 Mar"
   },
   {
    "type": "lesson",
@@ -886,7 +917,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "12–16 Apr"
   },
   {
    "type": "lesson",
@@ -915,7 +947,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "12–16 Apr"
   },
   {
    "type": "lesson",
@@ -944,7 +977,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "12–16 Apr"
   },
   {
    "type": "lesson",
@@ -973,7 +1007,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "19–23 Apr"
   },
   {
    "type": "review",
@@ -994,7 +1029,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "19–23 Apr"
   },
   {
    "type": "lesson",
@@ -1023,7 +1059,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "19–23 Apr"
   },
   {
    "type": "lesson",
@@ -1052,7 +1089,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "26–30 Apr"
   },
   {
    "type": "lesson",
@@ -1081,7 +1119,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "26–30 Apr"
   },
   {
    "type": "lesson",
@@ -1110,7 +1149,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "26–30 Apr"
   },
   {
    "type": "lesson",
@@ -1139,7 +1179,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "3–7 May"
   },
   {
    "type": "lesson",
@@ -1168,7 +1209,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "3–7 May"
   },
   {
    "type": "lesson",
@@ -1197,7 +1239,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "3–7 May"
   },
   {
    "type": "lesson",
@@ -1226,7 +1269,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "10–14 May"
   },
   {
    "type": "lesson",
@@ -1255,7 +1299,8 @@
      "text": "Exit ticket",
      "done": false
     }
-   ]
+   ],
+   "dates": "10–14 May"
   },
   {
    "type": "review",
@@ -1276,7 +1321,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "10–14 May"
   },
   {
    "type": "review",
@@ -1297,7 +1343,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "17–21 May"
   },
   {
    "type": "review",
@@ -1318,7 +1365,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "17–21 May"
   },
   {
    "type": "sac",
@@ -1343,7 +1391,8 @@
      "text": "Marking scheme ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "17–21 May"
   },
   {
    "type": "review",
@@ -1364,7 +1413,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "24–28 May"
   },
   {
    "type": "review",
@@ -1385,7 +1435,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "24–28 May"
   },
   {
    "type": "review",
@@ -1406,7 +1457,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "24–28 May"
   },
   {
    "type": "review",
@@ -1427,7 +1479,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "31 May – 4 Jun"
   },
   {
    "type": "review",
@@ -1448,7 +1501,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "31 May – 4 Jun"
   },
   {
    "type": "review",
@@ -1469,7 +1523,8 @@
      "text": "Review set ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "31 May – 4 Jun"
   },
   {
    "type": "sac",
@@ -1494,7 +1549,8 @@
      "text": "Marking scheme ready",
      "done": false
     }
-   ]
+   ],
+   "dates": "7–11 Jun"
   }
  ],
  "assessment": {

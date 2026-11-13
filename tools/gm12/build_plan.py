@@ -34,6 +34,17 @@ for wi,(blk,wl,tl,(aos,at),ls) in enumerate(W,1):
     else: n+=1;num=n
     L.append(dict(type=typ,section=sec,title=title,aos=aos,aosTitle=at,unit=3,week=wi,weekLabel=wl,termLabel=tl,lesson=num,
       id=f'gm12-u3-{num if blk=="su" else "l%02d"%num}'.lower(),keyKnowledge=[],questions=[],tasks=[dict(text=t,done=False) for t in TASKS[typ]]))
+import datetime as dt
+START={'t1':dt.date(2027,1,25),'t2':dt.date(2027,4,12)}; END={'t1':dt.date(2027,3,25)}
+def rng(blk,wl):
+  if blk not in START: return ''
+  mon=START[blk]+dt.timedelta(weeks=int(wl.split()[1])-1)
+  a=max(mon,dt.date(2027,1,28)); b=min(mon+dt.timedelta(days=4),END.get(blk,dt.date(2099,1,1)))
+  f=lambda d:f"{d.day} {d.strftime('%b')}"
+  return f"{a.day}–{f(b)}" if a.month==b.month else f"{f(a)} – {f(b)}"
+for blk,wl,tl,_,_ in W:
+  for l in L:
+    if l['weekLabel']==wl and l['termLabel']==tl: l['dates']=rng(blk,wl)
 ids={l['title']:l for l in L}
 def when(t):l=ids[t];return dict(id=l['id'],week=l['week'],lesson=l['lesson'])
 SD='VCE Mathematics Study Design 2023–2027'
