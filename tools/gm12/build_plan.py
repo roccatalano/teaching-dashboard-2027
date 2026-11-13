@@ -344,5 +344,58 @@ d=dict(id='general-maths-12',name='Year 12 General Maths',unitLabel='Unit 3',
   aos=[dict(aos='SAC 1',title='Application task: Data analysis',when=when('SAC 1 Part 2: in class (10 min reading + 60 min)'),outcome='Outcomes 1–3 (40 of 60 marks)',task='Guided investigation of a given multivariate data set, in three parts: Part 1 after school Wed 14 Apr (10 min reading + 90 min), Part 2 in class in Term 2 Week 1 (10 min reading + 60 min). No new content until Part 3 is done; Chapter 7 starts after it., Part 3 after school Wed 21 Apr (10 min reading + 90 min). Total 4 h 30 min (4 h working time) over 7 days.',taskType='Application task, 4–6 hours over 1–2 weeks',gaps=['Check lessons are at least 70 minutes long, for Part 2.','Part 2 must fall between the two Wednesday sittings (Thu 15 Apr – Tue 20 Apr).','Confirm the Wednesday dates against the school calendar.'],practice=[],actual=[],redemption=[],models=[]),
        dict(aos='SAC 2',title='Modelling or problem-solving task 1: Recursion and financial modelling',when=when('SAC 2 revision (Part 1, Wed 2 Jun after school)'),outcome='Outcomes 1–3 (20 of 60 marks)',task='Modelling or problem-solving task on recursion and financial modelling, in two parts after school: Part 1 Wed 2 Jun (Week 8), Part 2 Wed 9 Jun (Week 9, trial exam week). Feedback in Week 10. Keep the total at 2–3 hours, e.g. 2 × (10 min reading + 80 min).',taskType='Modelling or problem-solving task, 2–3 hours over 1 week',gaps=['Part 2 falls in trial exam week: confirm, or move it to Wed 16 Jun (Week 10).','Week 10 lessons are not planned yet (Unit 4 starts there); SAC 2 feedback needs a slot.','Two full 100-minute sittings would be 3 h 20 min, over the 3-hour maximum. Cap each sitting.','Confirm the Wednesday dates against the school calendar.'],practice=[],actual=[],redemption=[],models=[])],
   exams=[dict(name='Unit 3 trial exams',covers='Unit 3: Data analysis; Recursion and financial modelling',when='Term 2 Week 9 (trial exam week, no classes)',practice=[],actual=[])]))
+
+# ---- APK (activating prior knowledge): Year 11 prerequisites ----
+# CL = Cambridge General Mathematics VCE Units 1&2 (2nd ed.) chapter skills checklist item (section, #, skill).
+# ED = Edrolo General Mathematics Units 1&2 exam practice question (lesson, Q, VCAA source).
+CL={('2A',1):'Classify data as nominal, ordinal, discrete or continuous',('2B',5):'Interpret and describe a frequency table and bar chart',
+ ('2A',2):'Construct a frequency table and a percentage frequency table',('2D',7):'Recognise symmetric, positively and negatively skewed distributions',
+ ('2D',9):'Construct a stem plot from raw data',('2E',10):'Determine the median and mean as measures of centre',('2F',11):'Determine the quartiles and IQR',
+ ('2F',12):'Find the standard deviation of a data set',('2G',13):'Use the 68–95–99.7% rule',('2H',14):'Produce a five-number summary and construct a boxplot',
+ ('2H',15):'Determine the values of any outliers',('2I',16):'Compare distributions with a back-to-back stem plot or boxplot',
+ ('7B',3):'Use a scatterplot to describe an association (direction, form, strength)',('7C',4):'Estimate and calculate the correlation coefficient r',
+ ('7C',5):'Classify the strength of r',('7C',6):'Recognise that correlation does not imply causation',('7D',8):'Find the equation of the least squares line',
+ ('7E',9):'Interpret the slope and intercept of a linear model',('7E',10):'Make predictions: interpolation and extrapolation',
+ ('5A',1):'Substitute values into linear equations and formulas',('5E',7):'Find the slope of a line from two points',('5F',10):'Find the equation of a line from two points',
+ ('5J',14):'Use piecewise linear graphs to model a practical situation',('9A',1):'Find k in direct variation',('9A',2):'Find k in inverse variation',
+ ('9B',3):'Decide direct or inverse variation from a graph',('9C',4):'Use the squared transformation',('9C',5):'Use the reciprocal transformation',
+ ('9D',6):'Evaluate logarithms',('9D',7):'State the order of magnitude of a number',('9D',10):'Use the log transformation',('9E',11):'Model non-linear data with a transformation',
+ ('1A',2):'Convert decimals to percentages',('1B',6):'Increase or decrease a value by a percentage',('1D',11):'Express quantities as a ratio',('1F',14):'Use the unitary method'}
+ED={('1A',13):'VCAA 2021 Exam 1 Q1',('1A',14):'VCAA 2020 Exam 1 Q10',('1C',15):'adapted from VCAA 2017 Exam 2 Q2b',('1C',16):'VCAA 2019 Exam 2 Q1b',('1C',17):'adapted from VCAA 2016 Exam 2 Q1d',
+ ('1D',17):'adapted from VCAA 2020 Exam 2 Q3b',('1D',18):'VCAA 2017 Exam 2 Q1ai',('1D',19):'VCAA 2018 Exam 2 Q2a',('1E',11):'adapted from VCAA 2017 Exam 1 Q3',('1E',13):'adapted from VCAA 2021 Exam 2 Q1b',
+ ('1F',16):'adapted from VCAA 2017 Exam 1 Q2',('1G',12):'adapted from VCAA 2019 Exam 1 Q6',('1G',14):'adapted from VCAA 2020 Exam 2 Q2bi',('1H',16):'VCAA 2019 Exam 2 Q2aii',('1H',17):'adapted from VCAA 2021 Exam 1 Q4',
+ ('6A',14):'adapted from VCAA 2018 Exam 2 Q2b',('6A',15):'adapted from VCAA 2019 Exam 2 Q4a',('6A',16):'adapted from VCAA 2020 Exam 2 Q4bi',('6B',14):'adapted from VCAA 2016 Exam 2 Q3a',
+ ('6B',15):'adapted from VCAA 2016 Exam 1 Q12',('6B',16):'adapted from VCAA 2020 Exam 2 Q6b',('6C',11):'adapted from VCAA 2017 Exam 2 Q4cii',('6C',12):'adapted from VCAA 2021 Exam 2 Q3eii',
+ ('6D',12):'adapted from VCAA 2018 Exam 1 Q8',('6D',13):'adapted from VCAA 2019 Exam 2 Q5a',('6D',14):'adapted from VCAA 2017 Exam 1 Q8',('6D',15):'adapted from VCAA 2016 Exam 2 Q3bii',
+ ('8D',14):'adapted from VCAA 2017 Exam 1 Q4',('9B',21):'adapted from VCAA 2019 Exam 1 Q9',('9B',22):'adapted from VCAA 2021 Exam 2 Q2a',('4D',13):'VCAA 2014 Exam 1 Q4',('4E',16):'VCAA 2016 Exam 1 Q2'}
+APK={'gm12-u3-s1':([('2A',1),('2B',5)],[('1A',13),('1A',14)]),
+ 'gm12-u3-s2':([('2D',7),('2D',9),('9D',7)],[('1C',15),('1C',17)]),
+ 'gm12-u3-s3':([('2E',10),('2F',11),('2H',14),('2H',15)],[('1D',18),('1F',16)]),
+ 'gm12-u3-s4':([('2F',12),('2G',13)],[('1G',12),('1G',14)]),
+ 'gm12-u3-l03':([('2A',2),('1A',2)],[('6A',14)]),
+ 'gm12-u3-l04':([('2I',16),('2H',14)],[('1H',16),('1H',17)]),
+ 'gm12-u3-l05':([('7B',3)],[('6A',16),('6B',14)]),
+ 'gm12-u3-l06':([('7C',4),('7C',5)],[('6B',15),('6B',16)]),
+ 'gm12-u3-l07':([('7C',6),('7C',5)],[('6A',15)]),
+ 'gm12-u3-l09':([('7D',8),('5E',7)],[('6C',11),('6C',12)]),
+ 'gm12-u3-l10':([('7E',9),('7E',10)],[('6D',12),('6D',13)]),
+ 'gm12-u3-l11':([('7E',10),('5A',1)],[('6D',14),('6D',15)]),
+ 'gm12-u3-l12':([('9C',4),('9A',1)],[]),
+ 'gm12-u3-l13':([('9D',6),('9D',10)],[('8D',14)]),
+ 'gm12-u3-l14':([('9C',5),('9A',2)],[]),
+ 'gm12-u3-l15':([('9E',11),('9B',3)],[('9B',22)]),
+ 'gm12-u3-l16':([('7B',3),('5J',14)],[('9B',21)]),
+ 'gm12-u3-l17':([('2E',10)],[('1E',11)]),
+ 'gm12-u3-l18':([('2E',10)],[('1E',13)]),
+ 'gm12-u3-l19':([('2E',10)],[('1D',17)]),
+ 'gm12-u3-l20':([('1A',2),('1D',11)],[('1D',19)]),
+ 'gm12-u3-l21':([('1B',6),('1F',14)],[]),
+ 'gm12-u3-l22':([('5F',10),('7E',10)],[('4D',13),('4E',16)])}
+for l in L:
+    if l.get('id') in APK:
+        cl,ed=APK[l['id']]
+        l['apk']=[dict(kind='Skill',ref=f'Cambridge U1&2 {s} checklist #{n}',text=CL[(s,n)]) for s,n in cl]+\
+                 [dict(kind='Exam',ref=f'Edrolo U1&2 {s} Q{n}',text=ED[(s,n)]) for s,n in ed]
+
 json.dump(d,open('classes/general-maths-12.json','w'),ensure_ascii=False,indent=1)
 print(len(L),'entries')

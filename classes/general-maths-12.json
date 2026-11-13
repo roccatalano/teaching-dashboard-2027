@@ -143,6 +143,28 @@
       }
      ]
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2A checklist #1",
+     "text": "Classify data as nominal, ordinal, discrete or continuous"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2B checklist #5",
+     "text": "Interpret and describe a frequency table and bar chart"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1A Q13",
+     "text": "VCAA 2021 Exam 1 Q1"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1A Q14",
+     "text": "VCAA 2020 Exam 1 Q10"
+    }
    ]
   },
   {
@@ -359,6 +381,33 @@
        "url": "https://www.youtube.com/watch?v=wCb6z1IbVy8&t=965s"
       }
      ]
+    }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2D checklist #7",
+     "text": "Recognise symmetric, positively and negatively skewed distributions"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2D checklist #9",
+     "text": "Construct a stem plot from raw data"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 9D checklist #7",
+     "text": "State the order of magnitude of a number"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1C Q15",
+     "text": "adapted from VCAA 2017 Exam 2 Q2b"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1C Q17",
+     "text": "adapted from VCAA 2016 Exam 2 Q1d"
     }
    ]
   },
@@ -632,6 +681,38 @@
      ],
      "ti": []
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2E checklist #10",
+     "text": "Determine the median and mean as measures of centre"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2F checklist #11",
+     "text": "Determine the quartiles and IQR"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2H checklist #14",
+     "text": "Produce a five-number summary and construct a boxplot"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2H checklist #15",
+     "text": "Determine the values of any outliers"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1D Q18",
+     "text": "VCAA 2017 Exam 2 Q1ai"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1F Q16",
+     "text": "adapted from VCAA 2017 Exam 1 Q2"
+    }
    ]
   },
   {
@@ -804,6 +885,28 @@
       }
      ],
      "ti": []
+    }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2F checklist #12",
+     "text": "Find the standard deviation of a data set"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2G checklist #13",
+     "text": "Use the 68–95–99.7% rule"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1G Q12",
+     "text": "adapted from VCAA 2019 Exam 1 Q6"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1G Q14",
+     "text": "adapted from VCAA 2020 Exam 2 Q2bi"
     }
    ]
   },
@@ -1036,6 +1139,23 @@
      "youTry": "Edrolo 2A WE5",
      "video": "Cambridge GO · 2B Resources"
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2A checklist #2",
+     "text": "Construct a frequency table and a percentage frequency table"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 1A checklist #2",
+     "text": "Convert decimals to percentages"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6A Q14",
+     "text": "adapted from VCAA 2018 Exam 2 Q2b"
+    }
    ]
   },
   {
@@ -1165,6 +1285,28 @@
      ],
      "marks": 14
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2I checklist #16",
+     "text": "Compare distributions with a back-to-back stem plot or boxplot"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2H checklist #14",
+     "text": "Produce a five-number summary and construct a boxplot"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1H Q16",
+     "text": "VCAA 2019 Exam 2 Q2aii"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1H Q17",
+     "text": "adapted from VCAA 2021 Exam 1 Q4"
+    }
    ]
   },
   {
@@ -1283,6 +1425,23 @@
      "youTry": "TBM",
      "video": "Cambridge GO · 2E Resources"
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 7B checklist #3",
+     "text": "Use a scatterplot to describe an association (direction, form, strength)"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6A Q16",
+     "text": "adapted from VCAA 2020 Exam 2 Q4bi"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6B Q14",
+     "text": "adapted from VCAA 2016 Exam 2 Q3a"
+    }
    ]
   },
   {
@@ -1379,6 +1538,28 @@
      "status": "Written",
      "plan": "Start of the 2F lesson (one subchapter).",
      "file": "1. Data Analysis\\\\CFATs\\\\Chapter 2\\\\CFAT 1.2.2 [2C, 2D].docx"
+    }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 7C checklist #4",
+     "text": "Estimate and calculate the correlation coefficient r"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 7C checklist #5",
+     "text": "Classify the strength of r"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6B Q15",
+     "text": "adapted from VCAA 2016 Exam 1 Q12"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6B Q16",
+     "text": "adapted from VCAA 2020 Exam 2 Q6b"
     }
    ]
   },
@@ -1505,6 +1686,23 @@
      "title": "Calculating the correlation coefficient from the coefficient of determination",
      "youTry": "TBM",
      "video": "Cambridge GO · 2G Resources"
+    }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 7C checklist #6",
+     "text": "Recognise that correlation does not imply causation"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 7C checklist #5",
+     "text": "Classify the strength of r"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6A Q15",
+     "text": "adapted from VCAA 2019 Exam 2 Q4a"
     }
    ]
   },
@@ -1651,6 +1849,28 @@
      "status": "Planned",
      "plan": "Start of the 3A lesson (the Chapter 2 review lesson stays CFAT-free)."
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 7D checklist #8",
+     "text": "Find the equation of the least squares line"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 5E checklist #7",
+     "text": "Find the slope of a line from two points"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6C Q11",
+     "text": "adapted from VCAA 2017 Exam 2 Q4cii"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6C Q12",
+     "text": "adapted from VCAA 2021 Exam 2 Q3eii"
+    }
    ]
   },
   {
@@ -1750,6 +1970,28 @@
      "title": "Using the coefficient of determination to compare associations",
      "youTry": "TBM",
      "video": "Cambridge GO · 3B Resources"
+    }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 7E checklist #9",
+     "text": "Interpret the slope and intercept of a linear model"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 7E checklist #10",
+     "text": "Make predictions: interpolation and extrapolation"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6D Q12",
+     "text": "adapted from VCAA 2018 Exam 1 Q8"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6D Q13",
+     "text": "adapted from VCAA 2019 Exam 2 Q5a"
     }
    ]
   },
@@ -1893,6 +2135,28 @@
      "status": "Planned",
      "plan": "Start of the residuals and regression analysis lesson."
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 7E checklist #10",
+     "text": "Make predictions: interpolation and extrapolation"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 5A checklist #1",
+     "text": "Substitute values into linear equations and formulas"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6D Q14",
+     "text": "adapted from VCAA 2017 Exam 1 Q8"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 6D Q15",
+     "text": "adapted from VCAA 2016 Exam 2 Q3bii"
+    }
    ]
   },
   {
@@ -1996,6 +2260,18 @@
      "status": "Planned",
      "plan": "Start of the 4A lesson."
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 9C checklist #4",
+     "text": "Use the squared transformation"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 9A checklist #1",
+     "text": "Find k in direct variation"
+    }
    ]
   },
   {
@@ -2086,6 +2362,23 @@
      "youTry": "TBM",
      "video": "Cambridge GO · 4B Resources"
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 9D checklist #6",
+     "text": "Evaluate logarithms"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 9D checklist #10",
+     "text": "Use the log transformation"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 8D Q14",
+     "text": "adapted from VCAA 2017 Exam 1 Q4"
+    }
    ]
   },
   {
@@ -2175,6 +2468,18 @@
      "title": "Applying the reciprocal (1/y) transformation",
      "youTry": "TBM",
      "video": "Cambridge GO · 4C Resources"
+    }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 9C checklist #5",
+     "text": "Use the reciprocal transformation"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 9A checklist #2",
+     "text": "Find k in inverse variation"
     }
    ]
   },
@@ -2283,6 +2588,23 @@
      "format": "About 20 min, individual, closed book (CAS allowed)",
      "status": "Planned",
      "plan": "Start of the 4D lesson (one subchapter)."
+    }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 9E checklist #11",
+     "text": "Model non-linear data with a transformation"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 9B checklist #3",
+     "text": "Decide direct or inverse variation from a graph"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 9B Q22",
+     "text": "adapted from VCAA 2021 Exam 2 Q2a"
     }
    ]
   },
@@ -2417,6 +2739,23 @@
      "status": "Planned",
      "plan": "Start of the 5A lesson (features of time series plots, a lighter lesson)."
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 7B checklist #3",
+     "text": "Use a scatterplot to describe an association (direction, form, strength)"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 5J checklist #14",
+     "text": "Use piecewise linear graphs to model a practical situation"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 9B Q21",
+     "text": "adapted from VCAA 2019 Exam 1 Q9"
+    }
    ]
   },
   {
@@ -2500,6 +2839,18 @@
      "title": "Three- and five-moving mean smoothing of a time series",
      "youTry": "TBM",
      "video": "Cambridge GO · 5B Resources"
+    }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2E checklist #10",
+     "text": "Determine the median and mean as measures of centre"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1E Q11",
+     "text": "adapted from VCAA 2017 Exam 1 Q3"
     }
    ]
   },
@@ -2593,6 +2944,18 @@
      "youTry": "TBM",
      "video": "Cambridge GO · 5B Resources"
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2E checklist #10",
+     "text": "Determine the median and mean as measures of centre"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1E Q13",
+     "text": "adapted from VCAA 2021 Exam 2 Q1b"
+    }
    ]
   },
   {
@@ -2662,6 +3025,18 @@
      "title": "Five-moving median smoothing using a graphical approach",
      "youTry": "TBM",
      "video": "Cambridge GO · 5C Resources"
+    }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 2E checklist #10",
+     "text": "Determine the median and mean as measures of centre"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1D Q17",
+     "text": "adapted from VCAA 2020 Exam 2 Q3b"
     }
    ]
   },
@@ -2758,6 +3133,23 @@
      "status": "Planned",
      "plan": "Start of the first seasonal indices lesson."
     }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 1A checklist #2",
+     "text": "Convert decimals to percentages"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 1D checklist #11",
+     "text": "Express quantities as a ratio"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 1D Q19",
+     "text": "VCAA 2018 Exam 2 Q2a"
+    }
    ]
   },
   {
@@ -2837,6 +3229,18 @@
      "title": "Deseasonalising a time series",
      "youTry": "TBM",
      "video": "Cambridge GO · 5D Resources"
+    }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 1B checklist #6",
+     "text": "Increase or decrease a value by a percentage"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 1F checklist #14",
+     "text": "Use the unitary method"
     }
    ]
   },
@@ -2960,6 +3364,28 @@
      "format": "About 20 min, individual, closed book (CAS allowed)",
      "status": "Planned",
      "plan": "Last 20 min of the 5E lesson: the lessons after it are all review or SAC 1 preparation."
+    }
+   ],
+   "apk": [
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 5F checklist #10",
+     "text": "Find the equation of a line from two points"
+    },
+    {
+     "kind": "Skill",
+     "ref": "Cambridge U1&2 7E checklist #10",
+     "text": "Make predictions: interpolation and extrapolation"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 4D Q13",
+     "text": "VCAA 2014 Exam 1 Q4"
+    },
+    {
+     "kind": "Exam",
+     "ref": "Edrolo U1&2 4E Q16",
+     "text": "VCAA 2016 Exam 1 Q2"
     }
    ]
   },
