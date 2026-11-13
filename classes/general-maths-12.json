@@ -95,31 +95,36 @@
      "n": 1,
      "sub": "1A",
      "title": "Types of data",
-     "youTry": "Edrolo 1A Q11 a–e"
+     "youTry": "Edrolo 1A Q11 a–e",
+     "video": "Cambridge GO · 1A Resources"
     },
     {
      "n": 2,
      "sub": "1B",
      "title": "Constructing a frequency table for categorical data",
-     "youTry": "Edrolo 1B WE1"
+     "youTry": "Edrolo 1B WE1",
+     "video": "Cambridge GO · 1B Resources"
     },
     {
      "n": 3,
      "sub": "1B",
      "title": "Constructing a bar chart from a frequency table",
-     "youTry": "Edrolo 1B WE2"
+     "youTry": "Edrolo 1B WE2",
+     "video": "Cambridge GO · 1B Resources"
     },
     {
      "n": 4,
      "sub": "1B",
      "title": "Constructing a percentage segmented bar chart",
-     "youTry": "Edrolo 1B WE3"
+     "youTry": "Edrolo 1B WE3",
+     "video": "Cambridge GO · 1B Resources"
     },
     {
      "n": 5,
      "sub": "1B",
      "title": "Describing the distribution of a categorical variable",
-     "youTry": "Edrolo 1B WE4"
+     "youTry": "Edrolo 1B WE4",
+     "video": "Cambridge GO · 1B Resources"
     }
    ],
    "cas": [
@@ -237,49 +242,57 @@
      "n": 6,
      "sub": "1C",
      "title": "Constructing a frequency table for discrete numerical data",
-     "youTry": null
+     "youTry": null,
+     "video": "Cambridge GO · 1C Resources"
     },
     {
      "n": 7,
      "sub": "1C",
      "title": "Constructing a grouped frequency table",
-     "youTry": "Edrolo 1C WE4"
+     "youTry": "Edrolo 1C WE4",
+     "video": "Cambridge GO · 1C Resources"
     },
     {
      "n": 8,
      "sub": "1C",
      "title": "Constructing a histogram from a frequency table",
-     "youTry": "Edrolo 1C WE5"
+     "youTry": "Edrolo 1C WE5",
+     "video": "Cambridge GO · 1C Resources"
     },
     {
      "n": 9,
      "sub": "1C",
      "title": "Describing the features of a distribution from a histogram",
-     "youTry": null
+     "youTry": null,
+     "video": "Cambridge GO · 1C Resources"
     },
     {
      "n": 10,
      "sub": "1D",
      "title": "Constructing a dot plot",
-     "youTry": "Edrolo 1C WE1"
+     "youTry": "Edrolo 1C WE1",
+     "video": "Cambridge GO · 1D Resources"
     },
     {
      "n": 11,
      "sub": "1D",
      "title": "Constructing a stem plot",
-     "youTry": "Edrolo 1C WE2"
+     "youTry": "Edrolo 1C WE2",
+     "video": "Cambridge GO · 1D Resources"
     },
     {
      "n": 12,
      "sub": "1E",
      "title": "Using a CAS calculator to find logs",
-     "youTry": "Edrolo 1D WE1"
+     "youTry": "Edrolo 1D WE1",
+     "video": "Cambridge GO · 1E Resources"
     },
     {
      "n": 13,
      "sub": "1E",
      "title": "Interpreting a histogram with a log scale",
-     "youTry": "Edrolo 1D WE3"
+     "youTry": "Edrolo 1D WE3",
+     "video": "Cambridge GO · 1E Resources"
     }
    ],
    "cas": [
@@ -467,85 +480,99 @@
      "n": 14,
      "sub": "1F",
      "title": "Finding the median value in a data set",
-     "youTry": "Edrolo 1E WE1"
+     "youTry": "Edrolo 1E WE1",
+     "video": "Cambridge GO · 1F Resources"
     },
     {
      "n": 15,
      "sub": "1F",
      "title": "Finding the median value from a dot plot",
-     "youTry": "Edrolo 1F WE2"
+     "youTry": "Edrolo 1F WE2",
+     "video": "Cambridge GO · 1F Resources"
     },
     {
      "n": 16,
      "sub": "1F",
      "title": "Finding the median value from a stem plot",
-     "youTry": "Edrolo 1F WE3"
+     "youTry": "Edrolo 1F WE3",
+     "video": "Cambridge GO · 1F Resources"
     },
     {
      "n": 17,
      "sub": "1F",
      "title": "Finding the range from a stem plot",
-     "youTry": "Edrolo 1E WE2a"
+     "youTry": "Edrolo 1E WE2a",
+     "video": "Cambridge GO · 1F Resources"
     },
     {
      "n": 18,
      "sub": "1F",
      "title": "Finding the IQR from an ordered stem plot when n is even",
-     "youTry": "Edrolo 1E WE2b"
+     "youTry": "Edrolo 1E WE2b",
+     "video": "Cambridge GO · 1F Resources"
     },
     {
      "n": 19,
      "sub": "1F",
      "title": "Finding the IQR from a stem plot when n is odd",
-     "youTry": null
+     "youTry": null,
+     "video": "Cambridge GO · 1F Resources"
     },
     {
      "n": 20,
      "sub": "1F",
      "title": "Finding the median and quartiles from a histogram",
-     "youTry": "Edrolo 1F WE1"
+     "youTry": "Edrolo 1F WE1",
+     "video": "Cambridge GO · 1F Resources"
     },
     {
      "n": 21,
      "sub": "1F",
      "title": "Calculating the mean using the formula",
-     "youTry": "Edrolo 1G WE1"
+     "youTry": "Edrolo 1G WE1",
+     "video": "Cambridge GO · 1F Resources"
     },
     {
      "n": 22,
      "sub": "1G",
      "title": "Constructing a boxplot from a five-number summary",
-     "youTry": "Edrolo 1E WE4"
+     "youTry": "Edrolo 1E WE4",
+     "video": "Cambridge GO · 1G Resources"
     },
     {
      "n": 23,
      "sub": "1G",
      "title": "Reading values from a boxplot",
-     "youTry": "Edrolo 1E WE6"
+     "youTry": "Edrolo 1E WE6",
+     "video": "Cambridge GO · 1G Resources"
     },
     {
      "n": 24,
      "sub": "1G",
      "title": "Estimating percentages from a boxplot",
-     "youTry": null
+     "youTry": null,
+     "video": "Cambridge GO · 1G Resources"
     },
     {
      "n": 25,
      "sub": "1G",
      "title": "Using a boxplot to describe a distribution without outliers",
-     "youTry": "Edrolo 1F WE5"
+     "youTry": "Edrolo 1F WE5",
+     "video": "Cambridge GO · 1G Resources"
     },
     {
      "n": 26,
      "sub": "1G",
      "title": "Using a boxplot to describe a distribution with outliers",
-     "youTry": null
+     "youTry": null,
+     "video": "Cambridge GO · 1G Resources"
     },
     {
      "n": 27,
      "sub": "1G",
      "title": "Using a boxplot to answer statistical questions",
-     "youTry": null
+     "youTry": null,
+     "video": "Cambridge GO · 1G Resources"
     }
    ],
    "cas": [
@@ -697,43 +724,50 @@
      "n": 28,
      "sub": "1H",
      "title": "Applying the 68–95–99.7% rule",
-     "youTry": "Edrolo 1H WE1"
+     "youTry": "Edrolo 1H WE1",
+     "video": "Cambridge GO · 1H Resources"
     },
     {
      "n": 29,
      "sub": "1H",
      "title": "Calculating standard scores",
-     "youTry": "Edrolo 1I WE1"
+     "youTry": "Edrolo 1I WE1",
+     "video": "Cambridge GO · 1H Resources"
     },
     {
      "n": 30,
      "sub": "1H",
      "title": "Using standardised scores to make comparisons",
-     "youTry": "Edrolo 1I WE3"
+     "youTry": "Edrolo 1I WE3",
+     "video": "Cambridge GO · 1H Resources"
     },
     {
      "n": 31,
      "sub": "1H",
      "title": "Using standardised scores to find percentages",
-     "youTry": "Edrolo 1H WE2a"
+     "youTry": "Edrolo 1H WE2a",
+     "video": "Cambridge GO · 1H Resources"
     },
     {
      "n": 32,
      "sub": "1H",
      "title": "Converting standardised scores into actual scores",
-     "youTry": "Edrolo 1I WE2"
+     "youTry": "Edrolo 1I WE2",
+     "video": "Cambridge GO · 1H Resources"
     },
     {
      "n": 33,
      "sub": "1H",
      "title": "Finding the standard deviation given the mean and one percentage",
-     "youTry": null
+     "youTry": null,
+     "video": "Cambridge GO · 1H Resources"
     },
     {
      "n": 34,
      "sub": "1H",
      "title": "Finding the mean and standard deviation",
-     "youTry": "Edrolo 1H WE3a"
+     "youTry": "Edrolo 1H WE3a",
+     "video": "Cambridge GO · 1H Resources"
     }
    ],
    "weDoNote": "1I is online-only in Cambridge: no printed Examples.",
@@ -950,49 +984,57 @@
      "n": 1,
      "sub": "2A",
      "title": "Identifying associations as categorical or numerical",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2A Resources"
     },
     {
      "n": 2,
      "sub": "2A",
      "title": "Identifying the response and explanatory variables",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2A Resources"
     },
     {
      "n": 3,
      "sub": "2A",
      "title": "Identifying the response and explanatory variables",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2A Resources"
     },
     {
      "n": 4,
      "sub": "2B",
      "title": "Constructing a two-way frequency table",
-     "youTry": "Edrolo 2A WE1"
+     "youTry": "Edrolo 2A WE1",
+     "video": "Cambridge GO · 2A Resources"
     },
     {
      "n": 5,
      "sub": "2B",
      "title": "Identifying and describing an association from a percentaged two-way table (2 × 2)",
-     "youTry": "Edrolo 2A WE4"
+     "youTry": "Edrolo 2A WE4",
+     "video": "Cambridge GO · 2B Resources"
     },
     {
      "n": 6,
      "sub": "2B",
      "title": "Identifying and describing associations from a percentaged two-way table (3 × 3)",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2B Resources"
     },
     {
      "n": 7,
      "sub": "2B",
      "title": "Constructing a segmented bar chart",
-     "youTry": "Edrolo 2A WE3"
+     "youTry": "Edrolo 2A WE3",
+     "video": "Cambridge GO · 2B Resources"
     },
     {
      "n": 8,
      "sub": "2B",
      "title": "Identifying and describing associations from a segmented bar chart",
-     "youTry": "Edrolo 2A WE5"
+     "youTry": "Edrolo 2A WE5",
+     "video": "Cambridge GO · 2B Resources"
     }
    ]
   },
@@ -1081,25 +1123,29 @@
      "n": 9,
      "sub": "2C",
      "title": "Using a parallel dot plot to identify and describe associations",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2C Resources"
     },
     {
      "n": 10,
      "sub": "2C",
      "title": "Using a back-to-back stem plot to identify and describe associations",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2C Resources"
     },
     {
      "n": 11,
      "sub": "2C",
      "title": "Comparing distributions across two groups using parallel boxplots",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2C Resources"
     },
     {
      "n": 12,
      "sub": "2C",
      "title": "Comparing distributions across more than two groups using parallel boxplots",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2C Resources"
     }
    ],
    "cfats": [
@@ -1220,19 +1266,22 @@
      "n": 13,
      "sub": "2E",
      "title": "Direction of association",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2E Resources"
     },
     {
      "n": 14,
      "sub": "2E",
      "title": "Form of an association",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2E Resources"
     },
     {
      "n": 15,
      "sub": "2E",
      "title": "Strength of an association",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2E Resources"
     }
    ]
   },
@@ -1314,7 +1363,8 @@
      "n": 16,
      "sub": "2F",
      "title": "Classifying the strength of a linear association",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2F Resources"
     }
    ],
    "cfats": [
@@ -1425,31 +1475,36 @@
      "n": 17,
      "sub": "2G",
      "title": "Calculating the coefficient of determination",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2G Resources"
     },
     {
      "n": 18,
      "sub": "2G",
      "title": "Interpreting the coefficient of determination",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2G Resources"
     },
     {
      "n": 19,
      "sub": "2G",
      "title": "Calculating and interpreting the coefficient of determination",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2G Resources"
     },
     {
      "n": 20,
      "sub": "2G",
      "title": "Calculating and interpreting the coefficient of determination",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2G Resources"
     },
     {
      "n": 21,
      "sub": "2G",
      "title": "Calculating the correlation coefficient from the coefficient of determination",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 2G Resources"
     }
    ]
   },
@@ -1571,13 +1626,15 @@
      "n": 1,
      "sub": "3A",
      "title": "Determining the equation of the least squares regression line using summary statistics and the correlation coefficient",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 3A Resources"
     },
     {
      "n": 2,
      "sub": "3A",
      "title": "Determining the correlation coefficient using the slope of the least squares regression line",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 3A Resources"
     }
    ],
    "cfats": [
@@ -1677,19 +1734,22 @@
      "n": 3,
      "sub": "3B",
      "title": "Interpreting the slope and intercept of a regression line",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 3B Resources"
     },
     {
      "n": 4,
      "sub": "3B",
      "title": "Using the regression line to make predictions",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 3B Resources"
     },
     {
      "n": 5,
      "sub": "3B",
      "title": "Using the coefficient of determination to compare associations",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 3B Resources"
     }
    ]
   },
@@ -1803,19 +1863,22 @@
      "n": 6,
      "sub": "3B",
      "title": "Calculating a residual",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 3B Resources"
     },
     {
      "n": 7,
      "sub": "3B",
      "title": "Interpreting a residual plot",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 3B Resources"
     },
     {
      "n": 8,
      "sub": "3B",
      "title": "Reporting the results of a regression analysis",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 3B Resources"
     }
    ],
    "cfats": [
@@ -1910,13 +1973,15 @@
      "n": 1,
      "sub": "4A",
      "title": "Applying the x-squared transformation",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 4A Resources"
     },
     {
      "n": 2,
      "sub": "4A",
      "title": "Applying the y-squared transformation",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 4A Resources"
     }
    ],
    "cfats": [
@@ -2011,13 +2076,15 @@
      "n": 3,
      "sub": "4B",
      "title": "Applying the log x transformation",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 4B Resources"
     },
     {
      "n": 4,
      "sub": "4B",
      "title": "Applying the log y transformation",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 4B Resources"
     }
    ]
   },
@@ -2099,13 +2166,15 @@
      "n": 5,
      "sub": "4C",
      "title": "Applying the reciprocal (1/x) transformation",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 4C Resources"
     },
     {
      "n": 6,
      "sub": "4C",
      "title": "Applying the reciprocal (1/y) transformation",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 4C Resources"
     }
    ]
   },
@@ -2198,7 +2267,8 @@
      "n": 7,
      "sub": "4D",
      "title": "Choosing the best transformation",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 4D Resources"
     }
    ],
    "cfats": [
@@ -2297,37 +2367,43 @@
      "n": 1,
      "sub": "5A",
      "title": "Constructing a time series plot",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5A Resources"
     },
     {
      "n": 2,
      "sub": "5A",
      "title": "Identifying trends",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5A Resources"
     },
     {
      "n": 3,
      "sub": "5A",
      "title": "Identifying cycles",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5A Resources"
     },
     {
      "n": 4,
      "sub": "5A",
      "title": "Identifying seasonality",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5A Resources"
     },
     {
      "n": 5,
      "sub": "5A",
      "title": "Identifying structural change",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5A Resources"
     },
     {
      "n": 6,
      "sub": "5A",
      "title": "Identifying outliers",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5A Resources"
     }
    ],
    "cfats": [
@@ -2415,13 +2491,15 @@
      "n": 7,
      "sub": "5B",
      "title": "Three- and five-moving mean smoothing",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5B Resources"
     },
     {
      "n": 8,
      "sub": "5B",
      "title": "Three- and five-moving mean smoothing of a time series",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5B Resources"
     }
    ]
   },
@@ -2498,19 +2576,22 @@
      "n": 9,
      "sub": "5B",
      "title": "Two-moving mean smoothing with centring",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5B Resources"
     },
     {
      "n": 10,
      "sub": "5B",
      "title": "Four- and six-moving mean smoothing with centring",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5B Resources"
     },
     {
      "n": 11,
      "sub": "5B",
      "title": "Smoothing of a time series using four-mean smoothing with centring",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5B Resources"
     }
    ]
   },
@@ -2572,13 +2653,15 @@
      "n": 12,
      "sub": "5C",
      "title": "Three-moving median smoothing using a graphical approach",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5D Resources"
     },
     {
      "n": 13,
      "sub": "5C",
      "title": "Five-moving median smoothing using a graphical approach",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5C Resources"
     }
    ]
   },
@@ -2644,19 +2727,22 @@
      "n": 14,
      "sub": "5D",
      "title": "Interpreting seasonal indices",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5D Resources"
     },
     {
      "n": 15,
      "sub": "5D",
      "title": "Using seasonal indices",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5D Resources"
     },
     {
      "n": 16,
      "sub": "5D",
      "title": "Using seasonal indices to determine percentage change required to correct for seasonality",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5D Resources"
     }
    ],
    "cfats": [
@@ -2735,19 +2821,22 @@
      "n": 17,
      "sub": "5D",
      "title": "Calculating seasonal indices (1 year’s data)",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5D Resources"
     },
     {
      "n": 18,
      "sub": "5D",
      "title": "Calculating seasonal indices (several years’ data)",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5D Resources"
     },
     {
      "n": 19,
      "sub": "5D",
      "title": "Deseasonalising a time series",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5D Resources"
     }
    ]
   },
@@ -2835,25 +2924,29 @@
      "n": 20,
      "sub": "5E",
      "title": "Fitting a trend line",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5E Resources"
     },
     {
      "n": 21,
      "sub": "5E",
      "title": "Forecasting",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5E Resources"
     },
     {
      "n": 22,
      "sub": "5E",
      "title": "Fitting a trend line (seasonality)",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5E Resources"
     },
     {
      "n": 23,
      "sub": "5E",
      "title": "Forecasting (seasonality)",
-     "youTry": "TBM"
+     "youTry": "TBM",
+     "video": "Cambridge GO · 5E Resources"
     }
    ],
    "cfats": [

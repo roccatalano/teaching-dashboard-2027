@@ -1,6 +1,7 @@
 """Build classes/general-maths-12.json: Unit 3 lesson order (names only).
 Sources: VCE Mathematics Study Design 2023-2027, Cambridge General Mathematics VCE Units 3&4
 (2nd ed.) curriculum grid and sample planner. Run from the repo root."""
+import csv as _csv, os as _os
 import json
 A1=('U3 AoS1','Data analysis'); A2=('U3 AoS2','Recursion and financial modelling')
 # (block, weekLabel, termLabel, aos, [(type, section, title), ...])
@@ -107,6 +108,11 @@ for l in L:
     l['keyVocab']=voc
 # We Do: Cambridge Examples (titles from the Chapter 1 skills checklist / example headings) paired with the
 # Edrolo You Try map agreed with Rocco (Planning\Topics\1. Data Analysis\HANDOFF.md). Edrolo chapter letters differ from Cambridge.
+
+_VP=_os.path.join(_os.path.dirname(_os.path.abspath(__file__)),'cambridge_go_videos.csv')
+VIDS={(int(r['chapter']),int(r['example'])):r for r in _csv.DictReader(open(_VP,encoding='utf-8')) if r['example']}
+def _vid(ch,n):
+    r=VIDS.get((ch,n)); return f"Cambridge GO · {r['subchapter']} Resources" if r else None
 EX={1:('1A','Types of data','Edrolo 1A Q11 a–e'),
  2:('1B','Constructing a frequency table for categorical data','Edrolo 1B WE1'),3:('1B','Constructing a bar chart from a frequency table','Edrolo 1B WE2'),
  4:('1B','Constructing a percentage segmented bar chart','Edrolo 1B WE3'),5:('1B','Describing the distribution of a categorical variable','Edrolo 1B WE4'),
@@ -128,7 +134,7 @@ EX={1:('1A','Types of data','Edrolo 1A Q11 a–e'),
 WEDO={'gm12-u3-s1':range(1,6),'gm12-u3-s2':range(6,14),'gm12-u3-s3':range(14,28),'gm12-u3-s4':range(28,35)}
 for l in L:
   if l['id'] in WEDO:
-    l['weDo']=[dict(n=n,sub=EX[n][0],title=EX[n][1],youTry=EX[n][2]) for n in WEDO[l['id']]]
+    l['weDo']=[dict(n=n,sub=EX[n][0],title=EX[n][1],youTry=EX[n][2],video=_vid(1,n)) for n in WEDO[l['id']]]
     if l['id']=='gm12-u3-s4': l['weDoNote']='1I is online-only in Cambridge: no printed Examples.'
 # CAS videos: links from 12MAG 2027\CAS Videos (Casio ClassPad and TI-nspire support-video lists for VCE GM 3&4).
 def yt(t,u): return dict(title=t,url=u)
@@ -269,7 +275,7 @@ VB=dict(
  si=['Seasonal index: actual value ÷ seasonal average','Seasonal indices add up to the number of seasons (and average to 1)','Deseasonalise: actual value ÷ seasonal index','Reseasonalise: deseasonalised value × seasonal index'],
  trend=['Trend line: a least squares line fitted with time as the EV','Forecasting: using the trend line to predict future values','Limitations: forecasts further into the future are less reliable'])
 def subs_items(D,pairs): return [dict(sub=s,items=D[s][a:b]) for s,a,b in pairs if D[s][a:b]]
-def exs(ch,ns): return [dict(n=n,sub=EX2[ch][n][0],title=EX2[ch][n][1],youTry=YT2.get((ch,n),'TBM')) for n in ns]
+def exs(ch,ns): return [dict(n=n,sub=EX2[ch][n][0],title=EX2[ch][n][1],youTry=YT2.get((ch,n),'TBM'),video=_vid(ch,n)) for n in ns]
 F=lambda s:(s,0,None)
 A2={
  'gm12-u3-l03':([F('2A'),F('2B')],[F('2A'),F('2B')],[SDA[0],SDA[1]],VB['biv'],[],exs(2,range(1,9))),
