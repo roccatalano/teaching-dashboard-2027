@@ -219,7 +219,7 @@ function renderClass(c){
   const L=d.lessons.filter(l=>!f||l.aos==f);
   const pr=d.lessons.filter(l=>l.type=='prac').length;
   let h=`<div class="unit">${esc(d.unitLabel||'Unit 1')} <span class="scope">· ${esc(d.scope)} · ${d.summary?esc(d.summary):`${d.weeksPerUnit} weeks × ${d.lessonsPerWeek} lessons × ${d.lessonMinutes} min · ${pr} prac lessons ≈ ${(pr*d.lessonMinutes/60).toFixed(1)} h`}</span></div>
-    <div class="legend">${['lesson','prac','review','sac','holiday'].map(k=>`<span class="t-${k}"><i></i>${TYPE[k]}</span>`).join('')}<span><i style="background:#8a6ad8"></i>CFAT</span></div>`;
+    <div class="legend">${['lesson','prac','review','sac'].concat((d.lessons||[]).some(l=>l.type=='holiday')?['holiday']:[]).map(k=>`<span class="t-${k}"><i></i>${TYPE[k]}</span>`).join('')}<span><i style="background:#8a6ad8"></i>CFAT</span></div>`;
   let lastA='';
   for(const w of [...new Set(L.map(l=>l.week))]){
     const W=L.filter(l=>l.week==w);
