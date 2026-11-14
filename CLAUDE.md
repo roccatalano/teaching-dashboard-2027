@@ -8,19 +8,24 @@ Owner: Rocco (teacher). He is new to Claude Code and git: explain in plain words
 - `lessons/gm12/` = finished 12MAG resources shown on the dashboard (html + pdf).
 - `tools/gm12/deck/` = slide-deck build code (S3 is the current template: `deck/s3/`).
 
-## 12MAG (VCE General Maths 3&4, 2027) — current rules
+## 12MAG (VCE General Maths 3&4, 2027) — current rules (Rocco, 14 Nov 2026)
 These replace older rules in `Planning\CLAUDE.md` on the G: drive where they disagree.
 1. **Never write questions.** Copy verbatim and cite the source. Adapt only when unavoidable and label it "adapted".
-2. **Burnt items:** check the Topic HANDOFF burnt list (until `tools/gm12/ledger.csv` exists) before using any question. No exit task, Do Now or APK may repeat a CFAT item or any earlier use.
-3. **Lesson shape:** CFAT (if any) → Do Now (current-design VCAA 2023–26) → APK (Y11 Cambridge checklist / Edrolo U1&2) → Learn + Cambridge Example / Edrolo worked-example You try pairs → CAS (TI-Nspire + ClassPad steps, no screenshots) → exit tasks → check-in → homework.
-4. **You try** = mapped Edrolo worked example only; no match → no You try.
-5. **% correct** only from examiner reports; if a report is missing, say which one and ask Rocco.
-6. **Check every slide visually** (all steps shown + mid-reveal) before handing over.
-7. Finished resources live on the dashboard only (`lessons/gm12/`), registered in `MAT_FILES` in `build_plan.py`.
+2. **Every lesson gets:** guided slides, guided worksheet, bound reference entry. (Lesson handouts and log-book labels are discontinued.)
+3. **Lesson shape:** CFAT (if any) → Do Now → APK → Learn + Example/You try pairs → CAS → exit tasks → check-in → homework.
+4. **Do Now = retrieval** ("last lesson, last week, last term"): always 2 × Exam 1 + 2 × Exam 2 from CURRENT-design VCAA (2023–26). Covers the current AoS and earlier AoS; the earlier-AoS share grows through the year.
+5. **APK = priming, not retrieval:** prerequisite content students should already know. Sources: Cambridge U1&2 skills checklist + the VCAA exam questions at the back of Edrolo U1&2 subchapters. If an APK item is also a candidate exit question, use it as the APK.
+6. **Learn notes:** own words, condensed, cite Cambridge. **Examples** = Cambridge Examples. **You try** = mapped Edrolo worked example only (no match → no You try).
+7. **Exit tasks:** the VCAA reprint exam questions at the back of Edrolo U3&4 subchapters (past-design VCAA).
+8. **CFATs:** Edrolo U3&4 exercise questions ONLY, never the VCAA reprints. **CFAT follow-ups:** Jacaranda textbook exercises.
+9. **Chapter tests:** Mathspace topic assessments. **SACs:** custom built. **Revision booklets (per chapter):** Insight GM1/GM2. **Homework:** students' own Cambridge textbook exercises.
+10. **Burnt items:** one use per question across everything (Do Now, APK, exit, CFAT, booklet, test). Match VCAA reprints by their ORIGINAL VCAA source (e.g. an Edrolo exit = VCAA 2019 E1 Q3). Until `tools/gm12/ledger.csv` exists, check the Topic HANDOFF burnt list.
+11. **% correct** only from examiner reports (past-design reports sit with the past papers); if a report is missing, say which one and ask Rocco.
+12. **Check every slide visually** (all steps shown + mid-reveal) before handing over. Finished resources live on the dashboard (`lessons/gm12/`), registered in `MAT_FILES`.
 
 ## Source files (G: drive)
 Root: `G:\Shared drives\1. EKC CURRICULUM\1. KLA Folders\MATHEMATICS\VCE Maths\General Maths U3 & 4\12MAG 2027\`
-The folder is being reorganised — see `tools/gm12/CLEANUP.md`. After the cleanup, sources are in `03 Sources\`.
+The folder is being reorganised — see `tools/gm12/CLEANUP.md`. New structure: `12MAG 2027\Version 2\` (lesson folders mirror the dashboard; sources in `03 Sources\`). Each folder's README.md says what goes there and how to name files.
 
 ## Work in progress
 - `tools/gm12/CLEANUP.md` — phase 1 (G: drive folder cleanup) and phase 2 (move plan data out of build_plan.py).
