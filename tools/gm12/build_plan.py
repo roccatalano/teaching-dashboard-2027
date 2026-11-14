@@ -513,11 +513,18 @@ CFAT_LESSONS={'gm12-u3-s3':'1.1.1','gm12-u3-s4':'1.1.2','gm12-u3-s5':'1.1.3'}
 for l in L:
     if l.get('id') in CFAT_LESSONS:
         l['materials'].append(dict(kind='CFAT',desc=f"CFAT {CFAT_LESSONS[l['id']]}: student copy, worksheet style. Solutions by hand.",status='todo',file=''))
+# Chapter-end lessons: materials = coursework check (double-sided A4) + chapter test.
+TEST_KINDS=[('Coursework check','Double-sided A4. Front: students tick the coursework they have (guided notes, bound reference entries, CFATs, homework); teacher signs off. Back: chapter success criteria, ticked by the teacher when marking the test (Test Q column = which question tests it).'),
+            ('Chapter test','Formal chapter test. Each question maps to the success criteria on the back of the coursework check.')]
+for l in L:
+    if l['title'].endswith('coursework check + test'):
+        l['materials']=[dict(kind=k,desc=d,status='todo',file='') for k,d in TEST_KINDS]
 # Made materials: (lesson id, kind) -> (status, html file, pdf file), paths relative to the site root.
 MAT_FILES={
     ('gm12-u3-s1','Guided slides'):('ready','lessons/gm12/S1-slides.html','lessons/gm12/S1-slides.pdf'),
     ('gm12-u3-s1','Guided worksheet'):('draft','lessons/gm12/S1-worksheet.html','lessons/gm12/S1-worksheet.pdf'),
     ('gm12-u3-s2','Guided slides'):('draft','lessons/gm12/S2-slides.html','lessons/gm12/S2-slides.pdf'),
+    ('gm12-u3-ch1-test','Coursework check'):('draft','lessons/gm12/Ch1-coursework-check.html','lessons/gm12/Ch1-coursework-check.pdf'),
     ('gm12-u3-s3','CFAT'):('ready','lessons/gm12/CFAT-1.1.1.html','lessons/gm12/CFAT-1.1.1.pdf'),
     ('gm12-u3-s4','CFAT'):('ready','lessons/gm12/CFAT-1.1.2.html','lessons/gm12/CFAT-1.1.2.pdf'),
     ('gm12-u3-s5','CFAT'):('ready','lessons/gm12/CFAT-1.1.3.html','lessons/gm12/CFAT-1.1.3.pdf'),

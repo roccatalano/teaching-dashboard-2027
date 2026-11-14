@@ -2156,7 +2156,22 @@
      "done": false
     }
    ],
-   "dates": "28–29 Jan"
+   "dates": "28–29 Jan",
+   "materials": [
+    {
+     "kind": "Coursework check",
+     "desc": "Double-sided A4. Front: students tick the coursework they have (guided notes, bound reference entries, CFATs, homework); teacher signs off. Back: chapter success criteria, ticked by the teacher when marking the test (Test Q column = which question tests it).",
+     "status": "draft",
+     "file": "lessons/gm12/Ch1-coursework-check.html",
+     "pdf": "lessons/gm12/Ch1-coursework-check.pdf"
+    },
+    {
+     "kind": "Chapter test",
+     "desc": "Formal chapter test. Each question maps to the success criteria on the back of the coursework check.",
+     "status": "todo",
+     "file": ""
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -3077,7 +3092,21 @@
      "done": false
     }
    ],
-   "dates": "8–12 Feb"
+   "dates": "8–12 Feb",
+   "materials": [
+    {
+     "kind": "Coursework check",
+     "desc": "Double-sided A4. Front: students tick the coursework they have (guided notes, bound reference entries, CFATs, homework); teacher signs off. Back: chapter success criteria, ticked by the teacher when marking the test (Test Q column = which question tests it).",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Chapter test",
+     "desc": "Formal chapter test. Each question maps to the success criteria on the back of the coursework check.",
+     "status": "todo",
+     "file": ""
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -3633,7 +3662,21 @@
      "done": false
     }
    ],
-   "dates": "22–26 Feb"
+   "dates": "22–26 Feb",
+   "materials": [
+    {
+     "kind": "Coursework check",
+     "desc": "Double-sided A4. Front: students tick the coursework they have (guided notes, bound reference entries, CFATs, homework); teacher signs off. Back: chapter success criteria, ticked by the teacher when marking the test (Test Q column = which question tests it).",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Chapter test",
+     "desc": "Formal chapter test. Each question maps to the success criteria on the back of the coursework check.",
+     "status": "todo",
+     "file": ""
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -4226,7 +4269,21 @@
      "done": false
     }
    ],
-   "dates": "1–5 Mar"
+   "dates": "1–5 Mar",
+   "materials": [
+    {
+     "kind": "Coursework check",
+     "desc": "Double-sided A4. Front: students tick the coursework they have (guided notes, bound reference entries, CFATs, homework); teacher signs off. Back: chapter success criteria, ticked by the teacher when marking the test (Test Q column = which question tests it).",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Chapter test",
+     "desc": "Formal chapter test. Each question maps to the success criteria on the back of the coursework check.",
+     "status": "todo",
+     "file": ""
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -5261,7 +5318,21 @@
      "done": false
     }
    ],
-   "dates": "22–25 Mar"
+   "dates": "22–25 Mar",
+   "materials": [
+    {
+     "kind": "Coursework check",
+     "desc": "Double-sided A4. Front: students tick the coursework they have (guided notes, bound reference entries, CFATs, homework); teacher signs off. Back: chapter success criteria, ticked by the teacher when marking the test (Test Q column = which question tests it).",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Chapter test",
+     "desc": "Formal chapter test. Each question maps to the success criteria on the back of the coursework check.",
+     "status": "todo",
+     "file": ""
+    }
+   ]
   },
   {
    "type": "review",
@@ -5547,7 +5618,21 @@
      "done": false
     }
    ],
-   "dates": "3–7 May"
+   "dates": "3–7 May",
+   "materials": [
+    {
+     "kind": "Coursework check",
+     "desc": "Double-sided A4. Front: students tick the coursework they have (guided notes, bound reference entries, CFATs, homework); teacher signs off. Back: chapter success criteria, ticked by the teacher when marking the test (Test Q column = which question tests it).",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Chapter test",
+     "desc": "Formal chapter test. Each question maps to the success criteria on the back of the coursework check.",
+     "status": "todo",
+     "file": ""
+    }
+   ]
   },
   {
    "type": "lesson",
@@ -5847,7 +5932,21 @@
      "done": false
     }
    ],
-   "dates": "24–28 May"
+   "dates": "24–28 May",
+   "materials": [
+    {
+     "kind": "Coursework check",
+     "desc": "Double-sided A4. Front: students tick the coursework they have (guided notes, bound reference entries, CFATs, homework); teacher signs off. Back: chapter success criteria, ticked by the teacher when marking the test (Test Q column = which question tests it).",
+     "status": "todo",
+     "file": ""
+    },
+    {
+     "kind": "Chapter test",
+     "desc": "Formal chapter test. Each question maps to the success criteria on the back of the coursework check.",
+     "status": "todo",
+     "file": ""
+    }
+   ]
   },
   {
    "type": "review",
