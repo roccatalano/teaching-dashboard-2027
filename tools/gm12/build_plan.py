@@ -8,6 +8,7 @@ A1=('U3 AoS1','Data analysis'); A2=('U3 AoS2','Recursion and financial modelling
 W=[
  ('su','Step-up week 1','Nov–Dec 2026',A1,[('lesson','1A–1B','Types of data; categorical data'),('lesson','1C–1E','Histograms, dot plots and stem plots; log scales')]),
  ('su','Step-up week 2','Nov–Dec 2026',A1,[('lesson','1F','Centre and spread: median, quartiles, IQR, mean and standard deviation'),('lesson','1G','Five-number summary, boxplots and outliers'),('lesson','1H–1I','Normal distribution, z-scores; populations and samples')]),
+ ('hol','Summer holidays','Dec 2026 – Jan 2027',A1,[('holiday','','Summer holiday work','gm12-u3-holiday')]),
  ('t1','Week 1','Term 1 · short week',A1,[('sac','1','Chapter 1 coursework check + test','gm12-u3-ch1-test'),('lesson','2A–2B','Response and explanatory variables; two-way tables','gm12-u3-l03')]),
  ('t1','Week 2','Term 1',A1,[('lesson','2C','Numerical vs categorical: parallel boxplots, back-to-back stem plots','gm12-u3-l04'),('lesson','2D–2E','Scatterplots: direction, form and strength','gm12-u3-l05'),('lesson','2F','Correlation coefficient, $r$','gm12-u3-l06')]),
  ('t1','Week 3','Term 1',A1,[('lesson','2G–2H','Coefficient of determination; correlation and causation','gm12-u3-l07'),('lesson','2I','Which graph?','gm12-u3-l08'),('sac','2','Chapter 2 coursework check + test','gm12-u3-ch2-test')]),
@@ -29,11 +30,12 @@ W=[
  ('t2','Week 10','Term 2',A2,[('tbc','','To be planned'),('tbc','','To be planned'),('tbc','','To be planned')]),
  ('t2','Week 11','Term 2',A2,[('tbc','','To be planned'),('tbc','','To be planned'),('tbc','','To be planned')]),
 ]
-TASKS={'tbc':[],'lesson':['Slides ready','Guided sheet ready','Exit ticket'],'review':['Review set ready'],'sac':['Task ready','Marking scheme ready']}
+TASKS={'holiday':['Holiday pack ready','Set before the last step-up lesson'],'tbc':[],'lesson':['Slides ready','Guided sheet ready','Exit ticket'],'review':['Review set ready'],'sac':['Task ready','Marking scheme ready']}
 L=[];n=0;s=0
 for wi,(blk,wl,tl,(aos,at),ls) in enumerate(W,1):
   for typ,sec,title,*fix in ls:
-    if blk=='su': s+=1;num=f'S{s}'
+    if blk=='hol': num='H'
+    elif blk=='su': s+=1;num=f'S{s}'
     else: n+=1;num=n
     # IDs: an explicit id keeps a lesson's data (Do Now, APK, exits, CFATs, ticks) attached when lessons move.
     L.append(dict(type=typ,section=sec,title=title,aos=aos,aosTitle=at,unit=3,week=wi,weekLabel=wl,termLabel=tl,lesson=num,
@@ -54,7 +56,7 @@ for blk,wl,tl,_,_ in W:
   for l in L:
     if l['weekLabel']==wl and l['termLabel']==tl: l['dates']=rng(blk,wl)
 for l in L:
-  if l['title']=='Unit 3 trial exams': l['span']=3
+  if l['title'] in ('Unit 3 trial exams','Summer holiday work'): l['span']=3
 # CFATs (from Planning\Topics\1. Data Analysis\README.md + HANDOFF.md). ~20 min each, on lighter lessons.
 FMT='About 20 min · individual · CAS and single bound reference allowed'
 SRC='Edrolo GM U3&4 2023 exercise questions (CFAT-only)'
@@ -65,9 +67,9 @@ CF={
  'gm12-u3-s5':[dict(id='CFAT 1.1.2',title='Describing numerical data: median, IQR, boxplots, SOCS',covers=['1F (median, IQR)','1G'],format=FMT,file=DIR+'CFAT 1.1.2 [1F, 1G].docx',status='Written (10 Nov 2026)',
    plan='Start of Step-up lesson 5. Covers Step-up lessons 3–4 (1F, 1G).',sources=[SRC+': 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19'])],
  'gm12-u3-s5b':[dict(id='CFAT 1.1.3',title='Mean and SD, the normal distribution, z-scores',covers=['1F (mean, SD)','1H','1I'],format=FMT,file=DIR+'CFAT 1.1.3 [1H, 1F, 1I].docx',status='Written (10 Nov 2026)',marks=16,
-   plan='End of Step-up lesson 5 (same day as the 1H–1I teaching), or set as holiday homework. Q8a has a blank normal curve scaffold.',sources=[SRC+': 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15'])],
+   plan='Summer holiday work: set in Step-up lesson 5, gone over in the Chapter 1 coursework check + test lesson.',sources=[SRC+': 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15'])],
 }
-CF['gm12-u3-s5']=CF['gm12-u3-s5']+CF.pop('gm12-u3-s5b')
+CF['gm12-u3-holiday']=CF.pop('gm12-u3-s5b')
 for l in L:
   if l['id'] in CF: l['cfats']=CF[l['id']]
 # Step-up lesson details. LOs: Cambridge learning intentions (verbatim). SC: Cambridge Chapter 1 skills checklist (verbatim).
@@ -519,7 +521,10 @@ for l in L:
     if l.get('id') in MAT_LESSONS:
         l['materials']=[dict(kind=k,desc=d,status='todo',file='') for k,d in MAT_KINDS]
 # CFAT as a lesson resource (lesson id -> CFAT code); same status/file system as the other materials.
-CFAT_LESSONS={'gm12-u3-s3':['1.1.1'],'gm12-u3-s5':['1.1.2','1.1.3']}
+CFAT_LESSONS={'gm12-u3-s3':['1.1.1'],'gm12-u3-s5':['1.1.2'],'gm12-u3-holiday':['1.1.3']}
+HOL_KINDS=[('Holiday revision pack','Chapter 1 revision over summer, so students come back ready for the Chapter 1 coursework check + test.')]
+for l in L:
+    if l.get('id')=='gm12-u3-holiday': l['materials']=[dict(kind=k,desc=d,status='todo',file='') for k,d in HOL_KINDS]
 for l in L:
     if l.get('id') in CFAT_LESSONS:
         for code in CFAT_LESSONS[l['id']]: l['materials'].append(dict(kind=f'CFAT {code}',desc=f"CFAT {code}: student copy, worksheet style. Solutions by hand.",status='todo',file=''))
@@ -537,7 +542,7 @@ MAT_FILES={
     ('gm12-u3-ch1-test','Coursework check'):('draft','lessons/gm12/Ch1-coursework-check.html','lessons/gm12/Ch1-coursework-check.pdf'),
     ('gm12-u3-s3','CFAT 1.1.1'):('ready','lessons/gm12/CFAT-1.1.1.html','lessons/gm12/CFAT-1.1.1.pdf'),
     ('gm12-u3-s5','CFAT 1.1.2'):('ready','lessons/gm12/CFAT-1.1.2.html','lessons/gm12/CFAT-1.1.2.pdf'),
-    ('gm12-u3-s5','CFAT 1.1.3'):('ready','lessons/gm12/CFAT-1.1.3.html','lessons/gm12/CFAT-1.1.3.pdf'),
+    ('gm12-u3-holiday','CFAT 1.1.3'):('ready','lessons/gm12/CFAT-1.1.3.html','lessons/gm12/CFAT-1.1.3.pdf'),
 }
 for l in L:
     for m in l.get('materials',[]):
