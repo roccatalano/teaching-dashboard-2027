@@ -62,8 +62,14 @@ Sources: `Past Exams\Current Study Design\`, `Past Exams\VCAA Exams\Current Stud
 - List folders that are now empty (old structure). Tell Rocco he can delete them in Drive; do not delete them yourself.
 - Update `Planning\CLAUDE.md` folder map and `Planning\Topics\1. Data Analysis\HANDOFF.md` paths to the new structure. Write `03 Sources\SOURCES.md`: a table of every VCAA paper (year, E1/E2, NHT, report? guide?).
 
+## Hosting decision (Rocco, 14 Nov 2026)
+- Keep this repo PUBLIC on GitHub Pages for now, with all 12MAG html/pdf materials embedded under `lessons/gm12/` exactly as before (push = live).
+- When the planner is complete, the whole 12MAG planner moves to the school Google account and this repo's 12MAG part is discontinued. So: keep everything portable (plain html + json + pdf, relative links, no GitHub-only features).
+- 12MAG must become an INDEPENDENT planner, separate from the Physics tab (see phase 2, step 5).
+
 ## Phase 2 — planning data out of build_plan.py (repo)
 1. Move the hard-coded dicts in `tools/gm12/build_plan.py` (`W`, `LOS`, `DET`, `WEDO`, `CASV`, `APK`, `EXIT`, `QMAP`, `MAT_FILES`, …) into data files: `tools/gm12/data/lessons.yaml` (one entry per lesson id) + `tools/gm12/data/sources.csv` (registry of every source file in `03 Sources`) + `tools/gm12/ledger.csv` (one row per use of a question: item, source, lesson id, use type, date).
 2. `build_plan.py` only reads those files, checks (a) every referenced source exists in `sources.csv`, (b) no item appears twice in `ledger.csv` except allowed reuse, then writes the JSON. Output must be identical to the current JSON (diff it).
 3. Make the deck engine shared: `tools/gm12/deck/engine/` (shell, reveal engine, charts, explainers, screenshot→PDF) taken from `deck/s3/`; each lesson is a content file.
+5. Standalone planner page `planner/12mag-2027.html`: a staff-facing "2027 Year 12 General Maths" unit planner that reads only `classes/general-maths-12.json` (no Physics, no personal ticks/notes). Same lesson cards and embedded materials as the dashboard. The personal dashboard (`index.html`) keeps the 12MAG tab by reading the same JSON, with ticks/notes stored per lesson id.
 4. Optional: item cache `tools/gm12/items/<source>/<id>.md` (verbatim text, figure data, worked answer) filled the first time an item is used.
