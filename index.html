@@ -152,13 +152,8 @@ function cfatDetails(c){const Q=c.questions||[];
   const bySub=c.bySub?.length?`<h3>Marks by subchapter &amp; success criteria</h3><table class="cfx"><tr><th>Sub</th><th>Marks</th><th>Success criteria tested</th></tr>${c.bySub.map(b=>`<tr><td><b>${esc(b.sub)}</b></td><td class="n">${b.marks}</td><td>${b.sc.map(esc).join('<br>')}</td></tr>`).join('')}</table>`:'';
   const bySd=c.bySd?.length?`<h3>Study Design coverage</h3><table class="cfx"><tr><th>Code</th><th>Dot point</th><th>Marks</th><th>Qs</th></tr>${c.bySd.map(b=>`<tr><td><b>${esc(b.code)}</b></td><td>${esc(b.text)}</td><td class="n">${b.marks}</td><td>${esc(b.qs.join(', '))}</td></tr>`).join('')}</table>`:'';
   const qs=Q.length?`<h3>Question breakdown</h3><table class="cfx"><tr><th>Q</th><th>Mk</th><th>Skill</th><th>Study Design</th><th>Sub</th><th>Follow-up if wrong</th></tr>${Q.map(x=>`<tr><td><b>${esc(String(x.q))}</b> <span class="sub">${x.type}</span></td><td class="n">${x.marks}</td><td>${esc(x.skill)}<div class="sub">${esc(x.src)}</div></td><td>${esc(x.sd.join(', '))}</td><td>${esc(x.sub)}</td><td>${x.fu?esc(x.fu):'<span class="sub">TBC</span>'}</td></tr>`).join('')}</table>`:'';
-  return `<div><div class="ttl"><b>${esc(c.id)}</b> · ${esc(c.title)}</div>
-  <div class="sub" style="margin-top:2px">Covers ${esc((c.covers||[]).join(', '))}</div>${summ}
-  ${c.plan?`<div style="font-size:13px;margin-top:6px">${esc(c.plan)}</div>`:''}
-  ${bySub}${bySd}${qs}
-  ${c.status?`<h3>Status</h3><div>${esc(c.status)}</div>`:''}
-  ${c.file?`<h3>File</h3><div class="sub" style="word-break:break-all">${/\.html$/.test(c.file)?`<a class="mlink" href="${esc(c.file)}" target="_blank" rel="noopener">Open ↗</a>`:esc(c.file)}</div>`:''}
-  ${c.sources?.length?`<h3>Sources</h3>${list(c.sources)}`:''}</div>`}
+  return `<div><div class="ttl"><b>${esc(c.id)}</b> · ${esc(c.title)}</div>${summ}
+  ${bySub}${bySd}${qs}</div>`}
 function cfatBox(c){return `<details class="cfatbox"><summary><b>${esc(c.id)}</b> · ${esc(c.title)} <span class="sub">· ${esc(c.format)}</span></summary>
   <div class="meta" style="margin-top:8px"><span>Covers ${esc(c.covers.join(', '))}</span></div>
   <div style="font-size:13px;margin-top:4px">${esc(c.plan)}</div><h3>Sources</h3>${list(c.sources)}</details>`}

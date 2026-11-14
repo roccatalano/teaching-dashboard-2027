@@ -51,7 +51,7 @@ for blk,wl,tl,_,_ in W:
 for l in L:
   if l['title']=='Unit 3 trial exams': l['span']=3
 # CFATs (from Planning\Topics\1. Data Analysis\README.md + HANDOFF.md). ~20 min each, on lighter lessons.
-FMT='About 20 min, individual, closed book (CAS allowed)'
+FMT='About 20 min · individual · CAS and single bound reference allowed'
 SRC='Edrolo GM U3&4 2023 exercise questions (CFAT-only)'
 DIR='1. Data Analysis\\CFATs\\Chapter 1\\'
 CF={
