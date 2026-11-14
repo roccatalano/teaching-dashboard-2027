@@ -25,7 +25,7 @@ These replace older rules in `Planning\CLAUDE.md` on the G: drive where they dis
 
 ## Source files (G: drive)
 Root: `G:\Shared drives\1. EKC CURRICULUM\1. KLA Folders\MATHEMATICS\VCE Maths\General Maths U3 & 4\12MAG 2027\`
-The folder is being reorganised — see `tools/gm12/CLEANUP.md`. New structure: `12MAG 2027\Version 2\` (lesson folders mirror the dashboard; sources in `03 Sources\`). Each folder's README.md says what goes there and how to name files.
+The folder is being reorganised — see `tools/gm12/CLEANUP.md`. New structure: `12MAG 2027\Version 2\`. ALL made materials go flat into `01 Lesson materials\`, named `<subchapters> <type>.<ext>` (e.g. `1C-1E slides.pdf`, `CFAT 1.1.1 (1A-1E).pdf`, `Ch1 test.pdf`): no lesson numbers or weeks in names, because lessons are merged/split on the planner only. Sources: `03 Sources\` (VCAA current 2023-26 named `2025 E1.pdf`, `2025 NHT E2 report.docx`…; VCAA past 2016-2022 = originals of the Edrolo reprints, for % correct). Claude can create/overwrite files on G: but cannot move, rename or delete them.
 
 ## Work in progress
 - `tools/gm12/CLEANUP.md` — phase 1 (G: drive folder cleanup) and phase 2 (move plan data out of build_plan.py).
