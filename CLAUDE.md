@@ -28,4 +28,5 @@ Root: `G:\Shared drives\1. EKC CURRICULUM\1. KLA Folders\MATHEMATICS\VCE Maths\G
 The folder is being reorganised — see `tools/gm12/CLEANUP.md`. New structure: `12MAG 2027\Version 2\`. ALL made materials go flat into `01 Lesson materials\`, named `<subchapters> <type>.<ext>` (e.g. `1C-1E slides.pdf`, `CFAT 1.1.1 (1A-1E).pdf`, `Ch1 test.pdf`): no lesson numbers or weeks in names, because lessons are merged/split on the planner only. Sources: `02 Sources\` (VCAA current 2023-26 named `2025 E1.pdf`, `2025 NHT E2 report.docx`…; VCAA past 2016-2022 = originals of the Edrolo reprints, for % correct). Claude can create/overwrite files on G: but cannot move, rename or delete them.
 
 ## Work in progress
-- `tools/gm12/CLEANUP.md` — phase 1 (G: drive folder cleanup) and phase 2 (move plan data out of build_plan.py).
+- `tools/gm12/PLANNER.md` — spec for the standalone 12MAG unit planner (unit plan + year plan tabs). Next job.
+- `tools/gm12/CLEANUP.md` — older cleanup notes (G: drive part done 14 Nov via Version 2).
