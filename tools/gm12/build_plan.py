@@ -8,22 +8,22 @@ A1=('U3 AoS1','Data analysis'); A2=('U3 AoS2','Recursion and financial modelling
 W=[
  ('su','Step-up week 1','Nov–Dec 2026',A1,[('lesson','1A–1B','Types of data; categorical data'),('lesson','1C–1E','Histograms, dot plots and stem plots; log scales')]),
  ('su','Step-up week 2','Nov–Dec 2026',A1,[('lesson','1F–1G','Centre and spread; five-number summary, boxplots and outliers'),('lesson','1H–1I','Normal distribution, z-scores; populations and samples'),('review','1','CFAT 1.1.3 and CFAT feedback')]),
- ('t1','Week 1','Term 1 · short week',A1,[('sac','1','Chapter 1 test (part 1)'),('sac','1','Chapter 1 test (part 2)')]),
- ('t1','Week 2','Term 1',A1,[('lesson','2A–2B','Response and explanatory variables; two-way tables'),('lesson','2C','Numerical vs categorical: parallel boxplots, back-to-back stem plots'),('lesson','2D–2E','Scatterplots: direction, form and strength')]),
- ('t1','Week 3','Term 1',A1,[('lesson','2F','Correlation coefficient, $r$'),('lesson','2G–2H','Coefficient of determination; correlation and causation'),('review','2I','Which graph? and Chapter 2 review')]),
- ('t1','Week 4','Term 1',A1,[('lesson','3A','Least squares regression line'),('lesson','3B','Interpreting slope and intercept; predictions'),('lesson','3C','Residual analysis and regression analysis')]),
- ('t1','Week 5','Term 1',A1,[('lesson','4A','Squared transformation'),('lesson','4B','Log transformation'),('lesson','4C','Reciprocal transformation')]),
- ('t1','Week 6','Term 1',A1,[('lesson','4D','Choosing and applying a transformation'),('lesson','5A','Time series data: features of time series plots'),('lesson','5B','Smoothing with moving means')]),
- ('t1','Week 7','Term 1 · Labour Day Mon 8 Mar',A1,[('lesson','5B','Centring moving means'),('lesson','5C','Smoothing with moving medians'),('lesson','5D','Seasonal indices')]),
- ('t1','Week 8','Term 1',A1,[('lesson','5D','Deseasonalising and reseasonalising'),('lesson','5E','Trend lines and forecasting'),('review','6','Review: distributions and associations')]),
- ('t1','Week 9','Term 1',A1,[('review','6','Review: regression, transformations and time series'),('review','SAC 1','SAC 1 practice application task'),('review','SAC 1','SAC 1 targeted revision')]),
+ ('t1','Week 1','Term 1 · short week',A1,[('sac','1','Chapter 1 coursework check + test','gm12-u3-ch1-test'),('lesson','2A–2B','Response and explanatory variables; two-way tables','gm12-u3-l03')]),
+ ('t1','Week 2','Term 1',A1,[('lesson','2C','Numerical vs categorical: parallel boxplots, back-to-back stem plots','gm12-u3-l04'),('lesson','2D–2E','Scatterplots: direction, form and strength','gm12-u3-l05'),('lesson','2F','Correlation coefficient, $r$','gm12-u3-l06')]),
+ ('t1','Week 3','Term 1',A1,[('lesson','2G–2H','Coefficient of determination; correlation and causation','gm12-u3-l07'),('lesson','2I','Which graph?','gm12-u3-l08'),('sac','2','Chapter 2 coursework check + test','gm12-u3-ch2-test')]),
+ ('t1','Week 4','Term 1',A1,[('lesson','3A','Least squares regression line','gm12-u3-l09'),('lesson','3B','Interpreting slope and intercept; predictions','gm12-u3-l10'),('lesson','3C','Residual analysis and regression analysis','gm12-u3-l11')]),
+ ('t1','Week 5','Term 1',A1,[('sac','3','Chapter 3 coursework check + test','gm12-u3-ch3-test'),('lesson','4A','Squared transformation','gm12-u3-l12'),('lesson','4B','Log transformation','gm12-u3-l13')]),
+ ('t1','Week 6','Term 1',A1,[('lesson','4C','Reciprocal transformation','gm12-u3-l14'),('lesson','4D','Choosing and applying a transformation','gm12-u3-l15'),('sac','4','Chapter 4 coursework check + test','gm12-u3-ch4-test')]),
+ ('t1','Week 7','Term 1 · Labour Day Mon 8 Mar',A1,[('lesson','5A','Time series data: features of time series plots','gm12-u3-l16'),('lesson','5B','Smoothing with moving means','gm12-u3-l17'),('lesson','5B','Centring moving means','gm12-u3-l18')]),
+ ('t1','Week 8','Term 1',A1,[('lesson','5C','Smoothing with moving medians','gm12-u3-l19'),('lesson','5D','Seasonal indices','gm12-u3-l20'),('lesson','5D','Deseasonalising and reseasonalising','gm12-u3-l21')]),
+ ('t1','Week 9','Term 1',A1,[('lesson','5E','Trend lines and forecasting','gm12-u3-l22'),('sac','5','Chapter 5 coursework check + test','gm12-u3-ch5-test'),('review','SAC 1','SAC 1 practice application task','gm12-u3-l25')]),
  ('t2','Week 1','Term 2',A2,[('review','SAC 1','SAC 1 refresher (before Part 1, Wed 14 Apr after school)'),('review','SAC 1','SAC 1 revision'),('sac','SAC 1','SAC 1 Part 2: in class (10 min reading + 60 min)')]),
  ('t2','Week 2','Term 2',A2,[('review','SAC 1','SAC 1 revision (before Part 3, Wed 21 Apr after school)'),('lesson','7A','Sequences and recurrence relations (after SAC 1 Part 3)'),('lesson','7B, 7D','Linear and geometric growth and decay')]),
  ('t2','Week 3','Term 2',A2,[('lesson','7C, 7E','Explicit rules for linear and geometric growth and decay'),('lesson','7F','Interest rates over different periods; effective interest rates'),('review','SAC 1','SAC 1 feedback')]),
- ('t2','Week 4','Term 2',A2,[('review','7','Chapter 7 review'),('lesson','8A','Compound interest investments with regular additions'),('lesson','8B','Reducing balance loans and annuities')]),
+ ('t2','Week 4','Term 2',A2,[('sac','7','Chapter 7 coursework check + test'),('lesson','8A','Compound interest investments with regular additions'),('lesson','8B','Reducing balance loans and annuities')]),
  ('t2','Week 5','Term 2',A2,[('lesson','8C','Amortisation tables'),('lesson','8D','Analysing financial situations with amortisation tables'),('lesson','8E','Finance solver: balance and final payment')]),
  ('t2','Week 6','Term 2',A2,[('lesson','8F','Finance solver: interest rate, time and payment'),('lesson','8G','Harder financial problems'),('lesson','8H','Interest-only loans')]),
- ('t2','Week 7','Term 2',A2,[('lesson','8I','Perpetuities'),('review','8','Chapter 8 review'),('review','9','Review: recursion and financial modelling')]),
+ ('t2','Week 7','Term 2',A2,[('lesson','8I','Perpetuities'),('sac','8','Chapter 8 coursework check + test'),('review','9','Review: recursion and financial modelling')]),
  ('t2','Week 8','Term 2',A2,[('review','SAC 2','SAC 2 revision (Part 1, Wed 2 Jun after school)'),('review','Exam','Unit 3 exam revision'),('review','Exam','Unit 3 exam revision')]),
  ('t2','Week 9','Term 2 · trial exam week',A2,[('sac','Exam','Unit 3 trial exams')]),
  ('t2','Week 10','Term 2',A2,[('tbc','','To be planned'),('tbc','','To be planned'),('tbc','','To be planned')]),
@@ -32,11 +32,16 @@ W=[
 TASKS={'tbc':[],'lesson':['Slides ready','Guided sheet ready','Exit ticket'],'review':['Review set ready'],'sac':['Task ready','Marking scheme ready']}
 L=[];n=0;s=0
 for wi,(blk,wl,tl,(aos,at),ls) in enumerate(W,1):
-  for typ,sec,title in ls:
+  for typ,sec,title,*fix in ls:
     if blk=='su': s+=1;num=f'S{s}'
     else: n+=1;num=n
+    # IDs: an explicit id keeps a lesson's data (Do Now, APK, exits, CFATs, ticks) attached when lessons move.
     L.append(dict(type=typ,section=sec,title=title,aos=aos,aosTitle=at,unit=3,week=wi,weekLabel=wl,termLabel=tl,lesson=num,
-      id=f'gm12-u3-{num if blk=="su" else "l%02d"%num}'.lower(),keyKnowledge=[],questions=[],tasks=[dict(text=t,done=False) for t in TASKS[typ]]))
+      id=(fix[0] if fix else f'gm12-u3-{num if blk=="su" else "l%02d"%num}').lower(),keyKnowledge=[],questions=[],tasks=[dict(text=t,done=False) for t in TASKS[typ]]))
+# Chapter-end lessons: coursework check (CFATs, bound reference, guided notes, homework) + chapter test.
+for l in L:
+  if l['title'].endswith('coursework check + test'):
+    l['tasks']=[dict(text=t,done=False) for t in ['Coursework checklist ready (CFATs, bound reference, guided notes, homework)','Chapter test ready','Marking scheme ready']]
 import datetime as dt
 START={'t1':dt.date(2027,1,25),'t2':dt.date(2027,4,12)}; END={'t1':dt.date(2027,3,25)}
 def rng(blk,wl):

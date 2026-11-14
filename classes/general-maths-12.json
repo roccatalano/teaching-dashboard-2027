@@ -2131,7 +2131,7 @@
   {
    "type": "sac",
    "section": "1",
-   "title": "Chapter 1 test (part 1)",
+   "title": "Chapter 1 coursework check + test",
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
@@ -2139,38 +2139,16 @@
    "weekLabel": "Week 1",
    "termLabel": "Term 1 · short week",
    "lesson": 1,
-   "id": "gm12-u3-l01",
+   "id": "gm12-u3-ch1-test",
    "keyKnowledge": [],
    "questions": [],
    "tasks": [
     {
-     "text": "Task ready",
+     "text": "Coursework checklist ready (CFATs, bound reference, guided notes, homework)",
      "done": false
     },
     {
-     "text": "Marking scheme ready",
-     "done": false
-    }
-   ],
-   "dates": "28–29 Jan"
-  },
-  {
-   "type": "sac",
-   "section": "1",
-   "title": "Chapter 1 test (part 2)",
-   "aos": "U3 AoS1",
-   "aosTitle": "Data analysis",
-   "unit": 3,
-   "week": 3,
-   "weekLabel": "Week 1",
-   "termLabel": "Term 1 · short week",
-   "lesson": 2,
-   "id": "gm12-u3-l02",
-   "keyKnowledge": [],
-   "questions": [],
-   "tasks": [
-    {
-     "text": "Task ready",
+     "text": "Chapter test ready",
      "done": false
     },
     {
@@ -2187,10 +2165,10 @@
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
-   "week": 4,
-   "weekLabel": "Week 2",
-   "termLabel": "Term 1",
-   "lesson": 3,
+   "week": 3,
+   "weekLabel": "Week 1",
+   "termLabel": "Term 1 · short week",
+   "lesson": 2,
    "id": "gm12-u3-l03",
    "keyKnowledge": [],
    "questions": [],
@@ -2208,7 +2186,7 @@
      "done": false
     }
    ],
-   "dates": "1–5 Feb",
+   "dates": "28–29 Jan",
    "learningObjectives": [
     {
      "sub": "2A",
@@ -2372,7 +2350,7 @@
    "week": 4,
    "weekLabel": "Week 2",
    "termLabel": "Term 1",
-   "lesson": 4,
+   "lesson": 3,
    "id": "gm12-u3-l04",
    "keyKnowledge": [],
    "questions": [],
@@ -2559,7 +2537,7 @@
    "week": 4,
    "weekLabel": "Week 2",
    "termLabel": "Term 1",
-   "lesson": 5,
+   "lesson": 4,
    "id": "gm12-u3-l05",
    "keyKnowledge": [],
    "questions": [],
@@ -2718,10 +2696,10 @@
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
-   "week": 5,
-   "weekLabel": "Week 3",
+   "week": 4,
+   "weekLabel": "Week 2",
    "termLabel": "Term 1",
-   "lesson": 6,
+   "lesson": 5,
    "id": "gm12-u3-l06",
    "keyKnowledge": [],
    "questions": [],
@@ -2739,7 +2717,7 @@
      "done": false
     }
    ],
-   "dates": "8–12 Feb",
+   "dates": "1–5 Feb",
    "learningObjectives": [
     {
      "sub": "2F",
@@ -2863,7 +2841,7 @@
    "week": 5,
    "weekLabel": "Week 3",
    "termLabel": "Term 1",
-   "lesson": 7,
+   "lesson": 6,
    "id": "gm12-u3-l07",
    "keyKnowledge": [],
    "questions": [],
@@ -3029,22 +3007,30 @@
    ]
   },
   {
-   "type": "review",
+   "type": "lesson",
    "section": "2I",
-   "title": "Which graph? and Chapter 2 review",
+   "title": "Which graph?",
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
    "week": 5,
    "weekLabel": "Week 3",
    "termLabel": "Term 1",
-   "lesson": 8,
+   "lesson": 7,
    "id": "gm12-u3-l08",
    "keyKnowledge": [],
    "questions": [],
    "tasks": [
     {
-     "text": "Review set ready",
+     "text": "Slides ready",
+     "done": false
+    },
+    {
+     "text": "Guided sheet ready",
+     "done": false
+    },
+    {
+     "text": "Exit ticket",
      "done": false
     }
    ],
@@ -3062,6 +3048,36 @@
     "answering statistical questions that require a knowledge of the associations between pairs of variables"
    ],
    "keyVocab": []
+  },
+  {
+   "type": "sac",
+   "section": "2",
+   "title": "Chapter 2 coursework check + test",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 5,
+   "weekLabel": "Week 3",
+   "termLabel": "Term 1",
+   "lesson": 8,
+   "id": "gm12-u3-ch2-test",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Coursework checklist ready (CFATs, bound reference, guided notes, homework)",
+     "done": false
+    },
+    {
+     "text": "Chapter test ready",
+     "done": false
+    },
+    {
+     "text": "Marking scheme ready",
+     "done": false
+    }
+   ],
+   "dates": "8–12 Feb"
   },
   {
    "type": "lesson",
@@ -3590,6 +3606,36 @@
    ]
   },
   {
+   "type": "sac",
+   "section": "3",
+   "title": "Chapter 3 coursework check + test",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 7,
+   "weekLabel": "Week 5",
+   "termLabel": "Term 1",
+   "lesson": 12,
+   "id": "gm12-u3-ch3-test",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Coursework checklist ready (CFATs, bound reference, guided notes, homework)",
+     "done": false
+    },
+    {
+     "text": "Chapter test ready",
+     "done": false
+    },
+    {
+     "text": "Marking scheme ready",
+     "done": false
+    }
+   ],
+   "dates": "22–26 Feb"
+  },
+  {
    "type": "lesson",
    "section": "4A",
    "title": "Squared transformation",
@@ -3599,7 +3645,7 @@
    "week": 7,
    "weekLabel": "Week 5",
    "termLabel": "Term 1",
-   "lesson": 12,
+   "lesson": 13,
    "id": "gm12-u3-l12",
    "keyKnowledge": [],
    "questions": [],
@@ -3736,7 +3782,7 @@
    "week": 7,
    "weekLabel": "Week 5",
    "termLabel": "Term 1",
-   "lesson": 13,
+   "lesson": 14,
    "id": "gm12-u3-l13",
    "keyKnowledge": [],
    "questions": [],
@@ -3872,10 +3918,10 @@
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
-   "week": 7,
-   "weekLabel": "Week 5",
+   "week": 8,
+   "weekLabel": "Week 6",
    "termLabel": "Term 1",
-   "lesson": 14,
+   "lesson": 15,
    "id": "gm12-u3-l14",
    "keyKnowledge": [],
    "questions": [],
@@ -3893,7 +3939,7 @@
      "done": false
     }
    ],
-   "dates": "22–26 Feb",
+   "dates": "1–5 Mar",
    "learningObjectives": [
     {
      "sub": "4C",
@@ -4005,7 +4051,7 @@
    "week": 8,
    "weekLabel": "Week 6",
    "termLabel": "Term 1",
-   "lesson": 15,
+   "lesson": 16,
    "id": "gm12-u3-l15",
    "keyKnowledge": [],
    "questions": [],
@@ -4153,16 +4199,46 @@
    ]
   },
   {
-   "type": "lesson",
-   "section": "5A",
-   "title": "Time series data: features of time series plots",
+   "type": "sac",
+   "section": "4",
+   "title": "Chapter 4 coursework check + test",
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
    "week": 8,
    "weekLabel": "Week 6",
    "termLabel": "Term 1",
-   "lesson": 16,
+   "lesson": 17,
+   "id": "gm12-u3-ch4-test",
+   "keyKnowledge": [],
+   "questions": [],
+   "tasks": [
+    {
+     "text": "Coursework checklist ready (CFATs, bound reference, guided notes, homework)",
+     "done": false
+    },
+    {
+     "text": "Chapter test ready",
+     "done": false
+    },
+    {
+     "text": "Marking scheme ready",
+     "done": false
+    }
+   ],
+   "dates": "1–5 Mar"
+  },
+  {
+   "type": "lesson",
+   "section": "5A",
+   "title": "Time series data: features of time series plots",
+   "aos": "U3 AoS1",
+   "aosTitle": "Data analysis",
+   "unit": 3,
+   "week": 9,
+   "weekLabel": "Week 7",
+   "termLabel": "Term 1 · Labour Day Mon 8 Mar",
+   "lesson": 18,
    "id": "gm12-u3-l16",
    "keyKnowledge": [],
    "questions": [],
@@ -4180,7 +4256,7 @@
      "done": false
     }
    ],
-   "dates": "1–5 Mar",
+   "dates": "8–12 Mar",
    "learningObjectives": [
     {
      "sub": "5A",
@@ -4345,10 +4421,10 @@
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
-   "week": 8,
-   "weekLabel": "Week 6",
-   "termLabel": "Term 1",
-   "lesson": 17,
+   "week": 9,
+   "weekLabel": "Week 7",
+   "termLabel": "Term 1 · Labour Day Mon 8 Mar",
+   "lesson": 19,
    "id": "gm12-u3-l17",
    "keyKnowledge": [],
    "questions": [],
@@ -4366,7 +4442,7 @@
      "done": false
     }
    ],
-   "dates": "1–5 Mar",
+   "dates": "8–12 Mar",
    "learningObjectives": [
     {
      "sub": "5B",
@@ -4476,7 +4552,7 @@
    "week": 9,
    "weekLabel": "Week 7",
    "termLabel": "Term 1 · Labour Day Mon 8 Mar",
-   "lesson": 18,
+   "lesson": 20,
    "id": "gm12-u3-l18",
    "keyKnowledge": [],
    "questions": [],
@@ -4609,10 +4685,10 @@
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
-   "week": 9,
-   "weekLabel": "Week 7",
-   "termLabel": "Term 1 · Labour Day Mon 8 Mar",
-   "lesson": 19,
+   "week": 10,
+   "weekLabel": "Week 8",
+   "termLabel": "Term 1",
+   "lesson": 21,
    "id": "gm12-u3-l19",
    "keyKnowledge": [],
    "questions": [],
@@ -4630,7 +4706,7 @@
      "done": false
     }
    ],
-   "dates": "8–12 Mar",
+   "dates": "15–19 Mar",
    "learningObjectives": [
     {
      "sub": "5C",
@@ -4727,10 +4803,10 @@
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
-   "week": 9,
-   "weekLabel": "Week 7",
-   "termLabel": "Term 1 · Labour Day Mon 8 Mar",
-   "lesson": 20,
+   "week": 10,
+   "weekLabel": "Week 8",
+   "termLabel": "Term 1",
+   "lesson": 22,
    "id": "gm12-u3-l20",
    "keyKnowledge": [],
    "questions": [],
@@ -4748,7 +4824,7 @@
      "done": false
     }
    ],
-   "dates": "8–12 Mar",
+   "dates": "15–19 Mar",
    "learningObjectives": [
     {
      "sub": "5D",
@@ -4874,7 +4950,7 @@
    "week": 10,
    "weekLabel": "Week 8",
    "termLabel": "Term 1",
-   "lesson": 21,
+   "lesson": 23,
    "id": "gm12-u3-l21",
    "keyKnowledge": [],
    "questions": [],
@@ -4991,10 +5067,10 @@
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
-   "week": 10,
-   "weekLabel": "Week 8",
+   "week": 11,
+   "weekLabel": "Week 9",
    "termLabel": "Term 1",
-   "lesson": 22,
+   "lesson": 24,
    "id": "gm12-u3-l22",
    "keyKnowledge": [],
    "questions": [],
@@ -5012,7 +5088,7 @@
      "done": false
     }
    ],
-   "dates": "15–19 Mar",
+   "dates": "22–25 Mar",
    "learningObjectives": [
     {
      "sub": "5E",
@@ -5158,44 +5234,30 @@
    ]
   },
   {
-   "type": "review",
-   "section": "6",
-   "title": "Review: distributions and associations",
-   "aos": "U3 AoS1",
-   "aosTitle": "Data analysis",
-   "unit": 3,
-   "week": 10,
-   "weekLabel": "Week 8",
-   "termLabel": "Term 1",
-   "lesson": 23,
-   "id": "gm12-u3-l23",
-   "keyKnowledge": [],
-   "questions": [],
-   "tasks": [
-    {
-     "text": "Review set ready",
-     "done": false
-    }
-   ],
-   "dates": "15–19 Mar"
-  },
-  {
-   "type": "review",
-   "section": "6",
-   "title": "Review: regression, transformations and time series",
+   "type": "sac",
+   "section": "5",
+   "title": "Chapter 5 coursework check + test",
    "aos": "U3 AoS1",
    "aosTitle": "Data analysis",
    "unit": 3,
    "week": 11,
    "weekLabel": "Week 9",
    "termLabel": "Term 1",
-   "lesson": 24,
-   "id": "gm12-u3-l24",
+   "lesson": 25,
+   "id": "gm12-u3-ch5-test",
    "keyKnowledge": [],
    "questions": [],
    "tasks": [
     {
-     "text": "Review set ready",
+     "text": "Coursework checklist ready (CFATs, bound reference, guided notes, homework)",
+     "done": false
+    },
+    {
+     "text": "Chapter test ready",
+     "done": false
+    },
+    {
+     "text": "Marking scheme ready",
      "done": false
     }
    ],
@@ -5211,30 +5273,8 @@
    "week": 11,
    "weekLabel": "Week 9",
    "termLabel": "Term 1",
-   "lesson": 25,
-   "id": "gm12-u3-l25",
-   "keyKnowledge": [],
-   "questions": [],
-   "tasks": [
-    {
-     "text": "Review set ready",
-     "done": false
-    }
-   ],
-   "dates": "22–25 Mar"
-  },
-  {
-   "type": "review",
-   "section": "SAC 1",
-   "title": "SAC 1 targeted revision",
-   "aos": "U3 AoS1",
-   "aosTitle": "Data analysis",
-   "unit": 3,
-   "week": 11,
-   "weekLabel": "Week 9",
-   "termLabel": "Term 1",
    "lesson": 26,
-   "id": "gm12-u3-l26",
+   "id": "gm12-u3-l25",
    "keyKnowledge": [],
    "questions": [],
    "tasks": [
@@ -5480,9 +5520,9 @@
    "dates": "26–30 Apr"
   },
   {
-   "type": "review",
+   "type": "sac",
    "section": "7",
-   "title": "Chapter 7 review",
+   "title": "Chapter 7 coursework check + test",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -5495,7 +5535,15 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Review set ready",
+     "text": "Coursework checklist ready (CFATs, bound reference, guided notes, homework)",
+     "done": false
+    },
+    {
+     "text": "Chapter test ready",
+     "done": false
+    },
+    {
+     "text": "Marking scheme ready",
      "done": false
     }
    ],
@@ -5772,9 +5820,9 @@
    "dates": "24–28 May"
   },
   {
-   "type": "review",
+   "type": "sac",
    "section": "8",
-   "title": "Chapter 8 review",
+   "title": "Chapter 8 coursework check + test",
    "aos": "U3 AoS2",
    "aosTitle": "Recursion and financial modelling",
    "unit": 3,
@@ -5787,7 +5835,15 @@
    "questions": [],
    "tasks": [
     {
-     "text": "Review set ready",
+     "text": "Coursework checklist ready (CFATs, bound reference, guided notes, homework)",
+     "done": false
+    },
+    {
+     "text": "Chapter test ready",
+     "done": false
+    },
+    {
+     "text": "Marking scheme ready",
      "done": false
     }
    ],
