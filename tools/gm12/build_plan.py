@@ -428,15 +428,21 @@ for l in L:
 MAT_KINDS=[('Guided slides','Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.'),
            ('Guided worksheet','Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.'),
            ('Bound reference entry','One A4 sheet: key ideas, key formulas, simple how-tos and examples.')]
-MAT_LESSONS=['gm12-u3-s1','gm12-u3-s2','gm12-u3-s3','gm12-u3-s4']
+MAT_LESSONS=['gm12-u3-s1','gm12-u3-s2','gm12-u3-s3','gm12-u3-s4','gm12-u3-s5']
 for l in L:
     if l.get('id') in MAT_LESSONS:
         l['materials']=[dict(kind=k,desc=d,status='todo',file='') for k,d in MAT_KINDS]
+# CFAT as a lesson resource (lesson id -> CFAT code); same status/file system as the other materials.
+CFAT_LESSONS={'gm12-u3-s3':'1.1.1','gm12-u3-s4':'1.1.2','gm12-u3-s5':'1.1.3'}
+for l in L:
+    if l.get('id') in CFAT_LESSONS:
+        l['materials'].append(dict(kind='CFAT',desc=f"CFAT {CFAT_LESSONS[l['id']]}: student copy, worksheet style. Solutions by hand.",status='todo',file=''))
 # Made materials: (lesson id, kind) -> (status, html file, pdf file), paths relative to the site root.
 MAT_FILES={
     ('gm12-u3-s1','Guided slides'):('ready','lessons/gm12/S1-slides.html','lessons/gm12/S1-slides.pdf'),
     ('gm12-u3-s1','Guided worksheet'):('draft','lessons/gm12/S1-worksheet.html','lessons/gm12/S1-worksheet.pdf'),
     ('gm12-u3-s2','Guided slides'):('draft','lessons/gm12/S2-slides.html','lessons/gm12/S2-slides.pdf'),
+    ('gm12-u3-s3','CFAT'):('ready','lessons/gm12/CFAT-1.1.1.html','lessons/gm12/CFAT-1.1.1.pdf'),
 }
 for l in L:
     for m in l.get('materials',[]):
