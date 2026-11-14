@@ -184,14 +184,16 @@
     {
      "kind": "Guided slides",
      "desc": "Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.",
-     "status": "todo",
-     "file": ""
+     "status": "ready",
+     "file": "lessons/gm12/S1-slides.html",
+     "pdf": "lessons/gm12/S1-slides.pdf"
     },
     {
      "kind": "Guided worksheet",
      "desc": "Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.",
-     "status": "todo",
-     "file": ""
+     "status": "draft",
+     "file": "lessons/gm12/S1-worksheet.html",
+     "pdf": "lessons/gm12/S1-worksheet.pdf"
     },
     {
      "kind": "Bound reference entry",
@@ -479,8 +481,9 @@
     {
      "kind": "Guided slides",
      "desc": "Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.",
-     "status": "todo",
-     "file": ""
+     "status": "draft",
+     "file": "lessons/gm12/S2-slides.html",
+     "pdf": "lessons/gm12/S2-slides.pdf"
     },
     {
      "kind": "Guided worksheet",

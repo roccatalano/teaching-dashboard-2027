@@ -432,6 +432,16 @@ MAT_LESSONS=['gm12-u3-s1','gm12-u3-s2','gm12-u3-s3','gm12-u3-s4']
 for l in L:
     if l.get('id') in MAT_LESSONS:
         l['materials']=[dict(kind=k,desc=d,status='todo',file='') for k,d in MAT_KINDS]
+# Made materials: (lesson id, kind) -> (status, html file, pdf file), paths relative to the site root.
+MAT_FILES={
+    ('gm12-u3-s1','Guided slides'):('ready','lessons/gm12/S1-slides.html','lessons/gm12/S1-slides.pdf'),
+    ('gm12-u3-s1','Guided worksheet'):('draft','lessons/gm12/S1-worksheet.html','lessons/gm12/S1-worksheet.pdf'),
+    ('gm12-u3-s2','Guided slides'):('draft','lessons/gm12/S2-slides.html','lessons/gm12/S2-slides.pdf'),
+}
+for l in L:
+    for m in l.get('materials',[]):
+        f=MAT_FILES.get((l.get('id'),m['kind']))
+        if f: m['status'],m['file'],m['pdf']=f
 
 json.dump(d,open('classes/general-maths-12.json','w'),ensure_ascii=False,indent=1)
 print(len(L),'entries')
