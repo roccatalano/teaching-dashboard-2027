@@ -443,6 +443,8 @@ MAT_FILES={
     ('gm12-u3-s1','Guided worksheet'):('draft','lessons/gm12/S1-worksheet.html','lessons/gm12/S1-worksheet.pdf'),
     ('gm12-u3-s2','Guided slides'):('draft','lessons/gm12/S2-slides.html','lessons/gm12/S2-slides.pdf'),
     ('gm12-u3-s3','CFAT'):('ready','lessons/gm12/CFAT-1.1.1.html','lessons/gm12/CFAT-1.1.1.pdf'),
+    ('gm12-u3-s4','CFAT'):('draft','lessons/gm12/CFAT-1.1.2.html','lessons/gm12/CFAT-1.1.2.pdf'),
+    ('gm12-u3-s5','CFAT'):('draft','lessons/gm12/CFAT-1.1.3.html','lessons/gm12/CFAT-1.1.3.pdf'),
 }
 for l in L:
     for m in l.get('materials',[]):
