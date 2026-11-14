@@ -540,11 +540,333 @@
       "1E"
      ],
      "format": "About 20 min, individual, closed book (CAS allowed)",
-     "file": "1. Data Analysis\\CFATs\\Chapter 1\\CFAT 1.1.1 [1A, 1B, 1C, 1D, 1E].docx",
-     "status": "Written (10 Nov 2026)",
+     "file": "lessons/gm12/CFAT-1.1.1.html",
+     "status": "Ready (14 Nov 2026): worksheet house style, on the dashboard",
      "plan": "Start of Step-up lesson 3. Covers step-up week 1 (1A–1E).",
      "sources": [
       "Edrolo GM U3&4 2023 exercise questions (CFAT-only): 1A Q15, Q17 · 1B Q8, Q9 · 1C Q6, Q17 · 1D Q9, Q12, Q14"
+     ],
+     "questions": [
+      {
+       "q": 1,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Classify two variables as nominal or ordinal",
+       "sd": [
+        "DA-1.1",
+        "DA-K1"
+       ],
+       "sub": "1A",
+       "sc": "I can identify types of data.",
+       "src": "Edrolo 1A Q15",
+       "fu": ""
+      },
+      {
+       "q": 2,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Count the discrete variables in a list",
+       "sd": [
+        "DA-1.1",
+        "DA-K1"
+       ],
+       "sub": "1A",
+       "sc": "I can identify types of data.",
+       "src": "Edrolo 1A Q17",
+       "fu": ""
+      },
+      {
+       "q": 3,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Read a percentage segmented bar chart and scale to a count",
+       "sd": [
+        "DA-1.2",
+        "DA-K2",
+        "DA-S1"
+       ],
+       "sub": "1B",
+       "sc": "I can describe the distribution of a categorical variable.",
+       "src": "Edrolo 1B Q8",
+       "fu": ""
+      },
+      {
+       "q": 4,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Read frequencies from a histogram over an interval",
+       "sd": [
+        "DA-1.3",
+        "DA-K2",
+        "DA-S3"
+       ],
+       "sub": "1C",
+       "sc": "I can describe the features of a distribution from a histogram.",
+       "src": "Edrolo 1B Q9",
+       "fu": ""
+      },
+      {
+       "q": 5,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Convert a value to log10 and find a percentage from a log histogram",
+       "sd": [
+        "DA-1.3",
+        "DA-K3"
+       ],
+       "sub": "1E",
+       "sc": "I can interpret a histogram with a log scale.",
+       "src": "Edrolo 1C Q6",
+       "fu": ""
+      },
+      {
+       "q": 6,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Find the modal interval on a log histogram and convert back from log10",
+       "sd": [
+        "DA-1.3",
+        "DA-K3"
+       ],
+       "sub": "1E",
+       "sc": "I can interpret a histogram with a log scale.",
+       "src": "Edrolo 1C Q17",
+       "fu": ""
+      },
+      {
+       "q": "7a",
+       "marks": 2,
+       "type": "SA",
+       "skill": "Write a report on a categorical distribution, naming the mode",
+       "sd": [
+        "DA-1.2",
+        "DA-1.4",
+        "DA-S1",
+        "DA-S2"
+       ],
+       "sub": "1B",
+       "sc": "I can describe the distribution of a categorical variable.",
+       "src": "Edrolo 1D Q9",
+       "fu": ""
+      },
+      {
+       "q": "8a",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Count values in an interval from a stem plot",
+       "sd": [
+        "DA-1.3",
+        "DA-S3"
+       ],
+       "sub": "1D",
+       "sc": "I can construct a stem plot.",
+       "src": "Edrolo 1D Q12",
+       "fu": ""
+      },
+      {
+       "q": "8b",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Count values above a cut-off from a stem plot",
+       "sd": [
+        "DA-1.3",
+        "DA-S4"
+       ],
+       "sub": "1D",
+       "sc": "I can construct a stem plot.",
+       "src": "Edrolo 1D Q12",
+       "fu": ""
+      },
+      {
+       "q": "8c",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Find the mode from a stem plot",
+       "sd": [
+        "DA-1.3",
+        "DA-S3"
+       ],
+       "sub": "1D",
+       "sc": "I can construct a stem plot.",
+       "src": "Edrolo 1D Q12",
+       "fu": ""
+      },
+      {
+       "q": "9a",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Convert a log10 value back to the actual value",
+       "sd": [
+        "DA-1.3",
+        "DA-K3"
+       ],
+       "sub": "1E",
+       "sc": "I can use a CAS calculator to find logs.",
+       "src": "Edrolo 1D Q14",
+       "fu": ""
+      },
+      {
+       "q": "9b",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Find the log10 interval a value is plotted in",
+       "sd": [
+        "DA-1.3",
+        "DA-K3"
+       ],
+       "sub": "1E",
+       "sc": "I can interpret a histogram with a log scale.",
+       "src": "Edrolo 1D Q14",
+       "fu": ""
+      }
+     ],
+     "marks": 13,
+     "mcMarks": 6,
+     "saMarks": 7,
+     "bySub": [
+      {
+       "sub": "1A",
+       "marks": 2,
+       "sc": [
+        "I can identify types of data."
+       ]
+      },
+      {
+       "sub": "1B",
+       "marks": 3,
+       "sc": [
+        "I can describe the distribution of a categorical variable."
+       ]
+      },
+      {
+       "sub": "1C",
+       "marks": 1,
+       "sc": [
+        "I can describe the features of a distribution from a histogram."
+       ]
+      },
+      {
+       "sub": "1D",
+       "marks": 3,
+       "sc": [
+        "I can construct a stem plot."
+       ]
+      },
+      {
+       "sub": "1E",
+       "marks": 4,
+       "sc": [
+        "I can interpret a histogram with a log scale.",
+        "I can use a CAS calculator to find logs."
+       ]
+      }
+     ],
+     "bySd": [
+      {
+       "code": "DA-1.1",
+       "text": "types of data",
+       "marks": 2,
+       "qs": [
+        "1",
+        "2"
+       ]
+      },
+      {
+       "code": "DA-1.2",
+       "text": "representation, display and description of the distributions of categorical variables: data tables, two-way frequency tables and their associated segmented bar charts",
+       "marks": 3,
+       "qs": [
+        "3",
+        "7a"
+       ]
+      },
+      {
+       "code": "DA-1.3",
+       "text": "representation, display and description of the distributions of numerical variables: dot plots, stem plots, histograms; the use of a logarithmic (base 10) scale to display data ranging over several orders of magnitude and their interpretation in terms of powers of ten",
+       "marks": 8,
+       "qs": [
+        "4",
+        "5",
+        "6",
+        "8a",
+        "8b",
+        "8c",
+        "9a",
+        "9b"
+       ]
+      },
+      {
+       "code": "DA-1.4",
+       "text": "use of the distribution(s) of one or more categorical or numerical variables to answer statistical questions",
+       "marks": 2,
+       "qs": [
+        "7a"
+       ]
+      },
+      {
+       "code": "DA-K1",
+       "text": "types of data: categorical (nominal and ordinal) and numerical (discrete and continuous)",
+       "marks": 2,
+       "qs": [
+        "1",
+        "2"
+       ]
+      },
+      {
+       "code": "DA-K2",
+       "text": "frequency tables, bar charts including segmented bar charts, histograms, stem plots, dot plots, and their application in the context of displaying and describing distributions",
+       "marks": 2,
+       "qs": [
+        "3",
+        "4"
+       ]
+      },
+      {
+       "code": "DA-K3",
+       "text": "logarithmic (base 10) scales, and their purpose and application",
+       "marks": 4,
+       "qs": [
+        "5",
+        "6",
+        "9a",
+        "9b"
+       ]
+      },
+      {
+       "code": "DA-S1",
+       "text": "construct frequency tables and bar charts and use them to describe and interpret the distributions of categorical variables",
+       "marks": 3,
+       "qs": [
+        "3",
+        "7a"
+       ]
+      },
+      {
+       "code": "DA-S2",
+       "text": "answer statistical questions that require a knowledge of the distribution(s) of one or more categorical variables",
+       "marks": 2,
+       "qs": [
+        "7a"
+       ]
+      },
+      {
+       "code": "DA-S3",
+       "text": "construct stem and dot plots, boxplots, histograms and appropriate summary statistics and use them to describe and interpret the distributions of numerical variables",
+       "marks": 3,
+       "qs": [
+        "4",
+        "8a",
+        "8c"
+       ]
+      },
+      {
+       "code": "DA-S4",
+       "text": "answer statistical questions that require a knowledge of the distribution(s) of one or more numerical variables",
+       "marks": 1,
+       "qs": [
+        "8b"
+       ]
+      }
      ]
     }
    ],
@@ -904,11 +1226,316 @@
       "1G"
      ],
      "format": "About 20 min, individual, closed book (CAS allowed)",
-     "file": "1. Data Analysis\\CFATs\\Chapter 1\\CFAT 1.1.2 [1F, 1G].docx",
-     "status": "Written (10 Nov 2026)",
+     "file": "lessons/gm12/CFAT-1.1.2.html",
+     "status": "Ready (14 Nov 2026): worksheet house style, on the dashboard",
      "plan": "Start of Step-up lesson 4. Covers Step-up lesson 3 (1F–1G).",
      "sources": [
       "Edrolo GM U3&4 2023 exercise questions (CFAT-only): 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19"
+     ],
+     "questions": [
+      {
+       "q": 1,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Find Q3 of an unordered data set",
+       "sd": [
+        "DA-1.5",
+        "DA-K4",
+        "DA-S3"
+       ],
+       "sub": "1F",
+       "sc": "I can find the median value in a data set.",
+       "src": "Edrolo 1E Q1",
+       "fu": ""
+      },
+      {
+       "q": 2,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Find the IQR from a stem plot (n odd)",
+       "sd": [
+        "DA-1.5",
+        "DA-K4",
+        "DA-S3"
+       ],
+       "sub": "1F",
+       "sc": "I can find the IQR from a stem plot when n is odd.",
+       "src": "Edrolo 1E Q8",
+       "fu": ""
+      },
+      {
+       "q": 3,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Calculate the lower fence from a five-number summary",
+       "sd": [
+        "DA-1.5",
+        "DA-K4"
+       ],
+       "sub": "1G",
+       "sc": "I can use boxplots to describe a distribution with outliers.",
+       "src": "Edrolo 1E Q11",
+       "fu": ""
+      },
+      {
+       "q": 4,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Read the five-number summary from a boxplot",
+       "sd": [
+        "DA-1.5",
+        "DA-K4"
+       ],
+       "sub": "1G",
+       "sc": "I can read values from a boxplot.",
+       "src": "Edrolo 1E Q14",
+       "fu": ""
+      },
+      {
+       "q": 5,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Decide shape and outliers from a five-number summary",
+       "sd": [
+        "DA-1.5",
+        "DA-K4",
+        "DA-S3"
+       ],
+       "sub": "1G",
+       "sc": "I can use boxplots to describe a distribution with outliers.",
+       "src": "Edrolo 1E Q17",
+       "fu": ""
+      },
+      {
+       "q": 6,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Describe the features of a negatively skewed boxplot",
+       "sd": [
+        "DA-1.5",
+        "DA-S3"
+       ],
+       "sub": "1G",
+       "sc": "I can use boxplots for describe a distribution without outliers.",
+       "src": "Edrolo 1E Q18",
+       "fu": ""
+      },
+      {
+       "q": "7a",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Calculate the upper fence from a boxplot",
+       "sd": [
+        "DA-1.5",
+        "DA-K4"
+       ],
+       "sub": "1G",
+       "sc": "I can read values from a boxplot.",
+       "src": "Edrolo 1F Q12",
+       "fu": ""
+      },
+      {
+       "q": "7b",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Describe and compare the shapes of two boxplots, including outliers",
+       "sd": [
+        "DA-1.5",
+        "DA-S3",
+        "DA-S4"
+       ],
+       "sub": "1G",
+       "sc": "I can use boxplots to describe a distribution with outliers.",
+       "src": "Edrolo 1F Q12",
+       "fu": ""
+      },
+      {
+       "q": "8a",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Find the five-number summary from raw data (CAS)",
+       "sd": [
+        "DA-1.5",
+        "DA-K4",
+        "DA-S3"
+       ],
+       "sub": "1G",
+       "sc": "I can construct a boxplot with outliers from data using the CAS calculator.",
+       "src": "Edrolo 1F Q16",
+       "fu": ""
+      },
+      {
+       "q": "8b",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Calculate the IQR",
+       "sd": [
+        "DA-1.5",
+        "DA-K4"
+       ],
+       "sub": "1F",
+       "sc": "I can find the median value in a data set.",
+       "src": "Edrolo 1F Q16",
+       "fu": ""
+      },
+      {
+       "q": "8c",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Use the fences to identify outliers, with working",
+       "sd": [
+        "DA-1.5",
+        "DA-K4"
+       ],
+       "sub": "1G",
+       "sc": "I can construct a boxplot with outliers from data using the CAS calculator.",
+       "src": "Edrolo 1F Q16",
+       "fu": ""
+      },
+      {
+       "q": "8d",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Draw a boxplot with an outlier on a given scale",
+       "sd": [
+        "DA-1.5",
+        "DA-S3"
+       ],
+       "sub": "1G",
+       "sc": "I can construct a boxplot from a five number summary.",
+       "src": "Edrolo 1F Q16",
+       "fu": ""
+      },
+      {
+       "q": "9a",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Describe the shape of a distribution from a stem plot",
+       "sd": [
+        "DA-1.3",
+        "DA-S3"
+       ],
+       "sub": "1C",
+       "sc": "I can describe the features of a distribution from a histogram.",
+       "src": "Edrolo 1F Q18–19",
+       "fu": ""
+      },
+      {
+       "q": "9b",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Find the median from a stem plot (n even)",
+       "sd": [
+        "DA-1.5",
+        "DA-S3"
+       ],
+       "sub": "1F",
+       "sc": "I can find the median value from a stem plot.",
+       "src": "Edrolo 1F Q18–19",
+       "fu": ""
+      }
+     ],
+     "marks": 14,
+     "mcMarks": 6,
+     "saMarks": 8,
+     "bySub": [
+      {
+       "sub": "1C",
+       "marks": 1,
+       "sc": [
+        "I can describe the features of a distribution from a histogram."
+       ]
+      },
+      {
+       "sub": "1F",
+       "marks": 4,
+       "sc": [
+        "I can find the median value in a data set.",
+        "I can find the IQR from a stem plot when n is odd.",
+        "I can find the median value from a stem plot."
+       ]
+      },
+      {
+       "sub": "1G",
+       "marks": 9,
+       "sc": [
+        "I can use boxplots to describe a distribution with outliers.",
+        "I can read values from a boxplot.",
+        "I can use boxplots for describe a distribution without outliers.",
+        "I can construct a boxplot with outliers from data using the CAS calculator.",
+        "I can construct a boxplot from a five number summary."
+       ]
+      }
+     ],
+     "bySd": [
+      {
+       "code": "DA-1.3",
+       "text": "representation, display and description of the distributions of numerical variables: dot plots, stem plots, histograms; the use of a logarithmic (base 10) scale to display data ranging over several orders of magnitude and their interpretation in terms of powers of ten",
+       "marks": 1,
+       "qs": [
+        "9a"
+       ]
+      },
+      {
+       "code": "DA-1.5",
+       "text": "summary of the distributions of numerical variables; the five-number summary and boxplots (including the use of the lower fence (Q1 – 1.5 × IQR) and upper fence (Q3 + 1.5 × IQR) to identify and display possible outliers); the sample mean and standard deviation and their use in comparing data distributions in terms of centre and spread",
+       "marks": 13,
+       "qs": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7a",
+        "7b",
+        "8a",
+        "8b",
+        "8c",
+        "8d",
+        "9b"
+       ]
+      },
+      {
+       "code": "DA-K4",
+       "text": "the five-number summary and boxplots (including the designation and display of possible outliers)",
+       "marks": 9,
+       "qs": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "7a",
+        "8a",
+        "8b",
+        "8c"
+       ]
+      },
+      {
+       "code": "DA-S3",
+       "text": "construct stem and dot plots, boxplots, histograms and appropriate summary statistics and use them to describe and interpret the distributions of numerical variables",
+       "marks": 9,
+       "qs": [
+        "1",
+        "2",
+        "5",
+        "6",
+        "7b",
+        "8a",
+        "8d",
+        "9a",
+        "9b"
+       ]
+      },
+      {
+       "code": "DA-S4",
+       "text": "answer statistical questions that require a knowledge of the distribution(s) of one or more numerical variables",
+       "marks": 1,
+       "qs": [
+        "7b"
+       ]
+      }
      ]
     }
    ],
@@ -1155,12 +1782,321 @@
       "1I"
      ],
      "format": "About 20 min, individual, closed book (CAS allowed)",
-     "file": "1. Data Analysis\\CFATs\\Chapter 1\\CFAT 1.1.3 [1H, 1F, 1I].docx",
-     "status": "Written (10 Nov 2026)",
-     "marks": 16,
+     "file": "lessons/gm12/CFAT-1.1.3.html",
+     "status": "Ready (14 Nov 2026): worksheet house style, on the dashboard",
+     "marks": 15,
      "plan": "Start of Step-up lesson 5. Covers Step-up lesson 4 (1H–1I). The rest of the lesson is feedback on CFATs 1.1.1–1.1.3. Cambridge 1I not assessed. Q8a has a blank normal curve scaffold.",
      "sources": [
       "Edrolo GM U3&4 2023 exercise questions (CFAT-only): 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15"
+     ],
+     "questions": [
+      {
+       "q": 1,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Find the mean and sample SD of raw data (CAS)",
+       "sd": [
+        "DA-1.5",
+        "DA-K5"
+       ],
+       "sub": "1F",
+       "sc": "I can calculate the mean and standard deviation using the CAS calculator.",
+       "src": "Edrolo 1G Q4",
+       "fu": ""
+      },
+      {
+       "q": 2,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Interpret a negative z-score",
+       "sd": [
+        "DA-1.6",
+        "DA-K6"
+       ],
+       "sub": "1H",
+       "sc": "I can calculate standardised scores.",
+       "src": "Edrolo 1H Q8",
+       "fu": ""
+      },
+      {
+       "q": 3,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Know that z = 0 is the mean",
+       "sd": [
+        "DA-1.6",
+        "DA-K6"
+       ],
+       "sub": "1H",
+       "sc": "I can convert standardised scores into actual scores.",
+       "src": "Edrolo 1H Q11",
+       "fu": ""
+      },
+      {
+       "q": 4,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Use the 68–95–99.7% rule across two intervals",
+       "sd": [
+        "DA-1.6",
+        "DA-K6",
+        "DA-S5"
+       ],
+       "sub": "1H",
+       "sc": "I can apply the 68-95-99.7% rule.",
+       "src": "Edrolo 1H Q13",
+       "fu": ""
+      },
+      {
+       "q": 5,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Convert a z-score to an actual score",
+       "sd": [
+        "DA-1.6",
+        "DA-K6",
+        "DA-S5"
+       ],
+       "sub": "1H",
+       "sc": "I can convert standardised scores into actual scores.",
+       "src": "Edrolo 1I Q1",
+       "fu": ""
+      },
+      {
+       "q": 6,
+       "marks": 1,
+       "type": "MC",
+       "skill": "Calculate a z-score with a negative value",
+       "sd": [
+        "DA-1.6",
+        "DA-K6",
+        "DA-S5"
+       ],
+       "sub": "1H",
+       "sc": "I can calculate standardised scores.",
+       "src": "Edrolo 1I Q4",
+       "fu": ""
+      },
+      {
+       "q": "7a",
+       "marks": 1,
+       "type": "SA",
+       "skill": "68–95–99.7% rule: percentage above one SD below the mean",
+       "sd": [
+        "DA-1.6",
+        "DA-S5"
+       ],
+       "sub": "1H",
+       "sc": "I can apply the 68-95-99.7% rule.",
+       "src": "Edrolo 1I Q9",
+       "fu": ""
+      },
+      {
+       "q": "7b",
+       "marks": 1,
+       "type": "SA",
+       "skill": "68–95–99.7% rule: turn a percentage into a count",
+       "sd": [
+        "DA-1.6",
+        "DA-S5"
+       ],
+       "sub": "1H",
+       "sc": "I can apply the 68-95-99.7% rule.",
+       "src": "Edrolo 1I Q9",
+       "fu": ""
+      },
+      {
+       "q": "8a",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Label the normal curve: values and percentages",
+       "sd": [
+        "DA-1.6",
+        "DA-K6"
+       ],
+       "sub": "1H",
+       "sc": "I can apply the 68-95-99.7% rule.",
+       "src": "Edrolo 1I Q12",
+       "fu": ""
+      },
+      {
+       "q": "8b",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Percentage between the mean and one SD below",
+       "sd": [
+        "DA-1.6",
+        "DA-S5"
+       ],
+       "sub": "1H",
+       "sc": "I can apply the 68-95-99.7% rule.",
+       "src": "Edrolo 1I Q12",
+       "fu": ""
+      },
+      {
+       "q": "8c",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Percentage between two and three SDs below",
+       "sd": [
+        "DA-1.6",
+        "DA-S5"
+       ],
+       "sub": "1H",
+       "sc": "I can apply the 68-95-99.7% rule.",
+       "src": "Edrolo 1I Q12",
+       "fu": ""
+      },
+      {
+       "q": "8d",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Turn a tail percentage into a count",
+       "sd": [
+        "DA-1.6",
+        "DA-S5"
+       ],
+       "sub": "1H",
+       "sc": "I can use standard scores to determine percentages.",
+       "src": "Edrolo 1I Q12",
+       "fu": ""
+      },
+      {
+       "q": "8e",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Find the value that cuts off the bottom 2.5%",
+       "sd": [
+        "DA-1.6",
+        "DA-S5"
+       ],
+       "sub": "1H",
+       "sc": "I can convert standardised scores into actual scores.",
+       "src": "Edrolo 1I Q12",
+       "fu": ""
+      },
+      {
+       "q": "9a",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Calculate z-scores for three distributions",
+       "sd": [
+        "DA-1.6",
+        "DA-K6",
+        "DA-S5"
+       ],
+       "sub": "1H",
+       "sc": "I can calculate standardised scores.",
+       "src": "Edrolo 1I Q15",
+       "fu": ""
+      },
+      {
+       "q": "9b",
+       "marks": 1,
+       "type": "SA",
+       "skill": "Use z-scores to compare performance (lower time is better)",
+       "sd": [
+        "DA-1.6",
+        "DA-S5"
+       ],
+       "sub": "1H",
+       "sc": "I can use standardised scores to make comparisons.",
+       "src": "Edrolo 1I Q15",
+       "fu": ""
+      }
+     ],
+     "mcMarks": 6,
+     "saMarks": 9,
+     "bySub": [
+      {
+       "sub": "1F",
+       "marks": 1,
+       "sc": [
+        "I can calculate the mean and standard deviation using the CAS calculator."
+       ]
+      },
+      {
+       "sub": "1H",
+       "marks": 14,
+       "sc": [
+        "I can calculate standardised scores.",
+        "I can convert standardised scores into actual scores.",
+        "I can apply the 68-95-99.7% rule.",
+        "I can use standard scores to determine percentages.",
+        "I can use standardised scores to make comparisons."
+       ]
+      }
+     ],
+     "bySd": [
+      {
+       "code": "DA-1.5",
+       "text": "summary of the distributions of numerical variables; the five-number summary and boxplots (including the use of the lower fence (Q1 – 1.5 × IQR) and upper fence (Q3 + 1.5 × IQR) to identify and display possible outliers); the sample mean and standard deviation and their use in comparing data distributions in terms of centre and spread",
+       "marks": 1,
+       "qs": [
+        "1"
+       ]
+      },
+      {
+       "code": "DA-1.6",
+       "text": "the normal model for bell-shaped distributions and the use of the 68–95–99.7% rule to estimate percentages and to give meaning to the standard deviation; standardised values (z-scores) and their use in comparing data values across distributions.",
+       "marks": 14,
+       "qs": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7a",
+        "7b",
+        "8a",
+        "8b",
+        "8c",
+        "8d",
+        "8e",
+        "9a",
+        "9b"
+       ]
+      },
+      {
+       "code": "DA-K5",
+       "text": "mean x̄ and sample standard deviation",
+       "marks": 1,
+       "qs": [
+        "1"
+       ]
+      },
+      {
+       "code": "DA-K6",
+       "text": "the normal model and the 68–95–99.7% rule, and standardised values (z-scores)",
+       "marks": 7,
+       "qs": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "8a",
+        "9a"
+       ]
+      },
+      {
+       "code": "DA-S5",
+       "text": "solve problems using -scores and the 68–95–99.7% rule",
+       "marks": 11,
+       "qs": [
+        "4",
+        "5",
+        "6",
+        "7a",
+        "7b",
+        "8b",
+        "8c",
+        "8d",
+        "8e",
+        "9a",
+        "9b"
+       ]
+      }
      ]
     }
    ],

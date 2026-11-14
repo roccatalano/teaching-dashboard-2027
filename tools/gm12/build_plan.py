@@ -424,6 +424,77 @@ for l in L:
         l['doNow']=[dict(exam=f"Exam {x['ex']}",ref=f"VCAA {x['paper']} Exam {x['ex']} {x['q']}",sec=x['sec']) for x in _DN[k]]
 
 
+# ---- CFAT details: per-question breakdown (marks, skill, Study Design, Cambridge subchapter, success criterion) ----
+# skill = own words. sc = success criterion copied from the lesson cards. fu = follow-up question for students who miss it (to find later).
+import json as _json
+_SD=_json.load(open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)),'sd.json'),encoding='utf-8'))
+TY='Types of data'; SEG='Segmented bar charts'; HIS='Histograms'; LOG='Log scales'; STEM='Stem plots'
+def q(n,m,typ,skill,sd,sub,sc,src,fu=''): return dict(q=n,marks=m,type=typ,skill=skill,sd=sd,sub=sub,sc=sc,src=src,fu=fu)
+QMAP={
+ 'CFAT 1.1.1':[
+  q(1,1,'MC','Classify two variables as nominal or ordinal',['DA-1.1','DA-K1'],'1A','I can identify types of data.','Edrolo 1A Q15'),
+  q(2,1,'MC','Count the discrete variables in a list',['DA-1.1','DA-K1'],'1A','I can identify types of data.','Edrolo 1A Q17'),
+  q(3,1,'MC','Read a percentage segmented bar chart and scale to a count',['DA-1.2','DA-K2','DA-S1'],'1B','I can describe the distribution of a categorical variable.','Edrolo 1B Q8'),
+  q(4,1,'MC','Read frequencies from a histogram over an interval',['DA-1.3','DA-K2','DA-S3'],'1C','I can describe the features of a distribution from a histogram.','Edrolo 1B Q9'),
+  q(5,1,'MC','Convert a value to log10 and find a percentage from a log histogram',['DA-1.3','DA-K3'],'1E','I can interpret a histogram with a log scale.','Edrolo 1C Q6'),
+  q(6,1,'MC','Find the modal interval on a log histogram and convert back from log10',['DA-1.3','DA-K3'],'1E','I can interpret a histogram with a log scale.','Edrolo 1C Q17'),
+  q('7a',2,'SA','Write a report on a categorical distribution, naming the mode',['DA-1.2','DA-1.4','DA-S1','DA-S2'],'1B','I can describe the distribution of a categorical variable.','Edrolo 1D Q9'),
+  q('8a',1,'SA','Count values in an interval from a stem plot',['DA-1.3','DA-S3'],'1D','I can construct a stem plot.','Edrolo 1D Q12'),
+  q('8b',1,'SA','Count values above a cut-off from a stem plot',['DA-1.3','DA-S4'],'1D','I can construct a stem plot.','Edrolo 1D Q12'),
+  q('8c',1,'SA','Find the mode from a stem plot',['DA-1.3','DA-S3'],'1D','I can construct a stem plot.','Edrolo 1D Q12'),
+  q('9a',1,'SA','Convert a log10 value back to the actual value',['DA-1.3','DA-K3'],'1E','I can use a CAS calculator to find logs.','Edrolo 1D Q14'),
+  q('9b',1,'SA','Find the log10 interval a value is plotted in',['DA-1.3','DA-K3'],'1E','I can interpret a histogram with a log scale.','Edrolo 1D Q14')],
+ 'CFAT 1.1.2':[
+  q(1,1,'MC','Find Q3 of an unordered data set',['DA-1.5','DA-K4','DA-S3'],'1F','I can find the median value in a data set.','Edrolo 1E Q1'),
+  q(2,1,'MC','Find the IQR from a stem plot (n odd)',['DA-1.5','DA-K4','DA-S3'],'1F','I can find the IQR from a stem plot when n is odd.','Edrolo 1E Q8'),
+  q(3,1,'MC','Calculate the lower fence from a five-number summary',['DA-1.5','DA-K4'],'1G','I can use boxplots to describe a distribution with outliers.','Edrolo 1E Q11'),
+  q(4,1,'MC','Read the five-number summary from a boxplot',['DA-1.5','DA-K4'],'1G','I can read values from a boxplot.','Edrolo 1E Q14'),
+  q(5,1,'MC','Decide shape and outliers from a five-number summary',['DA-1.5','DA-K4','DA-S3'],'1G','I can use boxplots to describe a distribution with outliers.','Edrolo 1E Q17'),
+  q(6,1,'MC','Describe the features of a negatively skewed boxplot',['DA-1.5','DA-S3'],'1G','I can use boxplots for describe a distribution without outliers.','Edrolo 1E Q18'),
+  q('7a',1,'SA','Calculate the upper fence from a boxplot',['DA-1.5','DA-K4'],'1G','I can read values from a boxplot.','Edrolo 1F Q12'),
+  q('7b',1,'SA','Describe and compare the shapes of two boxplots, including outliers',['DA-1.5','DA-S3','DA-S4'],'1G','I can use boxplots to describe a distribution with outliers.','Edrolo 1F Q12'),
+  q('8a',1,'SA','Find the five-number summary from raw data (CAS)',['DA-1.5','DA-K4','DA-S3'],'1G','I can construct a boxplot with outliers from data using the CAS calculator.','Edrolo 1F Q16'),
+  q('8b',1,'SA','Calculate the IQR',['DA-1.5','DA-K4'],'1F','I can find the median value in a data set.','Edrolo 1F Q16'),
+  q('8c',1,'SA','Use the fences to identify outliers, with working',['DA-1.5','DA-K4'],'1G','I can construct a boxplot with outliers from data using the CAS calculator.','Edrolo 1F Q16'),
+  q('8d',1,'SA','Draw a boxplot with an outlier on a given scale',['DA-1.5','DA-S3'],'1G','I can construct a boxplot from a five number summary.','Edrolo 1F Q16'),
+  q('9a',1,'SA','Describe the shape of a distribution from a stem plot',['DA-1.3','DA-S3'],'1C','I can describe the features of a distribution from a histogram.','Edrolo 1F Q18–19'),
+  q('9b',1,'SA','Find the median from a stem plot (n even)',['DA-1.5','DA-S3'],'1F','I can find the median value from a stem plot.','Edrolo 1F Q18–19')],
+ 'CFAT 1.1.3':[
+  q(1,1,'MC','Find the mean and sample SD of raw data (CAS)',['DA-1.5','DA-K5'],'1F','I can calculate the mean and standard deviation using the CAS calculator.','Edrolo 1G Q4'),
+  q(2,1,'MC','Interpret a negative z-score',['DA-1.6','DA-K6'],'1H','I can calculate standardised scores.','Edrolo 1H Q8'),
+  q(3,1,'MC','Know that z = 0 is the mean',['DA-1.6','DA-K6'],'1H','I can convert standardised scores into actual scores.','Edrolo 1H Q11'),
+  q(4,1,'MC','Use the 68–95–99.7% rule across two intervals',['DA-1.6','DA-K6','DA-S5'],'1H','I can apply the 68-95-99.7% rule.','Edrolo 1H Q13'),
+  q(5,1,'MC','Convert a z-score to an actual score',['DA-1.6','DA-K6','DA-S5'],'1H','I can convert standardised scores into actual scores.','Edrolo 1I Q1'),
+  q(6,1,'MC','Calculate a z-score with a negative value',['DA-1.6','DA-K6','DA-S5'],'1H','I can calculate standardised scores.','Edrolo 1I Q4'),
+  q('7a',1,'SA','68–95–99.7% rule: percentage above one SD below the mean',['DA-1.6','DA-S5'],'1H','I can apply the 68-95-99.7% rule.','Edrolo 1I Q9'),
+  q('7b',1,'SA','68–95–99.7% rule: turn a percentage into a count',['DA-1.6','DA-S5'],'1H','I can apply the 68-95-99.7% rule.','Edrolo 1I Q9'),
+  q('8a',1,'SA','Label the normal curve: values and percentages',['DA-1.6','DA-K6'],'1H','I can apply the 68-95-99.7% rule.','Edrolo 1I Q12'),
+  q('8b',1,'SA','Percentage between the mean and one SD below',['DA-1.6','DA-S5'],'1H','I can apply the 68-95-99.7% rule.','Edrolo 1I Q12'),
+  q('8c',1,'SA','Percentage between two and three SDs below',['DA-1.6','DA-S5'],'1H','I can apply the 68-95-99.7% rule.','Edrolo 1I Q12'),
+  q('8d',1,'SA','Turn a tail percentage into a count',['DA-1.6','DA-S5'],'1H','I can use standard scores to determine percentages.','Edrolo 1I Q12'),
+  q('8e',1,'SA','Find the value that cuts off the bottom 2.5%',['DA-1.6','DA-S5'],'1H','I can convert standardised scores into actual scores.','Edrolo 1I Q12'),
+  q('9a',1,'SA','Calculate z-scores for three distributions',['DA-1.6','DA-K6','DA-S5'],'1H','I can calculate standardised scores.','Edrolo 1I Q15'),
+  q('9b',1,'SA','Use z-scores to compare performance (lower time is better)',['DA-1.6','DA-S5'],'1H','I can use standardised scores to make comparisons.','Edrolo 1I Q15')],
+}
+for l in L:
+    for c in l.get('cfats',[]):
+        Q=QMAP.get(c['id'])
+        if not Q: continue
+        c['questions']=Q
+        c['marks']=sum(x['marks'] for x in Q)
+        c['mcMarks']=sum(x['marks'] for x in Q if x['type']=='MC'); c['saMarks']=c['marks']-c['mcMarks']
+        subs={}
+        for x in Q: subs.setdefault(x['sub'],[0,[]]); subs[x['sub']][0]+=x['marks']; (x['sc'] in subs[x['sub']][1]) or subs[x['sub']][1].append(x['sc'])
+        c['bySub']=[dict(sub=k,marks=v[0],sc=v[1]) for k,v in sorted(subs.items())]
+        codes={}
+        for x in Q:
+            for k in x['sd']: codes.setdefault(k,[0,[]]); codes[k][0]+=x['marks']; codes[k][1].append(str(x['q']))
+        order=lambda k:(0 if k[3].isdigit() else 1 if k[3]=='K' else 2, float(k.split('-')[1].lstrip('KS')))
+        c['bySd']=[dict(code=k,text=_SD.get(k,''),marks=v[0],qs=v[1]) for k,v in sorted(codes.items(),key=lambda kv:order(kv[0]))]
+        c['status']='Ready (14 Nov 2026): worksheet house style, on the dashboard'
+        c['file']=dict(zip(['CFAT 1.1.1','CFAT 1.1.2','CFAT 1.1.3'],['lessons/gm12/CFAT-1.1.1.html','lessons/gm12/CFAT-1.1.2.html','lessons/gm12/CFAT-1.1.3.html']))[c['id']]
+
+
 # ---- Lesson materials (placeholders; status 'todo' | 'draft' | 'ready'; file = path when made) ----
 MAT_KINDS=[('Guided slides','Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.'),
            ('Guided worksheet','Student companion to the slides, in the same order, with space to answer. Max 2 double-sided pages.'),
