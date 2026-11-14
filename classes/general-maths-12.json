@@ -168,12 +168,12 @@
    ],
    "exit": [
     {
-     "ref": "Edrolo U3&4 1A Q15",
-     "src": "VCAA 2020 Exam 1 Q7"
+     "ref": "Edrolo U3&4 1A Q14",
+     "src": "VCAA 2019 Exam 2 Q1a"
     },
     {
-     "ref": "Edrolo U3&4 1A Q17",
-     "src": "VCAA 2017 Exam 1 Q7"
+     "ref": "Edrolo U3&4 1A Q16",
+     "src": "VCAA 2021 Exam 2 Q1a"
     },
     {
      "ref": "Edrolo U3&4 1B Q13",
@@ -448,8 +448,8 @@
    ],
    "exit": [
     {
-     "ref": "Edrolo U3&4 1C Q17",
-     "src": "VCAA 2019 Exam 1 Q1"
+     "ref": "Edrolo U3&4 1C Q16",
+     "src": "VCAA 2020 Exam 2 Q2a"
     },
     {
      "ref": "Edrolo U3&4 1C Q18",
@@ -558,7 +558,7 @@
        ],
        "sub": "1A",
        "sc": "I can identify types of data.",
-       "src": "Edrolo 1A Q15",
+       "src": "Edrolo 1A Q17",
        "fu": ""
       },
       {
@@ -572,7 +572,7 @@
        ],
        "sub": "1A",
        "sc": "I can identify types of data.",
-       "src": "Edrolo 1A Q17",
+       "src": "Edrolo 1A Q15",
        "fu": ""
       },
       {
@@ -587,7 +587,7 @@
        ],
        "sub": "1B",
        "sc": "I can describe the distribution of a categorical variable.",
-       "src": "Edrolo 1B Q8",
+       "src": "Edrolo 1B Q9",
        "fu": ""
       },
       {
@@ -602,7 +602,7 @@
        ],
        "sub": "1C",
        "sc": "I can describe the features of a distribution from a histogram.",
-       "src": "Edrolo 1B Q9",
+       "src": "Edrolo 1C Q17",
        "fu": ""
       },
       {
@@ -616,7 +616,7 @@
        ],
        "sub": "1E",
        "sc": "I can interpret a histogram with a log scale.",
-       "src": "Edrolo 1C Q6",
+       "src": "Edrolo 1D Q12",
        "fu": ""
       },
       {
@@ -630,7 +630,7 @@
        ],
        "sub": "1E",
        "sc": "I can interpret a histogram with a log scale.",
-       "src": "Edrolo 1C Q17",
+       "src": "Edrolo 1D Q14",
        "fu": ""
       },
       {
@@ -646,7 +646,7 @@
        ],
        "sub": "1B",
        "sc": "I can describe the distribution of a categorical variable.",
-       "src": "Edrolo 1D Q9",
+       "src": "Edrolo 1B Q8",
        "fu": ""
       },
       {
@@ -660,7 +660,7 @@
        ],
        "sub": "1D",
        "sc": "I can construct a stem plot.",
-       "src": "Edrolo 1D Q12",
+       "src": "Edrolo 1C Q6",
        "fu": ""
       },
       {
@@ -674,7 +674,7 @@
        ],
        "sub": "1D",
        "sc": "I can construct a stem plot.",
-       "src": "Edrolo 1D Q12",
+       "src": "Edrolo 1C Q6",
        "fu": ""
       },
       {
@@ -688,7 +688,7 @@
        ],
        "sub": "1D",
        "sc": "I can construct a stem plot.",
-       "src": "Edrolo 1D Q12",
+       "src": "Edrolo 1C Q6",
        "fu": ""
       },
       {
@@ -702,7 +702,7 @@
        ],
        "sub": "1E",
        "sc": "I can use a CAS calculator to find logs.",
-       "src": "Edrolo 1D Q14",
+       "src": "Edrolo 1D Q9",
        "fu": ""
       },
       {
@@ -716,7 +716,7 @@
        ],
        "sub": "1E",
        "sc": "I can interpret a histogram with a log scale.",
-       "src": "Edrolo 1D Q14",
+       "src": "Edrolo 1D Q9",
        "fu": ""
       }
      ],
@@ -1126,16 +1126,16 @@
    ],
    "exit": [
     {
-     "ref": "Edrolo U3&4 1E Q17",
-     "src": "VCAA 2019 Exam 1 Q5"
+     "ref": "Edrolo U3&4 1E Q19",
+     "src": "VCAA 2020 Exam 2 Q2c"
     },
     {
-     "ref": "Edrolo U3&4 1F Q19",
-     "src": "VCAA 2020 Exam 1 Q3"
+     "ref": "Edrolo U3&4 1E Q20",
+     "src": "VCAA 2021 Exam 2 Q1e"
     },
     {
-     "ref": "Edrolo U3&4 1G Q10",
-     "src": "VCAA 2021 Exam 2 Q1b"
+     "ref": "Edrolo U3&4 1G Q11",
+     "src": "Adapted from VCAA 2020 Exam 2 Q4aii"
     }
    ],
    "doNow": [
@@ -1260,7 +1260,7 @@
        ],
        "sub": "1F",
        "sc": "I can find the IQR from a stem plot when n is odd.",
-       "src": "Edrolo 1E Q8",
+       "src": "Edrolo 1E Q17",
        "fu": ""
       },
       {
@@ -1274,7 +1274,7 @@
        ],
        "sub": "1G",
        "sc": "I can use boxplots to describe a distribution with outliers.",
-       "src": "Edrolo 1E Q11",
+       "src": "Edrolo 1E Q8",
        "fu": ""
       },
       {
@@ -1288,7 +1288,7 @@
        ],
        "sub": "1G",
        "sc": "I can read values from a boxplot.",
-       "src": "Edrolo 1E Q14",
+       "src": "Edrolo 1E Q11",
        "fu": ""
       },
       {
@@ -1303,7 +1303,7 @@
        ],
        "sub": "1G",
        "sc": "I can use boxplots to describe a distribution with outliers.",
-       "src": "Edrolo 1E Q17",
+       "src": "Edrolo 1F Q19",
        "fu": ""
       },
       {
@@ -1317,7 +1317,7 @@
        ],
        "sub": "1G",
        "sc": "I can use boxplots for describe a distribution without outliers.",
-       "src": "Edrolo 1E Q18",
+       "src": "Edrolo 1F Q12",
        "fu": ""
       },
       {
@@ -1331,7 +1331,7 @@
        ],
        "sub": "1G",
        "sc": "I can read values from a boxplot.",
-       "src": "Edrolo 1F Q12",
+       "src": "Edrolo 1E Q18",
        "fu": ""
       },
       {
@@ -1346,7 +1346,7 @@
        ],
        "sub": "1G",
        "sc": "I can use boxplots to describe a distribution with outliers.",
-       "src": "Edrolo 1F Q12",
+       "src": "Edrolo 1E Q18",
        "fu": ""
       },
       {
@@ -1361,7 +1361,7 @@
        ],
        "sub": "1G",
        "sc": "I can construct a boxplot with outliers from data using the CAS calculator.",
-       "src": "Edrolo 1F Q16",
+       "src": "Edrolo 1E Q14",
        "fu": ""
       },
       {
@@ -1375,7 +1375,7 @@
        ],
        "sub": "1F",
        "sc": "I can find the median value in a data set.",
-       "src": "Edrolo 1F Q16",
+       "src": "Edrolo 1E Q14",
        "fu": ""
       },
       {
@@ -1389,7 +1389,7 @@
        ],
        "sub": "1G",
        "sc": "I can construct a boxplot with outliers from data using the CAS calculator.",
-       "src": "Edrolo 1F Q16",
+       "src": "Edrolo 1E Q14",
        "fu": ""
       },
       {
@@ -1403,7 +1403,7 @@
        ],
        "sub": "1G",
        "sc": "I can construct a boxplot from a five number summary.",
-       "src": "Edrolo 1F Q16",
+       "src": "Edrolo 1E Q14",
        "fu": ""
       },
       {
@@ -1417,7 +1417,7 @@
        ],
        "sub": "1C",
        "sc": "I can describe the features of a distribution from a histogram.",
-       "src": "Edrolo 1F Q18–19",
+       "src": "Edrolo 1F Q18",
        "fu": ""
       },
       {
@@ -1431,7 +1431,7 @@
        ],
        "sub": "1F",
        "sc": "I can find the median value from a stem plot.",
-       "src": "Edrolo 1F Q18–19",
+       "src": "Edrolo 1F Q18",
        "fu": ""
       }
      ],
@@ -1689,16 +1689,12 @@
    ],
    "exit": [
     {
-     "ref": "Edrolo U3&4 1H Q11",
-     "src": "VCAA 2019 Exam 1 Q6"
+     "ref": "Edrolo U3&4 1H Q12",
+     "src": "VCAA 2019 Exam 2 Q2b"
     },
     {
-     "ref": "Edrolo U3&4 1I Q12",
-     "src": "VCAA 2018 Exam 1 Q3"
-    },
-    {
-     "ref": "Edrolo U3&4 1I Q15",
-     "src": "Adapted from VCAA 2017 Exam 1 Q10"
+     "ref": "Edrolo U3&4 1I Q13",
+     "src": "VCAA 2021 Exam 2 Q1c"
     }
    ],
    "doNow": [
@@ -1815,7 +1811,7 @@
        ],
        "sub": "1H",
        "sc": "I can calculate standardised scores.",
-       "src": "Edrolo 1H Q8",
+       "src": "Edrolo 1I Q1",
        "fu": ""
       },
       {
@@ -1829,7 +1825,7 @@
        ],
        "sub": "1H",
        "sc": "I can convert standardised scores into actual scores.",
-       "src": "Edrolo 1H Q11",
+       "src": "Edrolo 1I Q4",
        "fu": ""
       },
       {
@@ -1844,7 +1840,7 @@
        ],
        "sub": "1H",
        "sc": "I can apply the 68-95-99.7% rule.",
-       "src": "Edrolo 1H Q13",
+       "src": "Edrolo 1H Q11",
        "fu": ""
       },
       {
@@ -1859,7 +1855,7 @@
        ],
        "sub": "1H",
        "sc": "I can convert standardised scores into actual scores.",
-       "src": "Edrolo 1I Q1",
+       "src": "Edrolo 1I Q12",
        "fu": ""
       },
       {
@@ -1874,7 +1870,7 @@
        ],
        "sub": "1H",
        "sc": "I can calculate standardised scores.",
-       "src": "Edrolo 1I Q4",
+       "src": "Edrolo 1I Q15",
        "fu": ""
       },
       {
@@ -1888,7 +1884,7 @@
        ],
        "sub": "1H",
        "sc": "I can apply the 68-95-99.7% rule.",
-       "src": "Edrolo 1I Q9",
+       "src": "Edrolo 1H Q13",
        "fu": ""
       },
       {
@@ -1902,7 +1898,7 @@
        ],
        "sub": "1H",
        "sc": "I can apply the 68-95-99.7% rule.",
-       "src": "Edrolo 1I Q9",
+       "src": "Edrolo 1H Q13",
        "fu": ""
       },
       {
@@ -1916,7 +1912,7 @@
        ],
        "sub": "1H",
        "sc": "I can apply the 68-95-99.7% rule.",
-       "src": "Edrolo 1I Q12",
+       "src": "Edrolo 1H Q8",
        "fu": ""
       },
       {
@@ -1930,7 +1926,7 @@
        ],
        "sub": "1H",
        "sc": "I can apply the 68-95-99.7% rule.",
-       "src": "Edrolo 1I Q12",
+       "src": "Edrolo 1H Q8",
        "fu": ""
       },
       {
@@ -1944,7 +1940,7 @@
        ],
        "sub": "1H",
        "sc": "I can apply the 68-95-99.7% rule.",
-       "src": "Edrolo 1I Q12",
+       "src": "Edrolo 1H Q8",
        "fu": ""
       },
       {
@@ -1958,7 +1954,7 @@
        ],
        "sub": "1H",
        "sc": "I can use standard scores to determine percentages.",
-       "src": "Edrolo 1I Q12",
+       "src": "Edrolo 1H Q8",
        "fu": ""
       },
       {
@@ -1972,7 +1968,7 @@
        ],
        "sub": "1H",
        "sc": "I can convert standardised scores into actual scores.",
-       "src": "Edrolo 1I Q12",
+       "src": "Edrolo 1H Q8",
        "fu": ""
       },
       {
@@ -1987,7 +1983,7 @@
        ],
        "sub": "1H",
        "sc": "I can calculate standardised scores.",
-       "src": "Edrolo 1I Q15",
+       "src": "Edrolo 1I Q9",
        "fu": ""
       },
       {
@@ -2001,7 +1997,7 @@
        ],
        "sub": "1H",
        "sc": "I can use standardised scores to make comparisons.",
-       "src": "Edrolo 1I Q15",
+       "src": "Edrolo 1I Q9",
        "fu": ""
       }
      ],
