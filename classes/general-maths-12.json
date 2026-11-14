@@ -1039,8 +1039,9 @@
     {
      "kind": "Guided slides",
      "desc": "Teach the new content and project every question: Do Now, APK, worked examples, you trys, exit tasks.",
-     "status": "todo",
-     "file": ""
+     "status": "draft",
+     "file": "lessons/gm12/S3-slides.html",
+     "pdf": "lessons/gm12/S3-slides.pdf"
     },
     {
      "kind": "Guided worksheet",

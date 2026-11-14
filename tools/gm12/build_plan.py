@@ -539,6 +539,7 @@ MAT_FILES={
     ('gm12-u3-s1','Guided slides'):('ready','lessons/gm12/S1-slides.html','lessons/gm12/S1-slides.pdf'),
     ('gm12-u3-s1','Guided worksheet'):('draft','lessons/gm12/S1-worksheet.html','lessons/gm12/S1-worksheet.pdf'),
     ('gm12-u3-s2','Guided slides'):('draft','lessons/gm12/S2-slides.html','lessons/gm12/S2-slides.pdf'),
+    ('gm12-u3-s3','Guided slides'):('draft','lessons/gm12/S3-slides.html','lessons/gm12/S3-slides.pdf'),
     ('gm12-u3-ch1-test','Coursework check'):('draft','lessons/gm12/Ch1-coursework-check.html','lessons/gm12/Ch1-coursework-check.pdf'),
     ('gm12-u3-s3','CFAT 1.1.1'):('ready','lessons/gm12/CFAT-1.1.1.html','lessons/gm12/CFAT-1.1.1.pdf'),
     ('gm12-u3-s5','CFAT 1.1.2'):('ready','lessons/gm12/CFAT-1.1.2.html','lessons/gm12/CFAT-1.1.2.pdf'),
