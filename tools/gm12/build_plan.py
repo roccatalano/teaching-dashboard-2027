@@ -7,7 +7,7 @@ A1=('U3 AoS1','Data analysis'); A2=('U3 AoS2','Recursion and financial modelling
 # (block, weekLabel, termLabel, aos, [(type, section, title), ...])
 W=[
  ('su','Step-up week 1','Nov–Dec 2026',A1,[('lesson','1A–1B','Types of data; categorical data'),('lesson','1C–1E','Histograms, dot plots and stem plots; log scales')]),
- ('su','Step-up week 2','Nov–Dec 2026',A1,[('lesson','1F–1G','Centre and spread; five-number summary, boxplots and outliers'),('lesson','1H–1I','Normal distribution, z-scores; populations and samples'),('review','1','CFAT 1.1.3 and CFAT feedback')]),
+ ('su','Step-up week 2','Nov–Dec 2026',A1,[('lesson','1F','Centre and spread: median, quartiles, IQR, mean and standard deviation'),('lesson','1G','Five-number summary, boxplots and outliers'),('lesson','1H–1I','Normal distribution, z-scores; populations and samples')]),
  ('t1','Week 1','Term 1 · short week',A1,[('sac','1','Chapter 1 coursework check + test','gm12-u3-ch1-test'),('lesson','2A–2B','Response and explanatory variables; two-way tables','gm12-u3-l03')]),
  ('t1','Week 2','Term 1',A1,[('lesson','2C','Numerical vs categorical: parallel boxplots, back-to-back stem plots','gm12-u3-l04'),('lesson','2D–2E','Scatterplots: direction, form and strength','gm12-u3-l05'),('lesson','2F','Correlation coefficient, $r$','gm12-u3-l06')]),
  ('t1','Week 3','Term 1',A1,[('lesson','2G–2H','Coefficient of determination; correlation and causation','gm12-u3-l07'),('lesson','2I','Which graph?','gm12-u3-l08'),('sac','2','Chapter 2 coursework check + test','gm12-u3-ch2-test')]),
@@ -62,11 +62,12 @@ DIR='1. Data Analysis\\CFATs\\Chapter 1\\'
 CF={
  'gm12-u3-s3':[dict(id='CFAT 1.1.1',title='Types of data, displays, log scales',covers=['1A','1B','1C','1D','1E'],format=FMT,file=DIR+'CFAT 1.1.1 [1A, 1B, 1C, 1D, 1E].docx',status='Written (10 Nov 2026)',
    plan='Start of Step-up lesson 3. Covers step-up week 1 (1A–1E).',sources=[SRC+': 1A Q15, Q17 · 1B Q8, Q9 · 1C Q6, Q17 · 1D Q9, Q12, Q14'])],
- 'gm12-u3-s4':[dict(id='CFAT 1.1.2',title='Describing numerical data: median, IQR, boxplots, SOCS',covers=['1F (median, IQR)','1G'],format=FMT,file=DIR+'CFAT 1.1.2 [1F, 1G].docx',status='Written (10 Nov 2026)',
-   plan='Start of Step-up lesson 4. Covers Step-up lesson 3 (1F–1G).',sources=[SRC+': 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19'])],
- 'gm12-u3-s5':[dict(id='CFAT 1.1.3',title='Mean and SD, the normal distribution, z-scores',covers=['1F (mean, SD)','1H','1I'],format=FMT,file=DIR+'CFAT 1.1.3 [1H, 1F, 1I].docx',status='Written (10 Nov 2026)',marks=16,
-   plan='Start of Step-up lesson 5. Covers Step-up lesson 4 (1H–1I). The rest of the lesson is feedback on CFATs 1.1.1–1.1.3. Cambridge 1I not assessed. Q8a has a blank normal curve scaffold.',sources=[SRC+': 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15'])],
+ 'gm12-u3-s5':[dict(id='CFAT 1.1.2',title='Describing numerical data: median, IQR, boxplots, SOCS',covers=['1F (median, IQR)','1G'],format=FMT,file=DIR+'CFAT 1.1.2 [1F, 1G].docx',status='Written (10 Nov 2026)',
+   plan='Start of Step-up lesson 5. Covers Step-up lessons 3–4 (1F, 1G).',sources=[SRC+': 1E Q1, Q8, Q11, Q14, Q17, Q18 · 1F Q12, Q16, Q18, Q19'])],
+ 'gm12-u3-s5b':[dict(id='CFAT 1.1.3',title='Mean and SD, the normal distribution, z-scores',covers=['1F (mean, SD)','1H','1I'],format=FMT,file=DIR+'CFAT 1.1.3 [1H, 1F, 1I].docx',status='Written (10 Nov 2026)',marks=16,
+   plan='End of Step-up lesson 5 (same day as the 1H–1I teaching), or set as holiday homework. Q8a has a blank normal curve scaffold.',sources=[SRC+': 1G Q4 · 1H Q8, Q11, Q13 · 1I Q1, Q4, Q9, Q12, Q15'])],
 }
+CF['gm12-u3-s5']=CF['gm12-u3-s5']+CF.pop('gm12-u3-s5b')
 for l in L:
   if l['id'] in CF: l['cfats']=CF[l['id']]
 # Step-up lesson details. LOs: Cambridge learning intentions (verbatim). SC: Cambridge Chapter 1 skills checklist (verbatim).
@@ -102,8 +103,8 @@ V=dict(
  cen=['Summary statistics: numbers that describe features of a distribution, such as centre and spread','Mean (x̄): the sum of the values divided by n','Median (M): the middle value of the ordered data','Range: largest value minus smallest value','Quartiles (Q1, Q3): split the ordered data into four equal groups','Interquartile range (IQR): Q3 − Q1, the spread of the middle 50%','Standard deviation (s): spread of the data around the mean'],
  box=['Five-number summary: min, Q1, median, Q3, max','Boxplot: a display of the five-number summary, with outliers shown separately','Lower fence: Q1 − 1.5 × IQR','Upper fence: Q3 + 1.5 × IQR','Outlier: a value below the lower fence or above the upper fence'],
  nor=['Normal distribution: a bell-shaped model for symmetric data','68–95–99.7% rule: about 68%, 95% and 99.7% of values lie within 1, 2 and 3 standard deviations of the mean','Standardised score (z-score): how many standard deviations a value is above or below the mean','Population: every member of the group being studied','Sample: a subset of the population'])
-DET={'gm12-u3-s1':(['1A','1B'],[0,1,3],V['cat']),'gm12-u3-s2':(['1C','1D','1E'],[2,3],V['num']),'gm12-u3-s3':(['1F','1G'],[4,3],V['cen']+V['box']),
- 'gm12-u3-s4':(['1H','1I'],[5],V['nor'])}
+DET={'gm12-u3-s1':(['1A','1B'],[0,1,3],V['cat']),'gm12-u3-s2':(['1C','1D','1E'],[2,3],V['num']),'gm12-u3-s3':(['1F'],[4,3],V['cen']),
+ 'gm12-u3-s4':(['1G'],[4,3],V['box']),'gm12-u3-s5':(['1H','1I'],[5],V['nor'])}
 for l in L:
   if l['id'] in DET:
     subs,sd,voc=DET[l['id']]
@@ -136,11 +137,11 @@ EX={1:('1A','Types of data','Edrolo 1A Q11 a–e'),
  30:('1H','Using standardised scores to make comparisons','Edrolo 1I WE3'),31:('1H','Using standardised scores to find percentages','Edrolo 1H WE2a'),
  32:('1H','Converting standardised scores into actual scores','Edrolo 1I WE2'),33:('1H','Finding the standard deviation given the mean and one percentage',None),
  34:('1H','Finding the mean and standard deviation','Edrolo 1H WE3a')}
-WEDO={'gm12-u3-s1':range(1,6),'gm12-u3-s2':range(6,14),'gm12-u3-s3':range(14,28),'gm12-u3-s4':range(28,35)}
+WEDO={'gm12-u3-s1':range(1,6),'gm12-u3-s2':range(6,14),'gm12-u3-s3':range(14,22),'gm12-u3-s4':range(22,28),'gm12-u3-s5':range(28,35)}
 for l in L:
   if l['id'] in WEDO:
     l['weDo']=[dict(n=n,sub=EX[n][0],title=EX[n][1],youTry=EX[n][2],video=_vid(1,n)) for n in WEDO[l['id']]]
-    if l['id']=='gm12-u3-s4': l['weDoNote']='1I is online-only in Cambridge: no printed Examples.'
+    if l['id']=='gm12-u3-s5': l['weDoNote']='1I is online-only in Cambridge: no printed Examples.'
 # CAS videos: links from 12MAG 2027\CAS Videos (Casio ClassPad and TI-nspire support-video lists for VCE GM 3&4).
 def yt(t,u): return dict(title=t,url=u)
 CP={'stat':yt('ClassPad Help 400 – Statistics: basic settings and actions','https://www.youtube.com/watch?v=Qqg8vWK3SE8'),
@@ -169,8 +170,9 @@ SK=lambda name,cp,ti:dict(skill=name,classpad=[CP[k] for k in cp],ti=[TI[k] for 
 CASV={'gm12-u3-s1':[SK('Setting up the statistics app',['stat'],['lists'])],
  'gm12-u3-s2':[SK('Creating a histogram',['hl','hf'],['hist']),SK('Setting histogram class intervals',['hc'],[]),
    SK('Creating a dot plot',[],['dotbox']),SK('Finding logs (base 10)',['calc'],['calc']),SK('Full walkthrough: dot plots, boxplots and histograms',[],['long'])],
- 'gm12-u3-s3':[SK('Calculating summary statistics (mean, median, standard deviation)',['sl','sf'],['lists','uni']),SK('Creating a boxplot',['bl','bf'],['dotbox','long']),SK('Creating parallel boxplots',['bm'],[])],
- 'gm12-u3-s4':[SK('Calculating z-scores',['calc'],['z']),SK('Normal probability calculations',['n80','n470','n81'],[])]}
+ 'gm12-u3-s3':[SK('Calculating summary statistics (mean, median, standard deviation)',['sl','sf'],['lists','uni'])],
+ 'gm12-u3-s4':[SK('Creating a boxplot',['bl','bf'],['dotbox','long']),SK('Creating parallel boxplots',['bm'],[])],
+ 'gm12-u3-s5':[SK('Calculating z-scores',['calc'],['z']),SK('Normal probability calculations',['n80','n470','n81'],[])]}
 for l in L:
   if l['id'] in CASV: l['cas']=CASV[l['id']]
 # ---- AoS1 Chapters 2-5 lesson details (appended) ----
@@ -375,8 +377,9 @@ ED={('1A',13):'VCAA 2021 Exam 1 Q1',('1A',14):'VCAA 2020 Exam 1 Q10',('1C',15):'
  ('8D',14):'adapted from VCAA 2017 Exam 1 Q4',('9B',21):'adapted from VCAA 2019 Exam 1 Q9',('9B',22):'adapted from VCAA 2021 Exam 2 Q2a',('4D',13):'VCAA 2014 Exam 1 Q4',('4E',16):'VCAA 2016 Exam 1 Q2'}
 APK={'gm12-u3-s1':([('2A',1),('2B',5)],[('1A',13),('1A',14)]),
  'gm12-u3-s2':([('2D',7),('2D',9),('9D',7)],[('1C',15),('1C',17)]),
- 'gm12-u3-s3':([('2E',10),('2F',11),('2H',14),('2H',15)],[('1D',18),('1F',16)]),
- 'gm12-u3-s4':([('2F',12),('2G',13)],[('1G',13),('1G',14)]),
+ 'gm12-u3-s3':([('2E',10),('2F',11)],[('1D',18)]),
+ 'gm12-u3-s4':([('2H',14),('2H',15)],[('1F',16)]),
+ 'gm12-u3-s5':([('2F',12),('2G',13)],[('1G',13),('1G',14)]),
  'gm12-u3-l03':([('2A',2),('1A',2)],[]),
  'gm12-u3-l04':([('2I',16),('2H',14)],[('1H',16),('1H',17)]),
  'gm12-u3-l05':([('7B',3)],[('6A',16)]),
@@ -407,7 +410,7 @@ for l in L:
 import re as _re, csv as _c2
 _EP={(r['edrolo_lesson'],int(r['q'])):_re.sub(r'\s*Data analysis','',r['source']) for r in _c2.DictReader(open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)),'y12_edrolo_exam_practice.csv'),encoding='utf-8'))}
 EXIT={'gm12-u3-s1':[('1A',14),('1A',16),('1B',13)],'gm12-u3-s2':[('1C',16),('1C',18),('1D',13)],
- 'gm12-u3-s3':[('1E',19),('1E',20),('1G',11)],'gm12-u3-s4':[('1H',12),('1I',13)],
+ 'gm12-u3-s3':[('1G',11)],'gm12-u3-s4':[('1E',19),('1E',20)],'gm12-u3-s5':[('1H',12),('1I',13)],
  'gm12-u3-l03':[('2A',11),('2A',13)],'gm12-u3-l04':[('2B',11),('2B',12),('2B',13)],
  'gm12-u3-l05':[('2C',15),('2C',16)],'gm12-u3-l06':[('2C',17)],'gm12-u3-l07':[('2D',13),('2D',14)],
  'gm12-u3-l09':[('3A',13),('3A',14),('3A',15)],'gm12-u3-l10':[('3B',11),('3B',12),('3B',13)],
@@ -516,10 +519,10 @@ for l in L:
     if l.get('id') in MAT_LESSONS:
         l['materials']=[dict(kind=k,desc=d,status='todo',file='') for k,d in MAT_KINDS]
 # CFAT as a lesson resource (lesson id -> CFAT code); same status/file system as the other materials.
-CFAT_LESSONS={'gm12-u3-s3':'1.1.1','gm12-u3-s4':'1.1.2','gm12-u3-s5':'1.1.3'}
+CFAT_LESSONS={'gm12-u3-s3':['1.1.1'],'gm12-u3-s5':['1.1.2','1.1.3']}
 for l in L:
     if l.get('id') in CFAT_LESSONS:
-        l['materials'].append(dict(kind='CFAT',desc=f"CFAT {CFAT_LESSONS[l['id']]}: student copy, worksheet style. Solutions by hand.",status='todo',file=''))
+        for code in CFAT_LESSONS[l['id']]: l['materials'].append(dict(kind=f'CFAT {code}',desc=f"CFAT {code}: student copy, worksheet style. Solutions by hand.",status='todo',file=''))
 # Chapter-end lessons: materials = coursework check (double-sided A4) + chapter test.
 TEST_KINDS=[('Coursework check','Double-sided A4. Front: students tick the coursework they have (guided notes, bound reference entries, CFATs, homework); teacher signs off. Back: chapter success criteria, ticked by the teacher when marking the test (Test Q column = which question tests it).'),
             ('Chapter test','Formal chapter test. Each question maps to the success criteria on the back of the coursework check.')]
@@ -532,9 +535,9 @@ MAT_FILES={
     ('gm12-u3-s1','Guided worksheet'):('draft','lessons/gm12/S1-worksheet.html','lessons/gm12/S1-worksheet.pdf'),
     ('gm12-u3-s2','Guided slides'):('draft','lessons/gm12/S2-slides.html','lessons/gm12/S2-slides.pdf'),
     ('gm12-u3-ch1-test','Coursework check'):('draft','lessons/gm12/Ch1-coursework-check.html','lessons/gm12/Ch1-coursework-check.pdf'),
-    ('gm12-u3-s3','CFAT'):('ready','lessons/gm12/CFAT-1.1.1.html','lessons/gm12/CFAT-1.1.1.pdf'),
-    ('gm12-u3-s4','CFAT'):('ready','lessons/gm12/CFAT-1.1.2.html','lessons/gm12/CFAT-1.1.2.pdf'),
-    ('gm12-u3-s5','CFAT'):('ready','lessons/gm12/CFAT-1.1.3.html','lessons/gm12/CFAT-1.1.3.pdf'),
+    ('gm12-u3-s3','CFAT 1.1.1'):('ready','lessons/gm12/CFAT-1.1.1.html','lessons/gm12/CFAT-1.1.1.pdf'),
+    ('gm12-u3-s5','CFAT 1.1.2'):('ready','lessons/gm12/CFAT-1.1.2.html','lessons/gm12/CFAT-1.1.2.pdf'),
+    ('gm12-u3-s5','CFAT 1.1.3'):('ready','lessons/gm12/CFAT-1.1.3.html','lessons/gm12/CFAT-1.1.3.pdf'),
 }
 for l in L:
     for m in l.get('materials',[]):
